@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">Διαχείριση CPU No-frills</string>
+	<string name="app_name_classic">Κλασική έκδοση του No-frills CPU Control</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Μη διαθέσιμο</string>
+	<string name="requested">Ζητήθηκε</string>
+	<string name="current">Τρέχων</string>
+	<string name="max_freq">Μεγ. συχν χρονισμού.</string>
+	<string name="min_freq">Ελαχ. συχν χρονισμού.</string>
+	<string name="governor">Διαχειριστής</string>
+	<string name="ioscheduler">προγραμματισμός I/O</string>
+	<string name="apply_on_boot">Εφαρμογή στην εκκίνηση</string>
+	<string name="show_notification">Προβολή ειδοποίησης στην εκκίνηση</string>
+	<string name="apply">Εφαρμογή</string>
+	<string name="exit">Έξοδος</string>
+	<string name="send">Αποστολή</string>
+	<string name="dlg_noroot_title">Έλλειψη δικαιωμάτων υπερχρήστη</string>
+	<string name="dlg_noroot_body"> συσκευή πρέπει να είναι rooted για να χρησιμοποιηθεί η εφαρμογή.</string>
+	<string name="dlg_nofs_title">Η συσκευή σας φένεται να μην υποστηρίζει αλαγές στην συχνότητα</string>
+	<string name="dlg_nofs_body">Αν έχετε μια custom ROM ή πιστεύετε ότι
+		η συσκευή σας υποστηρίζει κλιμάκωση συχνότητας, στείλτε τα δεδομένα της CPU ώστε να
+		προσθέσω τη συσκεύσας στις υποστηριζόμενες.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Αποστολή δεδομένων CPU</string>
+	<string name="dlg_send_title">Αποστολή δεδομένων CPU με…</string>
+	<string name="menu_prefs">Ρυθμίσεις</string>
+	<string name="menu_view_stats">Προβολή στατιστικών</string>
+	<string name="menu_details">Σχετικά</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Ανανέωση</string>
+	<string name="spinner_stats_text">Ανάγνωση στατιστικών για τα τελευταία 5 δευτερόλεπτα…</string>
+	<string name="stats_title">Στατιστικά συχνότητας</string>
+	<string name="stats_current">Τρέχουσα συχνότητα: %s</string>
+	<string name="stats_current_unavailable">μη διαθέσιμο</string>
+	<string name="stats_frequency">Συχνότητα</string>
+	<string name="stats_perc">Σύνολο</string>
+	<string name="stats_perc5">Τελευταία 5 δευτ.</string>
+	<string name="stats_deep_sleep">Αναμονή</string>
+	<!-- Errors -->
+	<string name="err_need_root">Αυτή η εφαρμογή χρειάζεται δικαιώματα υπερχρήστη για να λειτουργήσει.</string>
+	<string name="err_update_failed">φάλμα: έχετε επιτρέψει τα δικαιώματα Υπερχρήστη?</string>
+	<string name="err_no_email_client">Δεν έχετε κάποιο πελάτη email. Τα δεδομένα CPU δεν
+		θα σταλούν.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">πιτυχία!\nΕλαχ: %1$s\nΜεγ: %2$s\nΔιαχειριστής: %3$s\nI/O Προγραμματιστής: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s βρέθηκε, οι τιμές δε θα εφαρμοστούν</string>
+	<string name="notify_safety_shutdown">Ημιτελής τερματισμός, οι τιμές δε θα εφαρμοστούν</string>
+	<string name="notify_title_safety">Οι τιμές δεν εφαρμόστηκαν</string>
+	<string name="notify_title_success">Οι τιμές εφαρμόστηκαν επιτυχώς</string>
+	<string name="notify_success">Ελαχ: %1$s\nΜεγ: %2$s\nΔιαχειριστής: %3$s\nI/O Προγραμματιστής: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Σχετικά</string>
+	<string name="tab_changelog">ΑρχΑλλαγών</string>
+	
+	<string name="tab_license">Άδεια</string>
+	<string name="about_info_donate">Δωρεά</string>
+	<string name="about_info_version">έκδοση: %s</string>
+	<string name="about_info_author">Συγγραφέας: Luca Santarelli</string>
+	<string name="about_info_homepage">Ιστοσελίδα:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Εικονίδιο από τον Anil K Solanki\nΣχεδιασμός
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Αν έχετε ερωτήσεις, παρακαλώ επικοινωνήστε με το
+		συγγραφέα μέσω email ή της ιστοσελίδας.</string>
+	<string name="about_info_thanks">Ευχαριστώ όλους τους μεταφραστές και τους χρήστες
+		που με βοήθησαν να μοιραστώ μαζί σας αυτή την εφαρμογή!</string>
+	<string name="about_faq_governors_Q">Q: Τι είναι ένας Διαχειριστής? Μπορείτε να εξηγήσετε
+		τις διαφορές μεταξύ τους?</string>
+	<string name="about_faq_governors_A">Η κλιμάκωση συχνότητας CPU σας επιτρέπει να αλλάξετε
+		την ταχύτητα χρονισμού των CPUs σε πραγματικό χρόνο. Αυτό μπορεί να εξοικονομήσει ενέργεια, επειδή όσο μικρότερη έιναι 
+		η ταχύτητα χρονισμού της CPU, τόσο λιγότερη ενέργεια καταναλώνει ή CPU. Οι Διαχειριστές είναι
+		διαφορετικές πολιτικές κλιμάκωσης της συχνότητας.\nΗ εξήγηση των διαφορών είναι
+		μια μεγάλη απάντηση, παρακαλώ διαβάστε την στην Ιστοσελίδα μας
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Ε: Σχεδιάζετε να προσθέσετε προφίλς? θα ήθελα
+		να μπορώ να επιλέξω ένα διαφορετικό προφίλ για όταν η οθόνη μου είναι σβηστή!</string>
+	<string name="about_faq_profiles_A">Α: Γρήγορη απάντηση όχι \"Όχι\". Πιστεύω ότι τα προφίλς
+		είναι άχρηστα, επειδή αυτό είναι που οι Διαχειριστές είναι ήδη: ένα προφίλ για
+		τη CPU που θα ακολουθηθεί καθώς αλλάζουν οι συχνότητες.\nΗ προσθήκη προφίλς θα σήμαινε
+		προσθήκη της ανάγκης για περισσότερη μνήμη, την ανάγκη του να εκτελούνται συχνότερα,
+		για να ελέγχουν αν κάτι συμβαίνει (άνοιγμα οθόνης, σβήσιμο οθόνης κλπ)…
+		και όλα αυτά χωρίς κάποιο πραγματικό πλεονέκτημα.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Ενημέρωση του widget..</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Απενεργοποίηση αλαγών σε ημιτελή τερματισμό</string>
+	<string name="prefs_disable_safety_valve_summary_on">Δεν θα γίνει έλεγχος ημιτελή τερματισμού.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Οι αλαγές δεν θα αποθηκευτούν σε ημιτελή τερματισμού.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Είστε σίγουρος ότι θέλετε να απενεργοποιήσετε την αγνόηση αλαγών σε περίπτωση ημιτελή τερματισμού? Συνεχίστε ΜΟΝΟ αν γνωρίζετε τι κάνετε.</string>
+	<string name="prefs_cat_notification">Ειδοποίηση στην εκκίνηση</string>
+	<string name="prefs_show_notification">Εμφάνιση ειδοποιήσεων</string>
+	<string name="prefs_show_notification_summary_on">Οι ειδοποιήσεις θα εμφανίζονται.</string>
+	<string name="prefs_show_notification_summary_off">Οι ειδοποιήσεις ΔΕΝ θα εμφανίζονται.</string>
+	<string name="prefs_vibrate">Δόνηση</string>
+	<string name="prefs_vibrate_pattern">Διάρκεια δόνησης</string>
+	<string name="prefs_vibrate_pattern_message">Πληκτρολογήστε την διάρκεια της δόνησης σε χιλιοστά του δευτερολέπτου (πχ: 0,50,100,50,100) ή αφήστε το κενό για να χρησιμοποιηθεί η προεπιλογή του τηλεφώνου.</string>
+	<string name="prefs_ringtone">Ήχος ειδοποίησης</string>
+	<string name="prefs_cat_stats">Στατιστικά</string>
+	<string name="prefs_include_deep_sleep">Συμπερίληψη αναμονής</string>
+	<string name="prefs_include_deep_sleep_summary_on">Η αναμονή θα συμπεριληφθεί.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Η αναμονή θα αγνοηθεί.</string>
+
+</resources>

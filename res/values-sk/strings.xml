@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU Control</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Nedostupné</string>
+	<string name="requested">Požadované</string>
+	<string name="current">Aktuálne</string>
+	<string name="max_freq">Max. frekvencia</string>
+	<string name="min_freq">Min. frekvencia</string>
+	<string name="governor">Ovládanie</string>
+	<string name="ioscheduler">I/O časovač</string>
+	<string name="apply_on_boot">Použiť po spustení</string>
+	<string name="show_notification">Zobraziť oznámenie pri spustení</string>
+	<string name="apply">Použiť</string>
+	<string name="exit">Ukončiť</string>
+	<string name="send">Odoslať</string>
+	<string name="dlg_noroot_title">Chýbajú správcovské(root) oprávnenia</string>
+	<string name="dlg_noroot_body">re použitie tejto aplikácie musíte byť rootnutý.</string>
+	<string name="dlg_nofs_title">dá sa, že Vaše zariadenie nepodporuje upravovanie frekvencie</string>
+	<string name="dlg_nofs_body">Ak používate upravenú ROM, alebo si myslíte,
+		že Váš telefón podporuje upravovanie frekvencie, odošlite Vaše
+		údaje o procesore a pridajte tak podporu pre Váš telefón.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Odoslať údaje o procesore</string>
+	<string name="dlg_send_title">Odoslať údaje o procesore cez…</string>
+	<string name="menu_view_stats">Zobraziť štatistiku</string>
+	<string name="menu_details">O programe</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">Načítava sa štatistika za posledných 5 sekúnd…</string>
+	<string name="stats_title">Štatistika frekvencií</string>
+	<string name="stats_current">Aktuálna frekvencia: %1$s</string>
+	<string name="stats_current_unavailable">nedostupná</string>
+	<string name="stats_frequency">Frekvencia</string>
+	<string name="stats_perc">Celkovo</string>
+	<string name="stats_perc5">Posledných 5 sek.</string>
+	<!-- Errors -->
+	<string name="err_need_root">K fungovaniu tejto aplikácia sú potrebné správcovské(root) privilégie.</string>
+	<string name="err_update_failed">hyba: povolili ste SuperUser oprávnenia?</string>
+	<string name="err_no_email_client">Nemáte poštového klienta. Údaje o procesore nebudú
+		odoslané.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">spech!\nMin: %1$s\nMax: %2$s\nOvládanie: %3$s\nI/O časovač: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s nájdené, hodnoty nepoužité</string>
+	<string name="notify_safety_shutdown">Nečisté vypnutie, hodnoty nepoužité</string>
+	<string name="notify_title_safety">Hodnoty neboli použité</string>
+	<string name="notify_title_success">Hodnoty boli úspešne použité</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nOvládanie: %3$s\nI/O časovač: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">O programe</string>
+	<string name="tab_changelog">Zoznam zmien</string>
+	<string name="tab_faq">FAQ</string>
+	<string name="tab_license">Licencia</string>
+	<string name="about_info_version">Verzia: %1$s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Dom. stránka:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikona od Anil K Solanki\nDesign
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Ak máte akékoľvek otázky, prosím, kontaktujte
+		autora cez email alebo použitím domovskej stránky.</string>
+	<string name="about_info_thanks">Ďakujeme všetkým prekladateľom a všetkým, ktorí
+		pomohli pomohli vývoju tejto aplikácie!</string>
+	<string name="about_faq_governors_Q">Q: Čo je Ovládanie? Môžete vysvetliť
+		rozdiely medzi nimi?</string>
+	<string name="about_faq_governors_A">Upravovanie frekvencie procesora Vám umožňuje
+		meniť taktovaciu frekvenciu procesorov. To môže znížiť spotrebu, pretože
+		pri nižšej frekvencii procesora, spotrebuje procesor menej energie. Ovládania
+		sú rôzne politiky upravovania frekvencie.\nVysvetlenie rozdielov je
+		rozsiahlejšie, prosím, prečítajte si ho na domovskej stránke
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: Plánujete pridať profily?? Chcel by som
+		vybrať iný profil počas vypnutej obrazovky!</string>
+	<string name="about_faq_profiles_A">A: Krátka odpoveď je \"Nie\". Myslím si, že
+		profily sú zbytočné, pretože sú tým, čím sú už politiky ovládania: profil
+		pre Váš procesor nasledovaný počas zmien frekvencií.\nPridanie profilov
+		tiež obnáša väčšie využitie pamäte, potreba častejšieho spúšťania, kontrola,
+		či sa niečo deje (zapnutie obrazovky, vypnutie obrazovky atď)…
+		toto všetko je bez skutočného úžitku.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Aktualizuje sa miniaplikácia…</string>
+
+</resources>

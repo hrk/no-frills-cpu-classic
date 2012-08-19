@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Nicht verfügbar</string>
+	<string name="requested">Angefordert</string>
+	<string name="current">Aktuell</string>
+	<string name="max_freq">Max. Taktfrequenz</string>
+	<string name="min_freq">Min. Taktfrequenz</string>
+	<string name="governor">Automatische Regelung</string>
+	
+	<string name="apply_on_boot">Beim Starten übernehmen</string>
+	<string name="show_notification">Zeige Benachrichtigung beim Starten</string>
+	<string name="apply">Übernehmen</string>
+	<string name="exit">Beenden</string>
+	<string name="send">Senden</string>
+	<string name="dlg_noroot_title">ROOT-Rechte fehlen</string>
+	<string name="dlg_noroot_body">Sie benötigen ROOT Rechte, um diese Anwendung verwenden zu können.</string>
+	<string name="dlg_nofs_title">hr Gerät scheint die Staffelung der Frequenzen nicht zu unterstützen.</string>
+	<string name="dlg_nofs_body">Wenn Sie der Meinung sind, dass Ihr Telefon die Staffelung der Frequenzen unterstützt oder Sie ein angepasstes ROM verwenden, senden Sie bitte Ihre CPU Daten, um es zukünftig auch zu unterstützen.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">CPU-Daten senden</string>
+	<string name="dlg_send_title">CPU-Daten senden mit…</string>
+	<string name="menu_prefs">Einstellungen</string>
+	<string name="menu_view_stats">Statistiken anzeigen</string>
+	<string name="menu_details">Informationen</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Aktualisieren</string>
+	<string name="spinner_stats_text">Statistiken der letzten 5 Sekunden auslesen…</string>
+	<string name="stats_title">Frequenz Statistik</string>
+	<string name="stats_current">Aktuelle Frequenz: %s</string>
+	<string name="stats_current_unavailable">nicht verfügbar</string>
+	<string name="stats_frequency">Frequenz</string>
+	<string name="stats_perc">Gesamt</string>
+	<string name="stats_perc5">Letzte 5 Sek.</string>
+	<string name="stats_deep_sleep">Tiefschlaf</string>
+	<!-- Errors -->
+	<string name="err_need_root">Das Programm benötigt su-Rechte.</string>
+	<string name="err_update_failed">ehler: Haben Sie su-Rechte gewährt?</string>
+	<string name="err_no_email_client">Sie haben kein E-Mail Programm. CPU Daten werden nicht gesendet.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">rfolg!\nMin: %1$s\nMax: %2$s\nGovernors: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s gefunden, Werte nicht übernommen</string>
+	<string name="notify_safety_shutdown">Unsauberes Herunterfahren, Werte nicht übernommen</string>
+	<string name="notify_title_safety">Werte nicht übernommen</string>
+	<string name="notify_title_success">Werte erfolgreich übernommen.</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\Governors: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Info</string>
+	
+	
+	<string name="tab_license">Lizenz</string>
+	<string name="about_info_donate">Spenden</string>
+	<string name="about_info_version">Version: %s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	
+	<string name="about_info_extra">Icon von Anil K Solanki\nDesign
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">itte kontaktieren Sie den Autor bei Fragen per E-Mail oder über die Homepage.</string>
+	<string name="about_info_thanks">Danke an alle Übersetzer und Mitwirkende dieser App.</string>
+	<string name="about_faq_governors_Q">F: Was sind die Governors? Wo liegen die Unterschiede der Governors?</string>
+	<string name="about_faq_governors_A">CPU Taktfrequenz Staffelung erlaubt die Anpassung der Prozessorgeschwindigkeit im laufenden Betrieb.
+		Dies spart Batteriekapazität, denn je niedriger die Taktfrequenz desto weniger Energie wird von der CPU benötigt. Governors sind
+		die verschiedenen Richtlinien, wie die Frequenzen eingeteilt werden.\nDie Unterschiede zu erklären ist recht umfangreich, bitte lesen Sie diese bei Interesse auf der Homepage nach (http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">F: Werden in zukünftigen Versionen Profile unterstützt? Ich würde gerne ein anderes Profil auswählen, wenn mein Bildschirm ausgeschaltet ist.</string>
+	<string name="about_faq_profiles_A">A: Die Antwort lautet schlicht: \"Nein\". Meiner Meinung nach sind Profile sinnlos, weil die Governors genau diesen Zweck schon erfüllen: Sie sind Profile für die CPU für die sich ändernden Frequenzen. Zusätzliche Profile hinzuzufügen würde bedeuten, dass man mehr Speicher benötigen würde und das Programm müsste wesentlich öfter aktiv werden, um zu prüfen ob eine Bedingung der Profile erfüllt ist oder nicht (Bildschirm an, Bildschirm aus, und so weiter)… Das alles ohne echten Mehrwert.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Widget aktualisieren…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Sicherheit deaktivieren</string>
+	<string name="prefs_disable_safety_valve_summary_on">Unsauberes Herunterfahren wird beim Start nicht überprüft.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Wenn das Telefon nicht sauber heruntergefahren wurde, werden die Werte nicht übernommen.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Sind Sie sicher, dass Sie die Sicherung deaktivieren möchten? Fahren Sie NUR fort, wenn Sie wissen, was Sie tun.</string>
+	<string name="prefs_cat_notification">Benachrichtigung beim Start</string>
+	<string name="prefs_show_notification">Zeige Benachrichtigung</string>
+	<string name="prefs_show_notification_summary_on">Benachrichtigungen werden angezeigt.</string>
+	<string name="prefs_show_notification_summary_off">Benachrichtigungen werden NICHT angezeigt.</string>
+	<string name="prefs_vibrate">Vibration</string>
+	<string name="prefs_vibrate_pattern">Vibrationseinstellungen</string>
+	<string name="prefs_vibrate_pattern_message">Geben Sie eine Vibrationslänge in Millisekunden an (z.B. 0,50,100,50,100) oder lassen Sie dieses Feld frei, um die Standard-Vibration zu verwenden.</string>
+	<string name="prefs_ringtone">Benachrichtigungston</string>
+	<string name="prefs_cat_stats">Statistik</string>
+	<string name="prefs_include_deep_sleep">Tiefschlaf anzeigen</string>
+	<string name="prefs_include_deep_sleep_summary_on">Tiefschlaf wird in der Statistik berücksichtigt.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Tiefschlaf wird in der Statistik ignoriert.</string>
+	<string name="prefs_update_curfreq">Momentane Taktfrequenz aktualisieren</string>
+	<string name="prefs_update_curfreq_summary_on">Die aktuelle Taktfrequenz wird regelm√§√üig aktualisiert.</string>
+	<string name="prefs_update_curfreq_summary_off">Die Taktfrequenz wird bei Aktualisierung der Statistiken aktualisiert.</string>
+
+</resources>

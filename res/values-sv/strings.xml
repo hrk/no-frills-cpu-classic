@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">No-frills CPU Kontroll</string>
+	<!-- MainActivity -->
+	<string name="requested">Begärd</string>
+	<string name="current">Aktuell</string>
+	<string name="max_freq">Max. klock frekv.</string>
+	<string name="min_freq">Min. klock frekv.</string>
+	<string name="governor">Guvernör</string>
+	<string name="apply_on_boot">Utför vid boot</string>
+	<string name="show_notification">Visa notifiering vid boot</string>
+	<string name="apply">Utför</string>
+	<string name="exit">Avsluta</string>
+	<string name="send">Skicka</string>
+	<string name="dlg_nofs_title">Din enhet verkar sakna frekvensskalning
+	</string>
+	<string name="dlg_nofs_body">Om du använder en custom ROM eller tror att
+		din telefon bör stöda frekvensskalning så skicka in CPU information för
+		att lägga till stöd för din telefon.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Skicka CPU data</string>
+	<string name="dlg_send_title">Skicka CPU data med…</string>
+	<string name="menu_view_stats">Visa statistik</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">Läser statistik för de senaste 5 sekunderna…</string>
+	<string name="stats_title">Frekvensstatistik</string>
+	<string name="stats_current">Aktuell frekvens: %s</string>
+	<string name="stats_current_unavailable">otillgänglig</string>
+	<string name="stats_frequency">Frekvens</string>
+	<string name="stats_perc">Totalt</string>
+	<string name="stats_perc5">Sista 5 sek.</string>
+	<!-- Errors -->
+	<string name="err_need_root">Denna app kräver root privilegier för att fungera.</string>
+	<string name="err_update_failed">Fel: tillät du SuperUser permissions?
+	</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Lyckades!\nMin: %1$s\nMax: %2$s\nGuvernör: %3$s\nI/O Scheduler: %4$s
+	</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s hittad, ändringarna genomfördes ej</string>
+	<string name="notify_safety_shutdown">Unclean shutdown, ändringarna genomfördes ej</string>
+	<string name="notify_title_safety">Ändringarna genomfördes ej</string>
+	<string name="notify_title_success">Ändringarna genomfördes OK</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGuvernör: %3$s\nI/O Scheduler: %4$s</string>
+</resources>

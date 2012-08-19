@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Недоступно</string>
+	<string name="requested">Требуется</string>
+	<string name="current">На сейчас</string>
+	<string name="max_freq">Макс. частота</string>
+	<string name="min_freq">Мин. частота</string>
+	<string name="governor">Регулятор</string>
+	<string name="ioscheduler">Диспетчер I/O</string>
+	<string name="apply_on_boot">При загрузке ОС</string>
+	<string name="show_notification">Уведомить при загрузке ОС</string>
+	<string name="apply">Применить</string>
+	<string name="exit">Выход</string>
+	<string name="send">Отправить</string>
+	<string name="dlg_noroot_title">Нет прав суперпользователя</string>
+	<string name="dlg_noroot_body">Вам нужны права суперпользователя (root) для этого приложения.</string>
+	<string name="dlg_nofs_title">Похоже, ваше устройство не поддерживает смену частоты</string>
+	<string name="dlg_nofs_body">Если у вас нестандартная прошивка или вы уверены,
+что устройство поддерживает смену частоты, отправьте данные
+процессора, чтобы добавить поддержку вашего телефона.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Отправить данные ЦП</string>
+	<string name="dlg_send_title">Отправить данные ЦП с…</string>
+	<string name="menu_prefs">Установки</string>
+	<string name="menu_view_stats">Статистика</string>
+	<string name="menu_details">Программа</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Обновить</string>
+	<string name="spinner_stats_text">Чтение статистики за 5 секунд…</string>
+	<string name="stats_title">Статистика частот</string>
+	<string name="stats_current">Текущая частота: %1$s</string>
+	<string name="stats_current_unavailable">недоступно</string>
+	<string name="stats_frequency">Частота</string>
+	<string name="stats_perc">Всего</string>
+	<string name="stats_perc5">5 посл. сек.</string>
+	<string name="stats_deep_sleep">Глубокий сон</string>
+	<!-- Errors -->
+	<string name="err_need_root">Для работы нужны права суперпользователя.</string>
+	<string name="err_update_failed">Ошибка! Разрешён ли доступ суперпользователя?</string>
+	<string name="err_no_email_client">У вас нет клиента электронной почты. Нечем
+отправить данные ЦП.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Успех!\nМин: %1$s\nМакс: %2$s\nРегулятор: %3$s\nДиспетчер I/O: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">Параметры не применены из-за %1$s</string>
+	<string name="notify_safety_shutdown">Аварийное завершение, параметры не применены</string>
+	<string name="notify_title_safety">Параметры не применены</string>
+	<string name="notify_title_success">Параметры успешно применены</string>
+	<string name="notify_success">Мин: %1$s\nМакс: %2$s\nРегулятор: %3$s\nДиспетчер I/O: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Программа</string>
+	<string name="tab_changelog">Что нового</string>
+	<string name="tab_faq">ЧаВо</string>
+	<string name="tab_license">Лицензия</string>
+	<string name="about_info_donate">Поддержать</string>
+	<string name="about_info_version">Версия: %1$s</string>
+	<string name="about_info_author">Автор: Luca Santarelli</string>
+	<string name="about_info_homepage">Веб-страница:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Иконка - Anil K Solanki\nДизайн
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Если появились вопросы, свяжитесь с автором
+электронной почтой или через веб-страницу.</string>
+	<string name="about_info_thanks">Спасибо каждому переводчику и каждому 
+пользователю, кто помог сформировать эту программу!</string>
+	<string name="about_faq_governors_Q">Q: Что такое \"регулятор\"? Объясните, чем они
+отличаются друг от друга?</string>
+	<string name="about_faq_governors_A">A: Переменная частота ЦП позволяет переключать
+тактовую частоту на лету. Это может сберечь заряд, поскольку
+снижение частоты ЦП снижает и его энергопотребление. Регуляторы (governors)
+- различные схемы изменения частоты.\nОписание различий - вопрос
+ёмкий, ответ можно найти на странице
+http://forum.xda-developers.com/showthread.php?t=911917
+.</string>
+	<string name="about_faq_profiles_Q">Q: Когда добавите профили? Мне так хочется
+менять профиль при выключении экрана!</string>
+	<string name="about_faq_profiles_A">A: Короткий ответ - никогда. Я считаю профили
+бесполезными, они просто дублируют работу регуляторов, по сути
+- профилей смены частоты ЦП.\nДобавить профили - значит, потратить
+больше памяти, больше ресурсов ЦП на постоянные запуски, проверки,
+что там случилось (экран включился, выключился, или ещё что)…
+И всё это - без реальной отдачи.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Обновление виджета…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Отключить аварийный тормоз</string>
+	<string name="prefs_disable_safety_valve_summary_on">Не будет проверки на аварийное завершение </string>
+	<string name="prefs_disable_safety_valve_summary_off">При аварийном завершении параметры не применятся.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Вы хотите отключить аварийный тормоз? Отключайте только если вы ТОЧНО ЗНАЕТЕ, что делаете.</string>
+	<string name="prefs_cat_notification">Уведомить при загрузке</string>
+	<string name="prefs_show_notification">Показать уведомление</string>
+	<string name="prefs_show_notification_summary_on">Уведомления будут показаны</string>
+	<string name="prefs_show_notification_summary_off">Уведомления НЕ БУДУТ показаны.</string>
+	<string name="prefs_vibrate">Вибро</string>
+	<string name="prefs_vibrate_pattern">Схема вибрации</string>
+	<string name="prefs_vibrate_pattern_message">Составьте схему вибрации в миллисекундах (напр.: 0,50,100,50,100) или оставьте поле пустым для применения системных настроек.</string>
+	<string name="prefs_ringtone">Звук уведомления</string>
+	<string name="prefs_cat_stats">Статистика</string>
+	<string name="prefs_include_deep_sleep">Включая глубокий сон</string>
+	<string name="prefs_include_deep_sleep_summary_on">Глубокий сон будет учитываться.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Глубокий сон будет игнорироваться.</string>
+
+</resources>

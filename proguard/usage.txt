@@ -1,0 +1,91 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+it.sineo.android.changelog.Change:
+    private static final long serialVersionUID
+it.sineo.android.changelog.Changelog:
+    private static final long serialVersionUID
+it.sineo.android.changelog.ChangelogFactory:
+    private static final java.lang.String RELEASE
+    20:20:public ChangelogFactory()
+    93:99:public static android.app.AlertDialog$Builder buildAlertDialog(android.content.Context,int,int)
+it.sineo.android.changelog.R:
+    10:10:public R()
+it.sineo.android.changelog.R$attr
+it.sineo.android.changelog.R$drawable
+it.sineo.android.changelog.R$id:
+    22:22:public R$id()
+it.sineo.android.changelog.R$layout:
+    65:65:public R$layout()
+it.sineo.android.changelog.R$menu
+it.sineo.android.changelog.R$raw
+it.sineo.android.changelog.R$string
+it.sineo.android.changelog.R$style
+it.sineo.android.changelog.R$xml
+it.sineo.android.changelog.Release:
+    private static final long serialVersionUID
+it.sineo.android.noFrillsCPUClassic.BuildConfig
+it.sineo.android.noFrillsCPUClassic.R
+it.sineo.android.noFrillsCPUClassic.R$attr
+it.sineo.android.noFrillsCPUClassic.R$drawable
+it.sineo.android.noFrillsCPUClassic.R$id
+it.sineo.android.noFrillsCPUClassic.R$layout
+it.sineo.android.noFrillsCPUClassic.R$menu
+it.sineo.android.noFrillsCPUClassic.R$raw
+it.sineo.android.noFrillsCPUClassic.R$string
+it.sineo.android.noFrillsCPUClassic.R$style
+it.sineo.android.noFrillsCPUClassic.R$xml
+it.sineo.android.noFrillsCPUClassic.activity.AboutActivity:
+    private static final java.lang.String TAG_INFO
+    private static final java.lang.String TAG_CHANGELOG
+    private static final java.lang.String TAG_FAQ
+    private static final java.lang.String TAG_LICENSE
+    private static final java.lang.String SELECTED_TAB_INDEX
+it.sineo.android.noFrillsCPUClassic.activity.MainActivity:
+    349:364:protected void displayChangelogIfNeeded()
+    367:368:protected void displayChangeLog()
+it.sineo.android.noFrillsCPUClassic.extra.Constants:
+    public static final java.lang.String APP_TAG
+    public static final java.lang.String PREF_MIN_FREQ
+    public static final java.lang.String PREF_MAX_FREQ
+    public static final java.lang.String PREF_GOVERNOR
+    public static final java.lang.String PREF_IOSCHEDULER
+    public static final java.lang.String PREF_APPLY_ON_BOOT
+    public static final java.lang.String LAST_CHANGELOG_VERSION_VIEWED
+    public static final java.lang.String CHECK_SHUTDOWN_OK
+    public static final java.lang.String LAST_UPTIME
+    public static final java.lang.String NLJ_SAFETY_CHECK_DATA
+    public static final java.lang.String NLJ_SAFETY_CHECK_EXT
+    public static final java.lang.String DEVELOPER_MAIL
+    public static final java.lang.String APPWIDGET_UPDATE
+    public static final java.lang.String PREF_NOTIFY_ON_BOOT
+    public static final boolean PREF_DEFAULT_NOTIFY_ON_BOOT
+    public static final java.lang.String PREF_VIBRATE
+    public static final boolean PREF_DEFAULT_VIBRATE
+    public static final java.lang.String PREF_VIBRATE_PATTERN
+    public static final java.lang.String PREF_RINGTONE
+    public static final java.lang.String PREF_INCLUDE_DEEP_SLEEP
+    public static final boolean PREF_DEFAULT_INCLUDE_DEEP_SLEEP
+    public static final java.lang.String PREF_SORT_METHOD
+    public static final java.lang.String PREF_DISABLE_SAFETY_VALVE
+    public static final boolean PREF_DEFAULT_DISABLE_SAFETY_VALVE
+    public static final boolean DEBUG
+    5:5:public Constants()
+it.sineo.android.noFrillsCPUClassic.extra.Stats:
+    private static final long serialVersionUID
+it.sineo.android.noFrillsCPUClassic.extra.SysUtils:
+    private static final java.lang.String cpufreq_sys_dir
+    private static final java.lang.String scaling_min_freq
+    private static final java.lang.String cpuinfo_min_freq
+    private static final java.lang.String scaling_max_freq
+    private static final java.lang.String cpuinfo_max_freq
+    private static final java.lang.String scaling_cur_freq
+    private static final java.lang.String cpuinfo_cur_freq
+    private static final java.lang.String scaling_governor
+    private static final java.lang.String scaling_available_freq
+    private static final java.lang.String scaling_available_governors
+    private static final java.lang.String scaling_stats_time_in_state
+    private static final java.lang.String ioscheduler
+    private static final java.lang.String RE_FAKE_BLKDEV
+    private static final int BUFFER_SIZE
+    34:34:public SysUtils()
+    137:168:public static java.lang.String getFormattedKernel()

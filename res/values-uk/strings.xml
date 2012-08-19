@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU Control</string>
+	<string name="app_name_classic">No-frills CPU Control CLASSIC</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Недоступно</string>
+	<string name="requested">Бажані</string>
+	<string name="current">Поточні</string>
+	<string name="max_freq">Макс. частота</string>
+	<string name="min_freq">Мін. частота</string>
+	<string name="governor">Керівник</string>
+	<string name="ioscheduler">Диспетчер I/O</string>
+	<string name="apply_on_boot">При старті</string>
+	<string name="show_notification">Сповістити при завантаженні системи</string>
+	<string name="apply">Застосувати</string>
+	<string name="exit">Вийти</string>
+	<string name="send">Надіслати</string>
+	<string name="dlg_noroot_title">Немає прав root</string>
+	<string name="dlg_noroot_body">Ви маєте отримати права адміністратора (root), щоб ця програма працювала.</string>
+	<string name="dlg_nofs_title">Ваш пристрій не підтримує зміну частоти процесора</string>
+	<string name="dlg_nofs_body">Якщо ви користуєтеся нештатною прошивкою або певні, 
+що ваш телефон підтримує зміну частоти, надішліть дані вашого 
+процесора, щоб додати підтримку і вашого пристрою.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Надіслати дані процесора</string>
+	<string name="dlg_send_title">Надіслати дані з…</string>
+	<string name="menu_prefs">Параметри</string>
+	<string name="menu_view_stats">Статистика</string>
+	<string name="menu_details">Програма</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Поновити</string>
+	<string name="spinner_stats_text">Читання статистики за 5 останніх секунд…</string>
+	<string name="stats_title">Статистика частот</string>
+	<string name="stats_current">Поточна частота: %1$s</string>
+	<string name="stats_current_unavailable">недоступно</string>
+	<string name="stats_frequency">Частота</string>
+	<string name="stats_perc">Загалом</string>
+	<string name="stats_perc5">За 5 секунд</string>
+	<string name="stats_deep_sleep">Міцний сон</string>
+	<!-- Errors -->
+	<string name="err_need_root">Ця програма вимагає привілеїв root.</string>
+	<string name="err_update_failed">Помилка: ви дозволили права адміністратора (root)?</string>
+	<string name="err_no_email_client">Клієнта електронної не знайдено. 
+Неможливо надіслати дані процесора.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Чудово!\nМін: %1$s\nМакс: %2$s\nКерівник: %3$s\nДиспетчер I/O: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">Знайдено %1$s, параметри не застосовано</string>
+	<string name="notify_safety_shutdown">Аварійне завершення, параметри не застосовано</string>
+	<string name="notify_title_safety">Параметри не застосовано</string>
+	<string name="notify_title_success">Параметри вдало застосовано</string>
+	<string name="notify_success">Мін: %1$s\nМакс: %2$s\nКерівник: %3$s\nДиспетчер I/O: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Програма</string>
+	<string name="tab_changelog">Список змін</string>
+	<string name="tab_faq">ЧАП</string>
+	<string name="tab_license">Ліцензія</string>
+	<string name="about_info_donate">Підтримати</string>
+	<string name="about_info_version">Версія: %1$s</string>
+	<string name="about_info_author">Автор: : Luca Santarelli</string>
+	<string name="about_info_homepage">Сторінка:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Піктограма - Anil K Solanki\nДизайн
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Є питання? Напишіть авторові електронною 
+поштою, або з веб-сторінки.</string>
+	<string name="about_info_thanks">Дякуємо кожному перекладачу та користувачу,
+хто допоміг надати форму цій програмі!</string>
+	<string name="about_faq_governors_Q">Q: Що таке керівник? Поясніть, будь ласка,
+чим вони відрізняються.</string>
+	<string name="about_faq_governors_A">A: Змінна частота ЦП дозволяє перемикати тактові частоти
+процесора під час роботи. Це може зменшити електровитрати, бо
+чим нижчі частоти ЦП, тим менший струм він споживає. Різні набори
+правил змін частоти називаються керівниками (governors).\nСписок
+відмінностей - складне питання, читайте відповідь тут:
+(http://forum.xda-developers.com/showthread.php?t=911917)
+.</string>
+	<string name="about_faq_profiles_Q">Q: Чи плануєте ви додати профілі? Я волію
+вибрати інший профіль, коли мій екран вимкнено!</string>
+	<string name="about_faq_profiles_A">A: Якщо коротко - ні. Я не вважаю профілі корисними,
+бо це просто дублює роботу керівників, власне профілів
+для вашого ЦП, що визначають зміну частоти.\nДодавання
+програмних профілів - витрата пам\'яті, постійне навантаження
+ЦП частими запитами, перевірками чи щось там сталося (екран
+увімкнувся, вимкнувся, чи ще щось) без реальної користі.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Оновлення віджету…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Вимкнути аварійний клапан</string>
+	<string name="prefs_disable_safety_valve_summary_on">Перевірку на аварійне завершення увімкнуто.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Параметри не буде застосовано у разі аварійного завершення.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Ви певні, що хочете вимкнути аварійний клапан? Робіть це лише тоді, коли ТОЧНО ЗНАЄТЕ, що до чого.</string>
+	<string name="prefs_cat_notification">Сповіщення при старті системи</string>
+	<string name="prefs_show_notification">Показати сповіщення</string>
+	<string name="prefs_show_notification_summary_on">Сповіщення буде показано</string>
+	<string name="prefs_show_notification_summary_off">Сповіщення НЕ буде показано</string>
+	<string name="prefs_vibrate">Вібрація</string>
+	<string name="prefs_vibrate_pattern">Схема вібрації</string>
+	<string name="prefs_vibrate_pattern_message">Задайте схему вібрації в мілісекундах (напр.: 0,50,100,50,100) чи лишіть це поле пустим, щоб скористатися системною схемою.</string>
+	<string name="prefs_ringtone">Звук сповіщення</string>
+	<string name="prefs_cat_stats">Статистика</string>
+	<string name="prefs_include_deep_sleep">Враховуючи міцний сон</string>
+	<string name="prefs_include_deep_sleep_summary_on">Міцний сон буде враховано</string>
+	<string name="prefs_include_deep_sleep_summary_off">Міцний сон буде ігноровано</string>
+
+</resources>

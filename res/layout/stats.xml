@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" >
+
+		<TextView
+			style="@style/BaseText"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center_vertical"
+			android:text="@string/stats_title" />
+
+		<ImageView
+			android:id="@+id/btn_refresh_stats"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:contentDescription="@string/menu_refresh"
+			android:gravity="center_vertical|right"
+			android:src="@drawable/ic_refresh" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/tv_stats_current"
+		style="@style/BaseText"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top"
+		android:gravity="center_vertical"
+		android:text="@string/stats_current" />
+
+	<include
+		android:id="@+id/grp_stats_header"
+		layout="@layout/stats_row" />
+
+	<ListView
+		android:id="@+id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>

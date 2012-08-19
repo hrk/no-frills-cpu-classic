@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">Controle Simples da CPU</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Indisponível</string>
+	<string name="requested">Selecionado</string>
+	<string name="current">Atual</string>
+	<string name="max_freq">Freq. max. clock</string>
+	<string name="min_freq">Freq. min clock</string>
+	
+	
+	<string name="apply_on_boot">Aplicar no boot</string>
+	<string name="show_notification">Notificação no boot</string>
+	<string name="apply">Aplicar</string>
+	<string name="exit">Sair</string>
+	<string name="send">Enviar</string>
+	<string name="dlg_noroot_title">Sem permissão de root</string>
+	<string name="dlg_noroot_body">Você precisa de root para usar esta aplicação.</string>
+	<string name="dlg_nofs_title">Seu aparelho parece não ter frequência escalável</string>
+	<string name="dlg_nofs_body">Se você está rodando uma ROM customizada ou  acha que o celular suporta frequência escalável, envie os dados da CPU para  adicionar suporte para o seu celular.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Enviar dados da CPU</string>
+	<string name="dlg_send_title">Enviar dados da CPU com…</string>
+	
+	<string name="menu_view_stats">Ver estatísticas</string>
+	<string name="menu_details">Sobre…</string>
+	<!-- Stats activity -->
+	
+	<string name="spinner_stats_text">Lend estatísticas por 5 segundos…</string>
+	<string name="stats_title">Estatísticas de frequência</string>
+	<string name="stats_current">Frequência atual: %s</string>
+	<string name="stats_current_unavailable">indisponível</string>
+	<string name="stats_frequency">Frequência</string>
+	
+	<string name="stats_perc5">Últimos 5 seg.</string>
+	
+	<!-- Errors -->
+	<string name="err_need_root">Esta aplicação requer privilégios de root.</string>
+	<string name="err_update_failed">Erro: você deu permissão SuperUser?</string>
+	<string name="err_no_email_client">Você não tem e-mail. Dados de CPU não serão enviados.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Successo!\nMin: %1$s\nMáx: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s encontrados, valores não aplicados</string>
+	<string name="notify_safety_shutdown">Desligamento irregular, valores não aplicados</string>
+	<string name="notify_title_safety">Valores não aplicados</string>
+	<string name="notify_title_success">Valores aplicados com sucesso</string>
+	<string name="notify_success">Min: %1$s\nMáx: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Sobre…</string>
+	<string name="tab_changelog">Log de revisões</string>
+	
+	<string name="tab_license">Licença</string>
+	
+	<string name="about_info_version">Versão: %s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Homepage:   http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ícone por Anil K Solanki\nDesign   www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Se você tem dúvidas, favor contactar o autor por e-mail ou usando a homepage.</string>
+	<string name="about_info_thanks">Obrigado a todos os tradutores e usuários que ajudaram a contruir essa aplicação!</string>
+	<string name="about_faq_governors_Q">Q: O que é um governor? Pode explicar as diferenças entre eles?</string>
+	<string name="about_faq_governors_A">Frequências escaláveis da CPU permitem mudar o clock da CPU durante o uso. Isso pode economizar bateria pois quanto menor o clock, menos consumo da CPU. Governors são diferentes modos de escalar as frequências.\nExplicar as diferenças é uma longa reposta. Favor ler na homepage  (http://forum.xda-developers.com/showthread.php?t=911917)   .</string>
+	<string name="about_faq_profiles_Q">Q: Você planeja adicionar perfis? Eu gostaria de selecionar um perfil quando minha tela está desligada! </string>
+	<string name="about_faq_profiles_A">A: A resposta curta é \"Não\". Eu acho que perfis são inúteis, pois é para isso que servem os governors: um perfil para a CPU seguir enquanto escala as frequências. \nAdicionar perfis significaria usar mais memória, rodar mais vezes, verificar se algo está acontecendo (tela ligada, desligada etc)… tudo isso sem um benefício real.</string>
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

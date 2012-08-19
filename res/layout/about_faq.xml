@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical" >
+
+		<TextView
+			style="@style/BaseText.FAQ_Q"
+			android:text="@string/about_faq_governors_Q" />
+
+		<TextView
+			android:id="@+id/about_faq_governors"
+			style="@style/BaseText.FAQ_A"
+			android:autoLink="all"
+			android:text="@string/about_faq_governors_A" />
+
+		<TextView
+			style="@style/BaseText.FAQ_Q"
+			android:text="@string/about_faq_profiles_Q" />
+
+		<TextView
+			android:id="@+id/about_faq_profiles"
+			style="@style/BaseText.FAQ_A"
+			android:autoLink="all"
+			android:text="@string/about_faq_profiles_A" />
+	</LinearLayout>
+
+</ScrollView>

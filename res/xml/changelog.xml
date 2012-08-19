@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+	<release date="2012-07-07" version="1.25">
+		<change>Added preference setting to automatically update the current frequency in the stats screen.</change>
+		<change>Added preference setting to prevent other apps from interfering with frequencies (required for Jelly Bean and some HTC devices).</change>
+		<change>Fixed "double sort" issue on stats screen for certain devices.</change>
+		<change>Updated compatibility to Android 4.1 Jelly Bean</change>
+		<change>Updated Catalan, Chinese (Simplified), Chinese (Traditional), Czech, German, Greek, French, Hungarian, Italian, Japanese, Polish, Romanian, Russian, Slovak, Spanish, Swedish and Turkish translation.</change>
+		<change>Added Croatian, Finnish, Georgian and Indonesian translation.</change>
+		<change>A big THANK YOU to everyone contributing translations on http://getLocalization.com/noFrillsCPU</change>
+	</release>
+	<release date="2012-05-20" version="1.24">
+		<change>Updated to latest Google support code.</change>
+		<change>Updated German, Spanish, Dutch and Chinese translation.</change>
+		<change>Added Polish, Turkish and Malay translation.</change>
+	</release>
+	<release date="2012-04-21" version="1.23">
+		<change>Minor performance improvements.</change>
+		<change>Updated Hungarian, Ukrainian, Russian, Greek (Retrosid) and Japanese translations.</change>
+		<change>Added Romanian (Cristian Silaghi), Norwegian (Rezern) and Catalan (Ferran Riu) translations.</change>
+		<change>Added a "Donate" button in About > Info. You can donate if you like this app!</change>
+	</release>
+	<release date="2012-03-18" version="1.22">
+		<change>Hopefully fixed crash when refreshing stats on some devices. If you still get a crash, please contact the developer through email to help him fix this issue!</change>
+		<change>Updated Hungarian translation</change>
+		<change>Added Ukrainian and Russian translation</change>
+	</release>
+	<release date="2012-03-11" version="1.21">
+		<change>Android 4.0 Ice Cream Sandwich look &amp; feel on Android 2.1 and above!</change>
+		<change>Android 1.6 and Android 2.0 users can use the new app "No-frills CPU Control CLASSIC" which has the old look &amp; feel AND all the features of the regular app.</change>
+		<change>Ability to disable safety-valve. Use with caution!</change>
+		<change>Changed kernel detection in CPU data. Please send your CPU data again, if you can.</change>
+	</release>
+	<release date="2012-01-23" version="1.20">
+		<change>Fixed bug: I/O scheduler wasn't applied to all applicable block devices.</change>
+		<change>Updated Portuguese translation by Marco Bizarro.</change>
+	</release>
+	<release date="2012-01-15" version="1.19">
+		<change>New "Settings" screen.</change>
+		<change>Ability to select a custom (or silent) ringtone.</change>
+		<change>Ability to select a custom vibration pattern or disable vibration entirely.</change>
+		<change>Display deep sleep in stats (optional).</change>
+		<change>Sort stats by frequency, percentage, partial percentage.</change>
+		<change>Graphical representation of percentage in stats.</change>
+		<change>Updated Chinese translation by dxdiag32.</change>
+	</release>
+	<release date="2011-12-31" version="1.18.4">
+		<change>New Portuguese translation by Marco Bizarro.</change>
+	</release>
+	<release date="2011-12-28" version="1.18.3">
+		<change>New Slovakian translation by prescott66.</change>
+	</release>
+	<release date="2011-11-14" version="1.18.2">
+		<change>New Dutch translation by Spaar.</change>
+	</release>
+	<release date="2011-11-12" version="1.18.1">
+		<change>New Hungarian translation by FollowWings.</change>
+	</release>
+	<release date="2011-11-05" version="1.18">
+		<change>Fixed "black screen" issue with HTC Sensation, HTC EVO 3D and (possibly) other devices. Note: as with other devices, for best results you need a custom kernel, stock HTC will not allow frequency scaling even if you have root.</change>
+	</release>
+	<release date="2011-11-02" version="1.17">
+		<change>Fix bug on kernels with broken i/o schedulers which caused FC in 1.16</change>
+	</release>
+	<release date="2011-10-31" version="1.16">
+		<change>Avoid lockup/reboot on particular devices when setting frequencies (Thanks to JoPhj).</change>
+		<change>Sort frequencies on particular Samsung devices which have them backwards (Thanks to JoPhj).</change>
+		<change>Prevent FC on homescreen widget for devices without root</change>
+		<change>Fix crash when no governors were available</change>
+		<change>Updated japanese translation</change>
+	</release>
+	<release date="2011-10-10" version="1.15">
+		<change>Fixed "unclean shutdown" regression bug.</change>
+	</release>
+	<release date="2011-10-10" version="1.14">
+		<change>Changed the "unclean shutdown" check to support apps such as
+			LCD-Density changer and such
+		</change>
+		<change>First release of a homescreen widget</change>
+		<change>After updating, clear app data then set again options (only
+			this one time)
+		</change>
+	</release>
+	<release date="2011-09-23" version="1.13.2">
+		<change>New Brazilian Portuguese translation by Chris</change>
+	</release>
+	<release date="2011-08-28" version="1.13.1">
+		<change>Fixed danish and czech translations not appeaing for
+			respective users, sorry for the inconvenience!
+		</change>
+	</release>
+	<release date="2011-08-27" version="1.13">
+		<change>Fixed FC reported to Market when governor wasn't available
+		</change>
+		<change>Fixed bug of missing VIBRATE permission reported to Market
+		</change>
+		<change>New danish translation by TorbenKB</change>
+	</release>
+	<release date="2011-08-20" version="1.12.1">
+		<change>New greek translation by dancer_69</change>
+	</release>
+	<release date="2011-07-10" version="1.12">
+		<change>New french translation by Corentin Garcia</change>
+		<change>New spanish translation by Carlos Camacho</change>
+		<change>Fixed landscape layout (broken in 1.11 with the new I/O
+			scheduler option) and changed portrait layout accordingly
+		</change>
+	</release>
+	<release date="2011-07-09" version="1.11.2">
+		<change>Fixes to chinese translation</change>
+		<change>Updates to japanese translation</change>
+	</release>
+	<release date="2011-07-07" version="1.11.1">
+		<change>New chinese translation (Simplified and Traditional) by
+			Charlie Cheung
+		</change>
+	</release>
+	<release date="2011-07-04" version="1.11">
+		<change>Initial support for dual core devices (LG G2X/Optimus Dual,
+			Samsung Intercept, …). Please report any issues by email!
+		</change>
+		<change>Added i/o scheduler selection for internal storage memory
+		</change>
+		<change>Rewritten detection code to support more non-standard kernels
+		</change>
+		<change>New german translation, many thanks to jdb78</change>
+	</release>
+	<release date="2011-05-28" version="1.10.1">
+		<change>Fixed english typos in the About screen</change>
+		<change>New japanese translation, thanks to Aozora Genei</change>
+	</release>
+	<release date="2011-05-22" version="1.10">
+		<change>New about screen added, with changelog, FAQ and license
+		</change>
+		<change>Awesome new icon, courtesy of Anil K Solanki
+			(www.thisiswhatwedo.com). Thanks Anil!
+		</change>
+		<change>Fixed FC when trying to send CPU data with no email client
+			installed
+		</change>
+	</release>
+	<release date="2011-04-29" version="1.9.3">
+		<change>Added czech translation by David Kejzlar</change>
+		<change>Added "quick check" informations on top of CPU data email
+		</change>
+	</release>
+	<release date="2011-04-10" version="1.9.2">
+		<change>Fixed usage on horizontal layout</change>
+		<change>Added an initial root check</change>
+		<change>Other small code fixes</change>
+	</release>
+	<release date="2011-03-23" version="1.9.1">
+		<change>New swedish translation by kallt_kaffe</change>
+	</release>
+	<release date="2011-03-22" version="1.9">
+		<change>New option to show a notification on boot</change>
+		<change>Bugfix: FC when screen was rotated while progressbar was on
+			screen
+		</change>
+	</release>
+	<release date="2011-03-19" version="1.8">
+		<change>New refresh icon (2.2- and 2.3+)</change>
+		<change>Added current frequency to the stats screen</change>
+		<change>Little GUI improvements</change>
+		<change>Improved first screen when run on nonworking devices</change>
+	</release>
+	<release date="2011-03-14" version="1.7">
+		<change>First Android Market release. The app is the same as 1.6.1 but
+			with a different package name due to the "BrinkDroid incident".
+		</change>
+	</release>
+	<release date="2011-03-06" version="1.6.1">
+		<change>Reworked from scratch notification icon w/ a Gingerbread
+			version too.
+		</change>
+	</release>
+	<release date="2011-03-04" version="1.6">
+		<change>Added "View stats" to see the percentage of usage for each
+			available frequency. Refresh icon is courtesy of Joseph Wain /
+			glyphish.com
+		</change>
+		<change>Slight changes in the code.</change>
+		<change>Some new texts for translators! Whee!</change>
+	</release>
+	<release date="2011-02-26" version="1.5 'Why do I have only two frequencies?!?'">
+		<change>Added support for weird kernels which don't expose the
+			available frequencies as they should. This should fix the issue for
+			people having only two frequencies to choose. Let me know how it
+			goes.
+		</change>
+	</release>
+	<release date="2011-02-25" version="1.4">
+		<change>Governor is now applied first, frequencies last. This may or
+			may not fix smartass. It's not so smart from the reports I've got.
+			:-(
+		</change>
+		<change>Added german translation (thanks to zantekk)</change>
+		<change>Thanks to everybody who sent his data and hasn't got a
+			personal answer. I appreciated it! 1.4 adds kernel and rom
+			information to the sent data, which should have been there in the
+			first place…
+		</change>
+	</release>
+	<release date="2011-02-05" version="1.3">
+		<change>Added safety valves on boot: if unclean shutdown is detected
+			or /data/.nocpu or /sd-ext/.nocpu exist, the frequencies will not be
+			updated.
+		</change>
+		<change>Added a menu with an option to send me CPU data. No more
+			logcat needed! Horray!
+		</change>
+		<change>GUI: configuration screen shows both current and desired
+			values. You'll know if the app is working.
+		</change>
+		<change>i18n: added some new strings, translators please send me your
+			new files and thank you for your work!
+		</change>
+	</release>
+	<release date="2011-01-22" version="1.2.3 EXPERIMENTAL">
+		<change>Experimental version for Wildfire and Galaxy Tab (and all the
+			devices which didn't work). Please, download and send me a logcat of
+			the app.
+		</change>
+		<change>Removed source package due to misunderstandings. No panic,
+			it's still open source and I'll add it back later.
+		</change>
+	</release>
+	<release date="2011-01-15" version="1.2.2">
+		<change>Went for the name "No Frills CPU Control"</change>
+		<change>Added translations for it (myself) and es (jrsoft)</change>
+		<change>Added LICENSE.txt</change>
+		<change>Minor GUI changes</change>
+	</release>
+	<release date="2011-01-14" version="1.2.1">
+		<change>Fix the "1 GHz" issue</change>
+		<change>Small code fixes</change>
+	</release>
+	<!-- <release date="" version=""> <change></change> </release> -->
+</changelog>
+

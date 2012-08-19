@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU Control</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Ikke tilgængelig</string>
+	<string name="requested">Ønsket</string>
+	<string name="current">Nuværende</string>
+	<string name="max_freq">Max. clock frek.</string>
+	<string name="min_freq">Min. clock frek.</string>
+	<string name="governor">Governor</string>
+	<string name="ioscheduler">I/O planlægger</string>
+	<string name="apply_on_boot">Tilføj ved boot</string>
+	<string name="show_notification">Vis notifikation ved boot</string>
+	<string name="apply">Tilføj</string>
+	<string name="exit">Afslut</string>
+	<string name="send">Send</string>
+	<string name="dlg_noroot_title">Manglende root tilladelser</string>
+	<string name="dlg_noroot_body">in tlf skal være rooted for at bruge denne app.</string>
+	<string name="dlg_nofs_title">et ser ud til, at din enhed mangler frekvensskalering</string>
+	<string name="dlg_nofs_body">Hvis du bruger en Custom ROM eller du tror
+		din telefon understøtter frekvens skalering, send dine CPU data så vi
+		kan tilføje din telefon.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Send CPU data</string>
+	<string name="dlg_send_title">Send CPU data med…</string>
+	<string name="menu_view_stats">Se statistik</string>
+	<string name="menu_details">Om</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">Læser statistik for de sidste 5 sekunder…</string>
+	<string name="stats_title">Frekvens statistik</string>
+	<string name="stats_current">Nuværende frekvens: %s</string>
+	<string name="stats_current_unavailable">ikke tilgængelig</string>
+	<string name="stats_frequency">Frekvens</string>
+	<string name="stats_perc">Totalt</string>
+	<string name="stats_perc5">Sidste 5 sek.</string>
+	<!-- Errors -->
+	<string name="err_need_root">Denne app kræver root for at virke.</string>
+	<string name="err_update_failed">ejl: har du givet SuperBruger tilladelser?</string>
+	<string name="err_no_email_client">Du har ikke en mailklient. CPU data vil ikke blive
+		sendt.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">ucces!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Planlægger: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s found, values not applied</string>
+	<string name="notify_safety_shutdown">Forkert afslutning, værdier ikke tilføjet</string>
+	<string name="notify_title_safety">Værdier ikke tilføjet</string>
+	<string name="notify_title_success">Værdier succesfuldt tilføjet</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Om</string>
+	<string name="tab_changelog">Changelog</string>
+	<string name="tab_faq">FAQ</string>
+	<string name="tab_license">Licens</string>
+	<string name="about_info_version">Version: %s</string>
+	<string name="about_info_author">Udvikler: Luca Santarelli</string>
+	<string name="about_info_homepage">Hjemmeside:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikoner af Anil K Solanki\nDesign
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Hvis du har spørgsmål, kontakt venligst 
+		udvikleren på mail eller fra hjemmesiden.</string>
+	<string name="about_info_thanks">Tak til alle oversættere og brugere som har
+		hjulpet med at finpudse app\'en!</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="about_faq_governors_Q">Q: Hvad er en Governor? Kan du forklare
+		forskellen på dem?</string>
+	<string name="about_faq_governors_A">CPU frekvens skalering tillader at du ændrer
+		CPUens clock hastighed omgående. Dette kan spare strøm, fordi lavere
+		CPU clock hastighed kræver mindre strøm til CPUen. Governors er
+		forskellige planer til frekvensskalering.\nForklaringen på forskellene
+		er et langt svar. Læs det venligst på hjemmesiden
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: Planlægger du at tilføje profiler? Jeg vil gerne
+		vælge en anden profil, når min telefon er slukket!</string>
+	<string name="about_faq_profiles_A">A: Kort svar er \"Nej\". Jeg synes at profiler
+		er værdiløs, da det er dét Governors er: en profil som CPUen følger
+		når den skifter frekvens.\nTilføjelse af profiler ville betyde større
+		forbrug af hukommelse, behovet for at programmet kører oftere, kontrol
+		af om der sker noget (skærm tændt, skærm slukket og så videre)…
+		alt dette uden egentlig fordel.</string>
+
+</resources>

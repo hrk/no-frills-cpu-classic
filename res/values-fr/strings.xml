@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU Control</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Indisponible</string>
+	<string name="requested">Demandé</string>
+	<string name="current">Actuel</string>
+	<string name="max_freq">Fréq. horloge max.</string>
+	<string name="min_freq">Fréq. horloge min.</string>
+	<string name="governor">Gouverneur</string>
+	<string name="ioscheduler">Ordonnanceur E/S</string>
+	<string name="apply_on_boot">Appliquer au démarrage</string>
+	<string name="show_notification">Afficher notif. au démarrage</string>
+	<string name="apply">Appliquer</string>
+	<string name="exit">Quitter</string>
+	<string name="send">Envoyer</string>
+	<string name="dlg_noroot_title">Permissions root manquantes</string>
+	<string name="dlg_noroot_body">ous devez être rooté pour utiliser cette app</string>
+	<string name="dlg_nofs_title">otre appareil semble ne pas supporter le changement de fréquence</string>
+	<string name="dlg_nofs_body">Si vous utiliser une ROM modifié ou si vous pensez
+		que votre appareil supporte les changements de fréquence, envoyez vos données CPU
+		pour pouvoir supporter votre téléphone.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Envoyer données CPU</string>
+	<string name="dlg_send_title">Envoyer données CPU avec…</string>
+	<string name="menu_view_stats">Voir stats</string>
+	<string name="menu_details">A propos</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">Lecture des stats pour les 5 dernières secondes…</string>
+	<string name="stats_title">Stats fréquences</string>
+	<string name="stats_current">Fréquence actuelle: %1$s</string>
+	<string name="stats_current_unavailable">indisponible</string>
+	<string name="stats_frequency">Fréquence</string>
+	<string name="stats_perc">Total</string>
+	<string name="stats_perc5">Dernières 5 s</string>
+	<!-- Errors -->
+	<string name="err_need_root">Cette app a besoin des permissions root pour fonctionner.</string>
+	<string name="err_update_failed">rreur: avez-vous autoriser les permissions SuperUtilisateur?</string>
+	<string name="err_no_email_client">Vous n\'avez pas de client mail. Les données CPU ne seront pas
+		envoyés.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">éussi!\nMin: %1$s\nMax: %2$s\nGouverneur: %3$s\nOrdonnateur E/S: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s trouvé, valeurs non appliquées</string>
+	<string name="notify_safety_shutdown">Extinction anormale, valeurs non appliquées</string>
+	<string name="notify_title_safety">Valeurs non appliquées</string>
+	<string name="notify_title_success">Valeurs appliquées avec succès</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGouverneur: %3$s\nOrdonnateur E/S: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">A propos</string>
+	<string name="tab_changelog">Mises à jour</string>
+	<string name="tab_faq">FAQ</string>
+	<string name="tab_license">License</string>
+	<string name="about_info_version">Version: %1$s</string>
+	<string name="about_info_author">Auteur: Luca Santarelli</string>
+	<string name="about_info_homepage">Site web:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Icône par Anil K Solanki\nDesign
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Si vous avez des questions, merci de contacter
+		l\'auteur par email ou en utilisant le site web.‪</string>
+	<string name="about_info_thanks">Merci à chaque traducteur et à tout les utilisateurs qui
+		ont aidés à construire cette app!</string>
+	<string name="about_faq_governors_Q">Q: Qu\'est ce qu\'un gouverneur? Pouvez-vous expliquer les
+		différences entre eux?</string>
+	<string name="about_faq_governors_A">Les changements de fréquence CPU vous permettent de changer la
+		vitesse d\'horloge des CPUs en temps réel. Cela peut économiser de la batterie, car plus la vitesse
+		d\'horloge du CPU est basse, moins le CPU consomme de courant. Les gouverneurs sont
+		différentes polices pour adapter la fréquence.\n Expliquer les différences serait
+		trop long, merci de les lire sur le site web
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: Allez-vous ajouter les profils ? J\'aimerai
+		sélectionner un profil différent quand mon écran est éteint!</string>
+	<string name="about_faq_profiles_A">A: La réponse courte est \"Non\". Je pense que les profils
+		sont inutiles, car c\'est ce que sont déjà les gouverneurs, un profil que
+		votre CPU suit quand il change de fréquence.\nAjouter des profils veut dire
+		avoir besoin de plus de mémoire, de se lancer plus souvent,
+		de vérifier si quelque chose a lieu (écran allumé, écran éteint…)
+		et cela sans bénéfice réel.</string>
+
+</resources>

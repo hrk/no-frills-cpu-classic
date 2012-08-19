@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">简洁CPU控制</string>
+	<string name="app_name_classic">无修饰CPU控制(经典)</string>
+	<!-- MainActivity -->
+	<string name="unavailable">不可用</string>
+	<string name="requested">已请求</string>
+	<string name="current">当前</string>
+	<string name="max_freq">最高频率</string>
+	<string name="min_freq">最低频率</string>
+	
+	<string name="ioscheduler">I/O Scheduler</string>
+	<string name="apply_on_boot">开机时应用</string>
+	<string name="show_notification">开机时显示通知</string>
+	<string name="apply">应用</string>
+	<string name="exit">退出</string>
+	<string name="send">发送</string>
+	<string name="dlg_noroot_title">丢失ROOT权限</string>
+	<string name="dlg_noroot_body">必须ROOT才能使用该软件.</string>
+	<string name="dlg_nofs_title">的设备暂时无法获取CPU频率</string>
+	<string name="dlg_nofs_body">如果你正在使用一个第三方ROM或者你的ROM能够获取CPU频率 请点击菜单中的“发送CPU数据”以便添加支持你的手机型号.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">发送CPU数据</string>
+	<string name="dlg_send_title">发送CPU数据通过…</string>
+	<string name="menu_prefs">选项</string>
+	<string name="menu_view_stats">查看统计信息</string>
+	<string name="menu_details">关于</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">刷新</string>
+	<string name="spinner_stats_text">正在统计5秒内的数据…</string>
+	<string name="stats_title">频率统计</string>
+	<string name="stats_current">当前频率: %1$s</string>
+	<string name="stats_current_unavailable">不可用</string>
+	<string name="stats_frequency">频率</string>
+	<string name="stats_perc">总计</string>
+	<string name="stats_perc5">最近5秒</string>
+	<string name="stats_deep_sleep">深度休眠</string>
+	<!-- Errors -->
+	<string name="err_need_root">该软件需要ROOT权限来运行.</string>
+	<string name="err_update_failed">误: 你是否允许了SuperUser的权限?</string>
+	<string name="err_no_email_client">您没有电子邮件客户端.
+无法发送CPU数据.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">成功!\最小频率: %1$s\最高频率: %2$s\调速器: %3$s\I/O日程: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">发现%1$s, 设置失败</string>
+	<string name="notify_safety_shutdown">关机不正常, 设置失败</string>
+	<string name="notify_title_safety">设置失败</string>
+	<string name="notify_title_success">设置成功</string>
+	<string name="notify_success">最低频率: %1$s\n最高频率: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">关于</string>
+	<string name="tab_changelog">更新日志</string>
+	<string name="tab_faq">常见问答</string>
+	<string name="tab_license">许可</string>
+	<string name="about_info_donate">捐赠</string>
+	<string name="about_info_version">版本: %1$s</string>
+	<string name="about_info_author">作者: Luca Santarelli</string>
+	<string name="about_info_homepage">主页:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">图标设计: Anil K Solanki  
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">有任何疑问，请通过电子邮件或者访问主页联系作者.</string>
+	<string name="about_info_thanks">感谢每个翻译者和每位用户帮忙塑造了这个软件！</string>
+	<string name="about_faq_governors_Q">问题:调速器是什么? 
+你能介绍他们不同之处吗?</string>
+	<string name="about_faq_governors_A">答:CPU 频率调节可以快速的改变CPU的时钟频率. 这样能够省电, 因为CPU的频率越低，所消耗的电也就越少. Governors 使用不同的策略来调节频率.\n具体工作原理请访问我的主页：
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">问: 你是否准备添加配置文件的功能？ 当我的屏幕关闭的时候我喜欢选择一个不同的配置</string>
+	<string name="about_faq_profiles_A">答: 一个字 \"不\". 我认为配置文件是没有用的，因为Governor就相当于是一个用来调节你的CPU频率的一个配置文件.\n添加配置文件就意味着需要更多的内存占用，需要更频繁的启动，检测事件比如开屏幕，关屏幕等等。。所有这些都没有好处.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">正在更新插件信息…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">撤销安全值</string>
+	<string name="prefs_disable_safety_valve_summary_on">关机不正常无法进行设置.</string>
+	<string name="prefs_disable_safety_valve_summary_off">关机不正常. 所设定的值不被支持</string>
+	<string name="prefs_disable_safety_valve_dialog_message">你确定要撤销安全值吗?如果你清楚此操作的后果请继续.</string>
+	<string name="prefs_cat_notification">开机显示通知</string>
+	<string name="prefs_show_notification">显示设定通知</string>
+	<string name="prefs_show_notification_summary_on">将会显示通知信息.</string>
+	<string name="prefs_show_notification_summary_off">通知信息将不再显示</string>
+	<string name="prefs_vibrate">震动</string>
+	<string name="prefs_vibrate_pattern">震动模式</string>
+	<string name="prefs_vibrate_pattern_message">输入振动频率,以毫秒为单位表示(如:0,50,100,50,100)或留空以使用默认的振动模式.</string>
+	<string name="prefs_ringtone">通知声音</string>
+	<string name="prefs_cat_stats">状态</string>
+	<string name="prefs_include_deep_sleep">包括深度休眠</string>
+	<string name="prefs_include_deep_sleep_summary_on">将包含深度休眠</string>
+	<string name="prefs_include_deep_sleep_summary_off">将忽略深度休眠</string>
+
+</resources>

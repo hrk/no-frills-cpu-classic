@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<CheckBoxPreference
+		android:defaultValue="false"
+		android:key="disable_safety_valve"
+		android:persistent="true"
+		android:summaryOff="@string/prefs_disable_safety_valve_summary_off"
+		android:summaryOn="@string/prefs_disable_safety_valve_summary_on"
+		android:title="@string/prefs_disable_safety_valve" />
+	<CheckBoxPreference
+		android:defaultValue="false"
+		android:key="change_permissions"
+		android:persistent="true"
+		android:summaryOff="@string/prefs_change_permissions_summary_off"
+		android:summaryOn="@string/prefs_change_permissions_summary_on"
+		android:title="@string/prefs_change_permissions" />
+
+	<PreferenceCategory android:title="@string/prefs_cat_notification" >
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="notify_on_boot"
+			android:persistent="true"
+			android:summaryOff="@string/prefs_show_notification_summary_off"
+			android:summaryOn="@string/prefs_show_notification_summary_on"
+			android:title="@string/prefs_show_notification" />
+
+		<RingtonePreference
+			android:dependency="notify_on_boot"
+			android:key="ringtone"
+			android:ringtoneType="notification"
+			android:shouldDisableView="true"
+			android:showDefault="true"
+			android:showSilent="true"
+			android:title="@string/prefs_ringtone" />
+
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:dependency="notify_on_boot"
+			android:key="vibrate"
+			android:persistent="true"
+			android:shouldDisableView="true"
+			android:title="@string/prefs_vibrate" />
+
+		<EditTextPreference
+			android:defaultValue=""
+			android:dependency="vibrate"
+			android:dialogMessage="@string/prefs_vibrate_pattern_message"
+			android:dialogTitle="@string/prefs_vibrate_pattern"
+			android:key="vibrate_pattern"
+			android:persistent="true"
+			android:shouldDisableView="true"
+			android:title="@string/prefs_vibrate_pattern" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/prefs_cat_stats" >
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="include_deep_sleep"
+			android:persistent="true"
+			android:summaryOff="@string/prefs_include_deep_sleep_summary_off"
+			android:summaryOn="@string/prefs_include_deep_sleep_summary_on"
+			android:title="@string/prefs_include_deep_sleep" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="update_curfreq"
+			android:persistent="true"
+			android:summaryOff="@string/prefs_update_curfreq_summary_off"
+			android:summaryOn="@string/prefs_update_curfreq_summary_on"
+			android:title="@string/prefs_update_curfreq" />
+	</PreferenceCategory>
+
+</PreferenceScreen>

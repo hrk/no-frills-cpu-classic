@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">簡潔CPU控制</string>
+	<!-- MainActivity -->
+	<string name="unavailable">不可用</string>
+	<string name="requested">已請求</string>
+	<string name="current">當前</string>
+	<string name="max_freq">最高頻率</string>
+	<string name="min_freq">最低頻率</string>
+	<string name="governor">Governor</string>
+	<string name="ioscheduler">I/O Scheduler</string>
+	<string name="apply_on_boot">開機時應用</string>
+	<string name="show_notification">開機時顯示通知</string>
+	<string name="apply">應用</string>
+	<string name="exit">退出</string>
+	<string name="send">發送</string>
+	<string name="dlg_noroot_title">丟失ROOT權限</string>
+	<string name="dlg_noroot_body">必須ROOT才能使用該軟件.</string>
+	<string name="dlg_nofs_title">的設備暫時無法獲取CPU頻率</string>
+	<string name="dlg_nofs_body">如果你正在使用一個第三方ROM或者你的ROM能夠獲取CPU頻率 請點擊菜單中的“發送CPU數據”以便添加支持你的手機型號.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">發送CPU數據</string>
+	<string name="dlg_send_title">發送CPU數據通過…</string>
+	<string name="menu_view_stats">查看統計信息</string>
+	<string name="menu_details">關於</string>
+	<!-- Stats activity -->
+	<string name="spinner_stats_text">正在統計5秒內的數據…</string>
+	<string name="stats_title">頻率統計</string>
+	<string name="stats_current">當前頻率: %1$s</string>
+	<string name="stats_current_unavailable">不可用</string>
+	<string name="stats_frequency">頻率</string>
+	<string name="stats_perc">總計</string>
+	<string name="stats_perc5">最近5秒</string>
+	<!-- Errors -->
+	<string name="err_need_root">該軟件需要ROOT權限來運行.</string>
+	<string name="err_update_failed">誤: 你是否允許了SuperUser的權限?</string>
+	<string name="err_no_email_client">你沒有設置一個電子郵件客戶端。CPU數據將不會被發送</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">功!\n最低頻率: %1$s\n最高頻率: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">發現%1$s, 設置失敗</string>
+	<string name="notify_safety_shutdown">關機不正常, 設置失敗</string>
+	<string name="notify_title_safety">設置失敗</string>
+	<string name="notify_title_success">設置成功</string>
+	<string name="notify_success">最低頻率: %1$s\n最高頻率: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">關於</string>
+	<string name="tab_changelog">更新日誌</string>
+	<string name="tab_faq">常見問答</string>
+	<string name="tab_license">許可</string>
+	<string name="about_info_version">版本: %1$s</string>
+	<string name="about_info_author">作者: Luca Santarelli\n完美漢化By 西西稀飯\n</string>
+	<string name="about_info_homepage">主頁:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Icon 由 Anil K Solanki設計\n
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">有任何疑問，請通過電子郵件或者訪問主頁聯系作者.</string>
+	<string name="about_info_thanks">感謝每個翻譯者和每位用戶幫忙塑造了這個軟件！</string>
+	<string name="about_faq_governors_Q">問:什麽是governor? 你能講講他們的不同嗎？</string>
+	<string name="about_faq_governors_A">答:CPU 頻率調節可以快速的改變CPU的時鐘頻率. 這樣能夠省電, 因為CPU的頻率越低，所消耗的電也就越少. Governors 使用不同的策略來調節頻率.\n具體工作原理請訪問我的主頁：
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">問: 你是否準備添加配置文件的功能？ 當我的屏幕關閉的時候我喜歡選擇一個不同的配置</string>
+	<string name="about_faq_profiles_A">答: 一個字 \"不\". 我認為配置文件是沒有用的，因為Governor就相當於是一個用來調節你的CPU頻率的一個配置文件.\n添加配置文件就意味著需要更多的內存占用，需要更頻繁的啟動，檢測事件比如開屏幕，關屏幕等等。。所有這些都沒有好處.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">正在更新插件信息…</string>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Niet beschikbaar</string>
+	<string name="requested">Nieuwe waarde</string>
+	<string name="current">Huidige waarde</string>
+	<string name="max_freq">Max. kloksnelh.</string>
+	<string name="min_freq">Min. kloksnelh.</string>
+	
+	
+	<string name="apply_on_boot">Toepassen bij opstarten</string>
+	<string name="show_notification">Laat melding zien bij opstarten</string>
+	<string name="apply">Toepassen</string>
+	<string name="exit">Sluiten</string>
+	<string name="send">Verstuur</string>
+	<string name="dlg_noroot_title">Heeft geen root toegang</string>
+	<string name="dlg_noroot_body">Je moet root toegang hebben om deze app te gebruiken.</string>
+	<string name="dlg_nofs_title">Je telefoon lijkt geen frequency scaling toe te staan</string>
+	<string name="dlg_nofs_body">Als je een custom ROM draait of als je denkt dat jouw telefoon frequency scaling ondersteunt, stuur dan je CPU data op zodat jouw telefoon ook ondersteund kan worden.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Verstuur CPU data</string>
+	<string name="dlg_send_title">Verstuur CPU data met…</string>
+	<string name="menu_prefs">Instellingen</string>
+	<string name="menu_view_stats">Bekijk waardes</string>
+	<string name="menu_details">Over</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Vernieuwen</string>
+	<string name="spinner_stats_text">Waardes van de afgelopen 5 secondes uitlezen…</string>
+	<string name="stats_title">Kloksnelheid gegevens</string>
+	<string name="stats_current">Huidige kloksnelheid: %1$s</string>
+	<string name="stats_current_unavailable">niet beschikbaar</string>
+	<string name="stats_frequency">Kloksnelheid</string>
+	<string name="stats_perc">Totaal</string>
+	<string name="stats_perc5">Laatste 5 sec.</string>
+	<string name="stats_deep_sleep">Diepe slaap</string>
+	<!-- Errors -->
+	<string name="err_need_root">Deze app heeft root toegang nodig om te werken.</string>
+	<string name="err_update_failed">Foutmelding: Heb je SuperUser toestemming geaccepteerd?</string>
+	<string name="err_no_email_client">Je hebt geen email client ingesteld. Je CPU data kan niet verzonden worden.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Succes!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s gevonden, waardes niet toegepast</string>
+	<string name="notify_safety_shutdown">Onverwacht afgesloten, waardes niet toegepast</string>
+	<string name="notify_title_safety">Waardes niet toegepast</string>
+	<string name="notify_title_success">Waardes met succes toegepast</string>
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">Over</string>
+	
+	
+	<string name="tab_license">Licentie</string>
+	<string name="about_info_donate">Doneren</string>
+	<string name="about_info_version">Versie: %1$s</string>
+	<string name="about_info_author">Maker: Luca Santarelli</string>
+	<string name="about_info_homepage">Homepage: http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Logo door Anil K Solanki\nDesign www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Als je vragen hebt, neem dan contact op met de maker via email of de homepage.</string>
+	<string name="about_info_thanks">Veel dank aan iedere vertaler die aan deze app heeft bijgedragen!</string>
+	
+	<string name="about_faq_governors_Q">Q: Wat is een governor? Wat is het verschil tussen de verschillende governors?</string>
+	<string name="about_faq_governors_A">Met CPU frequency scaling kun je op ieder moment de kloksnelheid van de CPU veranderen. Dit kan stroom besparen, want hoe lager de kloksnelheid, hoe lager het stroomverbruik van de CPU. Governors zijn verschillende instellingsprofielen om de kloksnelheid automatisch te verhogen en te verlagen. Er is geen kort antwoord om het verschil tussen de verschillende governors uitleggen, maar dit kun je lezen op de homepage
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: Ben je nog van plan  profielen toe te voegen? Ik zou er graag een willen voor als mijn scherm uit staat!</string>
+	<string name="about_faq_profiles_A">A: Kort gezegd: Nee. Ik vind zulke profielen nutteloos, daar zijn de governors al voor: die hebben in instellingsprofiel die je CPU volgt bij het verhogen en het verlagen van de kloksnelheid.\nProfielen toevoegen zou betekenen dat er meer geheugen nodig is, de app vaker moet draaien, in de gaten houden of er iets gebeurt (scherm aan, scherm uit, enz.), en dat alles zonder echt voordelen.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Widget aan het updaten…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Veiligheidsvoorziening uitschakelen</string>
+	<string name="prefs_disable_safety_valve_summary_on">Er zal niet worden gecontroleerd of het afsluiten goed verlopen is.</string>
+	<string name="prefs_disable_safety_valve_summary_off">De waardes worden niet toegepast indien het afsluiten niet goed verlopen is.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Weet u zeker dat u de veiligheidsvoorziening wilt uitschakelen? Ga ALLEEN verder indien u weet wat dit inhoudt.</string>
+	
+	
+	
+	
+	<string name="prefs_cat_notification">Melding bij opstarten</string>
+	<string name="prefs_show_notification">Melding tonen</string>
+	<string name="prefs_show_notification_summary_on">Meldingen tonen</string>
+	<string name="prefs_show_notification_summary_off">Meldingen NIET tonen</string>
+	<string name="prefs_vibrate">Trillen</string>
+	<string name="prefs_vibrate_pattern">Trilpatroon</string>
+	<string name="prefs_vibrate_pattern_message">Voer een trilpatroon in in miliseconden (bijv.: 0,50,100,50,100) of voer niets in om de standaard trilpatroon te gebruiken.</string>
+	<string name="prefs_ringtone">Meldingsgeluid</string>
+	<string name="prefs_cat_stats">Statistieken</string>
+	<string name="prefs_include_deep_sleep">Diepe slaap in acht nemen</string>
+	<string name="prefs_include_deep_sleep_summary_on">Diepe slaap wordt in acht genomen.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Diepe slaap wordt genegeerd.</string>
+	
+	
+	
+
+</resources>

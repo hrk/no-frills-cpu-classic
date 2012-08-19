@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/wdg_container"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:orientation="vertical" >
+
+	<ImageView
+		android:id="@+id/canvas"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/ic_launcher"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:src="@drawable/ic_launcher" />
+
+	<TextView
+		android:id="@+id/wdg_stats_governor"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal|center"
+		android:background="@android:color/transparent"
+		android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:gravity="center_horizontal"
+		android:text="@string/dash"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:textColor="@android:color/primary_text_dark" />
+
+</FrameLayout>

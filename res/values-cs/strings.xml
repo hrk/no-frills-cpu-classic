@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	
+	<string name="requested">Požadavek</string>
+	<string name="current">Aktuální</string>
+	<string name="max_freq">Max. frekvence</string>
+	<string name="min_freq">Min. frekvence</string>
+	
+	
+	<string name="apply_on_boot">Nastav při bootu</string>
+	<string name="show_notification">Zobraz oznámení při bootu</string>
+	<string name="apply">Použít</string>
+	<string name="exit">Ukončit</string>
+	<string name="send">Poslat</string>
+	<string name="dlg_noroot_title">Nemáte práva superuživatele</string>
+	<string name="dlg_noroot_body">Musíte mít práva roota pro použávání této alikace.</string>
+	<string name="dlg_nofs_title">Vaše zařízení nejspíše nepodporuje nastavování frekvence
+	</string>
+	<string name="dlg_nofs_body">Jestliže máte custom ROM nebo si myslíte, že váš
+		telefon podporuje změnu frekvence, pošlete prosím CPU data pro přidání
+		podpory vašeho telefonu..</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Poslat CPU data</string>
+	<string name="dlg_send_title">Poslat CPU data pomocí…</string>
+	
+	<string name="menu_view_stats">Ukaž statistiku</string>
+	
+	<!-- Stats activity -->
+	
+	<string name="spinner_stats_text">Načítání statistiky za posledních 5 vteřin…</string>
+	<string name="stats_title">Statistika frekvence</string>
+	<string name="stats_current">Aktuální frekvence: %s</string>
+	<string name="stats_current_unavailable">nedostupné</string>
+	<string name="stats_frequency">Frekvence</string>
+	<string name="stats_perc">Celkem</string>
+	<string name="stats_perc5">Posl. 5 sek.</string>
+	
+	<!-- Errors -->
+	<string name="err_need_root">Tato aplikace vyžaduje ke svému běhu práva roota.</string>
+	<string name="err_update_failed">Chyba: povolili jste SuperUser práva?
+	</string>
+	
+	<!-- Success -->
+	<string name="ok_updated_freqs">Úspěch!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s
+	</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%s nalezeno, hodnoty nenastaveny</string>
+	<string name="notify_safety_shutdown">Nestandartní vypnutí, hodnoty nenastaveny</string>
+	<string name="notify_title_safety">Hodnoty nenastaveny</string>
+	<string name="notify_title_success">Hodnoty úspěšně nastaveny</string>
+	
+	<!-- About dialog/activity -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

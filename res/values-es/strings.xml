@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	<string name="app_name_classic">Control de CPU No-Frills CLASICO</string>
+	<!-- MainActivity -->
+	<string name="unavailable">No disponible</string>
+	<string name="requested">Requerido</string>
+	<string name="current">Actual</string>
+	<string name="max_freq">Freq. Max de Reloj</string>
+	<string name="min_freq">Freq. Min de Reloj</string>
+	<string name="governor">Gobernador</string>
+	<string name="ioscheduler">Planificador de E/S</string>
+	<string name="apply_on_boot">Aplicar al arranque</string>
+	<string name="show_notification">Mostrar notificacion en arranque</string>
+	<string name="apply">Aplicar</string>
+	<string name="exit">Salir</string>
+	<string name="send">Enviar</string>
+	<string name="dlg_noroot_title">Faltan permisos de root</string>
+	<string name="dlg_noroot_body">ebes ser root para usar esta aplicación.
+</string>
+	<string name="dlg_nofs_title">u dispositivo parece no soportar escalado de frecuencia
+</string>
+	<string name="dlg_nofs_body">Si estas usando un ROM customizado o crees que tu teléfono soporta escalado de frecuencia, envía la información de tu CPU para agregar soporte a tu teléfono.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Enviar datos del CPU</string>
+	<string name="dlg_send_title">Enviar datos del CPU con…</string>
+	<string name="menu_prefs">Controles</string>
+	<string name="menu_view_stats">Ver estadísticas</string>
+	<string name="menu_details">Acerca de</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Actualizar</string>
+	<string name="spinner_stats_text">Leyendo estadísticas de los últimos 5 segundos…</string>
+	<string name="stats_title">Estadísticas de frecuencia</string>
+	<string name="stats_current">Frecuencia Actual: %1$s</string>
+	<string name="stats_current_unavailable">no disponible</string>
+	<string name="stats_frequency">Frecuencia</string>
+	
+	<string name="stats_perc5">Últimos 5 seg.</string>
+	<string name="stats_deep_sleep">Sueño profundo</string>
+	<!-- Errors -->
+	<string name="err_need_root">Esta app requiere privilegios de root para funcionar.</string>
+	<string name="err_update_failed">rror: ¿permitiste permisos de super usuario?
+</string>
+	<string name="err_no_email_client">No tienes cliente de correo. La información del CPU no se enviará.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Éxito!\nMin: %1$s\nMax: %2$s\nGobernador: %3$s\nPlanificador de E/S: %4$s
+</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s encontrados, los valores no fueron aplicados</string>
+	<string name="notify_safety_shutdown">Apagado incompleto, los valores no fueron aplicados</string>
+	<string name="notify_title_safety">Los valores no fueron aplicados</string>
+	<string name="notify_title_success">Se aplicaron los valores correctamente</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGobernador: %3$s\nPlanificador de E/S: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Acerca de</string>
+	
+	
+	<string name="tab_license">Licencia</string>
+	<string name="about_info_donate">Donar</string>
+	
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Página web:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ícono por Anil K Solanki\nDiseño
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Si tienes alguna pregunta, por favor contacta al autor por correo o en su página web.</string>
+	<string name="about_info_thanks">¡Gracias a todos los traductores y usuarios que ayudaron en crear esta aplicación!</string>
+	<string name="about_faq_governors_Q">Q: ¿Qué es un gobernador? ¿Puedes explicar las diferencias entre los tipos que existen?</string>
+	<string name="about_faq_governors_A">El escalado de frecuencia del CPU permite cambiar la velocidad del reloj al instante. Esto puede ahorrar energía, porque mientras menor sea la velocidad del reloj del CPU, menor energía consume. Los Gobernadores son diferentes políticas para escalar la frecuencia.\nExplicar las diferencias es un tanto difícil, en la página web hay mas información:
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: ¿Planeas agregar perfiles? ¡Me encantaría seleccionar un perfil para cuando la pantalla está apagada!</string>
+	<string name="about_faq_profiles_A">A: La respuesta corta es \"No\". Pienso que los perfiles son poco útiles, porque para eso existen los gobernadores: un perfil que usa tu CPU para cambiar frecuencias.\nAgregar perfiles significaría utilizar mas memoria, necesidad de correr mas seguido, revisar si algo esta sucediendo (pantalla apagada, pantalla prendida, etc) para algo que al final no representa un beneficio real.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Actualizando widget</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Desactivar válvula de seguridad</string>
+	<string name="prefs_disable_safety_valve_summary_on">No se ejecutará prueba de apagado "sucio"</string>
+	<string name="prefs_disable_safety_valve_summary_off">Los valores elegidos no se aplicarán en caso de un apagado "sucio"</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Está seguro de querer desactivar la válvula de seguridad? Proceda sólo si sabe lo que está haciendo.</string>
+	<string name="prefs_cat_notification">Notificación durante arranque</string>
+	<string name="prefs_show_notification">Muestre notificación</string>
+	<string name="prefs_show_notification_summary_on">Se mostrarán notificaciones.</string>
+	<string name="prefs_show_notification_summary_off">NO se mostrarán notificaciones.</string>
+	<string name="prefs_vibrate">Vibrar</string>
+	<string name="prefs_vibrate_pattern">Patrón de vibración</string>
+	<string name="prefs_vibrate_pattern_message">Escriba un patrón de vibración expresado en milisegundos (por ejemplo, 0,50,100,50,100), ó deje este espacio en blanco para usar el patrón de vibración por defecto.</string>
+	<string name="prefs_ringtone">Sonido de notificación</string>
+	<string name="prefs_cat_stats">Estadísticas</string>
+	<string name="prefs_include_deep_sleep">Incluye sueño profundo</string>
+	<string name="prefs_include_deep_sleep_summary_on">Se incluirá sueño profundo.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Se ignorará sueño profundo.</string>
+
+</resources>

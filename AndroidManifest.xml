@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="it.sineo.android.noFrillsCPUClassic"
+	android:installLocation="internalOnly"
+	android:versionCode="51"
+	android:versionName="1.25" >
+
+	<uses-sdk
+		android:minSdkVersion="4"
+		android:targetSdkVersion="16" />
+
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+	<application
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name_classic" >
+		<activity
+			android:name=".activity.MainActivity"
+			android:label="@string/app_name_classic" >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".activity.StatsActivity"
+			android:exported="false" />
+		<activity
+			android:name=".activity.AboutActivity"
+			android:exported="false" />
+		<activity
+			android:name=".activity.PreferencesActivity"
+			android:exported="false" />
+
+		<service android:name=".service.BootService" />
+		<service android:name=".service.ShutdownService" />
+
+		<receiver
+			android:name=".BootReceiver"
+			android:exported="false" >
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<action android:name="android.intent.action.ACTION_SHUTDOWN" />
+
+				<category android:name="android.intent.category.HOME" />
+			</intent-filter>
+		</receiver>
+
+		<!-- Widget Broadcast Receiver -->
+		<receiver
+			android:name=".widget.StatsWidget"
+			android:label="@string/app_name_classic" >
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="it.sineo.android.noFrillsCPU.APPWIDGET_UPDATE" />
+			</intent-filter>
+
+			<meta-data
+				android:name="android.appwidget.provider"
+				android:resource="@xml/wdg_stats_provider" />
+		</receiver>
+	</application>
+
+</manifest>

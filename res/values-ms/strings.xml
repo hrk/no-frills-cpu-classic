@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">Kawalan CPU Mudah</string>
+	<string name="app_name_classic">Kawalan CPU Mudah KLASIK</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Tiada untuk pilihan</string>
+	<string name="requested">Permintaan Diterima</string>
+	<string name="current">Semasa</string>
+	<string name="max_freq">Frekuensi Maksimum</string>
+	<string name="min_freq">Frekuensi Minimum</string>
+	<string name="governor">Aturan</string>
+	<string name="ioscheduler">Jadual I/O</string>
+	<string name="apply_on_boot">Set ketika boot</string>
+	<string name="show_notification">Papar notifikasi ketika boot</string>
+	<string name="apply">Set Aturan</string>
+	<string name="exit">Keluar</string>
+	<string name="send">Hantar</string>
+	<string name="dlg_noroot_title">Tiada kebenaran root</string>
+	<string name="dlg_noroot_body">Anda mestilah mempunyai akses root utk menggunakan aplikasi ini</string>
+	<string name="dlg_nofs_title">Tiada skala frekuensi dikesan</string>
+	<string name="dlg_nofs_body">Jika anda menggunakan ROM custom dan jika anda yakin gadget anda 
+boleh mengubah skala frekuensi, sila hantar data CPU supaya
+aturan boleh ditambah untuk gadget anda.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Hantar data CPU</string>
+	<string name="dlg_send_title">Hantar data CPU dengan…</string>
+	<string name="menu_prefs">Aturan</string>
+	<string name="menu_view_stats">Lihat statistik</string>
+	<string name="menu_details">Tentang Aplikasi ini</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Muat Semula</string>
+	<string name="spinner_stats_text">Membaca stats untuk 5 saat terakhir…</string>
+	<string name="stats_title">Stats frekuensi</string>
+	<string name="stats_current">Frekuensi semasa: %1$s</string>
+	<string name="stats_current_unavailable">Tiada untuk pilihan</string>
+	<string name="stats_frequency">Frekuensi</string>
+	<string name="stats_perc">Jumlah</string>
+	<string name="stats_perc5">5 saat terakhir</string>
+	<string name="stats_deep_sleep">Tidur mati</string>
+	<!-- Errors -->
+	<string name="err_need_root">Aplikasi ini memerlukan akses root utk berfungsi</string>
+	<string name="err_update_failed">Masalah: Adakah anda membenarkan SuperUser permission?</string>
+	<string name="err_no_email_client">Anda tidak mempunyai klien email. Data CPU
+tidak akan dihantar</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Berjaya!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Aturan: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s dijumpai, aturan tidak disimpan</string>
+	<string name="notify_safety_shutdown">Masalah ketika shutdown gadget, aturan tidak dipakai</string>
+	<string name="notify_title_safety">Aturan tidak dipakai</string>
+	<string name="notify_title_success">Aturan berjaya diterima</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Aturan: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Tentang Aplikasi ini</string>
+	<string name="tab_changelog">Log Aplikasi</string>
+	<string name="tab_faq">Soalan Lazim</string>
+	<string name="tab_license">Lesen</string>
+	<string name="about_info_donate">Derma</string>
+	<string name="about_info_version">Versi: %1$s</string>
+	<string name="about_info_author">Pengarang: Luca Santarelli</string>
+	<string name="about_info_homepage">Homepage:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Icon by Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Jika ada pertanyaan, sila hubungi pengarang
+melalui email atau dari homepage</string>
+	<string name="about_info_thanks">Terima kasih kepada penterjemah dan pengguna
+yang membantu mematangkan aplikasi ini!</string>
+	
+	<string name="about_faq_governors_Q">!: Apakah itu governor? Bolehkah anda terangkan
+apakah perbezaan antara pilihan yang ada?</string>
+	<string name="about_faq_governors_A">Aturan frekuensi CPU membenarkan anda untuk mengubah
+kelajuan clock CPU. Ini boleh membantu menjimatkan kuasa,
+kerana lebih rendah kelajuan clock CPU, lebih rendah CPU menggunakan kuasa.
+Governor adalah polisi untuk tentuan skala frekuensi. \nMenerangkan perbezaan
+adalah jawapan yg panjang, sila teruskan membaca di homepage 
+(http://forum.xda-developers.com/showthread.php?t=911917)</string>
+	<string name="about_faq_profiles_Q">Q: Adakah ada plan untuk menambah profile? Saya
+suka menukar profile bila skrin saya off!</string>
+	<string name="about_faq_profiles_A">A: Jawapan pendek ialah \"Tidak\". Pendapat saya, profile
+tiada kegunaan, kerana governor sudah mencukupi: profile aturan
+untuk CPU ikuti semasa menukar frekuensi. \nMenambah profile bermakna
+menggunakan lebih memori, lebih masa untuk ia berjalan, mengkaji jika sesuatu
+berlaku (skrin on, skrin off dsb)… semuanya ini tidak memberi kelebihan tambahan</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Mengemaskini widget…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Menutup valve keselamatan</string>
+	<string name="prefs_disable_safety_valve_summary_on">Tiada rujukan jika gadget tidak shutdown dengan bersih</string>
+	<string name="prefs_disable_safety_valve_summary_off">Aturan tidak dipakai jika shutdown tidak bersih</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Adakah anda pasti anda mahu menutup valve keselamatan? Teruskan HANYA jika anda tahu apa yg anda lakukan</string>
+	
+	
+	
+	
+	<string name="prefs_cat_notification">Notifikasi ketika boot</string>
+	<string name="prefs_show_notification">Papar notifikasi</string>
+	<string name="prefs_show_notification_summary_on">Notifikasi akan dipaparkan</string>
+	<string name="prefs_show_notification_summary_off">Notifikasi TIDAK akan dipaparkan</string>
+	<string name="prefs_vibrate">Bergetar</string>
+	<string name="prefs_vibrate_pattern">Aturan getaran</string>
+	<string name="prefs_vibrate_pattern_message">Masukkan nilai aturan getaran dalam milisaat (e.g.: 0,50,100,50,100) atau tinggalkan ruang ini kosong utk menggunakan nilai default</string>
+	<string name="prefs_ringtone">Bunyi notifikasi</string>
+	<string name="prefs_cat_stats">Statistik</string>
+	<string name="prefs_include_deep_sleep">Termasuk tidur mati</string>
+	<string name="prefs_include_deep_sleep_summary_on">Tidur mati akan dimasukkan</string>
+	<string name="prefs_include_deep_sleep_summary_off">Tidur mati akan diabaikan</string>
+	
+	
+	
+
+</resources>

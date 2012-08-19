@@ -1,0 +1,29 @@
+<resources>
+	<style name="BaseText" parent="@android:style/TextAppearance">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	<style name="BaseSpinner">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="BaseText.Small" parent="BaseText">
+		<item name="android:textSize">12dip</item>
+	</style>
+	<style name="BaseText.About" parent="BaseText">
+		<item name="android:textSize">14dip</item>
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+		<item name="android:textColorLink">@android:color/secondary_text_dark</item>
+	</style>
+	<style name="BaseText.FAQ_Q" parent="BaseText.About">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	<style name="BaseText.FAQ_A" parent="BaseText.About">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:paddingTop">12dip</item>
+	</style>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU kontrol</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Utilgjengelig</string>
+	<string name="requested">Ønsket</string>
+	<string name="current">Nåværende</string>
+	<string name="max_freq">Max frekvens</string>
+	<string name="min_freq">Min frekvens</string>
+	
+	
+	<string name="apply_on_boot">Aktiver ved oppstart</string>
+	<string name="show_notification">Vis varsel ved oppstart</string>
+	<string name="apply">Aktiver</string>
+	<string name="exit">Avslutt</string>
+	
+	<string name="dlg_noroot_title">Mangler root tilgang</string>
+	<string name="dlg_noroot_body">Du må ha en root\'et telefon for og bruke denne appen</string>
+	<string name="dlg_nofs_title">Enheten din ser ut til og mangle frekvens styring</string>
+	<string name="dlg_nofs_body">Dersom du bruker en coustom ROM eller du tror at
+enheten din støtter frekvens styring, send CPU data slik at vi
+ kan legge til støtte for enheten din</string>
+	<!-- MainActivity - Menu -->
+	
+	<string name="dlg_send_title">Send CPU data med…</string>
+	<string name="menu_prefs">Instillinger</string>
+	<string name="menu_view_stats">Se statistikk</string>
+	<string name="menu_details">Om</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Oppdater</string>
+	<string name="spinner_stats_text">Leser status for siste 5 sekund</string>
+	<string name="stats_title">Frekvenns status</string>
+	<string name="stats_current">Nåværende frekvens: %1$s</string>
+	<string name="stats_current_unavailable">Utilgjengelig</string>
+	<string name="stats_frequency">Frekvens</string>
+	
+	<string name="stats_perc5">Siste 5 sekund</string>
+	
+	<!-- Errors -->
+	<string name="err_need_root">Appen trengte root tilgang for og virke</string>
+	<string name="err_update_failed">Feil: tillatte du superbruker tilgang?</string>
+	<string name="err_no_email_client">Du har ikke en e-post klient. Cpu data vil ikke
+bli sendt</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Suksess!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s funet, verdier ikke satt</string>
+	<string name="notify_safety_shutdown">Uren avslutning, verdier ikke satt</string>
+	<string name="notify_title_safety">Verdier ikke satt</string>
+	<string name="notify_title_success">Verdier satt korrekt</string>
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">Om</string>
+	<string name="tab_changelog">Endringslogg</string>
+	
+	<string name="tab_license">Lisens</string>
+	<string name="about_info_donate">Donèr</string>
+	<string name="about_info_version">Versjon: %1$s</string>
+	<string name="about_info_author">Forfatter: Luca Santarelli</string>
+	<string name="about_info_homepage">Hjemmeside:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikon av Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Dersom du har spørsmål, venligst kontakt
+forfatteren via e-post eller hjemmesiden</string>
+	<string name="about_info_thanks">Takk til alle oversetterne og en hver bruker som
+har hjulpet med og forme denne app\'en!</string>
+	<string name="about_faq_governors_Q">Q: Hva er en govenor? Kan du forklare 
+forskjellene mellom dem?</string>
+	<string name="about_faq_governors_A">CPU frekvens styring tillater deg og forandre
+klokkehastigheten til CPU\'en. Dette kan spare strøm, fordi dess lavere
+klokkehatigheten er, dess mindre strøm bruken CPU\'en. Govenors er
+forkjellige settinger for og endre frekvenene.\nForklare forskjellene er
+et langt svar, venligst les alt på hjemmesiden
+(http://forum.xda-developers.com/showthread.php?t=911917)</string>
+	<string name="about_faq_profiles_Q">Q: Planlegger du og lage profiler? Jeg liker og 
+velge en annen profil for når skjermen er av!</string>
+	<string name="about_faq_profiles_A">A: Det korte svaret er\"Nei"\. Jeg mener at profiler
+er overflødige, fordi det er dette govenor\'ene allerede er, en profil for
+CPU din og følge mens den endrer frekvenser.\ntilrettelegging for profiler ville
+krevd mer minne, behov for og kjøre oftere,
+sjekke at noe skjer (skjerm av, skjerm på osv.)
+Alt dette uten og virkelig tjene noe på det.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Oppdaterer widget</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Slå av sikkerthets ventilen</string>
+	<string name="prefs_disable_safety_valve_summary_on">Ingen sjekk av uren avslutning vil bli kjørt.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Verdier vil ikke bli satt dersom uren avsluttning oppstår.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Er du sikker på at du vil deaktivere sikkerhetsventilen? Fortsett bare dersom du vet hva du gjør.</string>
+	<string name="prefs_cat_notification">Varsel ved oppstart</string>
+	<string name="prefs_show_notification">Vis Varsler</string>
+	<string name="prefs_show_notification_summary_on">Varsler vil bli vist</string>
+	<string name="prefs_show_notification_summary_off">Varsler vil IKKE bli vist</string>
+	<string name="prefs_vibrate">Vibrer</string>
+	<string name="prefs_vibrate_pattern">Vibrasjons mønster</string>
+	<string name="prefs_vibrate_pattern_message">Skriv inn et vibrasjonsmønster i millisekund (f.eks: 0,50,100,50,100) eller sett denn blank for og bruke standard vibrasjons mønster.</string>
+	<string name="prefs_ringtone">Varsel lyd</string>
+	<string name="prefs_cat_stats">Statistikk</string>
+	<string name="prefs_include_deep_sleep">Inkluder deep sleep</string>
+	<string name="prefs_include_deep_sleep_summary_on">Deep sleep vil bli inkludert</string>
+	<string name="prefs_include_deep_sleep_summary_off">Deep sleep vil bli ignorert</string>
+
+</resources>

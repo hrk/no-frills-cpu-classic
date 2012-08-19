@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU Control</string>
+	<string name="app_name_classic">No-frills CPU Control CLASSIC</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Unavailable</string>
+	<string name="requested">Requested</string>
+	<string name="current">Current</string>
+	<string name="max_freq">Max. clock freq.</string>
+	<string name="min_freq">Min. clock freq.</string>
+	<string name="governor">Governor</string>
+	<string name="ioscheduler">I/O scheduler</string>
+	<string name="apply_on_boot">Apply on boot</string>
+	<string name="show_notification">Show notification on boot</string>
+	<string name="apply">Apply</string>
+	<string name="exit">Exit</string>
+	<string name="send">Send</string>
+	<string name="dlg_noroot_title">Missing root permissions</string>
+	<string name="dlg_noroot_body">You must be rooted in order to use this app.</string>
+	<string name="dlg_nofs_title">Your device seems to lack frequency scaling</string>
+	<string name="dlg_nofs_body">If you are running a custom ROM or if you think
+		your phone supports frequency scaling, send your CPU data in order to
+		add support for your phone.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Send CPU data</string>
+	<string name="dlg_send_title">Send CPU data with…</string>
+	<string name="menu_prefs">Settings</string>
+	<string name="menu_view_stats">View stats</string>
+	<string name="menu_details">About</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Refresh</string>
+	<string name="spinner_stats_text">Reading stats for the past 5 seconds…</string>
+	<string name="stats_title">Frequency stats</string>
+	<string name="stats_current">Current frequency: %1$s</string>
+	<string name="stats_current_unavailable">unavailable</string>
+	<string name="stats_frequency">Frequency</string>
+	<string name="stats_perc">Total</string>
+	<string name="stats_perc5">Last 5 sec.</string>
+	<string name="stats_deep_sleep">Deep sleep</string>
+	<!-- Errors -->
+	<string name="err_need_root">This app required root privileges to work.</string>
+	<string name="err_update_failed">Error: did you allow SuperUser permissions?</string>
+	<string name="err_no_email_client">You don\'t have an email client. CPU data will not
+		be sent.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Success!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s found, values not applied</string>
+	<string name="notify_safety_shutdown">Unclean shutdown, values not applied</string>
+	<string name="notify_title_safety">Values not applied</string>
+	<string name="notify_title_success">Values applied successfully</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">About</string>
+	<string name="tab_changelog">Changelog</string>
+	<string name="tab_faq">FAQ</string>
+	<string name="tab_license">License</string>
+	<string name="about_info_donate">Donate</string>
+	<string name="about_info_version">Version: %1$s</string>
+	<string name="about_info_author">Author: Luca Santarelli</string>
+	<string name="about_info_homepage">Homepage:
+		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Icon by Anil K Solanki\nDesign
+		www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">If you have any questions, please contact the
+		author by email or using the homepage.</string>
+	<string name="about_info_thanks">Thanks to every translator and every user who
+		helped shape up this app!</string>
+	<string name="about_info_translation">If you found a wrong or missing translation, you can submit a correction yourself at http://www.getlocalization.com/noFrillsCPUClassic/</string>
+	<string name="about_faq_governors_Q">Q: What is a governor? Can you explain the
+		differencies among them?</string>
+	<string name="about_faq_governors_A">CPU frequency scaling allows you to change the
+		clock speed of CPUs on the fly. This can save power, because the lower
+		the CPU clock speed, the less power the CPU consumes. Governors are
+		different policies to scale frequency.\nExplaining the differencies is
+		a long answer, please read it at the homepage
+		(http://forum.xda-developers.com/showthread.php?t=911917)
+		.</string>
+	<string name="about_faq_profiles_Q">Q: Do you plan on adding profiles? I\'d love to
+		select a different profile for when my screen is off!</string>
+	<string name="about_faq_profiles_A">A: Short answer is \"No\". I think that profiles
+		are useless, because that\'s what governors are already: a profile for
+		your CPU to follow while changing frequencies.\nAdding profiles would
+		mean adding the need for more memory, the need to run more often,
+		check if something is happening (screen on, screen off and so on)…
+		all of this without a real benefit.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Updating widget…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Disable safety valve</string>
+	<string name="prefs_disable_safety_valve_summary_on">No check for unclean shutdown will be performed.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Values won\'t be applied in case of an unclean shutdown.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Are you sure you want to disable the safety valve? Proceed ONLY if you know what you are doing.</string>
+	<string name="prefs_change_permissions">Prevent changes from other apps</string>
+	<string name="prefs_change_permissions_summary_on">Other apps (or the system) will be prevented from changing frequencies.</string>
+	<string name="prefs_change_permissions_summary_off">Other apps (or the system) will be able to change frequencies.</string>
+	<string name="prefs_change_permissions_dialog_message">This feature is needed only on Android 4.1 (Jelly Bean), recent HTC One or similar devices. Are you sure you want to proceed?</string>
+	<string name="prefs_cat_notification">Notification on boot</string>
+	<string name="prefs_show_notification">Show notification</string>
+	<string name="prefs_show_notification_summary_on">Notifications will be displayed.</string>
+	<string name="prefs_show_notification_summary_off">Notifications will NOT be displayed.</string>
+	<string name="prefs_vibrate">Vibrate</string>
+	<string name="prefs_vibrate_pattern">Vibration pattern</string>
+	<string name="prefs_vibrate_pattern_message">Type a vibration pattern expressed in milliseconds (e.g.: 0,50,100,50,100) or leave this field blank to use the default vibration pattern.</string>
+	<string name="prefs_ringtone">Notification sound</string>
+	<string name="prefs_cat_stats">Stats</string>
+	<string name="prefs_include_deep_sleep">Include deep sleep</string>
+	<string name="prefs_include_deep_sleep_summary_on">Deep sleep will be included.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Deep sleep will be ignored.</string>
+	<string name="prefs_update_curfreq">Refresh current frequency</string>
+	<string name="prefs_update_curfreq_summary_on">Current frequency will be updated periodically.</string>
+	<string name="prefs_update_curfreq_summary_off">Current frequency will be updated when refreshing stats.</string>
+
+</resources>

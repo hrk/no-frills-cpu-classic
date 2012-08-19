@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	<string name="app_name_classic">No-frills CPU Control KLASİK</string>
+	<!-- MainActivity -->
+	<string name="unavailable">Geçerli değil</string>
+	<string name="requested">Talep Edilen</string>
+	<string name="current">Şimdiki</string>
+	<string name="max_freq">En yüksek frekans</string>
+	<string name="min_freq">En düşük frekans</string>
+	<string name="governor">Düzenleyici</string>
+	<string name="ioscheduler">I/O zamanlaması</string>
+	<string name="apply_on_boot">Açılışta uygula</string>
+	<string name="show_notification">Açılışta bildirim göster</string>
+	<string name="apply">Uygula</string>
+	<string name="exit">Çıkış</string>
+	<string name="send">Gönder</string>
+	<string name="dlg_noroot_title">Eksik root izinleri</string>
+	<string name="dlg_noroot_body">Uygulamanın kullanılması için cihazınızın root yapılmış olması gerekmektedir</string>
+	<string name="dlg_nofs_title">Cihazınızda frekans ölçekleme eksikliği varmış gibi görünüyor</string>
+	<string name="dlg_nofs_body">Telefonunuzda cihazınızla gelmeyen özel bir ROM varsa ya da telefonunuzun frekans ölçeklemeyi desteklediğini düşünüyorsanız, telefonunuz için destek sağlanması adına CPU bilgilerinizi gönderin</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">CPU bilgilerini gönder</string>
+	<string name="dlg_send_title">CPU bilgilerini bununla birlikte gönder…</string>
+	<string name="menu_prefs">Ayarlar</string>
+	<string name="menu_view_stats">İstatistikleri göster</string>
+	<string name="menu_details">Hakkında</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Yenile</string>
+	<string name="spinner_stats_text">Son 5 saniyenin istatistikleri okunuyor…</string>
+	<string name="stats_title">Frekans istatistikleri</string>
+	<string name="stats_current">Şu anki frekans: %1$s</string>
+	<string name="stats_current_unavailable">geçerli değil</string>
+	<string name="stats_frequency">Frekans</string>
+	<string name="stats_perc">Toplam</string>
+	<string name="stats_perc5">Son 5 saniye</string>
+	<string name="stats_deep_sleep">Derin uyku modu</string>
+	<!-- Errors -->
+	<string name="err_need_root">Uygulamanın çalışması için root izinleri gerekmektedir.</string>
+	<string name="err_update_failed">Hata: SuperUser izinlerini kabul ettiniz mi?</string>
+	<string name="err_no_email_client">e-Posta gönderme uygulamanız bulunmuyor. CPU bilgileri gönderilmeyecek.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Başarılı!\nEn az: %1$s\nEn yüksek: %2$s\nDüzenleyici: %3$s\nI/O zamanlaması: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s bulundu, değerler uygulanmadı</string>
+	<string name="notify_safety_shutdown">Uygun olmayan kapatma, değerler uygulanmadı</string>
+	<string name="notify_title_safety">Değerler uygulanmadı</string>
+	<string name="notify_title_success">Değerler başarılı bir şekilde uygulandı</string>
+	<string name="notify_success">En az: %1$s\nEn yüksek: %2$s\nDüzenleyici: %3$s\nI/O Zamanlaması: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Hakkında</string>
+	<string name="tab_changelog">Değişiklikler</string>
+	<string name="tab_faq">SSS</string>
+	<string name="tab_license">Lisans</string>
+	<string name="about_info_donate">Bağış yap</string>
+	<string name="about_info_version">Versiyon: %1$s</string>
+	<string name="about_info_author">Geliştirici: Luca Santarelli</string>
+	<string name="about_info_homepage">Ana Sayfa:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">İkon tasarımcısı Anil K Solanki\nTasarım
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Soru ve yorumlarınız için, lütfen e-posta ya da ana sayfayı
+kullanarak yazar ile iletişime geçin.</string>
+	<string name="about_info_thanks">Programın şekillenmesinde yardımı olan
+her çevirmene ve her kullanıcıya teşekkürler!</string>
+	<string name="about_faq_governors_Q">S: Düzenleyici (Governor) nedir? aralarındaki
+farkları açıklayabilir misiniz?</string>
+	<string name="about_faq_governors_A">C: CPU frekans ölçekleme size işlemcinin saat hızını anında
+değiştirme imkanı sağlar. Bu daha az güç harcanmasını sağlayabilir çünkü düşük 
+işlemci saat hızı, daha az güç tüketir. Düzenleyici (Governor) farklı frekans ölçekleme
+kurallarına sahiptir.\nDüzenleyici\'deki farkları anlamak için lütfen Ana Sayfamızı
+ziyaret edin.
+
+Kaynak ingilizcedir: http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_faq_profiles_Q">S: Profiller eklemeyi planlıyor musunuz? Ekranım kapalı
+olduğunda farklı bir profile geçmesini seçmek güzel olurdu.</string>
+	<string name="about_faq_profiles_A">C: Kısaca cevaplamak gerekirse \"HAYIR\". Bence profiller
+işe yaramıyor çünkü zaten Yönetim Modu var: frekanslar değişirken işlemciyi
+takip eden bir profil. \nProfil eklemek daha fazla ihtiyaç duyulduğu için daha fazla bellek
+eklenmesi anlamına geliyor. Ekranın açık ya da kapalı olduğunu kontrol
+etmek için daha fazla çalışması, gerçek yararını azaltması demek.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Widget güncelleniyor…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Güvenlik korumasını devre dışı bırakma</string>
+	<string name="prefs_disable_safety_valve_summary_on">Uygun olmayan kapatma için kontrol gerçekleştirilmeyecektir.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Uygun olmayan kapatma durumunda değerler uygulanamayacaktır.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Güvenlik korumasını devre dışı bırakmak istediğinizden emin misiniz? SADECE gelişmiş kullanıcıysanız işleme devam edin.</string>
+	<string name="prefs_cat_notification">Açılışta bildirim</string>
+	<string name="prefs_show_notification">Bildirim göster</string>
+	<string name="prefs_show_notification_summary_on">Bildirimler gösterilecektir.</string>
+	<string name="prefs_show_notification_summary_off">Bildirimler gösterilmeyecektir.</string>
+	<string name="prefs_vibrate">Titreşim</string>
+	<string name="prefs_vibrate_pattern">Titreşim modeli</string>
+	<string name="prefs_vibrate_pattern_message">Milisaniye cinsinden bir titreşim modeli girin (ör: 0,50,100,50,100) ya da varsayılan titreşim modeli için alanı boş bırakın.</string>
+	<string name="prefs_ringtone">Bildirim sesi</string>
+	<string name="prefs_cat_stats">İstatistikler</string>
+	<string name="prefs_include_deep_sleep">Derin uyku modu dahil</string>
+	<string name="prefs_include_deep_sleep_summary_on">Derin uyku modu dahil edilecektir.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Derin uyku modu gözardı edilecektir.</string>
+
+</resources>

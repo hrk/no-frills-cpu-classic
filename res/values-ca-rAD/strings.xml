@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">No disponible</string>
+	<string name="requested">Sol·licitat</string>
+	<string name="current">Actual</string>
+	<string name="max_freq">Freq. rellotge màx.</string>
+	<string name="min_freq">Freq. rellotge mín.</string>
+	<string name="governor">Gestor</string>
+	<string name="ioscheduler">Planificador I/O</string>
+	<string name="apply_on_boot">Aplica en arrencar</string>
+	<string name="show_notification">Mostra un avís en arrencar</string>
+	<string name="apply">Aplica</string>
+	<string name="exit">Surt</string>
+	<string name="send">Envia</string>
+	<string name="dlg_noroot_title">No hi ha permisos d\'usuari primari</string>
+	<string name="dlg_noroot_body">Heu de ser usuari primari (root) per utilitzar aquesta aplicació.</string>
+	<string name="dlg_nofs_title">El vostre dispositiu sembla que no té escalat de freqüència</string>
+	<string name="dlg_nofs_body">Si utilitzeu una ROM personalizada o penseu que el vostre telèfon és
+compatible amb l\'escalat de freqüència envieu les dades de la vostra
+CPU per afegir-ne la compatibilitat</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Envia les dades de la CPU</string>
+	<string name="dlg_send_title">Envia les dades de la CPU amb…</string>
+	<string name="menu_prefs">Configuració</string>
+	<string name="menu_view_stats">Estadístiques</string>
+	<string name="menu_details">Quant a</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Refresca</string>
+	<string name="spinner_stats_text">S\'està llegint les estadístiques dels darrers 5 segons…</string>
+	<string name="stats_title">Freqüència de les estadístiques</string>
+	<string name="stats_current">Freqüència actual: %1$s</string>
+	<string name="stats_current_unavailable">no disponible</string>
+	<string name="stats_frequency">Freqüència</string>
+	
+	<string name="stats_perc5">Darrers 5 s</string>
+	<string name="stats_deep_sleep">Repòs profund</string>
+	<!-- Errors -->
+	<string name="err_need_root">Aquesta aplicació necessita privilegis d\'usuari primari per funcionar.</string>
+	<string name="err_update_failed">Error: heu autoritzat els permisos de superusuari?</string>
+	<string name="err_no_email_client">No teniu client de correu. No s\'enviaran les
+dades de la CPU.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Èxit!nMín: %1$s\nMàx: %2$s\nGestor: %3$s\nPlanificador I/O: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">S\'ha trobat %1$s, no s\'ha aplicat els valors</string>
+	<string name="notify_safety_shutdown">L\'aturada no ha estat neta, no s\'ha aplicat els valors</string>
+	<string name="notify_title_safety">No s\'ha aplicat els valors</string>
+	<string name="notify_title_success">S\'ha aplicat els valors amb èxit</string>
+	<string name="notify_success">Mín: %1$s\nMàx: %2$s\nGestor: %3$s\nPlanificador I/O: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Quant a</string>
+	<string name="tab_changelog">Registre de canvis</string>
+	<string name="tab_faq">PMF</string>
+	<string name="tab_license">Llicència</string>
+	<string name="about_info_donate">Donacions</string>
+	<string name="about_info_version">Versió: %1$s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Lloc web:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Icones d\'Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Si teniu alguna pregunta contacteu l\'autor
+per correu electrònic o a la pàgina web.</string>
+	<string name="about_info_thanks">Gràcies a tots els traductors i tothom que
+ha ajudat a millorar aquesta aplicació.</string>
+	<string name="about_faq_governors_Q">Q: Què és un gestor? Podeu explicar
+les diferències entre ells?</string>
+	<string name="about_faq_governors_A">L\'escalat de freqüència de la CPU us permet canviar la velocitat
+del rellotge de la CPU sobre la marxa. Això pot estalviar energia
+perquè a menor velocitat del rellotge de la CPU es consumeix
+menys energia. Els gestors són diferents polítiques d\'escalat de
+freqüència.\nExplicar les diferències és una resposta llarga però
+ho podeu llegir a la pàgina web
+(http://forum.xda-developers.com/showthread.php?t=911917).</string>
+	<string name="about_faq_profiles_Q">Q: Penseu afegir perfils? M\'agradaria triar un
+perfil diferent per quan la pantalla està apagada.</string>
+	<string name="about_faq_profiles_A">A: La resposta curta és \"No\". Penso que els perfils no
+serveixen de res perquè els gestors ja ho fan: un perfil a
+seguir en canviar de freqüència per a la CPU.\nAfegir perfils
+implicaria més necessitats de memòria, executar processos
+amb més freqüència, comprovar si quelcom està passant
+(pantalla engegada o apagada)… I tot sense cap benefici real.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">S\'està actualitzant l\'estri…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Inhabilita la vàlvula de seguretat</string>
+	<string name="prefs_disable_safety_valve_summary_on">No es comprovarà si l\'aturada no ha estat neta.</string>
+	<string name="prefs_disable_safety_valve_summary_off">No s\'aplicarà els valors si l\'aturada no ha estat neta.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Segur que voleu inhabilitar la vàlvula de seguretat? Feu-ho NOMÉS si sabeu què esteu fent.</string>
+	<string name="prefs_cat_notification">Avís en arrencar</string>
+	<string name="prefs_show_notification">Mostra un avís</string>
+	<string name="prefs_show_notification_summary_on">Es mostran els avisos.</string>
+	<string name="prefs_show_notification_summary_off">NO es mostraran els avisos.</string>
+	<string name="prefs_vibrate">Vibració</string>
+	<string name="prefs_vibrate_pattern">Patró de vibració</string>
+	<string name="prefs_vibrate_pattern_message">Introduïu un patró de vibració expressat en milisegons (p.e.: 0,50,100,50,100) o deixeu el camp en blanc per utilitzar el patró de vibració per defecte.</string>
+	<string name="prefs_ringtone">So d\'avís</string>
+	<string name="prefs_cat_stats">Estadístiques</string>
+	<string name="prefs_include_deep_sleep">Inclou el repòs profund</string>
+	<string name="prefs_include_deep_sleep_summary_on">S\'inclourà el repòs profund</string>
+	<string name="prefs_include_deep_sleep_summary_off">S\'ignorarà el repòs profund</string>
+
+</resources>

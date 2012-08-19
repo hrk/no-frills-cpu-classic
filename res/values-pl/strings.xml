@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Niedostępne</string>
+	<string name="requested">Żądane</string>
+	<string name="current">Aktualny</string>
+	<string name="max_freq">Maks. często. zegara</string>
+	<string name="min_freq">Min. często. zegara</string>
+	<string name="governor">Zarządca</string>
+	
+	<string name="apply_on_boot">Zastosuj przy starcie</string>
+	<string name="show_notification">Pokazuj powiadomienie przy bootowaniu</string>
+	<string name="apply">Zastosuj przy starcie</string>
+	<string name="exit">Wyjście</string>
+	<string name="send">Wyślij</string>
+	<string name="dlg_noroot_title">Brak uprawnień roota</string>
+	<string name="dlg_noroot_body">Musisz zrootować telefon aby używać tej aplikacji.</string>
+	<string name="dlg_nofs_title">Wydaje się że urządzenie nie posiada skalowania częstotliwości</string>
+	<string name="dlg_nofs_body">Jeżeli używasz custom ROM lub jeśli sądzisz że 
+          twój telefon wspiera skalowanie częstotliwości, wyślij dane swojego CPU aby 
+          dodać wsparcie dla twojego telefonu.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Wyślij dane CPU</string>
+	<string name="dlg_send_title">Wyślij dane CPU za pomocą…</string>
+	<string name="menu_prefs">Ustawienia</string>
+	<string name="menu_view_stats">Pokaż statystyki</string>
+	<string name="menu_details">O programie</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Odśwież</string>
+	<string name="spinner_stats_text">Odczytywanie statystyk z ostatnich 5 sekund…</string>
+	<string name="stats_title">Statystyki częstotliwości</string>
+	<string name="stats_current">Bieżąca częstotliwość: %1$s</string>
+	<string name="stats_current_unavailable">Niedostępne</string>
+	<string name="stats_frequency">Częstotliwość</string>
+	<string name="stats_perc">Suma</string>
+	<string name="stats_perc5">Ostatnie 5 sec.</string>
+	<string name="stats_deep_sleep">Głębokie uśpienie</string>
+	<!-- Errors -->
+	<string name="err_need_root">Ta aplikacja wymaga uprawnień roota do działania.</string>
+	<string name="err_update_failed">Błąd: czy zezwoliłeś na uprawnienia SuperUser?</string>
+	<string name="err_no_email_client">Nie masz klienta email. Dane CPU nie zostaną 
+              wysłane.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Sukces!\nMin: %1$s\nMaks: %2$s\n Zarządca: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s znaleziono,wartości nie zapisane</string>
+	<string name="notify_safety_shutdown">Nieczyste zamknięcie, wartości nie zapisane</string>
+	<string name="notify_title_safety">Wartości nie zapisane</string>
+	<string name="notify_title_success">Wartości zapisane pomyślnie</string>
+	<string name="notify_success">Min: %1$s\nMaks: %2$s\nZarzącda: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">O programie</string>
+	<string name="tab_changelog">Lista zmian</string>
+	
+	<string name="tab_license">Licencja</string>
+	<string name="about_info_donate">Dotacja</string>
+	<string name="about_info_version">Wersja: %1$s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Strona domowa:
+                      	http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikona: Anil K Solanki\nProjekt
+             www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Jeżeli masz jakiekolwiek pytania, proszę skontaktować się z
+                autorem poprzez e-mail lub stronę domową.</string>
+	<string name="about_info_thanks">Dziękujemy każdemu tłumaczowi i użytkownikowi który 
+                   pomógł w tworzeniu tej aplikacji!</string>
+	<string name="about_faq_governors_Q">P: Co to jest zarządca? Czy mógłbyś wytłumaczyć 
+                    jaka jest między nimi różnica?</string>
+	<string name="about_faq_governors_A">Skalowanie częstotliwości CPU pozwala na zmianę 
+                              szybkości zegara CPU w locie. Może to oszczędzić moc, ponieważ czym niższa 
+                              szybkość zegara CPU, tym mniej mocy CPU pobiera. Zarządcy to 
+                              odmienne polityki skalowania częstotliwości.\nWytłumaczenie różnic zajmuje 
+                              za dużo miejsca, proszę o nich przeczytać na stronie domowej 
+                              (http://forum.xda-developers.com/showthread.php?t=911917) 
+                              .</string>
+	<string name="about_faq_profiles_Q">P: Czy planujecie dodać profile? Chciałbym móc 
+                        ustawić inny profil gdy ekran jest wyłączony!</string>
+	<string name="about_faq_profiles_A">O: Szybka odpowiedź brzmi \"NIE\". Myślę że profile 
+                   są bezużyteczne, ponieważ po to są już zarządcy: profil śledzenia 
+                   dla twojego CPU podczas zmiany częstotliwości.\nDodanie profili
+                   znaczyłoby większe zapotrzebowanie na pamięć, potrzebę częstszego uruchamiania,
+                   sprawdzania czy coś się dzieje (ekran włączony, ekran wyłączony itd.)…
+                   wszystko to bez realnych korzyści.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Aktualizacja widżetu…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Wyłącz wartość bezpieczną</string>
+	<string name="prefs_disable_safety_valve_summary_on">Sprawdzanie nieczystego zamknięcia nie będzie wykonywane.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Wartości nie będą zapisane w przypadku nieczystego zamknięcia.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Jesteś pewny, że chcesz wyłączyć wartość bezpieczną? Kontynuuj TYLKO gdy wiesz co robisz.</string>
+	<string name="prefs_cat_notification">Powiadomienie przy starcie</string>
+	<string name="prefs_show_notification">Pokaż powiadomienia</string>
+	<string name="prefs_show_notification_summary_on">Powiadomienia będą wyświetlane.</string>
+	<string name="prefs_show_notification_summary_off">Powiadomienia NIE będą wyświetlane.</string>
+	<string name="prefs_vibrate">Wibracje</string>
+	<string name="prefs_vibrate_pattern">Wzorzec wibracji</string>
+	<string name="prefs_vibrate_pattern_message">Wprowadź wzorzec wibracji wyrażony w milisekundach (np.: 0, 50, 100, 50, 100) lub zostaw to pole puste aby użyć domyślnego wzorca.</string>
+	<string name="prefs_ringtone">Dźwięk powiadomienia</string>
+	<string name="prefs_cat_stats">Statystyki</string>
+	<string name="prefs_include_deep_sleep">Uwzględnij głęboki sen</string>
+	<string name="prefs_include_deep_sleep_summary_on">Głęboki sen będzie uwzględniany.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Głęboki sen będzie ignorowany.</string>
+
+</resources>
