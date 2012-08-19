@@ -7,6 +7,7 @@ import it.sineo.android.noFrillsCPUClassic.extra.Theme;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
@@ -49,6 +50,20 @@ public class PreferencesActivity extends PreferenceActivity implements OnPrefere
 		prefTheme = (ListPreference) findPreference(Constants.PREF_THEME);
 		prefTheme.setSummary(prefTheme.getEntry());
 		prefTheme.setOnPreferenceChangeListener(this);
+		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+			CharSequence _e[] = prefTheme.getEntries(), entries[] = new String[_e.length - 1];
+			CharSequence _ev[] = prefTheme.getEntryValues(), entryValues[] = new String[_ev.length - 1];
+			int j = 0;
+			for (int i = 0; i < _e.length; i++) {
+				if (!_ev[i].equals(Theme.THEME_LIGHT_DARK.toString())) {
+					entries[j] = _e[i];
+					entryValues[j] = _ev[i];
+					j++;
+				}
+			}
+			prefTheme.setEntries(entries);
+			prefTheme.setEntryValues(entryValues);
+		}
 	}
 
 	@Override
