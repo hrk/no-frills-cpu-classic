@@ -3,28 +3,34 @@ package it.sineo.android.noFrillsCPUClassic.activity;
 import it.sineo.android.noFrillsCPUClassic.R;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
 import it.sineo.android.noFrillsCPUClassic.extra.PatternReplacerInputFilter;
+import it.sineo.android.noFrillsCPUClassic.extra.Theme;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceManager;
 import android.text.InputFilter;
 import android.util.Log;
+import android.widget.Toast;
 
 public class PreferencesActivity extends PreferenceActivity implements OnPreferenceChangeListener {
 
 	private EditTextPreference prefPattern;
 	private CheckBoxPreference prefSafetyValve;
 	private CheckBoxPreference prefChangePermissions;
+	private ListPreference prefTheme;
 	private SharedPreferences prefs;
 
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Theme.applyTo(this);
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.preferences);
 
@@ -39,12 +45,21 @@ public class PreferencesActivity extends PreferenceActivity implements OnPrefere
 
 		prefChangePermissions = (CheckBoxPreference) findPreference(Constants.PREF_CHANGE_PERMISSIONS);
 		prefChangePermissions.setOnPreferenceChangeListener(this);
+
+		prefTheme = (ListPreference) findPreference(Constants.PREF_THEME);
+		prefTheme.setSummary(prefTheme.getEntry());
+		prefTheme.setOnPreferenceChangeListener(this);
 	}
 
 	@Override
 	public boolean onPreferenceChange(final Preference preference, final Object newValue) {
 		if (preference == prefPattern) {
 			preference.setSummary((String) newValue);
+			return true;
+		} else if (preference == prefTheme) {
+			if (prefTheme.getValue() == null || !prefTheme.getValue().equals(newValue.toString())) {
+				Toast.makeText(this, R.string.prefs_theme_restart_needed, Toast.LENGTH_LONG).show();
+			}
 			return true;
 		} else if (preference == prefSafetyValve || preference == prefChangePermissions) {
 			Log.d(Constants.APP_TAG, preference.getKey() + " -> " + newValue.toString());

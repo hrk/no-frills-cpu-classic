@@ -5,6 +5,7 @@ import it.sineo.android.noFrillsCPUClassic.R;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
 import it.sineo.android.noFrillsCPUClassic.extra.Frequency;
 import it.sineo.android.noFrillsCPUClassic.extra.SysUtils;
+import it.sineo.android.noFrillsCPUClassic.extra.Theme;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
@@ -47,6 +48,7 @@ public class MainActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
+		Theme.applyTo(this);
 		super.onCreate(savedInstanceState);
 
 		if (!SysUtils.isRooted()) {

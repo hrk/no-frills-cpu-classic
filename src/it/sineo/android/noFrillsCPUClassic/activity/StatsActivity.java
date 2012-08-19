@@ -4,6 +4,7 @@ import it.sineo.android.noFrillsCPUClassic.R;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
 import it.sineo.android.noFrillsCPUClassic.extra.Frequency;
 import it.sineo.android.noFrillsCPUClassic.extra.Stats;
+import it.sineo.android.noFrillsCPUClassic.extra.Theme;
 import it.sineo.android.noFrillsCPUClassic.extra.Stats.SortMethod;
 import it.sineo.android.noFrillsCPUClassic.extra.SysUtils;
 
@@ -154,6 +155,7 @@ public class StatsActivity extends ListActivity {
 	};
 
 	protected void onCreate(Bundle savedInstanceState) {
+		Theme.applyTo(this);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.stats);
 		setListAdapter(adapter);

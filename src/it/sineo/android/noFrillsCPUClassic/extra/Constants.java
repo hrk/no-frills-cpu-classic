@@ -54,6 +54,9 @@ public class Constants {
 	public final static String PREF_CHANGE_PERMISSIONS = "change_permissions";
 	public final static boolean PREF_DEFAULT_CHANGE_PERMISSIONS = false;
 
+	public final static String PREF_THEME = "prefs_theme";
+	public final static String PREF_DEFAULT_THEME = "THEME_DARK";
+
 	public final static boolean DEBUG = false;
 
 }

@@ -93,8 +93,8 @@
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
 		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
+		<!-- <item name="prefs_theme_light">Light &amp; dark</item> -->
+</string-array>
 
 	<string name="prefs_disable_safety_valve">Disable safety valve</string>
 	<string name="prefs_disable_safety_valve_summary_on">No check for unclean shutdown will be performed.</string>

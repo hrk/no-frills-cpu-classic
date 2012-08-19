@@ -3,6 +3,7 @@ package it.sineo.android.noFrillsCPUClassic.activity;
 import it.sineo.android.changelog.ChangelogFactory;
 import it.sineo.android.noFrillsCPUClassic.R;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
+import it.sineo.android.noFrillsCPUClassic.extra.Theme;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -49,6 +50,7 @@ public class AboutActivity extends Activity implements TabContentFactory {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		Theme.applyTo(this);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.about);
 
