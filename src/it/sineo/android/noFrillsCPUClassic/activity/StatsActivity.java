@@ -168,13 +168,18 @@ public class StatsActivity extends ListActivity {
 		tvCurrentFrequency.setText(getString(R.string.stats_current, s));
 
 		refreshButton = (ImageView) findViewById(R.id.btn_refresh_stats);
-		refreshButton.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				progressDialog.show();
-				(new Thread(statsRunnable)).start();
-			}
-		});
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+			/* Since there's the action bar, hide the now redundant refresh button. */
+			refreshButton.setVisibility(View.GONE);
+		} else {
+			refreshButton.setOnClickListener(new View.OnClickListener() {
+				@Override
+				public void onClick(View v) {
+					progressDialog.show();
+					(new Thread(statsRunnable)).start();
+				}
+			});
+		}
 
 		if (preferences.getBoolean(Constants.PREF_UPDATE_CURFREQ, Constants.PREF_DEFAULT_UPDATE_CURFREQ)) {
 			/* Use a single thread to update every N seconds the current frequency */
