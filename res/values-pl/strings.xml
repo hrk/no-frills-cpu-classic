@@ -7,18 +7,18 @@
 	<string name="unavailable">Niedostępne</string>
 	<string name="requested">Żądane</string>
 	<string name="current">Aktualny</string>
-	<string name="max_freq">Maks. często. zegara</string>
-	<string name="min_freq">Min. często. zegara</string>
+	<string name="max_freq">Maks. częst. zegara.</string>
+	<string name="min_freq">Min. częst. zegara.</string>
 	<string name="governor">Zarządca</string>
 	
 	<string name="apply_on_boot">Zastosuj przy starcie</string>
-	<string name="show_notification">Pokazuj powiadomienie przy bootowaniu</string>
+	<string name="show_notification">Pokazuj powiadomienie przy uruch. telefonu</string>
 	<string name="apply">Zastosuj przy starcie</string>
 	<string name="exit">Wyjście</string>
 	<string name="send">Wyślij</string>
 	<string name="dlg_noroot_title">Brak uprawnień roota</string>
-	<string name="dlg_noroot_body">Musisz zrootować telefon aby używać tej aplikacji.</string>
-	<string name="dlg_nofs_title">Wydaje się że urządzenie nie posiada skalowania częstotliwości</string>
+	<string name="dlg_noroot_body">Urządzenie musi być zrootowane, abyś mógł używać tej aplikacji.</string>
+	<string name="dlg_nofs_title">Twoje urządzenie prawdopodobnie nie zezwala na skalowanie częstotliwości</string>
 	<string name="dlg_nofs_body">Jeżeli używasz custom ROM lub jeśli sądzisz że 
           twój telefon wspiera skalowanie częstotliwości, wyślij dane swojego CPU aby 
           dodać wsparcie dla twojego telefonu.</string>
@@ -36,8 +36,8 @@
 	<string name="stats_current_unavailable">Niedostępne</string>
 	<string name="stats_frequency">Częstotliwość</string>
 	<string name="stats_perc">Suma</string>
-	<string name="stats_perc5">Ostatnie 5 sec.</string>
-	<string name="stats_deep_sleep">Głębokie uśpienie</string>
+	<string name="stats_perc5">Ostatnie 5 sek.</string>
+	<string name="stats_deep_sleep">Tryb deep slepp</string>
 	<!-- Errors -->
 	<string name="err_need_root">Ta aplikacja wymaga uprawnień roota do działania.</string>
 	<string name="err_update_failed">Błąd: czy zezwoliłeś na uprawnienia SuperUser?</string>
@@ -67,6 +67,7 @@
                 autorem poprzez e-mail lub stronę domową.</string>
 	<string name="about_info_thanks">Dziękujemy każdemu tłumaczowi i użytkownikowi który 
                    pomógł w tworzeniu tej aplikacji!</string>
+	<string name="about_info_translation">Jeśli znajdziesz jakiś błąd lub brak w tłumaczeniu, sam możesz je poprawić lub dodać na stronie http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">P: Co to jest zarządca? Czy mógłbyś wytłumaczyć 
                     jaka jest między nimi różnica?</string>
 	<string name="about_faq_governors_A">Skalowanie częstotliwości CPU pozwala na zmianę 
@@ -91,6 +92,10 @@
 	<string name="prefs_disable_safety_valve_summary_on">Sprawdzanie nieczystego zamknięcia nie będzie wykonywane.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Wartości nie będą zapisane w przypadku nieczystego zamknięcia.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Jesteś pewny, że chcesz wyłączyć wartość bezpieczną? Kontynuuj TYLKO gdy wiesz co robisz.</string>
+	<string name="prefs_change_permissions">Zabroń zmian innym aplikacjom.</string>
+	<string name="prefs_change_permissions_summary_on">Inne aplikacje (lub system) nie będą mogły zmieniać częstotliwości.</string>
+	<string name="prefs_change_permissions_summary_off">Inne aplikacje (lub system) będą mogły zmieniać częstotliwość.</string>
+	<string name="prefs_change_permissions_dialog_message">Ten element jest wymagany tylko na Androidzie 4.1 (Jelly Bean), np. na HTC One itp. urządzeniach. Na pewno chcesz kontynuować?</string>
 	<string name="prefs_cat_notification">Powiadomienie przy starcie</string>
 	<string name="prefs_show_notification">Pokaż powiadomienia</string>
 	<string name="prefs_show_notification_summary_on">Powiadomienia będą wyświetlane.</string>
@@ -103,5 +108,8 @@
 	<string name="prefs_include_deep_sleep">Uwzględnij głęboki sen</string>
 	<string name="prefs_include_deep_sleep_summary_on">Głęboki sen będzie uwzględniany.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Głęboki sen będzie ignorowany.</string>
+	<string name="prefs_update_curfreq">Odśwież aktualną częstotliwość</string>
+	<string name="prefs_update_curfreq_summary_on">Aktualna częstotliwość będzie aktualizowana okresowo.</string>
+	<string name="prefs_update_curfreq_summary_off">Aktualna częstotliwość będzie aktualizowana przy odświeżaniu statystyk.</string>
 
 </resources>

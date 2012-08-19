@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">CPU kontrola bez muke</string>
-	<string name="app_name_classic">CPU kontrola bez muke KLASIƒåNA</string>
+	<string name="app_name_classic">CPU kontrola bez muke KLASIČNA</string>
 	<!-- MainActivity -->
 	<string name="unavailable">Nedotupno</string>
 	<string name="requested">Zahtjevano</string>
@@ -12,25 +12,25 @@
 	<string name="governor">Guverner</string>
 	<string name="ioscheduler">I/O raspored</string>
 	<string name="apply_on_boot">Primjeni postavke pri paljenju</string>
-	<string name="show_notification">Prika≈æi obavijet pri paljenju</string>
+	<string name="show_notification">Prikaži obavijet pri paljenju</string>
 	<string name="apply">Primjeni</string>
 	<string name="exit">Izlaz</string>
-	<string name="send">Po≈°alji</string>
+	<string name="send">Pošalji</string>
 	<string name="dlg_noroot_title">Nedostaje root dozvola</string>
 	<string name="dlg_noroot_body">Morate biti rutirani da bi ste koristili ovu aplikaciju.</string>
-	<string name="dlg_nofs_title">Va≈° ureƒëaj izgleda ne podr≈æava skaliranje frekvencije.</string>
-	<string name="dlg_nofs_body">Ako koristite poseban ROM ili ako mislite da va≈° telefon podr≈æava skaliranje frekvencije, po≈°aljite va≈°e CPU podatke kako bi dodali podr≈°ku za va≈° telefon.
+	<string name="dlg_nofs_title">Vaš uređaj izgleda ne podržava skaliranje frekvencije.</string>
+	<string name="dlg_nofs_body">Ako koristite poseban ROM ili ako mislite da vaš telefon podržava skaliranje frekvencije, pošaljite vaše CPU podatke kako bi dodali podršku za vaš telefon.
 
 </string>
 	<!-- MainActivity - Menu -->
-	<string name="menu_send">Po≈°aljite CPU podatke</string>
-	<string name="dlg_send_title">Po≈°aljite CPU podatke sa…</string>
+	<string name="menu_send">Pošaljite CPU podatke</string>
+	<string name="dlg_send_title">Pošaljite CPU podatke sa…</string>
 	<string name="menu_prefs">Postavke</string>
 	<string name="menu_view_stats">Pogledati statistike</string>
 	<string name="menu_details">O nama</string>
 	<!-- Stats activity -->
-	<string name="menu_refresh">Osvje≈æi</string>
-	<string name="spinner_stats_text">Uƒçitavanje statistike posljednjih 5 sekundi…</string>
+	<string name="menu_refresh">Osvježi</string>
+	<string name="spinner_stats_text">Učitavanje statistike posljednjih 5 sekundi…</string>
 	<string name="stats_title">Statistika frekvencija</string>
 	<string name="stats_current">Trenutna frekvencija: %1$s</string>
 	<string name="stats_current_unavailable">nedostupno</string>
@@ -40,21 +40,21 @@
 	<string name="stats_deep_sleep">Duboki san</string>
 	<!-- Errors -->
 	<string name="err_need_root">Ova aplikacija zahtijeva root privilegije da bi radila.</string>
-	<string name="err_update_failed">Gre≈°ka: da li ste dozvolili SuperUser privilegije?</string>
-	<string name="err_no_email_client">Nemate email klient. CPU podaci neƒáe biti poslani.
+	<string name="err_update_failed">Greška: da li ste dozvolili SuperUser privilegije?</string>
+	<string name="err_no_email_client">Nemate email klient. CPU podaci neće biti poslani.
 </string>
 	<!-- Success -->
 	<string name="ok_updated_freqs">Uspjeh!\nMin: %1$s\nMax: %2$s\nGuverner: %3$s\nI/O Raspored: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%1$s pronaƒëen, vrijednosti nisu primjenjene</string>
-	<string name="notify_safety_shutdown">Neƒçisto ga≈°enje, vrijednosti nisu primjenjene</string>
+	<string name="notify_nlj_safety_found">%1$s pronađen, vrijednosti nisu primjenjene</string>
+	<string name="notify_safety_shutdown">Nečisto gašenje, vrijednosti nisu primjenjene</string>
 	<string name="notify_title_safety">Vrijednosti nisu primjenjene</string>
-	<string name="notify_title_success">Vrijednosti uspje≈°no primjenjene</string>
+	<string name="notify_title_success">Vrijednosti uspješno primjenjene</string>
 	<string name="notify_success">Min: %1$s\nMax: %2$s\nGuverner: %3$s\nI/O Raspored: %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">O nama</string>
-	<string name="tab_changelog">Bilje≈°ke promjena</string>
-	<string name="tab_faq">ƒåeto postavljena pitanja</string>
+	<string name="tab_changelog">Bilješke promjena</string>
+	<string name="tab_faq">Četo postavljena pitanja</string>
 	<string name="tab_license">Licensa</string>
 	<string name="about_info_donate">Donirajte</string>
 	<string name="about_info_version">Verzija: %1$s</string>
@@ -68,46 +68,46 @@
 	<string name="about_info_thanks">Hvala svakom prevodiocu i svakom korisniku koji je pomogao razvijati ovu aplikaciju!
 </string>
 	
-	<string name="about_faq_governors_Q">Pitanje: ≈†ta je to guverner? Mo≈æete li objasniti razliku izmeƒëu njih?
+	<string name="about_faq_governors_Q">Pitanje: Šta je to guverner? Možete li objasniti razliku između njih?
 </string>
-	<string name="about_faq_governors_A">Skaliranje frekvencije CPU-a vam omoguƒáava da promijenite takt va≈°eg CPU-a u pokretu. Ovo mo≈æe u≈°tediti potro≈°nju, jer ≈°to je ni≈æi takt CPU-a, manje energije CPU konzumira. Guverneri su ra≈æliƒçiti algoritmi za skaliranje frekvencije.\nObja≈°njenje njihove razlike je dug odgovor, molimo va proƒçitajte ga na «åeb stranici (http://forum.xda-developers.com/showthread.php?t=911917) .
+	<string name="about_faq_governors_A">Skaliranje frekvencije CPU-a vam omogućava da promijenite takt vašeg CPU-a u pokretu. Ovo može uštediti potrošnju, jer što je niži takt CPU-a, manje energije CPU konzumira. Guverneri su ražličiti algoritmi za skaliranje frekvencije.\nObjašnjenje njihove razlike je dug odgovor, molimo va pročitajte ga na ǌeb stranici (http://forum.xda-developers.com/showthread.php?t=911917) .
 
 
 
 
 
 </string>
-	<string name="about_faq_profiles_Q">Pitanje: Da li planirate dodavati profile? Volio bi izabrati drugi profil kada mi je ekran uga≈°en!
+	<string name="about_faq_profiles_Q">Pitanje: Da li planirate dodavati profile? Volio bi izabrati drugi profil kada mi je ekran ugašen!
 </string>
-	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome slu≈æe guverneri: profili za va≈° CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi znaƒçilo dodavanje potrebe za jos memorije, potrebe za ƒçe≈°ƒáim izvr≈°enjem, provjeravati da li se ne≈°to de≈°ava (ekran upaljen, ekran uga≈°en itd.)… sve ovo bez stvarne dobiti.
+	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome služe guverneri: profili za vaš CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi značilo dodavanje potrebe za jos memorije, potrebe za češćim izvršenjem, provjeravati da li se nešto dešava (ekran upaljen, ekran ugašen itd.)… sve ovo bez stvarne dobiti.
 
 
 
 
 </string>
 	<!-- Widget -->
-	<string name="wdg_updating">Osvje≈æavam dodatak…</string>
+	<string name="wdg_updating">Osvježavam dodatak…</string>
 	<!-- Preferences -->
 	<string name="prefs_disable_safety_valve">Onesposobiti sigurnosni ventil</string>
-	<string name="prefs_disable_safety_valve_summary_on">Neƒáe biti provjere za prljavim ga≈°enjem.</string>
-	<string name="prefs_disable_safety_valve_summary_off">Vrijednosti neƒáe biti primjenjene u sluƒçaju prljavog ga≈°enja.</string>
-	<string name="prefs_disable_safety_valve_dialog_message">Jeste li sigurni da ≈æelite onesposobiti sigurnosni ventil? Nastavite dalje SAMO ako znate ≈°ta radite.</string>
+	<string name="prefs_disable_safety_valve_summary_on">Neće biti provjere za prljavim gašenjem.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Vrijednosti neće biti primjenjene u slučaju prljavog gašenja.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Jeste li sigurni da želite onesposobiti sigurnosni ventil? Nastavite dalje SAMO ako znate šta radite.</string>
 	
 	
 	
 	
 	<string name="prefs_cat_notification">Obavijest na paljenju</string>
-	<string name="prefs_show_notification">Prika≈æi obavijest</string>
-	<string name="prefs_show_notification_summary_on">Obavijeti ƒáe biti prikazane.</string>
-	<string name="prefs_show_notification_summary_off">Obavijeti NEƒÜE biti prikazane.</string>
+	<string name="prefs_show_notification">Prikaži obavijest</string>
+	<string name="prefs_show_notification_summary_on">Obavijeti će biti prikazane.</string>
+	<string name="prefs_show_notification_summary_off">Obavijeti NEĆE biti prikazane.</string>
 	<string name="prefs_vibrate">Vibriraj</string>
-	<string name="prefs_vibrate_pattern">≈†ablon vibriranja</string>
-	<string name="prefs_vibrate_pattern_message">Ukucajte izraz za ≈°ablon vibriranja u milisekundama (npr.: 0,50,100,50,100) ili ostaviti ovo polje prazno da bi ste koristili osnovni ≈°ablon vibriranja.</string>
+	<string name="prefs_vibrate_pattern">Šablon vibriranja</string>
+	<string name="prefs_vibrate_pattern_message">Ukucajte izraz za šablon vibriranja u milisekundama (npr.: 0,50,100,50,100) ili ostaviti ovo polje prazno da bi ste koristili osnovni šablon vibriranja.</string>
 	<string name="prefs_ringtone">Zvuk obavijesti</string>
 	<string name="prefs_cat_stats">Statistika</string>
 	<string name="prefs_include_deep_sleep">Ubroji duboki san</string>
-	<string name="prefs_include_deep_sleep_summary_on">Duboki san ƒáe biti ubrojan.</string>
-	<string name="prefs_include_deep_sleep_summary_off">Duboki san ƒáe biti ignorisan.</string>
+	<string name="prefs_include_deep_sleep_summary_on">Duboki san će biti ubrojan.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Duboki san će biti ignorisan.</string>
 	
 	
 	

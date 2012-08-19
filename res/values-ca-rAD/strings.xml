@@ -67,6 +67,7 @@ www.thisiswhatwedo.com</string>
 per correu electrònic o a la pàgina web.</string>
 	<string name="about_info_thanks">Gràcies a tots els traductors i tothom que
 ha ajudat a millorar aquesta aplicació.</string>
+	
 	<string name="about_faq_governors_Q">Q: Què és un gestor? Podeu explicar
 les diferències entre ells?</string>
 	<string name="about_faq_governors_A">L\'escalat de freqüència de la CPU us permet canviar la velocitat
@@ -91,6 +92,10 @@ amb més freqüència, comprovar si quelcom està passant
 	<string name="prefs_disable_safety_valve_summary_on">No es comprovarà si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">No s\'aplicarà els valors si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Segur que voleu inhabilitar la vàlvula de seguretat? Feu-ho NOMÉS si sabeu què esteu fent.</string>
+	
+	
+	
+	
 	<string name="prefs_cat_notification">Avís en arrencar</string>
 	<string name="prefs_show_notification">Mostra un avís</string>
 	<string name="prefs_show_notification_summary_on">Es mostran els avisos.</string>
@@ -103,5 +108,8 @@ amb més freqüència, comprovar si quelcom està passant
 	<string name="prefs_include_deep_sleep">Inclou el repòs profund</string>
 	<string name="prefs_include_deep_sleep_summary_on">S\'inclourà el repòs profund</string>
 	<string name="prefs_include_deep_sleep_summary_off">S\'ignorarà el repòs profund</string>
+	
+	
+	
 
 </resources>

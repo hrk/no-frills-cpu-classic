@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:orientation="vertical" >
+	android:layout_height="fill_parent" >
 
 	<LinearLayout
+		android:id="@+id/frm_title"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
 		android:orientation="horizontal" >
 
 		<TextView
 			style="@style/BaseText"
-			android:layout_width="match_parent"
+			android:layout_width="0dp"
 			android:layout_height="match_parent"
 			android:layout_weight="1"
 			android:gravity="center_vertical"
@@ -31,6 +32,7 @@
 		style="@style/BaseText"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
+		android:layout_below="@id/frm_title"
 		android:layout_gravity="top"
 		android:gravity="center_vertical"
 		android:text="@string/stats_current" />
@@ -42,6 +44,7 @@
 	<ListView
 		android:id="@+id/android:list"
 		android:layout_width="fill_parent"
-		android:layout_height="wrap_content" />
+		android:layout_height="wrap_content"
+		android:layout_below="@id/grp_stats_header" />
 
-</LinearLayout>
+</RelativeLayout>

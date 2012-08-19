@@ -58,9 +58,8 @@
 	<string name="tab_license">License</string>
 	<string name="about_info_donate">Donate</string>
 	<string name="about_info_version">Version: %1$s</string>
-	<string name="about_info_author">Author: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">Author: %1$s</string>
+	<string name="about_info_homepage">Homepage: %1$s</string>
 	<string name="about_info_extra">Icon by Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">If you have any questions, please contact the
@@ -88,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Updating widget…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Theme</string>
+	<string name="prefs_theme_restart_needed">The theme will be applied next time the app is started.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Disable safety valve</string>
 	<string name="prefs_disable_safety_valve_summary_on">No check for unclean shutdown will be performed.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Values won\'t be applied in case of an unclean shutdown.</string>

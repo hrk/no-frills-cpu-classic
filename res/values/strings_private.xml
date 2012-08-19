@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+	<string-array name="prefs_themes_values">
+		<item name="prefs_theme_dark">THEME_DARK</item>
+		<item name="prefs_theme_light">THEME_LIGHT</item>
+		<item name="prefs_theme_light_dark">THEME_LIGHT_DARK</item>
+	</string-array>
+
 	<string name="dash">-</string>
 	<string name="paypal_donate_url">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=JBPV5T5W594N4</string>
+	<string name="homepage_url" formatted="false">http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="translation_url">http://www.getlocalization.com/noFrilsCPU/</string>
+	<string name="author_name">Luca Santarelli</string>
+	<string name="author_email">luca.santarelli@gmail.com</string>
 
 </resources>

@@ -1,177 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="vertical" >
 
-	<TableLayout
+	<LinearLayout
+		android:id="@+id/tbl_config"
 		android:layout_width="match_parent"
-		android:layout_height="wrap_content" >
-
-		<TableRow android:gravity="center_vertical" >
-
-			<TextView
-				style="@style/BaseText.Small"
-				android:gravity="center_vertical|left"
-				android:text="@string/current" />
-
-			<TextView
-				style="@style/BaseText.Small"
-				android:gravity="center_vertical|left"
-				android:text="@string/requested" />
-
-			<TextView
-				style="@style/BaseText.Small"
-				android:gravity="center_vertical|left"
-				android:text="@string/current" />
-
-			<TextView
-				style="@style/BaseText.Small"
-				android:gravity="center_vertical|left"
-				android:text="@string/requested" />
-		</TableRow>
-
-		<TableRow>
-
-			<LinearLayout
-				android:layout_width="wrap_content"
-				android:layout_height="match_parent"
-				android:orientation="vertical" >
-
-				<TextView
-					android:id="@+id/tv_max_freq"
-					style="@style/BaseText"
-					android:singleLine="false"
-					android:text="@string/max_freq" />
-
-				<TextView
-					android:id="@+id/tv_cur_max_freq"
-					style="@style/BaseText.Small"
-					android:gravity="center_vertical|right" />
-			</LinearLayout>
-
-			<Spinner
-				android:id="@+id/sp_max_freq"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:prompt="@string/max_freq" />
-
-			<LinearLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:orientation="vertical" >
-
-				<TextView
-					android:id="@+id/tv_governor"
-					style="@style/BaseText"
-					android:singleLine="false"
-					android:text="@string/governor" />
-
-				<TextView
-					android:id="@+id/tv_cur_governor"
-					style="@style/BaseText.Small"
-					android:gravity="center_vertical|right" />
-			</LinearLayout>
-
-			<Spinner
-				android:id="@+id/sp_governor"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:prompt="@string/governor" />
-		</TableRow>
-
-		<TableRow>
-
-			<LinearLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:orientation="vertical" >
-
-				<TextView
-					android:id="@+id/tv_min_freq"
-					style="@style/BaseText"
-					android:singleLine="false"
-					android:text="@string/min_freq" />
-
-				<TextView
-					android:id="@+id/tv_cur_min_freq"
-					style="@style/BaseText.Small"
-					android:gravity="center_vertical|right" />
-			</LinearLayout>
-
-			<Spinner
-				android:id="@+id/sp_min_freq"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:prompt="@string/min_freq" />
-
-			<LinearLayout
-				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"
-				android:orientation="vertical" >
-
-				<TextView
-					android:id="@+id/tv_ioscheduler"
-					style="@style/BaseText"
-					android:singleLine="false"
-					android:text="@string/ioscheduler" />
-
-				<TextView
-					android:id="@+id/tv_cur_ioscheduler"
-					style="@style/BaseText.Small"
-					android:gravity="center_vertical|right" />
-			</LinearLayout>
-
-			<Spinner
-				android:id="@+id/sp_ioscheduler"
-				android:layout_width="fill_parent"
-				android:layout_height="wrap_content"
-				android:prompt="@string/ioscheduler" />
-		</TableRow>
-	</TableLayout>
-
-	<LinearLayout
-		android:layout_width="wrap_content"
-		android:layout_height="0dip"
-		android:layout_gravity="center_horizontal"
-		android:layout_weight="0.3"
-		android:orientation="horizontal" >
-
-		<CheckBox
-			android:id="@+id/ckb_apply_on_boot"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_gravity="left"
-			android:text="@string/apply_on_boot" />
-		<!--
-		<CheckBox
-			android:id="@+id/ckb_show_notification"
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_gravity="left"
-			android:text="@string/show_notification" />
-		-->
-		<!-- </LinearLayout> -->
-	</LinearLayout>
-
-	<LinearLayout
-		android:layout_width="fill_parent"
 		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:baselineAligned="false"
 		android:orientation="horizontal" >
 
-		<Button
-			android:id="@+id/btn_apply"
-			android:layout_width="wrap_content"
+		<TableLayout
+			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:text="@string/apply" />
+			android:layout_weight="1" >
 
-		<Button
-			android:id="@+id/btn_exit"
-			android:layout_width="wrap_content"
+			<include layout="@layout/main_f_header" />
+
+			<include layout="@layout/main_f_row_max" />
+
+			<include layout="@layout/main_f_row_min" />
+		</TableLayout>
+
+		<TableLayout
+			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:layout_weight="1"
-			android:text="@string/exit" />
+			android:layout_weight="1" >
+
+			<include layout="@layout/main_f_header" />
+
+			<include layout="@layout/main_f_row_gov" />
+
+			<include layout="@layout/main_f_row_iosched" />
+		</TableLayout>
 	</LinearLayout>
 
-</LinearLayout>
+	<CheckBox
+		android:id="@+id/ckb_apply_on_boot"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/tbl_config"
+		android:layout_centerHorizontal="true"
+		android:paddingBottom="10dp"
+		android:paddingTop="10dp"
+		android:text="@string/apply_on_boot" />
+
+	<include layout="@layout/main_f_buttons" />
+
+</RelativeLayout>

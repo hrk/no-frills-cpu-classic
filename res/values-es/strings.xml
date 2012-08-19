@@ -25,7 +25,7 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Enviar datos del CPU</string>
 	<string name="dlg_send_title">Enviar datos del CPU con…</string>
-	<string name="menu_prefs">Controles</string>
+	<string name="menu_prefs">Ajustes</string>
 	<string name="menu_view_stats">Ver estadísticas</string>
 	<string name="menu_details">Acerca de</string>
 	<!-- Stats activity -->
@@ -66,6 +66,7 @@
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si tienes alguna pregunta, por favor contacta al autor por correo o en su página web.</string>
 	<string name="about_info_thanks">¡Gracias a todos los traductores y usuarios que ayudaron en crear esta aplicación!</string>
+	
 	<string name="about_faq_governors_Q">Q: ¿Qué es un gobernador? ¿Puedes explicar las diferencias entre los tipos que existen?</string>
 	<string name="about_faq_governors_A">El escalado de frecuencia del CPU permite cambiar la velocidad del reloj al instante. Esto puede ahorrar energía, porque mientras menor sea la velocidad del reloj del CPU, menor energía consume. Los Gobernadores son diferentes políticas para escalar la frecuencia.\nExplicar las diferencias es un tanto difícil, en la página web hay mas información:
 		(http://forum.xda-developers.com/showthread.php?t=911917)
@@ -79,6 +80,10 @@
 	<string name="prefs_disable_safety_valve_summary_on">No se ejecutará prueba de apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_summary_off">Los valores elegidos no se aplicarán en caso de un apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Está seguro de querer desactivar la válvula de seguridad? Proceda sólo si sabe lo que está haciendo.</string>
+	<string name="prefs_change_permissions">Previene cambios de otras aplicaciones</string>
+	<string name="prefs_change_permissions_summary_on">Otras apliceaciones (o el sistema) estaran prevenidas de cambios de frecuencia</string>
+	<string name="prefs_change_permissions_summary_off">Otras aplicaciones (o el sistema) podran cambiar frecuencias</string>
+	<string name="prefs_change_permissions_dialog_message">Esta caracteristia es necesaria solo para Android 4.1 (Jelly Bean), el reciente HTC Uno o dispositivos similares. Estas seguro de que quieres aeguir?</string>
 	<string name="prefs_cat_notification">Notificación durante arranque</string>
 	<string name="prefs_show_notification">Muestre notificación</string>
 	<string name="prefs_show_notification_summary_on">Se mostrarán notificaciones.</string>
@@ -91,5 +96,8 @@
 	<string name="prefs_include_deep_sleep">Incluye sueño profundo</string>
 	<string name="prefs_include_deep_sleep_summary_on">Se incluirá sueño profundo.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Se ignorará sueño profundo.</string>
+	<string name="prefs_update_curfreq">Actualizando frecuencia actual</string>
+	<string name="prefs_update_curfreq_summary_on">Las frecuencias actuales se actualizaran periodicamente</string>
+	<string name="prefs_update_curfreq_summary_off">Las frecuencias actuales se actualizaran cuandose actualicen las estadisticas</string>
 
 </resources>

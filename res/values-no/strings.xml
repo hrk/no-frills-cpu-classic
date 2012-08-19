@@ -30,7 +30,7 @@ enheten din støtter frekvens styring, send CPU data slik at vi
 	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Oppdater</string>
-	<string name="spinner_stats_text">Leser status for siste 5 sekund</string>
+	<string name="spinner_stats_text">Leser status for siste 5 sekund…</string>
 	<string name="stats_title">Frekvenns status</string>
 	<string name="stats_current">Nåværende frekvens: %1$s</string>
 	<string name="stats_current_unavailable">Utilgjengelig</string>
@@ -67,6 +67,7 @@ www.thisiswhatwedo.com</string>
 forfatteren via e-post eller hjemmesiden</string>
 	<string name="about_info_thanks">Takk til alle oversetterne og en hver bruker som
 har hjulpet med og forme denne app\'en!</string>
+	
 	<string name="about_faq_governors_Q">Q: Hva er en govenor? Kan du forklare 
 forskjellene mellom dem?</string>
 	<string name="about_faq_governors_A">CPU frekvens styring tillater deg og forandre
@@ -84,12 +85,16 @@ krevd mer minne, behov for og kjøre oftere,
 sjekke at noe skjer (skjerm av, skjerm på osv.)
 Alt dette uten og virkelig tjene noe på det.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">Oppdaterer widget</string>
+	<string name="wdg_updating">Oppdaterer widget…</string>
 	<!-- Preferences -->
 	<string name="prefs_disable_safety_valve">Slå av sikkerthets ventilen</string>
 	<string name="prefs_disable_safety_valve_summary_on">Ingen sjekk av uren avslutning vil bli kjørt.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Verdier vil ikke bli satt dersom uren avsluttning oppstår.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Er du sikker på at du vil deaktivere sikkerhetsventilen? Fortsett bare dersom du vet hva du gjør.</string>
+	
+	
+	
+	
 	<string name="prefs_cat_notification">Varsel ved oppstart</string>
 	<string name="prefs_show_notification">Vis Varsler</string>
 	<string name="prefs_show_notification_summary_on">Varsler vil bli vist</string>
@@ -102,5 +107,8 @@ Alt dette uten og virkelig tjene noe på det.</string>
 	<string name="prefs_include_deep_sleep">Inkluder deep sleep</string>
 	<string name="prefs_include_deep_sleep_summary_on">Deep sleep vil bli inkludert</string>
 	<string name="prefs_include_deep_sleep_summary_off">Deep sleep vil bli ignorert</string>
+	
+	
+	
 
 </resources>

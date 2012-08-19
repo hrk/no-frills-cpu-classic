@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
+	
+	
 	<!-- MainActivity -->
 	<string name="unavailable">Abbreviato per ragioni di spazio sullo schermo</string>
 	<string name="requested">Desiderata</string>
 	<string name="current">Attuale</string>
 	<string name="max_freq">Freq. massima</string>
 	<string name="min_freq">Freq. minima</string>
-	<string name="governor">Governor</string>
-	<string name="ioscheduler">I/O scheduler</string>
+	
+	
 	<string name="apply_on_boot">Applica all\'avvio</string>
 	<string name="show_notification">Mostra notifica all\'avvio</string>
 	<string name="apply">Applica</string>
@@ -37,7 +38,7 @@
 	<string name="stats_frequency">Frequenza</string>
 	<string name="stats_perc">Totale</string>
 	<string name="stats_perc5">Ultimi 5 sec.</string>
-	<string name="stats_deep_sleep">Deep sleep</string>
+	
 	<!-- Errors -->
 	<string name="err_need_root">Questa app richiede i privilegi di root per
 		funzionare.</string>
@@ -52,23 +53,23 @@
 		i valori</string>
 	<string name="notify_title_safety">Valori non applicati</string>
 	<string name="notify_title_success">Valori applicati con successo</string>
-	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
+	
 	<!-- About dialog/activity -->
 	<string name="tab_info">Info</string>
 	<string name="tab_changelog">Novità</string>
-	<string name="tab_faq">FAQ</string>
+	
 	<string name="tab_license">Licenza</string>
 	<string name="about_info_donate">Fai una donazione</string>
 	<string name="about_info_version">Versione: %1$s</string>
 	<string name="about_info_author">Autore: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
 	<string name="about_info_extra">Icona di Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Se hai domande, contatta l\'autore via email o
 		tramite l\'homepage.</string>
 	<string name="about_info_thanks">Un ringraziamento a tutti i traduttori e gli utenti
 		che hanno aiutato quest\'app a prendere forma!</string>
+	<string name="about_info_translation">Se hai trovato una traduzione errata o mancante, puoi inviarne la correzione su http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Cos\'è il governor? Puoi spiegarmi che differenze ci sono?</string>
 	<string name="about_faq_governors_A">Il "frequency scaling" della CPU ti permette di cambiare la
 		frequenza della CPU momento per momento. Minore la frequenza, minore il consumo di corrente e
@@ -90,6 +91,10 @@
 	<string name="prefs_disable_safety_valve_summary_on">La verifica di spegnimento ok non sarà svolta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">I valori non saranno applicati in caso di spegnimento improvviso.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Sei sicuro di voler disabilitare il controllo? Procedi SOLO se sai quello che stai facendo.</string>
+	<string name="prefs_change_permissions">Impedisci modifiche da altre app</string>
+	<string name="prefs_change_permissions_summary_on">Le altre app (o il sistema) non potranno modificare le frequenze.</string>
+	<string name="prefs_change_permissions_summary_off">Le altre app (o il sistema) potranno modificare le frequenze.</string>
+	<string name="prefs_change_permissions_dialog_message">Questa funzionalità occorre solamente su Android 4.1 (Jelly Bean), alcuni HTC One X/S/V o altri dispositivi simili. Sei sicuro di voler procedere?</string>
 	<string name="prefs_cat_notification">Notifiche all\'avvio</string>
 	<string name="prefs_show_notification">Mostra notifiche</string>
 	<string name="prefs_show_notification_summary_on">Le notifiche sono attivate.</string>
@@ -102,5 +107,8 @@
 	<string name="prefs_include_deep_sleep">Includi deep sleep</string>
 	<string name="prefs_include_deep_sleep_summary_on">Il deep sleep sarà incluso.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Il deep sleep non sarà conteggiato.</string>
+	<string name="prefs_update_curfreq">Aggiorna la frequenza attuale</string>
+	<string name="prefs_update_curfreq_summary_on">La frequenza attuale sarà aggiornata periodicamente.</string>
+	<string name="prefs_update_curfreq_summary_off">La frequenza attuale sarà aggiornata insieme alle statistiche.</string>
 
 </resources>

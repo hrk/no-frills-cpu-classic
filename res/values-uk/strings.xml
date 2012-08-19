@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
-	<string name="app_name_classic">No-frills CPU Control CLASSIC</string>
+	
+	
 	<!-- MainActivity -->
 	<string name="unavailable">Недоступно</string>
 	<string name="requested">Бажані</string>
@@ -67,6 +67,7 @@ www.thisiswhatwedo.com</string>
 поштою, або з веб-сторінки.</string>
 	<string name="about_info_thanks">Дякуємо кожному перекладачу та користувачу,
 хто допоміг надати форму цій програмі!</string>
+	
 	<string name="about_faq_governors_Q">Q: Що таке керівник? Поясніть, будь ласка,
 чим вони відрізняються.</string>
 	<string name="about_faq_governors_A">A: Змінна частота ЦП дозволяє перемикати тактові частоти
@@ -91,6 +92,10 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_disable_safety_valve_summary_on">Перевірку на аварійне завершення увімкнуто.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Параметри не буде застосовано у разі аварійного завершення.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Ви певні, що хочете вимкнути аварійний клапан? Робіть це лише тоді, коли ТОЧНО ЗНАЄТЕ, що до чого.</string>
+	
+	
+	
+	
 	<string name="prefs_cat_notification">Сповіщення при старті системи</string>
 	<string name="prefs_show_notification">Показати сповіщення</string>
 	<string name="prefs_show_notification_summary_on">Сповіщення буде показано</string>
@@ -103,5 +108,8 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_include_deep_sleep">Враховуючи міцний сон</string>
 	<string name="prefs_include_deep_sleep_summary_on">Міцний сон буде враховано</string>
 	<string name="prefs_include_deep_sleep_summary_off">Міцний сон буде ігноровано</string>
+	
+	
+	
 
 </resources>

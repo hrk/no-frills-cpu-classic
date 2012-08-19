@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
+	
+	
+	<!-- MainActivity -->
 	<string name="unavailable">利用不可</string>
 	<string name="requested">設定値</string>
 	<string name="current">現在値</string>
@@ -18,10 +20,14 @@
 	<string name="dlg_noroot_body">このアプリを使用するには、root化済みである必要があります。</string>
 	<string name="dlg_nofs_title">あなたの端末は動作クロック値の変更に対応していないように思われます。</string>
 	<string name="dlg_nofs_body">カスタムROMを使用していたり、端末が動作クロック値の変更に対応していると考えられる場合は、サポートを追加するためにCPU情報を送信してください。</string>
+	<!-- MainActivity - Menu -->
 	<string name="menu_send">CPU情報を送信</string>
 	<string name="dlg_send_title">CPU情報を送信…</string>
+	<string name="menu_prefs">設定</string>
 	<string name="menu_view_stats">統計を閲覧</string>
 	<string name="menu_details">情報</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">更新</string>
 	<string name="spinner_stats_text">過去5秒間の統計情報を読み込んでいます…</string>
 	<string name="stats_title">周波数統計</string>
 	<string name="stats_current">現在クロック値: %s</string>
@@ -29,26 +35,25 @@
 	<string name="stats_frequency">動作クロック値</string>
 	<string name="stats_perc">総計</string>
 	<string name="stats_perc5">過去5秒間</string>
+	<string name="stats_deep_sleep">deep sleep</string>
+	<!-- Errors -->
 	<string name="err_need_root">このアプリの動作にはroot権限が必要です。</string>
 	<string name="err_update_failed">エラー: SuperUser権限を許可しましたか？</string>
 	<string name="err_no_email_client">Eメールクライアントがインストールされていないため、CPU情報を送信できません。</string>
-	<string name="ok_updated_freqs" formatted="false">"成功!
-最低: %1$s
-最高: %2$s
-ガバナ: %3$s
-I/O スケジューラ: %4$s"</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">成功!\n最低値: %1$s\n最高値: %2$s\n調整リスト: %3$s\nI/O スケジューラ: %4$s</string>
+	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">%s が見つかり,クロック値は適用されませんでした。</string>
 	<string name="notify_safety_shutdown">予期せぬシャットダウンにより、クロック値は適用されませんでした。</string>
 	<string name="notify_title_safety">クロック値は適用されませんでした。</string>
 	<string name="notify_title_success">クロック値が正常に適用されました。</string>
-	<string name="notify_success" formatted="false">"最低: %1$s
-最大: %2$s
-ガバナ: %3$s
-I/O スケジューラ: %4$s"</string>
+	<string name="notify_success">最低値: %1$s\n最高値: %2$s\n調整リスト: %3$s\nI/O スケジューラ: %4$s</string>
+	<!-- About dialog/activity -->
 	<string name="tab_info">情報</string>
 	<string name="tab_changelog">更新履歴</string>
-	<string name="tab_faq">FAQ</string>
+	
 	<string name="tab_license">ライセンス</string>
+	<string name="about_info_donate">寄付</string>
 	<string name="about_info_version">バージョン: %s</string>
 	<string name="about_info_author">作者: Luca Santarelli</string>
 	<string name="about_info_homepage">フォーラム: http://forum.xda-developers.com/showthread.php?t=911917</string>
@@ -56,12 +61,38 @@ I/O スケジューラ: %4$s"</string>
 デザイン www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">ご質問がある場合は、作者に電子メールやフォーラムで連絡してください。</string>
 	<string name="about_info_thanks">翻訳者の皆さんとこのアプリを築き上げたユーザーの皆さんに感謝！</string>
+	<string name="about_info_translation">誤訳や未翻訳箇所を見つけた場合は、http://www.getlocalization.com/noFrillsCPU/ にて修正を提出することができます。</string>
 	<string name="about_faq_governors_Q">Q: 調整リストとは何ですか？それぞれの違いを教えてください。</string>
 	<string name="about_faq_governors_A">A: CPUの周波数は実行中であってもクロック値を変更することができます。低クロックにすると消費電力が減らすことができます。調整リストは周波数を変更するための指針です。
 この違いを説明すると長くなるので、このページ (http://forum.xda-developers.com/showthread.php?t=911917) を読んでください。</string>
 	<string name="about_faq_profiles_Q">Q: プロファイル機能を追加する予定はありますか？画面がオフのときなどに別のプロファイルを選択したいです。</string>
 	<string name="about_faq_profiles_A">簡単に言うとありません。調整リストが既にその役割を果たしているため、プロファイルは不要だと考えています。
 プロファイルの追加によって、端末の状態を確認するためにアプリが実行され、無駄なメモリを消費することになります。</string>
+	<!-- Widget -->
 	<string name="wdg_updating">ウィジェットを更新中…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">保護を無効にする</string>
+	<string name="prefs_disable_safety_valve_summary_on">予期せぬシャットダウンのチェックを行いません。</string>
+	<string name="prefs_disable_safety_valve_summary_off">予期せぬシャットダウンが発生した場合保護が適用されます。</string>
+	<string name="prefs_disable_safety_valve_dialog_message">保護を無効にしてもよろしいですか？この動作を理解している場合にのみ続行してください。</string>
+	<string name="prefs_change_permissions">他のアプリでの変更を禁止する</string>
+	<string name="prefs_change_permissions_summary_on">他のアプリやシステムがクロック値を変更することを禁止します。</string>
+	<string name="prefs_change_permissions_summary_off">他のアプリやシステムがクロック値を変更することを許可します。</string>
+	<string name="prefs_change_permissions_dialog_message">この機能は、Android 4.1 (Jelly Bean) が必要となります。続行してもよろしいですか？</string>
+	<string name="prefs_cat_notification">起動時の通知</string>
+	<string name="prefs_show_notification">通知を表示</string>
+	<string name="prefs_show_notification_summary_on">通知が表示されます。</string>
+	<string name="prefs_show_notification_summary_off">通知は表示されません。</string>
+	<string name="prefs_vibrate">バイブレーション</string>
+	<string name="prefs_vibrate_pattern">バイブレーションのパターン</string>
+	<string name="prefs_vibrate_pattern_message">振動パターンをミリ秒単位(例:0,50,100,50,100)で入力してください。既定の振動パターンを使用する場合は空白にしてください。</string>
+	<string name="prefs_ringtone">通知音</string>
+	<string name="prefs_cat_stats">統計</string>
+	<string name="prefs_include_deep_sleep">deep sleepを含む</string>
+	<string name="prefs_include_deep_sleep_summary_on">deep sleepを統計に含みます。</string>
+	<string name="prefs_include_deep_sleep_summary_off">deep sleepを統計に含みません。</string>
+	<string name="prefs_update_curfreq">現在クロック値の更新</string>
+	<string name="prefs_update_curfreq_summary_on">現在クロック値が定期的に更新されます。</string>
+	<string name="prefs_update_curfreq_summary_off">統計を更新したときに、現在クロック値も更新されます。</string>
 
 </resources>

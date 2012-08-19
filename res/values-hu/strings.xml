@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
+	
+	
 	<!-- MainActivity -->
 	<string name="unavailable">Nem érhető el</string>
 	<string name="requested">Választott</string>
@@ -52,18 +53,18 @@
 	<string name="tab_info">Rólam</string>
 	<string name="tab_changelog">Napló</string>
 	<string name="tab_faq">GYIK</string>
-	<string name="tab_license">License</string>
+	
 	<string name="about_info_donate">Támogatás</string>
 	<string name="about_info_version">Verzió: %1$s</string>
 	<string name="about_info_author">Író: Luca Santarelli</string>
 	<string name="about_info_homepage">Honlap:
 		http://forum.xda-developers.com/showthread.php?t=911917</string>
-	<string name="about_info_extra">Icon by Anil K Solanki\nDesign
-		www.thisiswhatwedo.com</string>
+	
 	<string name="about_info_questions">Ha bármi kérdése van, kérem lépjen kapcsolatba
 		az íróval email-en vagy a honlapon keresztül.</string>
 	<string name="about_info_thanks">Köszönet az összes fordítónak és az összes
 		felhasználónak akik segítettek alakítani ezt a programot!</string>
+	<string name="about_info_translation">Ha hibás vagy hiányzó fordítást találsz, itt tudsz korrigálni: http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">K: Mi az a Viselkedés? Mi a különbség
 		az egyes viselkedések között?</string>
 	<string name="about_faq_governors_A">V: CPU órajel skálázás lehetővé teszi, hogy
@@ -82,9 +83,13 @@
 	<string name="wdg_updating">Widget frissítése…</string>
 	<!-- Preferences -->
 	<string name="prefs_disable_safety_valve">Biztonsági szelep letiltása</string>
-	<string name="prefs_disable_safety_valve_summary_on">Nem lesz végrehajtva szabálytalan leállásokról ellenőrzés.</string>
-	<string name="prefs_disable_safety_valve_summary_off">Szabálytalan leállás, értékek nem lettek alkalmazva</string>
+	<string name="prefs_disable_safety_valve_summary_on">A szabálytalan leállások nem lesznek ellenőrizve.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Szabálytalan leálláskor, értékek nem lesznek alkalmazva.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Biztos benne hogy letiltja a biztonsági szelepet? CSAK AKKOR alkalmazza, ha tudja mit tesz.</string>
+	<string name="prefs_change_permissions">Más applikációk általi változtatások megakadályozása</string>
+	<string name="prefs_change_permissions_summary_on">Más applikáció (vagy maga a rendszer) frekvencia változtatása megakadályozva.</string>
+	<string name="prefs_change_permissions_summary_off">Más applikáció (vagy maga a rendszer) frekvencia változtatása engedélyezve.</string>
+	<string name="prefs_change_permissions_dialog_message">Ez a funkció csak Android 4.1 (Jelly Bean) esetén szükséges, főleg HTC One vagy hasonló készülékeknél. Biztos elfogadja?</string>
 	<string name="prefs_cat_notification">értesítés rendszerindításnál</string>
 	<string name="prefs_show_notification">értesítés rendszerindításnál</string>
 	<string name="prefs_show_notification_summary_on">Értesítések megjelenítése</string>
@@ -95,7 +100,10 @@
 	<string name="prefs_ringtone">Értesítési hang</string>
 	<string name="prefs_cat_stats">Statisztika</string>
 	<string name="prefs_include_deep_sleep">Mély alvás hozzárendelése</string>
-	<string name="prefs_include_deep_sleep_summary_on">Mély alvás figyelembe véve.</string>
-	<string name="prefs_include_deep_sleep_summary_off">Mély alvás figyelmen kívül hagyása.</string>
+	<string name="prefs_include_deep_sleep_summary_on">Mély alvás hozzárendelve.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Mély alvás figyelmen kívül hagyva.</string>
+	<string name="prefs_update_curfreq">Jelenlegi frekvencia frissitése</string>
+	<string name="prefs_update_curfreq_summary_on">Jelenlegi frekvencia periodikusan fog frissülni.</string>
+	<string name="prefs_update_curfreq_summary_off">Jelenlegi frekvencia, akkor fog frissülni, amikor a statisztikát frissíted.</string>
 
 </resources>

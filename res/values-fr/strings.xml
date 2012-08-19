@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
+	
+	
 	<!-- MainActivity -->
 	<string name="unavailable">Indisponible</string>
 	<string name="requested">Demandé</string>
@@ -24,16 +25,19 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Envoyer données CPU</string>
 	<string name="dlg_send_title">Envoyer données CPU avec…</string>
+	<string name="menu_prefs">Paramètres</string>
 	<string name="menu_view_stats">Voir stats</string>
 	<string name="menu_details">A propos</string>
 	<!-- Stats activity -->
+	<string name="menu_refresh">Actualiser</string>
 	<string name="spinner_stats_text">Lecture des stats pour les 5 dernières secondes…</string>
 	<string name="stats_title">Stats fréquences</string>
 	<string name="stats_current">Fréquence actuelle: %1$s</string>
 	<string name="stats_current_unavailable">indisponible</string>
 	<string name="stats_frequency">Fréquence</string>
-	<string name="stats_perc">Total</string>
+	
 	<string name="stats_perc5">Dernières 5 s</string>
+	<string name="stats_deep_sleep">Veille prolongée</string>
 	<!-- Errors -->
 	<string name="err_need_root">Cette app a besoin des permissions root pour fonctionner.</string>
 	<string name="err_update_failed">rreur: avez-vous autoriser les permissions SuperUtilisateur?</string>
@@ -50,9 +54,10 @@
 	<!-- About dialog/activity -->
 	<string name="tab_info">A propos</string>
 	<string name="tab_changelog">Mises à jour</string>
-	<string name="tab_faq">FAQ</string>
-	<string name="tab_license">License</string>
-	<string name="about_info_version">Version: %1$s</string>
+	
+	
+	<string name="about_info_donate">Donnation</string>
+	
 	<string name="about_info_author">Auteur: Luca Santarelli</string>
 	<string name="about_info_homepage">Site web:
 		http://forum.xda-developers.com/showthread.php?t=911917</string>
@@ -62,6 +67,7 @@
 		l\'auteur par email ou en utilisant le site web.‪</string>
 	<string name="about_info_thanks">Merci à chaque traducteur et à tout les utilisateurs qui
 		ont aidés à construire cette app!</string>
+	
 	<string name="about_faq_governors_Q">Q: Qu\'est ce qu\'un gouverneur? Pouvez-vous expliquer les
 		différences entre eux?</string>
 	<string name="about_faq_governors_A">Les changements de fréquence CPU vous permettent de changer la
@@ -79,5 +85,31 @@
 		avoir besoin de plus de mémoire, de se lancer plus souvent,
 		de vérifier si quelque chose a lieu (écran allumé, écran éteint…)
 		et cela sans bénéfice réel.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Mise à jour du widget…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Désactiver la valve de sécurité</string>
+	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
+	
+	
+	
+	
+	
+	
+	<string name="prefs_cat_notification">Notification au démarrage </string>
+	<string name="prefs_show_notification">Afficher notification</string>
+	
+	
+	<string name="prefs_vibrate">Vibrer</string>
+	
+	
+	<string name="prefs_ringtone">Son de notification</string>
+	<string name="prefs_cat_stats">Statistiques</string>
+	<string name="prefs_include_deep_sleep">Inclure veille prolongée</string>
+	
+	<string name="prefs_include_deep_sleep_summary_off">La veille prolongée sera ignorée</string>
+	
+	
+	
 
 </resources>

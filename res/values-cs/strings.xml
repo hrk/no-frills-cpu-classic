@@ -4,19 +4,19 @@
 	
 	
 	<!-- MainActivity -->
-	
+	<string name="unavailable">Nedostupné</string>
 	<string name="requested">Požadavek</string>
 	<string name="current">Aktuální</string>
 	<string name="max_freq">Max. frekvence</string>
 	<string name="min_freq">Min. frekvence</string>
 	
-	
+	<string name="ioscheduler">I/O časovač</string>
 	<string name="apply_on_boot">Nastav při bootu</string>
 	<string name="show_notification">Zobraz oznámení při bootu</string>
 	<string name="apply">Použít</string>
 	<string name="exit">Ukončit</string>
-	<string name="send">Poslat</string>
-	<string name="dlg_noroot_title">Nemáte práva superuživatele</string>
+	<string name="send">Odeslat</string>
+	<string name="dlg_noroot_title">Chybějící práva root</string>
 	<string name="dlg_noroot_body">Musíte mít práva roota pro použávání této alikace.</string>
 	<string name="dlg_nofs_title">Vaše zařízení nejspíše nepodporuje nastavování frekvence
 	</string>
@@ -24,13 +24,13 @@
 		telefon podporuje změnu frekvence, pošlete prosím CPU data pro přidání
 		podpory vašeho telefonu..</string>
 	<!-- MainActivity - Menu -->
-	<string name="menu_send">Poslat CPU data</string>
-	<string name="dlg_send_title">Poslat CPU data pomocí…</string>
-	
-	<string name="menu_view_stats">Ukaž statistiku</string>
-	
+	<string name="menu_send">Odeslat CPU data</string>
+	<string name="dlg_send_title">Odeslat CPU data přes…</string>
+	<string name="menu_prefs">Nastavení</string>
+	<string name="menu_view_stats">Zobrazit statistiky</string>
+	<string name="menu_details">O aplikaci</string>
 	<!-- Stats activity -->
-	
+	<string name="menu_refresh">Obnovit</string>
 	<string name="spinner_stats_text">Načítání statistiky za posledních 5 vteřin…</string>
 	<string name="stats_title">Statistika frekvence</string>
 	<string name="stats_current">Aktuální frekvence: %s</string>
@@ -38,12 +38,13 @@
 	<string name="stats_frequency">Frekvence</string>
 	<string name="stats_perc">Celkem</string>
 	<string name="stats_perc5">Posl. 5 sek.</string>
-	
+	<string name="stats_deep_sleep">Režim spánku</string>
 	<!-- Errors -->
 	<string name="err_need_root">Tato aplikace vyžaduje ke svému běhu práva roota.</string>
 	<string name="err_update_failed">Chyba: povolili jste SuperUser práva?
 	</string>
-	
+	<string name="err_no_email_client">Nemáte poštovního klienta. Údaje o procesoru nebudou
+odeslané.</string>
 	<!-- Success -->
 	<string name="ok_updated_freqs">Úspěch!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s
 	</string>
@@ -54,37 +55,50 @@
 	<string name="notify_title_success">Hodnoty úspěšně nastaveny</string>
 	
 	<!-- About dialog/activity -->
+	<string name="tab_info">O aplikaci</string>
+	<string name="tab_changelog">Změny ve verzích</string>
 	
+	<string name="tab_license">Licence</string>
+	<string name="about_info_donate">Přispět na vývoj</string>
+	<string name="about_info_version">Verze: %1$s</string>
+	<string name="about_info_author">Autor: Luca Santarelli</string>
+	<string name="about_info_homepage">Domácí stránka:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikonu vytvořil Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Pokud máte nějaké otázky, kontaktujte autora pomocí emailu
+nebo kontaktu domovské stránky aplikace.</string>
+	<string name="about_info_thanks">Děkujeme všem překladatelům a také všem ostatním, kteří pomohli při vývoji této aplikace</string>
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<string name="about_faq_governors_Q">Q: Co to je governor ? Můžete vysvětlit, jaké jsou mezi nimi rozdíly ?</string>
+	<string name="about_faq_governors_A">Škálování frekvence CPU umožňuje měnit frekvenci CPU v reálném čase. Toto může ušetřit energii, protože nižší takt CPU spotřebuje méně energie, Governors slouží k různým možnostem nastavení skálování frekvence. \ nDetailní vysvětlení na stránkách XDA
+(http://forum.xda-developers.com/showthread.php?t=911917)</string>
+	<string name="about_faq_profiles_Q">Q:Plánujete přidání nastavení profilů ? Rád bych si zvolil jiny profil, když dojde k vypnutí obrazovky.</string>
+	<string name="about_faq_profiles_A">A: Krátká odpověd je \"Ne\". Myslím si, že profily jsou zbytečné, protože dělají to samé, jako governors. </string>
 	<!-- Widget -->
-	
+	<string name="wdg_updating">Aktualizace widgetu…</string>
 	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Deativovat bezpečnostní ochranu</string>
+	<string name="prefs_disable_safety_valve_summary_on">Nebude prováděna kontrola nestandartního vypnutí.</string>
+	<string name="prefs_disable_safety_valve_summary_off">V případě nestandartního vypnutí nebudou hodnoty nastaveny.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Opravdu chcete vypnout bezpečnostní nastavení ?
+Pokračujte, pouze pokud víte, co děláte.</string>
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<string name="prefs_cat_notification">Zobraz notifikaci při bootu</string>
+	<string name="prefs_show_notification">Zobraz notifikaci</string>
+	<string name="prefs_show_notification_summary_on">Notifikace budou zobrazovány.</string>
+	<string name="prefs_show_notification_summary_off">Notifikace NEbudou zobrazovány.</string>
+	<string name="prefs_vibrate">Vibrovat</string>
+	<string name="prefs_vibrate_pattern">Nastavení vibrací</string>
+	<string name="prefs_vibrate_pattern_message">Nastavte vzorek vibrací v milisekundách (např.: 0,50,100,50,100) nebo nechte pole prázdné pro orig.nastavení vibrací.</string>
+	<string name="prefs_ringtone">Zvuk pro notifikace</string>
+	<string name="prefs_cat_stats">Statistiky</string>
+	<string name="prefs_include_deep_sleep">Zahrnout režim spánku</string>
+	<string name="prefs_include_deep_sleep_summary_on">Režim spánku bude zahrnut</string>
+	<string name="prefs_include_deep_sleep_summary_off">Režim spánku bude ignorován</string>
 	
 	
 	

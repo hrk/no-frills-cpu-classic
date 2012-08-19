@@ -64,6 +64,7 @@ www.thisiswhatwedo.com</string>
 kullanarak yazar ile iletişime geçin.</string>
 	<string name="about_info_thanks">Programın şekillenmesinde yardımı olan
 her çevirmene ve her kullanıcıya teşekkürler!</string>
+	<string name="about_info_translation">Eğer hatalı ya da kayıp bir çeviri bulursanız, doğru çeviriyi şu adresten ekleyebilirsiniz: http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">S: Düzenleyici (Governor) nedir? aralarındaki
 farkları açıklayabilir misiniz?</string>
 	<string name="about_faq_governors_A">C: CPU frekans ölçekleme size işlemcinin saat hızını anında
@@ -87,6 +88,10 @@ etmek için daha fazla çalışması, gerçek yararını azaltması demek.</stri
 	<string name="prefs_disable_safety_valve_summary_on">Uygun olmayan kapatma için kontrol gerçekleştirilmeyecektir.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Uygun olmayan kapatma durumunda değerler uygulanamayacaktır.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Güvenlik korumasını devre dışı bırakmak istediğinizden emin misiniz? SADECE gelişmiş kullanıcıysanız işleme devam edin.</string>
+	<string name="prefs_change_permissions">Diğer uygulamalardan kaynaklı değişiklikleri önle</string>
+	<string name="prefs_change_permissions_summary_on">Diğer uygulamaların (veya sistem) frekansı değiştirmeleri önlenecektir.</string>
+	<string name="prefs_change_permissions_summary_off">Diğer uygulamalar (veya sistem) frekansı değiştirebileceklerdir.</string>
+	<string name="prefs_change_permissions_dialog_message">Bu özellik, son çıkan HTC One ya da benzeri cihazlar üzerindeki Android 4.1 (Jelly Bean) işletim sistemine ihtiyaç duyar. Devam etmek istediğinize emin misiniz?</string>
 	<string name="prefs_cat_notification">Açılışta bildirim</string>
 	<string name="prefs_show_notification">Bildirim göster</string>
 	<string name="prefs_show_notification_summary_on">Bildirimler gösterilecektir.</string>
@@ -99,5 +104,8 @@ etmek için daha fazla çalışması, gerçek yararını azaltması demek.</stri
 	<string name="prefs_include_deep_sleep">Derin uyku modu dahil</string>
 	<string name="prefs_include_deep_sleep_summary_on">Derin uyku modu dahil edilecektir.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Derin uyku modu gözardı edilecektir.</string>
+	<string name="prefs_update_curfreq">Geçerli frekansı yenile</string>
+	<string name="prefs_update_curfreq_summary_on">Geçerli frekans düzenli olarak güncellenecektir.</string>
+	<string name="prefs_update_curfreq_summary_off">Geçerli frekans istatistikler yenilendiğinde güncellenecektir.</string>
 
 </resources>

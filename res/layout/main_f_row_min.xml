@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_vertical" >
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_weight="0.5"
+		android:orientation="vertical" >
+
+		<TextView
+			android:id="@+id/tv_min_freq"
+			style="@style/BaseText"
+			android:text="@string/min_freq" />
+
+		<TextView
+			android:id="@+id/tv_cur_min_freq"
+			style="@style/BaseText.Small"
+			android:gravity="center_vertical|left" />
+	</LinearLayout>
+
+	<Spinner
+		android:id="@+id/sp_min_freq"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.5"
+		android:prompt="@string/min_freq" />
+
+</TableRow>

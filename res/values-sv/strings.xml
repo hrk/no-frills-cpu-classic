@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
+
 	<string name="app_name">No-frills CPU Kontroll</string>
+	<string name="app_name_classic">No-frills CPU Kontroll CLASSIC</string>
 	<!-- MainActivity -->
+	<string name="unavailable">Ej tillgänglig</string>
 	<string name="requested">Begärd</string>
 	<string name="current">Aktuell</string>
 	<string name="max_freq">Max. klock frekv.</string>
 	<string name="min_freq">Min. klock frekv.</string>
 	<string name="governor">Guvernör</string>
+	<string name="ioscheduler">I/O-schemaläggare</string>
 	<string name="apply_on_boot">Utför vid boot</string>
 	<string name="show_notification">Visa notifiering vid boot</string>
 	<string name="apply">Utför</string>
 	<string name="exit">Avsluta</string>
 	<string name="send">Skicka</string>
+	<string name="dlg_noroot_title">Root-rättigheter saknas</string>
+	<string name="dlg_noroot_body">Du måste vara rootad för att använda denna app</string>
 	<string name="dlg_nofs_title">Din enhet verkar sakna frekvensskalning
 	</string>
 	<string name="dlg_nofs_body">Om du använder en custom ROM eller tror att
@@ -20,8 +26,11 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Skicka CPU data</string>
 	<string name="dlg_send_title">Skicka CPU data med…</string>
+	<string name="menu_prefs">Inställningar</string>
 	<string name="menu_view_stats">Visa statistik</string>
+	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
+	<string name="menu_refresh">Uppdatera</string>
 	<string name="spinner_stats_text">Läser statistik för de senaste 5 sekunderna…</string>
 	<string name="stats_title">Frekvensstatistik</string>
 	<string name="stats_current">Aktuell frekvens: %s</string>
@@ -29,10 +38,12 @@
 	<string name="stats_frequency">Frekvens</string>
 	<string name="stats_perc">Totalt</string>
 	<string name="stats_perc5">Sista 5 sek.</string>
+	<string name="stats_deep_sleep">Djupsömn</string>
 	<!-- Errors -->
 	<string name="err_need_root">Denna app kräver root privilegier för att fungera.</string>
 	<string name="err_update_failed">Fel: tillät du SuperUser permissions?
 	</string>
+	<string name="err_no_email_client">Du har ingen e-postklient. CPU-data kommer inte att sändas.</string>
 	<!-- Success -->
 	<string name="ok_updated_freqs">Lyckades!\nMin: %1$s\nMax: %2$s\nGuvernör: %3$s\nI/O Scheduler: %4$s
 	</string>
@@ -42,4 +53,60 @@
 	<string name="notify_title_safety">Ändringarna genomfördes ej</string>
 	<string name="notify_title_success">Ändringarna genomfördes OK</string>
 	<string name="notify_success">Min: %1$s\nMax: %2$s\nGuvernör: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Om</string>
+	<string name="tab_changelog">Ändringslogg</string>
+	<string name="tab_faq">Vanliga frågor</string>
+	<string name="tab_license">Licens</string>
+	<string name="about_info_donate">Donera</string>
+	
+	<string name="about_info_author">Upphovsman: Luca Santarelli</string>
+	<string name="about_info_homepage">Hemsida:
+http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_extra">Ikon av Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Om du har några frågor, vänligen kontakta upphovsmannen med e-post eller via hemsidan.</string>
+	<string name="about_info_thanks">Tack till alla översättare och alla användare som hjälpt till att få ordning på denna app.</string>
+	<string name="about_info_translation">Om du hittar en översättning som är felaktig eller saknas, kan du själv bidra med din egen översättning på
+http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_faq_governors_Q">Vad är en guvernör? Kan du förklara skillnaden mellan de olika?</string>
+	<string name="about_faq_governors_A">CPU-frekvensskalning låter dig ändra klockfrekvens utan omstart. Det kan spara batteri, eftersom lägre klockfrekvens på CPU:n sänker dess energiförbrukning.Guvenörer är olika regelverk för skalning av klockfrekvens. Svaret på hur de olika guvenörerna skiljer sig åt är långt, läs gärna om det på hemsidan
+(http://forum.xda-developers.com/showthread.php?t=911917)(på engelska).
+</string>
+	<string name="about_faq_profiles_Q">Fråga: Planerar du att lägga till profiler? Jag skulle gärna vilja ha en annan profil för när skärmen är släckt!</string>
+	<string name="about_faq_profiles_A">A: Short answer is \"No\". I think that profiles
+are useless, because that\'s what governors are already: a profile for
+your CPU to follow while changing frequencies.\nAdding profiles would
+mean adding the need for more memory, the need to run more often,
+check if something is happening (screen on, screen off and so on)…
+all of this without a real 
+benefit.
+Det korta svaret är "nej". Jag anser att profiler är värdelösa, eftersom det är just vad guvenörerna redan är: en profil för CPU:n att följa när den ändrar klockfrekvens. /nAtt lägga till profiler skulle betyda att mer minne krävs, att appen skulle behöva köra oftare för att se vad som pågår (om skärmen är på eller av, osv.), utan någon riktig vinst.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">Uppdaterar widget…</string>
+	<!-- Preferences -->
+	<string name="prefs_disable_safety_valve">Stäng av säkerhetsventil</string>
+	<string name="prefs_disable_safety_valve_summary_on">Kommer inte att undersöka om avstängningen gick rätt till</string>
+	<string name="prefs_disable_safety_valve_summary_off">Inställda värden kommer inte att verkställas om avstängningen gick fel.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Är du säker på at du vil stänga av säkerhetsventilen? Fortsätt ENDAST om du vet vad du gör.</string>
+	<string name="prefs_change_permissions">Hindra andra appar från att göra ändringar</string>
+	<string name="prefs_change_permissions_summary_on">Andra appar (eller systemet) kommer att hindras från att ändra klockfrekvensen.</string>
+	<string name="prefs_change_permissions_summary_off">Andra appar (eller systemet) kommer tillåtas att ändra klockfrekvensen.</string>
+	<string name="prefs_change_permissions_dialog_message">Denna funktion behövs bara i Android 4.1 (Jelly Bean), på nya HTC One eller liknande enheter. Är du säker på att du vill fortsätta?</string>
+	<string name="prefs_cat_notification">Visa notifiering vid boot</string>
+	<string name="prefs_show_notification">Visa notifiering</string>
+	<string name="prefs_show_notification_summary_on">Kommer visa notifieringar</string>
+	<string name="prefs_show_notification_summary_off">Kommer INTE visa notifieringar</string>
+	<string name="prefs_vibrate">Vibrera</string>
+	<string name="prefs_vibrate_pattern">Vibrationsmönster</string>
+	<string name="prefs_vibrate_pattern_message">Ange ett vibrationsmönster uttryckt i millisekunder (t.ex.: 0,50,100,50,100), eller lämna rutan tom för det förvalda mönstret.</string>
+	<string name="prefs_ringtone">Notifieringsljud</string>
+	<string name="prefs_cat_stats">Statistik</string>
+	<string name="prefs_include_deep_sleep">Inkludera djupsömn</string>
+	<string name="prefs_include_deep_sleep_summary_on">Djupsömn inkluderas</string>
+	<string name="prefs_include_deep_sleep_summary_off">Djupsömn inkluderas INTE</string>
+	<string name="prefs_update_curfreq">Uppdatera nuvarande klockfrekvens</string>
+	<string name="prefs_update_curfreq_summary_on">Nuvarande klockfrekvens uppdateras regelbundet.</string>
+	<string name="prefs_update_curfreq_summary_off">Nuvarande klockfrekvens uppdateras när statistiken uppdateras.</string>
+
 </resources>

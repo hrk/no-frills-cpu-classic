@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="it.sineo.android.noFrillsCPUClassic"
 	android:installLocation="internalOnly"
-	android:versionCode="51"
-	android:versionName="1.25" >
+	android:versionCode="52"
+	android:versionName="1.26" >
 
 	<uses-sdk
 		android:minSdkVersion="4"

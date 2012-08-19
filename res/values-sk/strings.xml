@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">No-frills CPU Control</string>
+	
+	
 	<!-- MainActivity -->
 	<string name="unavailable">Nedostupné</string>
 	<string name="requested">Požadované</string>
@@ -24,9 +25,11 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Odoslať údaje o procesore</string>
 	<string name="dlg_send_title">Odoslať údaje o procesore cez…</string>
+	
 	<string name="menu_view_stats">Zobraziť štatistiku</string>
 	<string name="menu_details">O programe</string>
 	<!-- Stats activity -->
+	
 	<string name="spinner_stats_text">Načítava sa štatistika za posledných 5 sekúnd…</string>
 	<string name="stats_title">Štatistika frekvencií</string>
 	<string name="stats_current">Aktuálna frekvencia: %1$s</string>
@@ -34,6 +37,7 @@
 	<string name="stats_frequency">Frekvencia</string>
 	<string name="stats_perc">Celkovo</string>
 	<string name="stats_perc5">Posledných 5 sek.</string>
+	<string name="stats_deep_sleep">Režim spánku</string>
 	<!-- Errors -->
 	<string name="err_need_root">K fungovaniu tejto aplikácia sú potrebné správcovské(root) privilégie.</string>
 	<string name="err_update_failed">hyba: povolili ste SuperUser oprávnenia?</string>
@@ -50,8 +54,9 @@
 	<!-- About dialog/activity -->
 	<string name="tab_info">O programe</string>
 	<string name="tab_changelog">Zoznam zmien</string>
-	<string name="tab_faq">FAQ</string>
+	
 	<string name="tab_license">Licencia</string>
+	
 	<string name="about_info_version">Verzia: %1$s</string>
 	<string name="about_info_author">Autor: Luca Santarelli</string>
 	<string name="about_info_homepage">Dom. stránka:
@@ -62,6 +67,7 @@
 		autora cez email alebo použitím domovskej stránky.</string>
 	<string name="about_info_thanks">Ďakujeme všetkým prekladateľom a všetkým, ktorí
 		pomohli pomohli vývoju tejto aplikácie!</string>
+	
 	<string name="about_faq_governors_Q">Q: Čo je Ovládanie? Môžete vysvetliť
 		rozdiely medzi nimi?</string>
 	<string name="about_faq_governors_A">Upravovanie frekvencie procesora Vám umožňuje
@@ -81,5 +87,29 @@
 		toto všetko je bez skutočného úžitku.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizuje sa miniaplikácia…</string>
+	<!-- Preferences -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="prefs_vibrate_pattern">Nastavení vibrací</string>
+	
+	<string name="prefs_ringtone">Zvuk pro notifikace</string>
+	
+	
+	
+	
+	
+	
+	
 
 </resources>

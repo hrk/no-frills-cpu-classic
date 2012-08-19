@@ -63,6 +63,7 @@
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">有任何疑问，请通过电子邮件或者访问主页联系作者.</string>
 	<string name="about_info_thanks">感谢每个翻译者和每位用户帮忙塑造了这个软件！</string>
+	<string name="about_info_translation">如果您有更好的翻译意见,欢迎向我们提出. 网址http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">问题:调速器是什么? 
 你能介绍他们不同之处吗?</string>
 	<string name="about_faq_governors_A">答:CPU 频率调节可以快速的改变CPU的时钟频率. 这样能够省电, 因为CPU的频率越低，所消耗的电也就越少. Governors 使用不同的策略来调节频率.\n具体工作原理请访问我的主页：
@@ -77,6 +78,10 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_disable_safety_valve_summary_on">关机不正常无法进行设置.</string>
 	<string name="prefs_disable_safety_valve_summary_off">关机不正常. 所设定的值不被支持</string>
 	<string name="prefs_disable_safety_valve_dialog_message">你确定要撤销安全值吗?如果你清楚此操作的后果请继续.</string>
+	<string name="prefs_change_permissions">阻止其他程序修改数据</string>
+	<string name="prefs_change_permissions_summary_on">其他软件(或系统)将不能够变更频率.</string>
+	<string name="prefs_change_permissions_summary_off">其他软件(或系统)将允许变更频率.</string>
+	<string name="prefs_change_permissions_dialog_message">此功能仅限用于Android 4.1(果冻豆),如HTC One或类似设备.您确定继续吗?</string>
 	<string name="prefs_cat_notification">开机显示通知</string>
 	<string name="prefs_show_notification">显示设定通知</string>
 	<string name="prefs_show_notification_summary_on">将会显示通知信息.</string>
@@ -89,5 +94,8 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_include_deep_sleep">包括深度休眠</string>
 	<string name="prefs_include_deep_sleep_summary_on">将包含深度休眠</string>
 	<string name="prefs_include_deep_sleep_summary_off">将忽略深度休眠</string>
+	<string name="prefs_update_curfreq">刷新当前频率</string>
+	<string name="prefs_update_curfreq_summary_on">当前频率将会定期更新</string>
+	<string name="prefs_update_curfreq_summary_off">当刷新统计数据后当前频率将进行更新</string>
 
 </resources>

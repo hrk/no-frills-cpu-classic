@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+	<release date="2012-08-20" version="1.26">
+		<change>Added Themes! Dark, Light, Light &amp; Dark.</change>
+		<change>UI improvements.</change>
+		<change>Fix FC in Stats screen.</change>
+	</release>
 	<release date="2012-07-07" version="1.25">
 		<change>Added preference setting to automatically update the current frequency in the stats screen.</change>
 		<change>Added preference setting to prevent other apps from interfering with frequencies (required for Jelly Bean and some HTC devices).</change>
@@ -23,7 +28,7 @@
 	<release date="2012-03-18" version="1.22">
 		<change>Hopefully fixed crash when refreshing stats on some devices. If you still get a crash, please contact the developer through email to help him fix this issue!</change>
 		<change>Updated Hungarian translation</change>
-		<change>Added Ukrainian and Russian translation</change>
+		<change>Added Ukrainian and Russian translation by Анатолий Матях</change>
 	</release>
 	<release date="2012-03-11" version="1.21">
 		<change>Android 4.0 Ice Cream Sandwich look &amp; feel on Android 2.1 and above!</change>

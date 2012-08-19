@@ -9,48 +9,48 @@
 	<string name="current">Nykyinen</string>
 	<string name="max_freq">Max. kellotus taajuus</string>
 	<string name="min_freq">Min. kellotus taajuus</string>
-	<string name="governor">S√§√§din</string>
+	<string name="governor">Säädin</string>
 	<string name="ioscheduler">I/O vuorottaja</string>
-	<string name="apply_on_boot">Ota k√§ytt√∂√∂n k√§ynnistett√§ess√§</string>
-	<string name="show_notification">N√§yt√§ ilmoitus uudelleenk√§ynnistett√§ess√§</string>
-	<string name="apply">Hyv√§ksy</string>
+	<string name="apply_on_boot">Ota käyttöön käynnistettäessä</string>
+	<string name="show_notification">Näytä ilmoitus uudelleenkäynnistettäessä</string>
+	<string name="apply">Hyväksy</string>
 	<string name="exit">Poistu</string>
-	<string name="send">L√§het√§</string>
-	<string name="dlg_noroot_title">Ei p√§√§k√§ytt√§j√§n oikeuksia</string>
-	<string name="dlg_noroot_body">Tarvitset p√§√§k√§ytt√§j√§n oikeudet k√§ytt√§√§ksesi t√§t√§ sovellusta.</string>
+	<string name="send">Lähetä</string>
+	<string name="dlg_noroot_title">Ei pääkäyttäjän oikeuksia</string>
+	<string name="dlg_noroot_body">Tarvitset pääkäyttäjän oikeudet käyttääksesi tätä sovellusta.</string>
 	<string name="dlg_nofs_title">Laitteestasi puuttuu taajuuden skaalaus</string>
-	<string name="dlg_nofs_body">Jos k√§yt√§t custom ROM:ia tai puhelimesi tukee 
-taajuuden skaalausta, l√§het√§ suorittimen tiedot 
+	<string name="dlg_nofs_body">Jos käytät custom ROM:ia tai puhelimesi tukee 
+taajuuden skaalausta, lähetä suorittimen tiedot 
 jotta puhelimellesi saadaan tuki.</string>
 	<!-- MainActivity - Menu -->
-	<string name="menu_send">L√§het√§ CPU data</string>
-	<string name="dlg_send_title">L√§het√§ CPU data k√§ytt√§en…</string>
+	<string name="menu_send">Lähetä CPU data</string>
+	<string name="dlg_send_title">Lähetä CPU data käyttäen…</string>
 	<string name="menu_prefs">Asetukset</string>
-	<string name="menu_view_stats">N√§yt√§ tilastot</string>
+	<string name="menu_view_stats">Näytä tilastot</string>
 	<string name="menu_details">Tietoja</string>
 	<!-- Stats activity -->
-	<string name="menu_refresh">P√§ivit√§</string>
-	<string name="spinner_stats_text">Luetaan tilastot viimeiselt√§ 5 sekunnilta</string>
+	<string name="menu_refresh">Päivitä</string>
+	<string name="spinner_stats_text">Luetaan tilastot viimeiseltä 5 sekunnilta</string>
 	<string name="stats_title">Taajuustilastot</string>
 	<string name="stats_current">Hetkellinen taajuus: %1$s</string>
 	<string name="stats_current_unavailable">Ei saatavilla</string>
 	<string name="stats_frequency">Taajuus</string>
-	<string name="stats_perc">Yhteens√§</string>
+	<string name="stats_perc">Yhteensä</string>
 	<string name="stats_perc5">Viimeiset 5 sek.</string>
 	<string name="stats_deep_sleep">Lepotila</string>
 	<!-- Errors -->
-	<string name="err_need_root">T√§m√§ ohjelma pyysi p√§√§k√§ytt√§j√§n oikeuksia toimiakseen.</string>
-	<string name="err_update_failed">Virhe: sallitko p√§√§k√§ytt√§j√§n oikeudet?</string>
-	<string name="err_no_email_client">Sinulla ei ole s√§hk√∂postitili√§. CPU 
-dataa ei l√§hetet√§.</string>
+	<string name="err_need_root">Tämä ohjelma pyysi pääkäyttäjän oikeuksia toimiakseen.</string>
+	<string name="err_update_failed">Virhe: sallitko pääkäyttäjän oikeudet?</string>
+	<string name="err_no_email_client">Sinulla ei ole sähköpostitiliä. CPU 
+dataa ei lähetetä.</string>
 	<!-- Success -->
-	<string name="ok_updated_freqs">Onnistui!\nMin: %1$s\nMax: %2$s\nS√§√§din: %3$s\nI/O Vuorottaja: %4$s</string>
+	<string name="ok_updated_freqs">Onnistui!\nMin: %1$s\nMax: %2$s\nSäädin: %3$s\nI/O Vuorottaja: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%1$s l√∂ytyi, arvoja ei k√§ytet√§</string>
-	<string name="notify_safety_shutdown">Virheellinen j√§rjestelm√§n sammuttaminen, arvoja ei k√§ytet√§</string>
-	<string name="notify_title_safety">Arvoja ei k√§ytet√§</string>
-	<string name="notify_title_success">Arvot otettu k√§ytt√∂√∂n onnistuneesti</string>
-	<string name="notify_success">Min: %1$s\nMax: %2$s\nS√§√§din: %3$s\nI/O Vuorottaja: %4$s</string>
+	<string name="notify_nlj_safety_found">%1$s löytyi, arvoja ei käytetä</string>
+	<string name="notify_safety_shutdown">Virheellinen järjestelmän sammuttaminen, arvoja ei käytetä</string>
+	<string name="notify_title_safety">Arvoja ei käytetä</string>
+	<string name="notify_title_success">Arvot otettu käyttöön onnistuneesti</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nSäädin: %3$s\nI/O Vuorottaja: %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">Tietoja</string>
 	<string name="tab_changelog">Muutoslista</string>
@@ -63,46 +63,46 @@ dataa ei l√§hetet√§.</string>
 http://forum.xda-developers.com/showthread.php?t=911917</string>
 	<string name="about_info_extra">Logon tehnyt Anil K Solanki\nDesign
 www.thisishwatwedo.com</string>
-	<string name="about_info_questions">Jos sinulla on kysymyksi√§, ota yhteytt√§ 
-tekij√§√§n s√§hk√∂postilla tai k√§y kotisivuilla.</string>
-	<string name="about_info_thanks">Kiitos jokaiselle k√§√§nt√§j√§lle ja
-kaikille jotka auttoivat ohjelman tekemisess√§!</string>
-	<string name="about_info_translation">Jos k√§√§nn√∂s on v√§√§r√§ tai puuttuu kokonaan, voit korjata tilanteen osoitteessa http://www.getlocalization.com/noFrillsCPUClassic/</string>
-	<string name="about_faq_governors_Q">Mik√§ on s√§√§din? Mitk√§ ovat erot niiden v√§lill√§?</string>
-	<string name="about_faq_governors_A">Suorittimen taajuuden skaalaus mahdollistaa kellotaajuuden ajonaikaisen vaihtamisen. T√§m√§ voi v√§hent√§√§ virrankulutusta, koska mit√§ alhaisempi kellotaajuus, sit√§ v√§hemm√§n virtaa suoritin kuluttaa. S√§√§timet ovat erilaisia k√§yt√§nt√∂j√§ jotka muuttavat kellotaajuutta. \nErojen kuvaaminen on pitk√§ tarina, voit lukea tarkemmin kehitt√§j√§n sivustolta  (http://forum.xda-developers.com/showthread.php?t=911917).</string>
-	<string name="about_faq_profiles_Q">K: Aiotko lis√§t√§ k√§ytt√§j√§profiileja? Haluaisin 
-valita erilaisen profiilin kun n√§ytt√∂ on himmennetty!</string>
-	<string name="about_faq_profiles_A">V: Lyhyt vastaus,  \"En\". Mielest√§ni profiilit 
-ovat turhia, koska sit√§ s√§√§timet juuri ovat: profiili 
-suorittimelle, jonka mukaan vaihtaa taajuuksia.\nProfiilien lis√§√§minen
-vaatii my√∂s enemm√§n muistia k√§ytt√∂√∂n, useampia tarkistuksia, 
-mit√§ on k√§ynniss√§ (n√§ytt√∂ p√§√§ll√§ vai pois jne.) …
-Kaikki t√§m√§ ilman merkitt√§v√§√§ hy√∂ty√§.</string>
+	<string name="about_info_questions">Jos sinulla on kysymyksiä, ota yhteyttä 
+tekijään sähköpostilla tai käy kotisivuilla.</string>
+	<string name="about_info_thanks">Kiitos jokaiselle kääntäjälle ja
+kaikille jotka auttoivat ohjelman tekemisessä!</string>
+	<string name="about_info_translation">Jos käännös on väärä tai puuttuu kokonaan, voit korjata tilanteen osoitteessa http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_faq_governors_Q">Mikä on säädin? Mitkä ovat erot niiden välillä?</string>
+	<string name="about_faq_governors_A">Suorittimen taajuuden skaalaus mahdollistaa kellotaajuuden ajonaikaisen vaihtamisen. Tämä voi vähentää virrankulutusta, koska mitä alhaisempi kellotaajuus, sitä vähemmän virtaa suoritin kuluttaa. Säätimet ovat erilaisia käytäntöjä jotka muuttavat kellotaajuutta. \nErojen kuvaaminen on pitkä tarina, voit lukea tarkemmin kehittäjän sivustolta  (http://forum.xda-developers.com/showthread.php?t=911917).</string>
+	<string name="about_faq_profiles_Q">K: Aiotko lisätä käyttäjäprofiileja? Haluaisin 
+valita erilaisen profiilin kun näyttö on himmennetty!</string>
+	<string name="about_faq_profiles_A">V: Lyhyt vastaus,  \"En\". Mielestäni profiilit 
+ovat turhia, koska sitä säätimet juuri ovat: profiili 
+suorittimelle, jonka mukaan vaihtaa taajuuksia.\nProfiilien lisääminen
+vaatii myös enemmän muistia käyttöön, useampia tarkistuksia, 
+mitä on käynnissä (näyttö päällä vai pois jne.) …
+Kaikki tämä ilman merkittävää hyötyä.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">P√§ivitet√§√§n sovelmaa…</string>
+	<string name="wdg_updating">Päivitetään sovelmaa…</string>
 	<!-- Preferences -->
-	<string name="prefs_disable_safety_valve">Poista k√§yt√∂st√§ varoventtiili</string>
-	<string name="prefs_disable_safety_valve_summary_on">Tarkistusta ei suoriteta j√§rjestelm√§n virheelisen sammuttamisen varalta.</string>
-	<string name="prefs_disable_safety_valve_summary_off">Arvoja ei k√§ytet√§ jos j√§rjestelm√§ sammutetaan virheellisesti.</string>
-	<string name="prefs_disable_safety_valve_dialog_message">Oletko varma ett√§ haluat poistaa varoventtiilin k√§yt√∂st√§? Jatka VAIN jos tied√§t mit√§ teet.</string>
+	<string name="prefs_disable_safety_valve">Poista käytöstä varoventtiili</string>
+	<string name="prefs_disable_safety_valve_summary_on">Tarkistusta ei suoriteta järjestelmän virheelisen sammuttamisen varalta.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Arvoja ei käytetä jos järjestelmä sammutetaan virheellisesti.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Oletko varma että haluat poistaa varoventtiilin käytöstä? Jatka VAIN jos tiedät mitä teet.</string>
 	
 	
 	
 	
-	<string name="prefs_cat_notification">N√§yt√§ ilmoitus k√§ynnistett√§ess√§</string>
-	<string name="prefs_show_notification">N√§yt√§ ilmoitus</string>
-	<string name="prefs_show_notification_summary_on">Ilmoitukset n√§ytet√§√§n.</string>
-	<string name="prefs_show_notification_summary_off">Ilmoituksia EI n√§ytet√§.</string>
-	<string name="prefs_vibrate">V√§rin√§</string>
-	<string name="prefs_vibrate_pattern">V√§rin√§n tyyppi</string>
-	<string name="prefs_vibrate_pattern_message">M√§√§rit√§ v√§rin√§tyyppi millisekunteina (esim: 0,50,100,50,100) tai j√§t√§ t√§m√§ kentt√§ tyhj√§ksi k√§ytt√§√§ksesi oletusarvoja.</string>
-	<string name="prefs_ringtone">Ilmoitus√§√§ni</string>
+	<string name="prefs_cat_notification">Näytä ilmoitus käynnistettäessä</string>
+	<string name="prefs_show_notification">Näytä ilmoitus</string>
+	<string name="prefs_show_notification_summary_on">Ilmoitukset näytetään.</string>
+	<string name="prefs_show_notification_summary_off">Ilmoituksia EI näytetä.</string>
+	<string name="prefs_vibrate">Värinä</string>
+	<string name="prefs_vibrate_pattern">Värinän tyyppi</string>
+	<string name="prefs_vibrate_pattern_message">Määritä värinätyyppi millisekunteina (esim: 0,50,100,50,100) tai jätä tämä kenttä tyhjäksi käyttääksesi oletusarvoja.</string>
+	<string name="prefs_ringtone">Ilmoitusääni</string>
 	<string name="prefs_cat_stats">Tilastot</string>
 	<string name="prefs_include_deep_sleep">Huomioi lepotila.</string>
 	<string name="prefs_include_deep_sleep_summary_on">Lepotila huomioidaan.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Lepotilaa ei huomioida.</string>
-	<string name="prefs_update_curfreq">P√§ivit√§ nykyinen kellotaajuus</string>
-	<string name="prefs_update_curfreq_summary_on">Nykyinen kellotaajuus p√§ivitet√§√§n ajoittain</string>
-	<string name="prefs_update_curfreq_summary_off">Nykyinen kellotaajuus p√§ivitet√§√§n samalla kun tilastot p√§ivitet√§√§n</string>
+	<string name="prefs_update_curfreq">Päivitä nykyinen kellotaajuus</string>
+	<string name="prefs_update_curfreq_summary_on">Nykyinen kellotaajuus päivitetään ajoittain</string>
+	<string name="prefs_update_curfreq_summary_off">Nykyinen kellotaajuus päivitetään samalla kun tilastot päivitetään</string>
 
 </resources>
