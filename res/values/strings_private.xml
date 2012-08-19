@@ -4,7 +4,7 @@
 	<string-array name="prefs_themes_values">
 		<item name="prefs_theme_dark">THEME_DARK</item>
 		<item name="prefs_theme_light">THEME_LIGHT</item>
-		<!-- <item name="prefs_theme_light_dark">THEME_LIGHT_DARK</item> -->
+		<item name="prefs_theme_light_dark">THEME_LIGHT_DARK</item>
 	</string-array>
 
 	<string name="dash">-</string>
