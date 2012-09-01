@@ -271,8 +271,6 @@ public class MainActivity extends Activity {
 							editor.putString(Constants.PREF_GOVERNOR, governor);
 							editor.putString(Constants.PREF_IOSCHEDULER, ioscheduler);
 							editor.commit();
-
-							finish();
 						}
 					});
 				}
