@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">No-frills cpu kontrolė</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Nepasiekiamas</string>
+	<string name="requested">Užklausiama</string>
+	<string name="current">Dabartinis</string>
+	<string name="max_freq">Maks. dažnis</string>
+	<string name="min_freq">Min. dažnis</string>
+	<string name="governor">Valdiklio tipas</string>
+	<string name="ioscheduler">I/O parametrai</string>
+	<string name="apply_on_boot">Paleisti užkraunant</string>
+	<string name="show_notification">Rodyti patvirtinimą besikraunant</string>
+	<string name="apply">Patvirtinti</string>
+	<string name="exit">Išeiti</string>
+	<string name="send">Siūsti</string>
+	<string name="dlg_noroot_title">Nėra root teisių</string>
+	<string name="dlg_noroot_body">Jūs turite turėti root teisės kad naudotis šia programa</string>
+	<string name="dlg_nofs_title">Jūsų prietaisas nepalaiko dažnio reguliavimo</string>
+	
+	<!-- MainActivity - Menu -->
+	
+	
+	<string name="menu_prefs">Nustatymai</string>
+	
+	<string name="menu_details">Apie</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Atnaujinti</string>
+	<string name="spinner_stats_text">Nuskaitomi 5 paskutinių sekundžių duomenys</string>
+	<string name="stats_title">Dažnio reikšmė</string>
+	
+	<string name="stats_current_unavailable">Nepasiekiamas</string>
+	<string name="stats_frequency">Dažnio reikšmė</string>
+	<string name="stats_perc">Viso</string>
+	<string name="stats_perc5">Pask. 5 sekundžių</string>
+	
+	<!-- Errors -->
+	
+	
+	
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	
+	
+	
+	
+	<!-- About dialog/activity -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

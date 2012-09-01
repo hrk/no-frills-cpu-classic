@@ -58,9 +58,8 @@ dataa ei lähetetä.</string>
 	<string name="tab_license">Lisenssi</string>
 	<string name="about_info_donate">Lahjoita</string>
 	<string name="about_info_version">Versio: %1$s</string>
-	<string name="about_info_author">Kirjoittaja: Luca Santarelli</string>
-	<string name="about_info_homepage">Kotisivu: 
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">Tekijä: %1$s</string>
+	<string name="about_info_homepage">Kotisivu: %1$s</string>
 	<string name="about_info_extra">Logon tehnyt Anil K Solanki\nDesign
 www.thisishwatwedo.com</string>
 	<string name="about_info_questions">Jos sinulla on kysymyksiä, ota yhteyttä 
@@ -81,14 +80,23 @@ Kaikki tämä ilman merkittävää hyötyä.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Päivitetään sovelmaa…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Teema</string>
+	<string name="prefs_theme_restart_needed">Teema otetaan käyttöön kun sovelma käynnistetään uudelleen.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Poista käytöstä varoventtiili</string>
 	<string name="prefs_disable_safety_valve_summary_on">Tarkistusta ei suoriteta järjestelmän virheelisen sammuttamisen varalta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Arvoja ei käytetä jos järjestelmä sammutetaan virheellisesti.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Oletko varma että haluat poistaa varoventtiilin käytöstä? Jatka VAIN jos tiedät mitä teet.</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Estä toisten sovellusten tekemät muutokset</string>
+	<string name="prefs_change_permissions_summary_on">Muut sovellukset (tai järjestelmä) eivät voi muuttaa taajuuksia.</string>
+	<string name="prefs_change_permissions_summary_off">Muut sovellukset (tai järjestelmä) voivat muuttaa taajuuksia.</string>
+	<string name="prefs_change_permissions_dialog_message">Tämä ominaisuus on tarpeen vain Android 4.1:llä (Jelly Bean) sekä viimeaikaisilla HTC One -laitteilla tai vastaavilla laitteilla. Haluatko varmasti jatkaa?</string>
 	<string name="prefs_cat_notification">Näytä ilmoitus käynnistettäessä</string>
 	<string name="prefs_show_notification">Näytä ilmoitus</string>
 	<string name="prefs_show_notification_summary_on">Ilmoitukset näytetään.</string>

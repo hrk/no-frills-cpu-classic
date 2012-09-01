@@ -41,7 +41,7 @@
 	<string name="err_update_failed">Fehler: Haben Sie su-Rechte gewährt?</string>
 	<string name="err_no_email_client">Sie haben kein E-Mail Programm. CPU Daten werden nicht gesendet.</string>
 	<!-- Success -->
-	<string name="ok_updated_freqs">rfolg!\nMin: %1$s\nMax: %2$s\nGovernors: %3$s\nI/O Scheduler: %4$s</string>
+	<string name="ok_updated_freqs">Erfolg!\nMin: %1$s\nMax: %2$s\nGovernors: %3$s\nI/O Scheduler: %4$s</string>
 	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">%s gefunden, Werte nicht übernommen</string>
 	<string name="notify_safety_shutdown">Unsauberes Herunterfahren, Werte nicht übernommen</string>
@@ -55,7 +55,7 @@
 	<string name="tab_license">Lizenz</string>
 	<string name="about_info_donate">Spenden</string>
 	<string name="about_info_version">Version: %s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
+	
 	
 	<string name="about_info_extra">Icon von Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
@@ -72,6 +72,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Widget aktualisieren…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Sicherheit deaktivieren</string>
 	<string name="prefs_disable_safety_valve_summary_on">Unsauberes Herunterfahren wird beim Start nicht überprüft.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Wenn das Telefon nicht sauber heruntergefahren wurde, werden die Werte nicht übernommen.</string>

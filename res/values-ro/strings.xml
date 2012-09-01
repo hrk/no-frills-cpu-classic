@@ -6,7 +6,7 @@
 	<!-- MainActivity -->
 	<string name="unavailable">Indisponibil</string>
 	<string name="requested">Solicitat</string>
-	<string name="current">Actual</string>
+	<string name="current">Actuală</string>
 	<string name="max_freq">Frec. max. proc.</string>
 	<string name="min_freq">Frec. min. proc.</string>
 	<string name="governor">Guvernator</string>
@@ -16,12 +16,10 @@
 	<string name="apply">Aplică</string>
 	<string name="exit">Ieşi</string>
 	<string name="send">Trimite</string>
-	<string name="dlg_noroot_title">Permisiuni lipsă de root</string>
+	<string name="dlg_noroot_title">Permisiuni de root lipsă</string>
 	<string name="dlg_noroot_body">Trebuie să ai telefonul rootat pentru a folosi aplicaţia.</string>
-	<string name="dlg_nofs_title">Telefonul tău pare să nu aibă nevoie de modificarea frecvenţei</string>
-	<string name="dlg_nofs_body">Dacă rulaţi un ROM personalizaţi sau dacă credeţi 
-că telefonul suportă schimbarea frecvenţei, trimiteţi 
-datele legate de procesor pentru a oferi suport telefonului dvs.</string>
+	<string name="dlg_nofs_title">Telefonul tău pare să nu permită modificarea frecvenţei</string>
+	<string name="dlg_nofs_body">Dacă rulaţi un ROM personalizat sau dacă credeţi că telefonul suportă schimbarea frecvenţei, trimiteţi datele legate de procesor pentru a oferi suport telefonului dvs.</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Trimiteţi datele despre procesor</string>
 	<string name="dlg_send_title">Trimiteţi setările despre procesor cu…</string>
@@ -58,24 +56,30 @@ procesor nu vor fi trimise.</string>
 	<string name="tab_license">Licenţă</string>
 	<string name="about_info_donate">Donează</string>
 	<string name="about_info_version">Versiune: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Pagină de start:
-http://forum.xda-developers.com/showthread.php?t=911917
-</string>
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Pagina de start: %1$s</string>
 	<string name="about_info_extra">Iconiţă creată de Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Dacă aveţi întrebări, contactaţi-ne
 pe adresa de e-mail sau pe sait.</string>
 	<string name="about_info_thanks">Mulţumim fiecărui traducător şi utilizator care au ajutat la perfecţionarea aplicaţiei!</string>
 	<string name="about_info_translation">Dacă găseşti o traducere greşită sau lipsă, poţi trimite tu o corectare  la http://www.getlocalization.com/noFrillsCPU/</string>
-	<string name="about_faq_governors_Q">Î: Ce este un guvernator? Puteţi explica
-diferenţele dintre ele?</string>
+	<string name="about_faq_governors_Q">Î: Ce este un guvernator? Puteţi explica diferenţele dintre ei?</string>
 	<string name="about_faq_governors_A">Modificarea frecvenţei procesorului îţi permite să schimbi viteza de procesare din aplicaţii. Aceasta poate economisi bateria, pentru că o frecvenţă mai mică duce la un consum energetic mai mic. Guvernatorii sunt politici diferite de a modifica frecvenţele.\nPentru explicaţii privind diferenţele, vizitaţi pagina de start (http://forum.xda-developers.com/showthread.php?t=911917) .</string>
 	<string name="about_faq_profiles_Q">Î: Plănuieşti să adaugi profile? Îmi place să aleg un profil diferit când ecranul e inactiv!</string>
 	<string name="about_faq_profiles_A">R: Răspunsul scurt este \"Nu\". Eu cred că profilele nu au vreun rost, pentru că guvernatorii au deja sarcina asta: un profil pentru procesor pentru a urmări câtă vreme schimbi frecvenţele.\nAdăugarea de profile ar duce la o nevoie mărită de memorie, nevoia de a rula mai des, verifică dacă se petrece ceva (ecran pornit, ecran închis şi tot aşa)… toate acestea fără vreun beneficiu real.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Se actualizează widgetul…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Temă grafică</string>
+	<string name="prefs_theme_restart_needed">Tema va fi aplicată data viitoare când aplicaţia este pornită.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Dezactivează supapa de siguranţă</string>
 	<string name="prefs_disable_safety_valve_summary_on">Nu se va realiza nicio verificare pentru închiderea forţată.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Valorile nu vor fi aplicate în cazul unei închideri forţate.</string>
@@ -93,9 +97,9 @@ diferenţele dintre ele?</string>
 	<string name="prefs_vibrate_pattern_message">Tastează un exemplu de vibrare exprimat în milisecunde (ex: 0,50,100,50,100) sau lasă acest câmp gol pentru a folosi o setare implicită.</string>
 	<string name="prefs_ringtone">Sunet de notificare</string>
 	<string name="prefs_cat_stats">Statistici</string>
-	<string name="prefs_include_deep_sleep">Include dormirea adâncă</string>
-	<string name="prefs_include_deep_sleep_summary_on">Dormirea adâncă va fi inclusă.</string>
-	<string name="prefs_include_deep_sleep_summary_off">Dormirea adâncă va fi ignorată.</string>
+	<string name="prefs_include_deep_sleep">Include somnul adânc</string>
+	<string name="prefs_include_deep_sleep_summary_on">Somnul adânc va fi inclus.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Somnul adânc va fi ignorat.</string>
 	<string name="prefs_update_curfreq">Reîmprospătează frecvenţa</string>
 	<string name="prefs_update_curfreq_summary_on">Frecvenţa actuală va fi actualizată periodic.</string>
 	<string name="prefs_update_curfreq_summary_off">Frecvenţa actuală va fi actualizată odată cu împrospătarea statisticilor</string>

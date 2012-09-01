@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">No-frills procesora kontrole</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Nepieejams</string>
+	<string name="requested">Pieprasīts</string>
+	<string name="current">Pašlaik</string>
+	<string name="max_freq">Maksimālā pulksteņa frekvence</string>
+	<string name="min_freq">Minimālā pulkseņa frekvence</string>
+	<string name="governor">Laika ierobežotājs</string>
+	<string name="ioscheduler">Ienākošo/Izejošo plānotājs</string>
+	<string name="apply_on_boot">Apstiprināt palaišanā</string>
+	<string name="show_notification">Parādīt paziņojumu palaišanas brīdī</string>
+	<string name="apply">Apstiprināt</string>
+	<string name="exit">Iziet</string>
+	<string name="send">Aizsūtīt
+Sūtīt</string>
+	<string name="dlg_noroot_title">Trūkst saknes atļaujas</string>
+	<string name="dlg_noroot_body">Tev jābūt iesakņojušamies lai lietotu šo applikāciju :D</string>
+	<string name="dlg_nofs_title">Tavai ierīcei pietrūkst frekvences mērogošana</string>
+	
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Aizsūtīt procesora datus</string>
+	<string name="dlg_send_title">Sūtīt procesora datus ar…</string>
+	<string name="menu_prefs">Iespējas</string>
+	<string name="menu_view_stats">Aplūkot statistiku</string>
+	<string name="menu_details">Par</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Atjaunināt</string>
+	<string name="spinner_stats_text">Lasot statistiku pēdējās 5 sekundes…</string>
+	<string name="stats_title">Frekvences statistika</string>
+	<string name="stats_current">Pašreizējā frekvence: %1$s</string>
+	<string name="stats_current_unavailable">Nepieejams</string>
+	<string name="stats_frequency">Frekvence</string>
+	<string name="stats_perc">Kopā</string>
+	<string name="stats_perc5">Pēdējās 5 sek.</string>
+	<string name="stats_deep_sleep">Dziļš miegs</string>
+	<!-- Errors -->
+	<string name="err_need_root">Šī aplikācija pieprasa saknes privilēģijas lai strādātu. (hr4 esi admins ;D)</string>
+	<string name="err_update_failed">Kļūda: vai jūs atļāvāt SuperUser atļaujas(privilēģijas)</string>
+	
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	
+	
+	
+	
+	<!-- About dialog/activity -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

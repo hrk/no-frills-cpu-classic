@@ -55,34 +55,43 @@
 	<string name="tab_license">Licença</string>
 	
 	<string name="about_info_version">Versão: %s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage:   http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ícone por Anil K Solanki\nDesign   www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Se você tem dúvidas, favor contactar o autor por e-mail ou usando a homepage.</string>
 	<string name="about_info_thanks">Obrigado a todos os tradutores e usuários que ajudaram a contruir essa aplicação!</string>
-	
+	<string name="about_info_translation">Se você encontrou uma tradução errada ou inexistente, sugira uma correção em http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: O que é um governor? Pode explicar as diferenças entre eles?</string>
 	<string name="about_faq_governors_A">Frequências escaláveis da CPU permitem mudar o clock da CPU durante o uso. Isso pode economizar bateria pois quanto menor o clock, menos consumo da CPU. Governors são diferentes modos de escalar as frequências.\nExplicar as diferenças é uma longa reposta. Favor ler na homepage  (http://forum.xda-developers.com/showthread.php?t=911917)   .</string>
 	<string name="about_faq_profiles_Q">Q: Você planeja adicionar perfis? Eu gostaria de selecionar um perfil quando minha tela está desligada! </string>
 	<string name="about_faq_profiles_A">A: A resposta curta é \"Não\". Eu acho que perfis são inúteis, pois é para isso que servem os governors: um perfil para a CPU seguir enquanto escala as frequências. \nAdicionar perfis significaria usar mais memória, rodar mais vezes, verificar se algo está acontecendo (tela ligada, desligada etc)… tudo isso sem um benefício real.</string>
 	<!-- Widget -->
-	
+	<string name="wdg_updating">Atualizando widget…</string>
 	<!-- Preferences -->
 	
 	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	<string name="prefs_disable_safety_valve_dialog_message">Tem certeza de que quer desabilitar a válvula de segurança? Faça isso APENAS se você souber o que está fazendo.</string>
 	
 	
 	
 	
 	
 	
+	<string name="prefs_show_notification_summary_on">Mostrar notificações.</string>
+	<string name="prefs_show_notification_summary_off">NÃO mostrar notificações.</string>
 	
 	
-	
-	
-	
-	
-	
+	<string name="prefs_vibrate_pattern_message">Digite um ritmo de vibração em milissegundos (ex.: 0,50, 100,50, 100) ou deixe esse campo em branco para utilizar o ritmo padrão de vibração. </string>
 	
 	
 	

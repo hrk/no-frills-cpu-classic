@@ -5,7 +5,7 @@
 	
 	<!-- MainActivity -->
 	<string name="unavailable">Niedostępne</string>
-	<string name="requested">Żądane</string>
+	<string name="requested">Wymagane</string>
 	<string name="current">Aktualny</string>
 	<string name="max_freq">Maks. częst. zegara.</string>
 	<string name="min_freq">Min. częst. zegara.</string>
@@ -13,7 +13,7 @@
 	
 	<string name="apply_on_boot">Zastosuj przy starcie</string>
 	<string name="show_notification">Pokazuj powiadomienie przy uruch. telefonu</string>
-	<string name="apply">Zastosuj przy starcie</string>
+	<string name="apply">Zastosuj</string>
 	<string name="exit">Wyjście</string>
 	<string name="send">Wyślij</string>
 	<string name="dlg_noroot_title">Brak uprawnień roota</string>
@@ -47,7 +47,7 @@
 	<string name="ok_updated_freqs">Sukces!\nMin: %1$s\nMaks: %2$s\n Zarządca: %3$s\nI/O Scheduler: %4$s</string>
 	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">%1$s znaleziono,wartości nie zapisane</string>
-	<string name="notify_safety_shutdown">Nieczyste zamknięcie, wartości nie zapisane</string>
+	<string name="notify_safety_shutdown">Nieprawidłowe wyłącznie telefonu, wartości nie ustawione.</string>
 	<string name="notify_title_safety">Wartości nie zapisane</string>
 	<string name="notify_title_success">Wartości zapisane pomyślnie</string>
 	<string name="notify_success">Min: %1$s\nMaks: %2$s\nZarzącda: %3$s\nI/O Scheduler: %4$s</string>
@@ -58,9 +58,8 @@
 	<string name="tab_license">Licencja</string>
 	<string name="about_info_donate">Dotacja</string>
 	<string name="about_info_version">Wersja: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Strona domowa:
-                      	http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikona: Anil K Solanki\nProjekt
              www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Jeżeli masz jakiekolwiek pytania, proszę skontaktować się z
@@ -88,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizacja widżetu…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Wyłącz wartość bezpieczną</string>
 	<string name="prefs_disable_safety_valve_summary_on">Sprawdzanie nieczystego zamknięcia nie będzie wykonywane.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Wartości nie będą zapisane w przypadku nieczystego zamknięcia.</string>

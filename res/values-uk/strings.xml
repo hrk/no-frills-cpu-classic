@@ -58,9 +58,8 @@
 	<string name="tab_license">Ліцензія</string>
 	<string name="about_info_donate">Підтримати</string>
 	<string name="about_info_version">Версія: %1$s</string>
-	<string name="about_info_author">Автор: : Luca Santarelli</string>
-	<string name="about_info_homepage">Сторінка:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Піктограма - Anil K Solanki\nДизайн
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Є питання? Напишіть авторові електронною 
@@ -88,6 +87,15 @@ www.thisiswhatwedo.com</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Оновлення віджету…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Вимкнути аварійний клапан</string>
 	<string name="prefs_disable_safety_valve_summary_on">Перевірку на аварійне завершення увімкнуто.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Параметри не буде застосовано у разі аварійного завершення.</string>

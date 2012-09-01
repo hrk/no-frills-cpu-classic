@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Nedostupno</string>
+	<string name="requested">Zatrazeno</string>
+	<string name="current">Trenutno</string>
+	<string name="max_freq">Max. frekvencija procesora</string>
+	<string name="min_freq">Min. frekvencija procesora</string>
+	
+	
+	<string name="apply_on_boot">Primeni na ponovno podizanju</string>
+	<string name="show_notification">Prikazi notifikaciju na ponovnom podizanju</string>
+	<string name="apply">Primeni</string>
+	<string name="exit">Izlaz</string>
+	<string name="send">Pošalji</string>
+	
+	
+	
+	<string name="dlg_nofs_body">Ako koristis drugaciji ROM ili mislis da tvoj telefon podrzava promenu brzine procesora , posalji podatke tvog procesora da bi smo ga dodali u listu</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Posalji podatke procesora</string>
+	
+	<string name="menu_prefs">Podešavanja</string>
+	<string name="menu_view_stats">Pogledaj status</string>
+	<string name="menu_details">O Autoru</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Osveži</string>
+	<string name="spinner_stats_text">Citanje statusa za proslih 5 sekundi…</string>
+	<string name="stats_title">Status o frekvenciji</string>
+	<string name="stats_current">Trenutna frekvencija: %1$s</string>
+	<string name="stats_current_unavailable">Nedostupno</string>
+	<string name="stats_frequency">Frekvencija</string>
+	<string name="stats_perc">Ukupno</string>
+	<string name="stats_perc5">Poslednjih 5 sekundi</string>
+	
+	<!-- Errors -->
+	
+	
+	
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	
+	<string name="notify_title_safety">Vrednosti nisu primenjene</string>
+	<string name="notify_title_success">Vrednosti su primenjene</string>
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">O Autoru</string>
+	<string name="tab_changelog">Istorija izmena</string>
+	<string name="tab_faq">Najčešće postavljena pitanja</string>
+	<string name="tab_license">Licenca</string>
+	<string name="about_info_donate">Donirajte</string>
+	
+	
+	
+	<string name="about_info_extra">Ikonice od Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Ako imate pitanje , kontaktirajte autora na email ili na njegovoj stranici</string>
+	<string name="about_info_thanks">Hvala svim prevodiocima (glupim ko kurac) i ljudima koji su pomogli u stvaranju ove aplikacije!</string>
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<string name="prefs_show_notification">Prikazi notifikaciju.</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

@@ -58,9 +58,8 @@ dades de la CPU.</string>
 	<string name="tab_license">Llicència</string>
 	<string name="about_info_donate">Donacions</string>
 	<string name="about_info_version">Versió: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Lloc web:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Icones d\'Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si teniu alguna pregunta contacteu l\'autor
@@ -88,6 +87,15 @@ amb més freqüència, comprovar si quelcom està passant
 	<!-- Widget -->
 	<string name="wdg_updating">S\'està actualitzant l\'estri…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Inhabilita la vàlvula de seguretat</string>
 	<string name="prefs_disable_safety_valve_summary_on">No es comprovarà si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">No s\'aplicarà els valors si l\'aturada no ha estat neta.</string>

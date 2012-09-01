@@ -24,8 +24,8 @@
 		telefon podporuje změnu frekvence, pošlete prosím CPU data pro přidání
 		podpory vašeho telefonu..</string>
 	<!-- MainActivity - Menu -->
-	<string name="menu_send">Odeslat CPU data</string>
-	<string name="dlg_send_title">Odeslat CPU data přes…</string>
+	<string name="menu_send">Poslat CPU data</string>
+	<string name="dlg_send_title">Poslat CPU data pomocí…</string>
 	<string name="menu_prefs">Nastavení</string>
 	<string name="menu_view_stats">Zobrazit statistiky</string>
 	<string name="menu_details">O aplikaci</string>
@@ -61,15 +61,14 @@ odeslané.</string>
 	<string name="tab_license">Licence</string>
 	<string name="about_info_donate">Přispět na vývoj</string>
 	<string name="about_info_version">Verze: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Domácí stránka:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikonu vytvořil Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Pokud máte nějaké otázky, kontaktujte autora pomocí emailu
 nebo kontaktu domovské stránky aplikace.</string>
 	<string name="about_info_thanks">Děkujeme všem překladatelům a také všem ostatním, kteří pomohli při vývoji této aplikace</string>
-	
+	<string name="about_info_translation">Pokud naleznete špatný nebo chybějící překlad, můžete zadat vlastní překlad na http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Co to je governor ? Můžete vysvětlit, jaké jsou mezi nimi rozdíly ?</string>
 	<string name="about_faq_governors_A">Škálování frekvence CPU umožňuje měnit frekvenci CPU v reálném čase. Toto může ušetřit energii, protože nižší takt CPU spotřebuje méně energie, Governors slouží k různým možnostem nastavení skálování frekvence. \ nDetailní vysvětlení na stránkách XDA
 (http://forum.xda-developers.com/showthread.php?t=911917)</string>
@@ -78,29 +77,38 @@ nebo kontaktu domovské stránky aplikace.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizace widgetu…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Deativovat bezpečnostní ochranu</string>
 	<string name="prefs_disable_safety_valve_summary_on">Nebude prováděna kontrola nestandartního vypnutí.</string>
 	<string name="prefs_disable_safety_valve_summary_off">V případě nestandartního vypnutí nebudou hodnoty nastaveny.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Opravdu chcete vypnout bezpečnostní nastavení ?
 Pokračujte, pouze pokud víte, co děláte.</string>
-	
-	
-	
-	
-	<string name="prefs_cat_notification">Zobraz notifikaci při bootu</string>
-	<string name="prefs_show_notification">Zobraz notifikaci</string>
-	<string name="prefs_show_notification_summary_on">Notifikace budou zobrazovány.</string>
-	<string name="prefs_show_notification_summary_off">Notifikace NEbudou zobrazovány.</string>
+	<string name="prefs_change_permissions">Zabránit změnám  od ostatních aplikací</string>
+	<string name="prefs_change_permissions_summary_on">Ostatním aplikacím (nebo systému) bude zabráněno měnit frekvence.</string>
+	<string name="prefs_change_permissions_summary_off">Ostatní nebo systémové aplikace budou mít povoleno měnit frekvence.</string>
+	<string name="prefs_change_permissions_dialog_message">Tahle vlastnost je potřeba pouze na  Androidu 4.1 (Jelly Bean), aktuálně na HTC One a nebo podobných zařízení. Opravdu chcete pokračovat?</string>
+	<string name="prefs_cat_notification">Zobraz oznámení při bootu</string>
+	<string name="prefs_show_notification">Zobraz oznámení při bootu</string>
+	<string name="prefs_show_notification_summary_on">Oznámení NEbudou zobrazovány.</string>
+	<string name="prefs_show_notification_summary_off">Oznámení NEbudou zobrazovány.</string>
 	<string name="prefs_vibrate">Vibrovat</string>
 	<string name="prefs_vibrate_pattern">Nastavení vibrací</string>
 	<string name="prefs_vibrate_pattern_message">Nastavte vzorek vibrací v milisekundách (např.: 0,50,100,50,100) nebo nechte pole prázdné pro orig.nastavení vibrací.</string>
-	<string name="prefs_ringtone">Zvuk pro notifikace</string>
+	<string name="prefs_ringtone">Zvuk oznámení</string>
 	<string name="prefs_cat_stats">Statistiky</string>
 	<string name="prefs_include_deep_sleep">Zahrnout režim spánku</string>
 	<string name="prefs_include_deep_sleep_summary_on">Režim spánku bude zahrnut</string>
 	<string name="prefs_include_deep_sleep_summary_off">Režim spánku bude ignorován</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Aktualizovat aktuální frekvenci</string>
+	<string name="prefs_update_curfreq_summary_on">Aktuální frekvence bude aktualizována pravidelně.</string>
+	<string name="prefs_update_curfreq_summary_off">Aktuální frekvence bude aktualizována až začne aktualizace.</string>
 
 </resources>

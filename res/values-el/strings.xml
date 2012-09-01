@@ -58,9 +58,8 @@
 	<string name="tab_license">Άδεια</string>
 	<string name="about_info_donate">Δωρεά</string>
 	<string name="about_info_version">έκδοση: %s</string>
-	<string name="about_info_author">Δημιουργός: Luca Santarelli</string>
-	<string name="about_info_homepage">Ιστοσελίδα:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Εικονίδιο από τον Anil K Solanki\nΣχεδιασμός
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Αν έχετε ερωτήσεις, παρακαλώ επικοινωνήστε με το
@@ -88,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Ενημέρωση του widget..</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Απενεργοποίηση αλαγών σε ημιτελή τερματισμό</string>
 	<string name="prefs_disable_safety_valve_summary_on">Δεν θα γίνει έλεγχος ημιτελή τερματισμού.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Οι αλαγές δεν θα αποθηκευτούν σε ημιτελή τερματισμό.</string>

@@ -58,9 +58,8 @@ bli sendt</string>
 	<string name="tab_license">Lisens</string>
 	<string name="about_info_donate">Donèr</string>
 	<string name="about_info_version">Versjon: %1$s</string>
-	<string name="about_info_author">Forfatter: Luca Santarelli</string>
-	<string name="about_info_homepage">Hjemmeside:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikon av Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Dersom du har spørsmål, venligst kontakt
@@ -87,6 +86,15 @@ Alt dette uten og virkelig tjene noe på det.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Oppdaterer widget…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Slå av sikkerthets ventilen</string>
 	<string name="prefs_disable_safety_valve_summary_on">Ingen sjekk av uren avslutning vil bli kjørt.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Verdier vil ikke bli satt dersom uren avsluttning oppstår.</string>

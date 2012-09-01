@@ -61,7 +61,7 @@
 	<string name="tab_license">Licenza</string>
 	<string name="about_info_donate">Fai una donazione</string>
 	<string name="about_info_version">Versione: %1$s</string>
-	<string name="about_info_author">Autore: Luca Santarelli</string>
+	<string name="about_info_author">Autore: %1$s</string>
 	
 	<string name="about_info_extra">Icona di Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
@@ -87,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Aggiornamento del widget…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">Il tema sarà applicato al prossimo avvio dell\'app.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Disabilita controllo all\'avvio</string>
 	<string name="prefs_disable_safety_valve_summary_on">La verifica di spegnimento ok non sarà svolta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">I valori non saranno applicati in caso di spegnimento improvviso.</string>

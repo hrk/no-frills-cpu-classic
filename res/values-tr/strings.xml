@@ -55,9 +55,8 @@
 	<string name="tab_license">Lisans</string>
 	<string name="about_info_donate">Bağış yap</string>
 	<string name="about_info_version">Versiyon: %1$s</string>
-	<string name="about_info_author">Geliştirici: Luca Santarelli</string>
-	<string name="about_info_homepage">Ana Sayfa:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">İkon tasarımcısı Anil K Solanki\nTasarım
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Soru ve yorumlarınız için, lütfen e-posta ya da ana sayfayı
@@ -84,6 +83,15 @@ etmek için daha fazla çalışması, gerçek yararını azaltması demek.</stri
 	<!-- Widget -->
 	<string name="wdg_updating">Widget güncelleniyor…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Güvenlik korumasını devre dışı bırakma</string>
 	<string name="prefs_disable_safety_valve_summary_on">Uygun olmayan kapatma için kontrol gerçekleştirilmeyecektir.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Uygun olmayan kapatma durumunda değerler uygulanamayacaktır.</string>

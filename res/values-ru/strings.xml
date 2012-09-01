@@ -6,7 +6,7 @@
 	<!-- MainActivity -->
 	<string name="unavailable">Недоступно</string>
 	<string name="requested">Требуется</string>
-	<string name="current">На сейчас</string>
+	<string name="current">Текущее</string>
 	<string name="max_freq">Макс. частота</string>
 	<string name="min_freq">Мин. частота</string>
 	<string name="governor">Регулятор</string>
@@ -52,22 +52,22 @@
 	<string name="notify_title_success">Параметры успешно применены</string>
 	<string name="notify_success">Мин: %1$s\nМакс: %2$s\nРегулятор: %3$s\nДиспетчер I/O: %4$s</string>
 	<!-- About dialog/activity -->
-	<string name="tab_info">Программа</string>
+	<string name="tab_info">О Приложении</string>
 	<string name="tab_changelog">Что нового</string>
 	<string name="tab_faq">ЧаВо</string>
 	<string name="tab_license">Лицензия</string>
 	<string name="about_info_donate">Поддержать</string>
 	<string name="about_info_version">Версия: %1$s</string>
-	<string name="about_info_author">Автор: Luca Santarelli</string>
-	<string name="about_info_homepage">Веб-страница:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">Автор: %1$s</string>
+	<string name="about_info_homepage">Дом.страница:
+%1$s</string>
 	<string name="about_info_extra">Иконка - Anil K Solanki\nДизайн
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Если появились вопросы, свяжитесь с автором
 электронной почтой или через веб-страницу.</string>
 	<string name="about_info_thanks">Спасибо каждому переводчику и каждому 
 пользователю, кто помог сформировать эту программу!</string>
-	<string name="about_info_translation">Если Вы нашли неверный или пропущенный перевод, Вы можете зарегистрироваться и исправить перевод самостоятельно на http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_info_translation">Ошибки или неточности перевода можно исправить по адресу http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Что такое \"регулятор\"? Объясните, чем они
 отличаются друг от друга?</string>
 	<string name="about_faq_governors_A">A: Переменная частота ЦП позволяет переключать
@@ -88,13 +88,22 @@ http://forum.xda-developers.com/showthread.php?t=911917
 	<!-- Widget -->
 	<string name="wdg_updating">Обновление виджета…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Тема</string>
+	<string name="prefs_theme_restart_needed">Тема изменится после перезапуска</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Отключить аварийный тормоз</string>
 	<string name="prefs_disable_safety_valve_summary_on">Не будет проверки на аварийное завершение </string>
 	<string name="prefs_disable_safety_valve_summary_off">При аварийном завершении параметры не применятся.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Вы хотите отключить аварийный тормоз? Отключайте только если вы ТОЧНО ЗНАЕТЕ, что делаете.</string>
-	<string name="prefs_change_permissions">Предотвращение изменения с другими приложениями</string>
-	<string name="prefs_change_permissions_summary_on">Другие приложения (или система) будут предотвращены от изменений частоты</string>
-	<string name="prefs_change_permissions_summary_off">Для других приложений (или системы) будет доступно изменение частоты</string>
+	<string name="prefs_change_permissions">Предотвращать изменения</string>
+	<string name="prefs_change_permissions_summary_on">Приложения (или система) не смогут изменять частоту.</string>
+	<string name="prefs_change_permissions_summary_off">Приложения (или система) могут изменять частоты.</string>
 	<string name="prefs_change_permissions_dialog_message">Эта функция доступна только в Android 4.1 (Jelly Bean), таких как HTC One или похожих. Вы уверены, что хотите продолжить?</string>
 	<string name="prefs_cat_notification">Уведомить при загрузке</string>
 	<string name="prefs_show_notification">Показать уведомление</string>
@@ -110,6 +119,6 @@ http://forum.xda-developers.com/showthread.php?t=911917
 	<string name="prefs_include_deep_sleep_summary_off">Глубокий сон будет игнорироваться.</string>
 	<string name="prefs_update_curfreq">Обновить частоту</string>
 	<string name="prefs_update_curfreq_summary_on">Частота будет обновляться периодически.</string>
-	<string name="prefs_update_curfreq_summary_off">Частота обновится со статистикой</string>
+	<string name="prefs_update_curfreq_summary_off">Частота будет обновляться со статистикой.</string>
 
 </resources>

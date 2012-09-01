@@ -55,8 +55,8 @@
 	<string name="tab_license">Licentie</string>
 	<string name="about_info_donate">Doneren</string>
 	<string name="about_info_version">Versie: %1$s</string>
-	<string name="about_info_author">Maker: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage: http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Logo door Anil K Solanki\nDesign www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Als je vragen hebt, neem dan contact op met de maker via email of de homepage.</string>
 	<string name="about_info_thanks">Veel dank aan iedere vertaler die aan deze app heeft bijgedragen!</string>
@@ -70,6 +70,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Widget aan het updaten…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Veiligheidsvoorziening uitschakelen</string>
 	<string name="prefs_disable_safety_valve_summary_on">Er zal niet worden gecontroleerd of het afsluiten goed verlopen is.</string>
 	<string name="prefs_disable_safety_valve_summary_off">De waardes worden niet toegepast indien het afsluiten niet goed verlopen is.</string>

@@ -58,9 +58,8 @@ tidak akan dihantar</string>
 	<string name="tab_license">Lesen</string>
 	<string name="about_info_donate">Derma</string>
 	<string name="about_info_version">Versi: %1$s</string>
-	<string name="about_info_author">Pengarang: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Icon by Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Jika ada pertanyaan, sila hubungi pengarang
@@ -86,6 +85,15 @@ berlaku (skrin on, skrin off dsb)… semuanya ini tidak memberi kelebihan tambah
 	<!-- Widget -->
 	<string name="wdg_updating">Mengemaskini widget…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Menutup valve keselamatan</string>
 	<string name="prefs_disable_safety_valve_summary_on">Tiada rujukan jika gadget tidak shutdown dengan bersih</string>
 	<string name="prefs_disable_safety_valve_summary_off">Aturan tidak dipakai jika shutdown tidak bersih</string>

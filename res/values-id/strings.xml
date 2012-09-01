@@ -55,9 +55,8 @@
 	<string name="tab_license">Lisensi</string>
 	<string name="about_info_donate">Donasi</string>
 	<string name="about_info_version">Versi: %1$s</string>
-	<string name="about_info_author">Pemilik: Luca Santarelli</string>
-	<string name="about_info_homepage">Situs:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikon oleh: Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Jika ada pertanyaan, silahkan hubungi pemilik melalui email atau situs</string>
@@ -70,6 +69,15 @@ www.thisiswhatwedo.com</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Pembaharuan widget…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Pengaman dinonaktifkan</string>
 	<string name="prefs_disable_safety_valve_summary_on">Pengecekan karena shutdown tidak bersih tidak dilakukan</string>
 	<string name="prefs_disable_safety_valve_summary_off">Nilai tidak akan digunakan pada kasus shutdown tidak bersih</string>

@@ -56,9 +56,8 @@
 	
 	<string name="about_info_donate">Támogatás</string>
 	<string name="about_info_version">Verzió: %1$s</string>
-	<string name="about_info_author">Író: Luca Santarelli</string>
-	<string name="about_info_homepage">Honlap:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">Készítő: %1$s</string>
+	<string name="about_info_homepage">Honlap: %1$s</string>
 	
 	<string name="about_info_questions">Ha bármi kérdése van, kérem lépjen kapcsolatba
 		az íróval email-en vagy a honlapon keresztül.</string>
@@ -82,6 +81,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Widget frissítése…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Téma</string>
+	<string name="prefs_theme_restart_needed">A téma az applikáció következő indításánál lesz elfogadva.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Biztonsági szelep letiltása</string>
 	<string name="prefs_disable_safety_valve_summary_on">A szabálytalan leállások nem lesznek ellenőrizve.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Szabálytalan leálláskor, értékek nem lesznek alkalmazva.</string>

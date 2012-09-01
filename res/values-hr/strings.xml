@@ -5,7 +5,7 @@
 	<string name="app_name_classic">CPU kontrola bez muke KLASIČNA</string>
 	<!-- MainActivity -->
 	<string name="unavailable">Nedotupno</string>
-	<string name="requested">Zahtjevano</string>
+	<string name="requested">Zatraženo</string>
 	<string name="current">Trenutno</string>
 	<string name="max_freq">Max. takt</string>
 	<string name="min_freq">Min. takt</string>
@@ -58,16 +58,15 @@
 	<string name="tab_license">Licensa</string>
 	<string name="about_info_donate">Donirajte</string>
 	<string name="about_info_version">Verzija: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Web stranica: http://forum.xda-developers.com/showthread.php?t=911917
-</string>
+	
+	
 	<string name="about_info_extra">Ikona od Anil K Solanki\nDesign www.thisiswhatwedo.com
 </string>
 	<string name="about_info_questions">Ako imate bilo kakva pitanja, molimo vas kontaktirajte autora putem email-a ili putem web stranice.
 </string>
 	<string name="about_info_thanks">Hvala svakom prevodiocu i svakom korisniku koji je pomogao razvijati ovu aplikaciju!
 </string>
-	
+	<string name="about_info_translation">U slučaju pronalaska netočnog  ili nepotpunog prijevoda, uputite se na adresu http://www.getlocalization.com/noFrillsCPU/ gdje možete ispraviti grešku.</string>
 	<string name="about_faq_governors_Q">Pitanje: Šta je to guverner? Možete li objasniti razliku između njih?
 </string>
 	<string name="about_faq_governors_A">Skaliranje frekvencije CPU-a vam omogućava da promijenite takt vašeg CPU-a u pokretu. Ovo može uštediti potrošnju, jer što je niži takt CPU-a, manje energije CPU konzumira. Guverneri su ražličiti algoritmi za skaliranje frekvencije.\nObjašnjenje njihove razlike je dug odgovor, molimo va pročitajte ga na ǌeb stranici (http://forum.xda-developers.com/showthread.php?t=911917) .
@@ -79,23 +78,27 @@
 </string>
 	<string name="about_faq_profiles_Q">Pitanje: Da li planirate dodavati profile? Volio bi izabrati drugi profil kada mi je ekran ugašen!
 </string>
-	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome služe guverneri: profili za vaš CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi značilo dodavanje potrebe za jos memorije, potrebe za češćim izvršenjem, provjeravati da li se nešto dešava (ekran upaljen, ekran ugašen itd.)… sve ovo bez stvarne dobiti.
-
-
-
-
-</string>
+	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome služe guverneri: profili za vaš CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi značilo dodavanje potrebe za jos memorije, potrebe za češćim izvršenjem, provjeravati da li se nešto dešava (ekran upaljen, ekran ugašen itd.)… sve ovo bez stvarne dobiti.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Osvježavam dodatak…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Onesposobiti sigurnosni ventil</string>
 	<string name="prefs_disable_safety_valve_summary_on">Neće biti provjere za prljavim gašenjem.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Vrijednosti neće biti primjenjene u slučaju prljavog gašenja.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Jeste li sigurni da želite onesposobiti sigurnosni ventil? Nastavite dalje SAMO ako znate šta radite.</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Onemogući promjene drugim aplikacijama</string>
+	<string name="prefs_change_permissions_summary_on">Druge aplikacije (ili sistem) neće biti u mogućnosti promijeniti frekvencije.</string>
+	<string name="prefs_change_permissions_summary_off">Druge će aplikacije (ili sistem) biti u mogućnosti promijeniti frekvencije.</string>
+	<string name="prefs_change_permissions_dialog_message">Ova je opcija potrebna samo u verziji Androida 4.1 (Jelly Bean), na HTC One ili sličnim uređajima. Jeste li sigurni da želite nastaviti?</string>
 	<string name="prefs_cat_notification">Obavijest na paljenju</string>
 	<string name="prefs_show_notification">Prikaži obavijest</string>
 	<string name="prefs_show_notification_summary_on">Obavijeti će biti prikazane.</string>
@@ -108,8 +111,8 @@
 	<string name="prefs_include_deep_sleep">Ubroji duboki san</string>
 	<string name="prefs_include_deep_sleep_summary_on">Duboki san će biti ubrojan.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Duboki san će biti ignorisan.</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Osvježi trenutnu frekvenciju</string>
+	<string name="prefs_update_curfreq_summary_on">Trenutna će frekvencija biti povremeno osviježena.</string>
+	<string name="prefs_update_curfreq_summary_off">Trenutna će frekvencija biti ažurirana prilikom osvježivanja statistike.</string>
 
 </resources>

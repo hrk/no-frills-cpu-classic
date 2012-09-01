@@ -17,8 +17,7 @@
 	<string name="exit">Salir</string>
 	<string name="send">Enviar</string>
 	<string name="dlg_noroot_title">Faltan permisos de root</string>
-	<string name="dlg_noroot_body">ebes ser root para usar esta aplicación.
-</string>
+	<string name="dlg_noroot_body">Debes tener root para usar esta aplicación.</string>
 	<string name="dlg_nofs_title">u dispositivo parece no soportar escalado de frecuencia
 </string>
 	<string name="dlg_nofs_body">Si estas usando un ROM customizado o crees que tu teléfono soporta escalado de frecuencia, envía la información de tu CPU para agregar soporte a tu teléfono.</string>
@@ -40,8 +39,7 @@
 	<string name="stats_deep_sleep">Sueño profundo</string>
 	<!-- Errors -->
 	<string name="err_need_root">Esta app requiere privilegios de root para funcionar.</string>
-	<string name="err_update_failed">rror: ¿permitiste permisos de super usuario?
-</string>
+	<string name="err_update_failed">Error: ¿permitiste permisos de super usuario?</string>
 	<string name="err_no_email_client">No tienes cliente de correo. La información del CPU no se enviará.</string>
 	<!-- Success -->
 	<string name="ok_updated_freqs">Éxito!\nMin: %1$s\nMax: %2$s\nGobernador: %3$s\nPlanificador de E/S: %4$s
@@ -59,14 +57,13 @@
 	<string name="tab_license">Licencia</string>
 	<string name="about_info_donate">Donar</string>
 	
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Página web:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Sitio web: %1$s</string>
 	<string name="about_info_extra">Ícono por Anil K Solanki\nDiseño
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si tienes alguna pregunta, por favor contacta al autor por correo o en su página web.</string>
 	<string name="about_info_thanks">¡Gracias a todos los traductores y usuarios que ayudaron en crear esta aplicación!</string>
-	
+	<string name="about_info_translation">Si encuentras traducciones incorrectas o que faltan, puedes enviar la corrección tú mismo desde http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: ¿Qué es un gobernador? ¿Puedes explicar las diferencias entre los tipos que existen?</string>
 	<string name="about_faq_governors_A">El escalado de frecuencia del CPU permite cambiar la velocidad del reloj al instante. Esto puede ahorrar energía, porque mientras menor sea la velocidad del reloj del CPU, menor energía consume. Los Gobernadores son diferentes políticas para escalar la frecuencia.\nExplicar las diferencias es un tanto difícil, en la página web hay mas información:
 		(http://forum.xda-developers.com/showthread.php?t=911917)
@@ -74,18 +71,27 @@
 	<string name="about_faq_profiles_Q">Q: ¿Planeas agregar perfiles? ¡Me encantaría seleccionar un perfil para cuando la pantalla está apagada!</string>
 	<string name="about_faq_profiles_A">A: La respuesta corta es \"No\". Pienso que los perfiles son poco útiles, porque para eso existen los gobernadores: un perfil que usa tu CPU para cambiar frecuencias.\nAgregar perfiles significaría utilizar mas memoria, necesidad de correr mas seguido, revisar si algo esta sucediendo (pantalla apagada, pantalla prendida, etc) para algo que al final no representa un beneficio real.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">Actualizando widget</string>
+	<string name="wdg_updating">Actualizando widget…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">El tema será aplicado la próxima vez que inicie la aplicación</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Desactivar válvula de seguridad</string>
 	<string name="prefs_disable_safety_valve_summary_on">No se ejecutará prueba de apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_summary_off">Los valores elegidos no se aplicarán en caso de un apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Está seguro de querer desactivar la válvula de seguridad? Proceda sólo si sabe lo que está haciendo.</string>
 	<string name="prefs_change_permissions">Previene cambios de otras aplicaciones</string>
-	<string name="prefs_change_permissions_summary_on">Otras apliceaciones (o el sistema) estaran prevenidas de cambios de frecuencia</string>
+	<string name="prefs_change_permissions_summary_on">Se evitará que otras aplicaciones (o el sistema), cambien las frecuencias.</string>
 	<string name="prefs_change_permissions_summary_off">Otras aplicaciones (o el sistema) podran cambiar frecuencias</string>
 	<string name="prefs_change_permissions_dialog_message">Esta caracteristia es necesaria solo para Android 4.1 (Jelly Bean), el reciente HTC Uno o dispositivos similares. Estas seguro de que quieres aeguir?</string>
 	<string name="prefs_cat_notification">Notificación durante arranque</string>
-	<string name="prefs_show_notification">Muestre notificación</string>
+	<string name="prefs_show_notification">Mostrar notificación</string>
 	<string name="prefs_show_notification_summary_on">Se mostrarán notificaciones.</string>
 	<string name="prefs_show_notification_summary_off">NO se mostrarán notificaciones.</string>
 	<string name="prefs_vibrate">Vibrar</string>

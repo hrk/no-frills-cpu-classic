@@ -23,7 +23,7 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">發送CPU數據</string>
 	<string name="dlg_send_title">發送CPU數據通過…</string>
-	<string name="menu_prefs">設定</string>
+	<string name="menu_prefs">設定值</string>
 	<string name="menu_view_stats">查看統計信息</string>
 	<string name="menu_details">關於</string>
 	<!-- Stats activity -->
@@ -55,9 +55,8 @@
 	<string name="tab_license">許可</string>
 	<string name="about_info_donate">捐贈</string>
 	<string name="about_info_version">版本: %1$s</string>
-	<string name="about_info_author">作者: Luca Santarelli\n完美漢化By 西西稀飯\n</string>
-	<string name="about_info_homepage">主頁:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">作者: %1$s</string>
+	<string name="about_info_homepage">首頁:%1$s</string>
 	<string name="about_info_extra">Icon 由 Anil K Solanki設計\n
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">有任何疑問，請通過電子郵件或者訪問主頁聯系作者.</string>
@@ -72,14 +71,23 @@
 	<!-- Widget -->
 	<string name="wdg_updating">正在更新插件信息…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">主題</string>
+	<string name="prefs_theme_restart_needed">此主題將於下次程序啟動時被應用</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">禁用安全值</string>
 	<string name="prefs_disable_safety_valve_summary_on">關機不正常，檢查失敗。</string>
 	<string name="prefs_disable_safety_valve_summary_off">關機不正常， 設置失敗。</string>
 	<string name="prefs_disable_safety_valve_dialog_message">你確定要禁用安全值？如果你知道你在做什麼，請繼續。</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">預防從其它程序的改變</string>
+	<string name="prefs_change_permissions_summary_on">其它程序(或系統)的更改頻率將被防止.</string>
+	<string name="prefs_change_permissions_summary_off">其它程序(或系統)將能改變頻率.</string>
+	<string name="prefs_change_permissions_dialog_message">此功能僅於Android 4.1(Jelly Bean)所必須, 最近 HTC One 或類似的裝置. 您確定要進行嗎?</string>
 	<string name="prefs_cat_notification">開機時顯示通知</string>
 	<string name="prefs_show_notification">顯示通知</string>
 	<string name="prefs_show_notification_summary_on">將顯示通知。</string>
@@ -94,6 +102,6 @@
 	<string name="prefs_include_deep_sleep_summary_off">深度睡眠會被忽略。</string>
 	<string name="prefs_update_curfreq">更新目前頻率</string>
 	<string name="prefs_update_curfreq_summary_on">現時的頻率將定期更新</string>
-	
+	<string name="prefs_update_curfreq_summary_off">當重新整理狀態時現有的頻率也將被更新.</string>
 
 </resources>

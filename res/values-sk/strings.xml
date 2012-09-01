@@ -58,9 +58,8 @@
 	<string name="tab_license">Licencia</string>
 	
 	<string name="about_info_version">Verzia: %1$s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Dom. stránka:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikona od Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Ak máte akékoľvek otázky, prosím, kontaktujte
@@ -88,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizuje sa miniaplikácia…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	
 	
 	

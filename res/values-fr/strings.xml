@@ -58,16 +58,15 @@
 	
 	<string name="about_info_donate">Donnation</string>
 	
-	<string name="about_info_author">Auteur: Luca Santarelli</string>
-	<string name="about_info_homepage">Site web:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Icône par Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si vous avez des questions, merci de contacter
 		l\'auteur par email ou en utilisant le site web.‪</string>
 	<string name="about_info_thanks">Merci à chaque traducteur et à tout les utilisateurs qui
 		ont aidés à construire cette app!</string>
-	
+	<string name="about_info_translation">Si une traduction est fausse ou manque, vous pouvez soumettre des corrections vous-même à l\'adresse http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Qu\'est ce qu\'un gouverneur? Pouvez-vous expliquer les
 		différences entre eux?</string>
 	<string name="about_faq_governors_A">Les changements de fréquence CPU vous permettent de changer la
@@ -88,6 +87,15 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Mise à jour du widget…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Désactiver la valve de sécurité</string>
 	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
 	
@@ -95,11 +103,11 @@
 	
 	
 	
-	
+	<string name="prefs_change_permissions_dialog_message">Cette fonction n\'est requise que pour Android 4.1 (Jelly Bean) et les récents appareils comme le HTC One. Êtes-vous sûr de vouloir l\'utiliser ?</string>
 	<string name="prefs_cat_notification">Notification au démarrage </string>
 	<string name="prefs_show_notification">Afficher notification</string>
-	
-	
+	<string name="prefs_show_notification_summary_on">Les notifications seront affichées. </string>
+	<string name="prefs_show_notification_summary_off">Les notifications ne seront PAS affichées</string>
 	<string name="prefs_vibrate">Vibrer</string>
 	
 	
@@ -108,7 +116,7 @@
 	<string name="prefs_include_deep_sleep">Inclure veille prolongée</string>
 	
 	<string name="prefs_include_deep_sleep_summary_off">La veille prolongée sera ignorée</string>
-	
+	<string name="prefs_update_curfreq">Rafraîchir la fréquence actuelle.</string>
 	
 	
 

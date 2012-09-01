@@ -60,31 +60,33 @@
 	<string name="tab_license">Licens</string>
 	<string name="about_info_donate">Donera</string>
 	
-	<string name="about_info_author">Upphovsman: Luca Santarelli</string>
-	<string name="about_info_homepage">Hemsida:
-http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ikon av Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Om du har några frågor, vänligen kontakta upphovsmannen med e-post eller via hemsidan.</string>
 	<string name="about_info_thanks">Tack till alla översättare och alla användare som hjälpt till att få ordning på denna app.</string>
 	<string name="about_info_translation">Om du hittar en översättning som är felaktig eller saknas, kan du själv bidra med din egen översättning på
 http://www.getlocalization.com/noFrillsCPU/</string>
-	<string name="about_faq_governors_Q">Vad är en guvernör? Kan du förklara skillnaden mellan de olika?</string>
+	<string name="about_faq_governors_Q">Fråga: Vad är en guvernör? Kan du förklara skillnaden mellan de olika?</string>
 	<string name="about_faq_governors_A">CPU-frekvensskalning låter dig ändra klockfrekvens utan omstart. Det kan spara batteri, eftersom lägre klockfrekvens på CPU:n sänker dess energiförbrukning.Guvenörer är olika regelverk för skalning av klockfrekvens. Svaret på hur de olika guvenörerna skiljer sig åt är långt, läs gärna om det på hemsidan
 (http://forum.xda-developers.com/showthread.php?t=911917)(på engelska).
 </string>
 	<string name="about_faq_profiles_Q">Fråga: Planerar du att lägga till profiler? Jag skulle gärna vilja ha en annan profil för när skärmen är släckt!</string>
-	<string name="about_faq_profiles_A">A: Short answer is \"No\". I think that profiles
-are useless, because that\'s what governors are already: a profile for
-your CPU to follow while changing frequencies.\nAdding profiles would
-mean adding the need for more memory, the need to run more often,
-check if something is happening (screen on, screen off and so on)…
-all of this without a real 
-benefit.
-Det korta svaret är "nej". Jag anser att profiler är värdelösa, eftersom det är just vad guvenörerna redan är: en profil för CPU:n att följa när den ändrar klockfrekvens. /nAtt lägga till profiler skulle betyda att mer minne krävs, att appen skulle behöva köra oftare för att se vad som pågår (om skärmen är på eller av, osv.), utan någon riktig vinst.</string>
+	<string name="about_faq_profiles_A">Det korta svaret är "nej". Jag anser att profiler är värdelösa, eftersom det är just vad guvernörerna redan är: en profil för CPU:n att följa när den ändrar klockfrekvens.
+Att lägga till profiler skulle betyda att mer minne krävs, att appen skulle behöva köra oftare för att se vad som pågår (om skärmen är på eller av, osv.), utan någon riktig vinst.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Uppdaterar widget…</string>
 	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">Stäng av säkerhetsventil</string>
 	<string name="prefs_disable_safety_valve_summary_on">Kommer inte att undersöka om avstängningen gick rätt till</string>
 	<string name="prefs_disable_safety_valve_summary_off">Inställda värden kommer inte att verkställas om avstängningen gick fel.</string>

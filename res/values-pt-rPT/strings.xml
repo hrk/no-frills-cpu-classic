@@ -27,7 +27,7 @@
 	<string name="menu_view_stats">Ver estatísticas</string>
 	<string name="menu_details">Sobre…</string>
 	<!-- Stats activity -->
-	
+	<string name="menu_refresh">Actualizar</string>
 	<string name="spinner_stats_text">A ler as estatísticas dos últimos 5 segundos…</string>
 	<string name="stats_title">Estatísticas de frequência</string>
 	<string name="stats_current">Frequência actual: %s</string>
@@ -53,14 +53,14 @@
 	<string name="tab_changelog">Log de revisões</string>
 	
 	<string name="tab_license">Licença</string>
-	
+	<string name="about_info_donate">Doar</string>
 	<string name="about_info_version">Versão: %s</string>
-	<string name="about_info_author">Autor: Luca Santarelli</string>
-	<string name="about_info_homepage">Homepage:   http://forum.xda-developers.com/showthread.php?t=911917</string>
+	
+	
 	<string name="about_info_extra">Ícone por Anil K Solanki\nDesign   www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Se tiver alguma dúvida, por favor contacte o autor por e-mail ou usando a homepage.</string>
 	<string name="about_info_thanks">Obrigado a todos os tradutores e usuários que ajudaram a construir esta aplicação!</string>
-	
+	<string name="about_info_translation">Se encontrou uma tradução incorreta ou em falta, pode submeter uma correção em http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: O que é um governor? Pode explicar as diferenças entre eles?</string>
 	<string name="about_faq_governors_A">Frequências escaláveis do CPU permitem mudar a velocidade do CPU durante o uso. Isso pode economizar bateria pois quanto menor a velocidade, menos consumo do CPU. Governors são diferentes modos de escalar as frequências.\nExplicar as diferenças é uma longa reposta. Por favor leia na homepage  (http://forum.xda-developers.com/showthread.php?t=911917)   .</string>
 	<string name="about_faq_profiles_Q">Q: Você planeia adicionar perfis? Eu gostaria de seleccionar um perfil quando ecrã está desligado!</string>
@@ -70,12 +70,21 @@
 	<!-- Preferences -->
 	
 	
-	
-	
-	
-	
-	
-	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	<string name="prefs_disable_safety_valve">Desativar válvula de segurança</string>
+	<string name="prefs_disable_safety_valve_summary_on">Não será verificado se foi encerrado incorretamente.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Os valores não serão aplicados no caso de um encerramento incorreto.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Tem a certeza que quer desactivar a válvula de segurança? Continue APENAS se souber o que está a fazer.</string>
+	<string name="prefs_change_permissions">Prevenir modificações a partir de outras aplicações</string>
+	<string name="prefs_change_permissions_summary_on">Outras aplicações (ou o sistema) serão impedidos de modificar as frequências.</string>
+	<string name="prefs_change_permissions_summary_off">Outras aplicações (ou o sistema) poderão modificar as frequências.</string>
+	<string name="prefs_change_permissions_dialog_message">Esta característica é apenas necessário no Android 4.1 (JellyBean), HTC One recente ou dispositivos similares. Tem a certeza que quer continuar?</string>
 	<string name="prefs_cat_notification">Notificação no boot</string>
 	<string name="prefs_show_notification">Mostrar notificação</string>
 	<string name="prefs_show_notification_summary_on">As notificações serão visiveis.</string>
@@ -88,8 +97,8 @@
 	<string name="prefs_include_deep_sleep">Incluir telefone inativo</string>
 	<string name="prefs_include_deep_sleep_summary_on">Telefone inativo será incluido.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Telefone inativo será ignorado.</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Atualizar frequência atual</string>
+	<string name="prefs_update_curfreq_summary_on">A frequência atual será atualizada periodicamente.</string>
+	<string name="prefs_update_curfreq_summary_off">A frequência atual será atualizada quando atualizar as estatísticas.</string>
 
 </resources>

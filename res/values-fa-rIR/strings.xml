@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name"> No-frills مدیریت پردازنده</string>
+	<string name="app_name_classic"> No-frills مدیریت پردازنده قدیمی</string>
+	<!-- MainActivity -->
+	<string name="unavailable">غیر قابل دسترس</string>
+	<string name="requested">درخواست شده</string>
+	<string name="current">فعلی</string>
+	<string name="max_freq">clock حداکثر فرکانس</string>
+	<string name="min_freq">clock حداقل فرکانس</string>
+	<string name="governor">مدیریت کننده ها</string>
+	<string name="ioscheduler">زمان بندی ها</string>
+	<string name="apply_on_boot">اجرا هنگام بوت شدن</string>
+	<string name="show_notification">نمایش اعلان بعد از بوت شدن</string>
+	<string name="apply">لجرا</string>
+	<string name="exit">خروج</string>
+	<string name="send">ارسال</string>
+	<string name="dlg_noroot_title">دسترسی روت از دست رفته است</string>
+	<string name="dlg_noroot_body">شما باید برای استفاده از این برنامه گوشی خود را روت کنید.برای اطلاعات بیشتر به انجمن تخصصی اندروید ایران بروید</string>
+	<string name="dlg_nofs_title">به نظر می آید نمی توان فرکانس دستگاه شما را تغییر داد</string>
+	<string name="dlg_nofs_body"> اگر شما از یک کاستوم رام استفاده می کنید و فکر می کنید که می توانید فرکانس پردازشگر را تغییر دهید ، اطلاعات پردازشگر خود را برای ما ارسال کنید</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">ارسال اطلاعات پردازشگر</string>
+	<string name="dlg_send_title">ارسال اطلاعات با..</string>
+	<string name="menu_prefs">تنظیمات</string>
+	<string name="menu_view_stats">نمایش آمار</string>
+	<string name="menu_details">درباره</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">بروزکردن</string>
+	<string name="spinner_stats_text">خواندن آمار های  5 ثانیه قبلی…</string>
+	<string name="stats_title">آمار فرکنس های مختلف</string>
+	<string name="stats_current">%1$s : فرکانس فعلی</string>
+	<string name="stats_current_unavailable">غیر قابل دسترس</string>
+	<string name="stats_frequency">فرکانس</string>
+	<string name="stats_perc">کلی</string>
+	<string name="stats_perc5">پنچ ثانیه قبلی</string>
+	<string name="stats_deep_sleep">خواب عمیق</string>
+	<!-- Errors -->
+	<string name="err_need_root">این برنامه برای کار کردن به دسترسی روت نیاز دارد.</string>
+	<string name="err_update_failed">خطا.آیا شما درخواست دسترسی روت را تایید کردید؟</string>
+	<string name="err_no_email_client">شما ایمیل ثیت شده ای ندارید.ارسال داده ها ممکن نیست.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">انجام شد! حداقل: %1$s\n حداکثر : %2$s\n اجرا کننده: %3$s\nI/O زمانبندی : %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s پیدا شد ، مقدار ها اجرا نشدند.</string>
+	<string name="notify_safety_shutdown">اشکال در خاموش کردن ، مقدار ها اجرا نشد.</string>
+	<string name="notify_title_safety">مقدار ها اجرا نشد</string>
+	<string name="notify_title_success">مقدار ها با موفقیت اجرا شد.</string>
+	<string name="notify_success">حداقل : %1$s\n حداکثر :  %2$s\n اجرا کننده : %3$s\nI/O زمانبندی : %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">درباره</string>
+	<string name="tab_changelog">تغییرات</string>
+	<string name="tab_faq">پرسش و پاسخ</string>
+	<string name="tab_license">پروانه</string>
+	<string name="about_info_donate">هدیه دادن</string>
+	<string name="about_info_version">نسخه : %1$s</string>
+	
+	
+	<string name="about_info_extra">شکل ها از Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">اگر سوالی دارید می توانید از طریق صفحه وب برنامه یا رایانامه با نویسنده صحبت کنید.</string>
+	<string name="about_info_thanks">با تشکر از همه مترجمین و هر کسی که به شکل دادن این برنامه کمک کرند.</string>
+	<string name="about_info_translation">اگر شما مشکلی در ترجمه یافتید می توانید آن را در اینجا ثبت کنید.
+http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_faq_governors_Q">سوال: اجرا کننده ها چیستند؟ تفاوت میان آن ها چیست؟</string>
+	<string name="about_faq_governors_A">تنظیم فرکانس پردازشگر به شما در کنترل سرعت آن کمک می کند.می توانید مصرف باتری را کاهش دهید
+چون فرکانس کمتر مصرف کمتری دارد.اجرا کننده ها روش های مختلفی برای تنظیم فرکانس در بازه تعیین
+شده است.تفاوت آن ها زیاد است . می توناید مطالعه کنید:
+(http://forum.xda-developers.com/showthread.php?t=911917)
+(http://and-roid.ir/Forum/thread29989.html)ترجمه فارسی:</string>
+	<string name="about_faq_profiles_Q">در فکر اضافه کردن نمایه ای هستید؟
+ دوست دارم تا وقتی صفحه ام خاموش است یکی را انتخاب کنم!</string>
+	<string name="about_faq_profiles_A">الف : پاسخ کوتاه نه است.فکر می کنم این نمایه ها بی استفاده اند.، چون که این اجرا کننده ها هستند 
+یک نمایه برای پردازشگر شما برای دنبال کردن تغییرات فرکانس.اضافه کردن نمایه ها نشان از
+این دارد که به حافظه بیشتری نیاز دارید ، تا برنامه های بیش تری باز کنید ، بررسی کنید اگر چیزی
+در حال اتفاق است (خاموش شدن ، روشن شدن صفحه )و .. 
+این ها همه بی فایده هستند.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">بروزرسانی ویجت…</string>
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	<string name="prefs_disable_safety_valve">غیرفعال کردن مقدار های مطمئن</string>
+	<string name="prefs_disable_safety_valve_summary_on">خاموش شدن همراه با مشکل بررسی نخواهد شد.</string>
+	<string name="prefs_disable_safety_valve_summary_off">مقدار ها به خاطر مشکلی در خاموش شدن اجرا نخواهند شد.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">آیا شما مطمئن هستید می خواهید که ویژگی مقدار های مطمئن را غیرفعال کنید؟
+فقط اگر می دانید چه می کنید تائید کنید!</string>
+	<string name="prefs_change_permissions">جلوگیری از تغییر فرکانس با نرم افزار های دیگر</string>
+	<string name="prefs_change_permissions_summary_on">برنامه های دیگر (یا سیستم) از تغییر فرکانس جلوگیری کردند.</string>
+	<string name="prefs_change_permissions_summary_off">برنامه های دیگر (یا سیستم)می توانند فرکانس را تغییر دهند..</string>
+	<string name="prefs_change_permissions_dialog_message">این ویژگی در اندروید جیلی بیلی (4.1) قابل اجراست.آیا شما  مطمئن به ادامه هستید؟</string>
+	<string name="prefs_cat_notification">اعلانات بعد از بوت شدن</string>
+	<string name="prefs_show_notification">نمایش اعلانات</string>
+	<string name="prefs_show_notification_summary_on">اعلانات نمایش داده خواهند شد.</string>
+	<string name="prefs_show_notification_summary_off">اعلانات نمایش داده نخواهند شد.</string>
+	<string name="prefs_vibrate">لرزش</string>
+	<string name="prefs_vibrate_pattern">الگوی لرزش</string>
+	<string name="prefs_vibrate_pattern_message">الگوی لرزشی را در چند میلی ثانیه رسم کنید (برای مثال.: 0,50,100,50,100) یا این مکان را برای استفاده از الگوی پیش فرض خالی بگذارید.</string>
+	<string name="prefs_ringtone">صدای اعلانات</string>
+	<string name="prefs_cat_stats">آمار ها</string>
+	<string name="prefs_include_deep_sleep">همراه با خواب عمیق</string>
+	<string name="prefs_include_deep_sleep_summary_on">خواب عمیق اضافه خواهد شد.</string>
+	<string name="prefs_include_deep_sleep_summary_off">خواب عمیق نادیده گرفته خواهد شد.</string>
+	<string name="prefs_update_curfreq">بروزرسانی فرکانس فعلی</string>
+	<string name="prefs_update_curfreq_summary_on">فرکانس کنونی در فاصله های معین بروزرسانی خواهد شد.</string>
+	<string name="prefs_update_curfreq_summary_off">فرکانس کنونی هنگام بارگذاری دوباره آمار بروزرسانی خواهد شد.</string>
+
+</resources>

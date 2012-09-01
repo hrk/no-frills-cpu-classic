@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU 관리</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">불가능</string>
+	<string name="requested">요청됨</string>
+	<string name="current">현재</string>
+	<string name="max_freq">최대 클럭 진동수</string>
+	<string name="min_freq">최소 클럭 진동수</string>
+	<string name="governor">속도 조절</string>
+	<string name="ioscheduler">I/O 스케쥴러</string>
+	<string name="apply_on_boot">부팅시 적용</string>
+	<string name="show_notification">부팅시 알림</string>
+	<string name="apply">적용</string>
+	<string name="exit">나가기</string>
+	<string name="send">보내기</string>
+	<string name="dlg_noroot_title">root 권한이 없습니다</string>
+	<string name="dlg_noroot_body">이 앱을 사용하기 위한 root 권한이 필요합니다.</string>
+	<string name="dlg_nofs_title">기기의 진동 측정이 부족해 보입니다.</string>
+	<string name="dlg_nofs_body">커스텀 롬을 사용 중이시거나, 핸드폰 기종이 진동 측정을
+지원한다고 생각하시면, CPU 데이터를 보내주세요.
+같은 기종 지원을 추가하겠습니다.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">CPU 데이터 보내기</string>
+	<string name="dlg_send_title">…와 함께 CPU 데이터 보내기</string>
+	<string name="menu_prefs">설정</string>
+	<string name="menu_view_stats">통계 보기</string>
+	<string name="menu_details">정보</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">새로고침</string>
+	<string name="spinner_stats_text">마지막 5초 간의 통계 읽는 중…</string>
+	<string name="stats_title">진동 통계</string>
+	<string name="stats_current">현재 진동: %1$s</string>
+	<string name="stats_current_unavailable">불가능함</string>
+	<string name="stats_frequency">진동수</string>
+	<string name="stats_perc">총합계</string>
+	<string name="stats_perc5">마지막 5초</string>
+	<string name="stats_deep_sleep">깊이 재우기</string>
+	<!-- Errors -->
+	<string name="err_need_root">이 어플을 실행하시려면 루팅 권한이 필요합니다.</string>
+	<string name="err_update_failed">오류: SuperUser 승인을 적용하셨습니까?</string>
+	<string name="err_no_email_client">이메일 클라이언트가 없습니다.
+CPU 데이터를 보낼 수 없습니다.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">성공!\n최소: %1$s\n최대: %2$s\n관리자: %3$s\nI/O 스케줄러: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s 발견됨, 값이 적용되지 않음</string>
+	<string name="notify_safety_shutdown">불안전한 종료, 값이 적용되지 않음.</string>
+	<string name="notify_title_safety">값이 적용되지 않음</string>
+	<string name="notify_title_success">값이 성공적으로 적용됨</string>
+	<string name="notify_success">최소: %1$s\n최대: %2$s\n관리자: %3$s\nI/O 스케줄러: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">정보</string>
+	<string name="tab_changelog">변경 정보</string>
+	<string name="tab_faq">자주 묻는 질문</string>
+	<string name="tab_license">라이센스</string>
+	<string name="about_info_donate">기부하기</string>
+	<string name="about_info_version">버전: %1$s</string>
+	
+	
+	<string name="about_info_extra">아이콘 by Anil K Solanki\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">질문이 있으시면 이메일이나 홈페이지를 통해
+제작자에게 연락 주시기 바랍니다.</string>
+	<string name="about_info_thanks">어플 제작에 도움이 돼 주신 모든 번역자와 사용자분들께
+감사드립니다!</string>
+	<string name="about_info_translation">틀리거나 빠진 번역이 있다면, 밑에 웹사이트에서 수정해주세요. http://www.getlocalization.com/noFrillsCPU/ </string>
+	<string name="about_faq_governors_Q">Q: 관리자가 무엇인가요? 서로 어떻게 다른지
+설명해주세요.</string>
+	<string name="about_faq_governors_A">CPU 진동 측정은 CPU 클록 속도를
+신속히 변경할 수 있도록 해줍니다. CPU 클록 속도가 낮으면, CPU 전력을
+적게 소비하기 때문에 전력을 아낄 수 있습니다. 관리자는 진동수를 측정하는
+다른 방법들입니다.\n설명이 너무 깁니다. 밑에 홈페이지에서
+읽어 주세요 (영문 사이트)
+(http://forum.xda-developers.com/showthread.php?t=911917)
+.</string>
+	<string name="about_faq_profiles_Q">Q: 프로파일을 추가할 계획인가요? 화면이 꺼질 때
+선택된 프로파일이 나오면 좋겠습니다!</string>
+	<string name="about_faq_profiles_A">A: \"아니요\". 저는 프로파일이 필요 없다고 생각합니다.
+왜냐하면 관리자가 이미 그 역할을 하기 때문입니다: 진동수가 변할 때
+따르는 CPU 프로파일.\n프로파일을 추가한다면
+메모리 사용이 더 늘어날 것이고, 더 자주 실행할 것이고,
+혹시 일어나게 될 문제를 더 자주 확인할 것입니다 (스크린 켜짐, 스크린 꺼짐 등등)…
+실제 이익 없이 이런 모든 일들이 생길 수 있습니다.</string>
+	<!-- Widget -->
+	<string name="wdg_updating">위젯 업데이트 중…</string>
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	<string name="prefs_disable_safety_valve">안전 밸브 기능 끄기</string>
+	<string name="prefs_disable_safety_valve_summary_on">불안전한 종료 검사를 실행하지 않습니다.</string>
+	<string name="prefs_disable_safety_valve_summary_off">불안전한 종료에 대비하여 값이 적용되지 않습니다.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">안전 밸브 기능을 끄시겠습니까? 확실하실 때에만 진행하여 주십시오.</string>
+	<string name="prefs_change_permissions">다른 어플로 인한 변경 방지하기</string>
+	<string name="prefs_change_permissions_summary_on">진동수 변경이 다른 어플이나 시스템을 방해하지 않습니다.</string>
+	<string name="prefs_change_permissions_summary_off">다른 어플이나 시스템이 진동수를 변경할 수 있도록 합니다.</string>
+	<string name="prefs_change_permissions_dialog_message">이 기능은 안드로이드 4.1 (젤리빈) 이상에서만 작동합니다 (최신 HTC One 혹은 비슷한 기종). 계속 진행하시겠습니까?</string>
+	<string name="prefs_cat_notification">부팅시 알림</string>
+	<string name="prefs_show_notification">알림 보이기</string>
+	<string name="prefs_show_notification_summary_on">알림을 표시합니다.</string>
+	<string name="prefs_show_notification_summary_off">알림을 표시하지 않습니다.</string>
+	<string name="prefs_vibrate">진동 모드</string>
+	<string name="prefs_vibrate_pattern">진동 모드 패턴</string>
+	<string name="prefs_vibrate_pattern_message">빈칸으로 놔두셔서 기본 진동 패턴을 사용하시거나, 진동 패턴 값을 넣어주세요: 밀리 초 단위 (예: 0,50,100,50,100).</string>
+	<string name="prefs_ringtone">알림 소리</string>
+	<string name="prefs_cat_stats">통계</string>
+	<string name="prefs_include_deep_sleep">깊이 재우기 포함</string>
+	<string name="prefs_include_deep_sleep_summary_on">깊이 재우기를 포함합니다.</string>
+	<string name="prefs_include_deep_sleep_summary_off">깊이 재우기를 무시합니다.</string>
+	<string name="prefs_update_curfreq">현재 진동수 새로고침</string>
+	<string name="prefs_update_curfreq_summary_on">현재 진동수가 주기적으로 업데이트 됩니다.</string>
+	<string name="prefs_update_curfreq_summary_off">통계를 새로고침할 때 현재 진동수가 업데이트 됩니다.</string>
+
+</resources>

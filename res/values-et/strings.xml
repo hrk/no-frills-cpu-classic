@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">Mitte saadaval</string>
+	<string name="requested">Nõutud</string>
+	<string name="current">Praegune</string>
+	<string name="max_freq">Maximaalne protsessori sagetus.</string>
+	<string name="min_freq">Minimaalne protsessori sagetus.</string>
+	<string name="governor">Regulaator</string>
+	<string name="ioscheduler">I/O planeerija</string>
+	<string name="apply_on_boot">Kohanda käivitamisel</string>
+	<string name="show_notification">Näita teadet telefoni käivitamisel</string>
+	<string name="apply">Nõustu</string>
+	<string name="exit">Välju</string>
+	<string name="send">Saada</string>
+	<string name="dlg_noroot_title">Puudub root õigused</string>
+	<string name="dlg_noroot_body">Seade peab olema rootitud ,et kasutada seda rakendust.</string>
+	<string name="dlg_nofs_title">Seadmel tundub puuduma sageduste tagi </string>
+	<string name="dlg_nofs_body">Kui te kasutate arendajate ROM-i või te arvate 
+,et teie telefon toetab protsessori kiirendamist, siis saadke oma CPU andmed ,et me saaksime
+lisada teie telefoni toetavate nimekirja.</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">Saada CPU andmed</string>
+	<string name="dlg_send_title">Saada CPU andmed koos</string>
+	<string name="menu_prefs">Seaded</string>
+	<string name="menu_view_stats">Vaata andmeid</string>
+	<string name="menu_details">Teave</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">Värskenda</string>
+	<string name="spinner_stats_text">Loetakse andmeid viimase 5 sekundi jooksul…</string>
+	<string name="stats_title">Sageduste andmed</string>
+	<string name="stats_current">Praegune sagedus: %1$s</string>
+	<string name="stats_current_unavailable">mitte saadaval</string>
+	<string name="stats_frequency">Sagedus</string>
+	<string name="stats_perc">Kokku</string>
+	<string name="stats_perc5">Viimased 5 sekundit.</string>
+	<string name="stats_deep_sleep">Sügav uni</string>
+	<!-- Errors -->
+	<string name="err_need_root">See rakendus vajab root õigusi ,et töödata.</string>
+	<string name="err_update_failed">Viga: Kas te lubasite SuperUseri õigused?</string>
+	<string name="err_no_email_client">Teil ei ole e-posti seadistatud. 
+CPU andmeid ei saadeta.</string>
+	<!-- Success -->
+	<string name="ok_updated_freqs">Õnnestus!\nMin: %1$s\nMax: %2$s\nRegluaator: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- BootService safety valves -->
+	<string name="notify_nlj_safety_found">%1$s leitud, väärtuseid ei rakendatud</string>
+	<string name="notify_safety_shutdown">Ebaharilik väljalülitumine, väärtusi ei rakendatud</string>
+	<string name="notify_title_safety">Väärtusi ei rakendatud</string>
+	<string name="notify_title_success">Väärtuste rakendamine õnnestus</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nRegulaator: %3$s\nI/O Scheduler: %4$s</string>
+	<!-- About dialog/activity -->
+	<string name="tab_info">Teave</string>
+	<string name="tab_changelog">Muutuste logi</string>
+	<string name="tab_faq">KKK</string>
+	<string name="tab_license">Litsents</string>
+	<string name="about_info_donate">Anneta</string>
+	<string name="about_info_version">Versioon: %1$s</string>
+	
+	
+	<string name="about_info_extra">Ikoonid Anil K Solanki poolt\nDesign
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">Kui teil on mõni küsimus ,siis palun kontakteeruge 
+autoriga emaili või kodulehe kaudu.</string>
+	<string name="about_info_thanks">Tänan kõiki tõlkijat ja kõiki kasutajaid 
+,kes aitasid kujundada seda rakendust!</string>
+	
+	<string name="about_faq_governors_Q">Q: Mis on regulaator?
+Kas sa saad seletada erinevust nende vahel?</string>
+	<string name="about_faq_governors_A">CPU sagenduste tagi lubab teil vahetada lihtsalt ja kiirelt protsessori kiirus.
+See võib säästa voolu, kuna mida madalam CPU kiirus on 
+,seda vähem voolu tarvitatakse.
+Regulaatorid on erinevad skaalad CPU sagedusest.
+\nSeletada nende erinevust oleks pikk vastus, palun loe seda koduleheküljelt (http://forum.xda-developers.com/showthread.php?t=911917)
+.
+</string>
+	<string name="about_faq_profiles_Q">Q: Kas sa plaanid lisada profiile? 
+Ma tahaksin valida erinevate profiilide vahel ,kui mu ekraan on väljas!</string>
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

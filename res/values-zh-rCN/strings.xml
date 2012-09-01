@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-	<string name="app_name">简洁CPU控制</string>
+	<string name="app_name">无修饰CPU控制</string>
 	<string name="app_name_classic">无修饰CPU控制(经典)</string>
 	<!-- MainActivity -->
 	<string name="unavailable">不可用</string>
@@ -10,7 +10,7 @@
 	<string name="max_freq">最高频率</string>
 	<string name="min_freq">最低频率</string>
 	
-	<string name="ioscheduler">I/O Scheduler</string>
+	<string name="ioscheduler">I/O 计划</string>
 	<string name="apply_on_boot">开机时应用</string>
 	<string name="show_notification">开机时显示通知</string>
 	<string name="apply">应用</string>
@@ -42,7 +42,7 @@
 	<string name="err_no_email_client">您没有电子邮件客户端.
 无法发送CPU数据.</string>
 	<!-- Success -->
-	<string name="ok_updated_freqs">成功!\最小频率: %1$s\最高频率: %2$s\调速器: %3$s\I/O日程: %4$s</string>
+	<string name="ok_updated_freqs">成功!\n最新频率: %1$s\n最大频率: %2$s\n调速器: %3$s\nI/O 计划: %4$s</string>
 	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">发现%1$s, 设置失败</string>
 	<string name="notify_safety_shutdown">关机不正常, 设置失败</string>
@@ -56,9 +56,8 @@
 	<string name="tab_license">许可</string>
 	<string name="about_info_donate">捐赠</string>
 	<string name="about_info_version">版本: %1$s</string>
-	<string name="about_info_author">作者: Luca Santarelli</string>
-	<string name="about_info_homepage">主页:
-		http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_info_author">作者: %1$s</string>
+	<string name="about_info_homepage">主页: %1$s</string>
 	<string name="about_info_extra">图标设计: Anil K Solanki  
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">有任何疑问，请通过电子邮件或者访问主页联系作者.</string>
@@ -74,6 +73,15 @@ www.thisiswhatwedo.com</string>
 	<!-- Widget -->
 	<string name="wdg_updating">正在更新插件信息…</string>
 	<!-- Preferences -->
+	<string name="prefs_theme">主题</string>
+	<string name="prefs_theme_restart_needed">主题将会在下次启动时生效.</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
 	<string name="prefs_disable_safety_valve">撤销安全值</string>
 	<string name="prefs_disable_safety_valve_summary_on">关机不正常无法进行设置.</string>
 	<string name="prefs_disable_safety_valve_summary_off">关机不正常. 所设定的值不被支持</string>

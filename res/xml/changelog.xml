@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
-	<release date="2012-08-20" version="1.26">
+	<release date="2012-09-01" version="1.26">
 		<change>Added Themes! Dark, Light, Light &amp; Dark.</change>
 		<change>UI improvements.</change>
 		<change>Fix FC in Stats screen.</change>
+		<change>Updated translations: Czech, German, Spanish, Finnish, French, Croaian, Hungarian, Italian, Japanese, Georgian, Polish, Portuguese (Brazil and Portugal), Romanian, Russian, Swedish, Chinese.</change>
+		<change>New translations: Estonian, Western Farsi, Korean, Lithuanian, Latvian, Serbian.</change>
 	</release>
 	<release date="2012-07-07" version="1.25">
 		<change>Added preference setting to automatically update the current frequency in the stats screen.</change>
