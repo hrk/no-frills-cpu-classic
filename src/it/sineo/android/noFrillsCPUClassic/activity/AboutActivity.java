@@ -14,6 +14,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -95,8 +96,20 @@ public class AboutActivity extends Activity implements TabContentFactory {
 				} catch (PackageManager.NameNotFoundException pmnnfex) {
 					pmnnfex.printStackTrace();
 				}
-				((TextView) tabInfo.findViewById(R.id.about_info_version)).setText(getResources().getString(
-						R.string.about_info_version, version));
+				/* Parametric views */
+				final Resources r = getResources();
+				final TextView tvVersion = (TextView) tabInfo.findViewById(R.id.about_info_version);
+				tvVersion.setText(r.getString(R.string.about_info_version, version));
+
+				final TextView tvAuthor = (TextView) tabInfo.findViewById(R.id.about_info_author);
+				tvAuthor.setText(r.getString(R.string.about_info_author, r.getString(R.string.author_name)));
+
+				final TextView tvHomepage = (TextView) tabInfo.findViewById(R.id.about_info_homepage);
+				tvHomepage.setText(r.getString(R.string.about_info_homepage, r.getString(R.string.homepage_url)));
+
+				final TextView tvQuestions = (TextView) tabInfo.findViewById(R.id.about_info_questions);
+				tvQuestions.setText(r.getString(R.string.about_info_questions, r.getString(R.string.author_email)));
+
 				/* Donate button */
 				ImageView ivDonate = (ImageView) tabInfo.findViewById(R.id.donate_button);
 				ivDonate.setOnClickListener(new View.OnClickListener() {
@@ -106,20 +119,21 @@ public class AboutActivity extends Activity implements TabContentFactory {
 						startActivity(i);
 					}
 				});
+				return tabInfo;
 			}
-			v= tabInfo;
+			v = tabInfo;
 		} else if (TAG_CHANGELOG.equals(tag)) {
 			if (tabChangelog == null) {
 				tabChangelog = ChangelogFactory.inflate(this, R.xml.changelog);
 				;
 			}
-			v= tabChangelog;
+			v = tabChangelog;
 		} else if (TAG_FAQ.equals(tag)) {
 			if (tabFaq == null) {
 				LayoutInflater li = LayoutInflater.from(this);
 				tabFaq = li.inflate(R.layout.about_faq, null);
 			}
-			v= tabFaq;
+			v = tabFaq;
 		} else if (TAG_LICENSE.equals(tag)) {
 			if (tabLicense == null) {
 				String text = "";
@@ -139,12 +153,12 @@ public class AboutActivity extends Activity implements TabContentFactory {
 				tabLicense = li.inflate(R.layout.about_license, null);
 				((TextView) tabLicense.findViewById(R.id.about_license)).setText(text);
 			}
-			v= tabLicense;
+			v = tabLicense;
 		} else {
 			Log.e(getClass().getName(), "unknown tag: " + tag);
 		}
 		long t1 = System.currentTimeMillis();
-		Log.d(Constants.APP_TAG, "delta: " + (t1-t0) + " ms");
+		Log.d(Constants.APP_TAG, "delta: " + (t1 - t0) + " ms");
 		return v;
 	}
 
