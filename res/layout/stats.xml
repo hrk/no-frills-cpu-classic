@@ -24,7 +24,7 @@
 			android:layout_height="wrap_content"
 			android:contentDescription="@string/menu_refresh"
 			android:gravity="center_vertical|right"
-			android:src="@drawable/ic_refresh" />
+			android:src="@drawable/ic_action_refresh" />
 	</LinearLayout>
 
 	<TextView

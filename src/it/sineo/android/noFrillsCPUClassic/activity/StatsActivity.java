@@ -42,6 +42,8 @@ import android.widget.TextView;
 
 public class StatsActivity extends ListActivity {
 
+	protected Theme theme;
+
 	protected NumberFormat nf;
 	protected ProgressDialog progressDialog;
 	protected StatsAdapter adapter = new StatsAdapter();
@@ -155,7 +157,7 @@ public class StatsActivity extends ListActivity {
 	};
 
 	protected void onCreate(Bundle savedInstanceState) {
-		Theme.applyTo(this);
+		theme = Theme.applyTo(this);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.stats);
 		setListAdapter(adapter);
@@ -172,6 +174,9 @@ public class StatsActivity extends ListActivity {
 			/* Since there's the action bar, hide the now redundant refresh button. */
 			refreshButton.setVisibility(View.GONE);
 		} else {
+			if (theme.equals(Theme.THEME_LIGHT)) {
+				refreshButton.setImageDrawable(getResources().getDrawable(R.drawable.ic_action_refresh_inverted));
+			}
 			refreshButton.setOnClickListener(new View.OnClickListener() {
 				@Override
 				public void onClick(View v) {
@@ -363,6 +368,12 @@ public class StatsActivity extends ListActivity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.stats, menu);
+
+		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+			menu.findItem(R.id.menu_refresh).setIcon(R.drawable.ic_menu_refresh);
+		} else if (theme.equals(Theme.THEME_LIGHT)) {
+			menu.findItem(R.id.menu_refresh).setIcon(R.drawable.ic_action_refresh_inverted);
+		}
 		return true;
 	}
 
