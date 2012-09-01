@@ -1,9 +1,15 @@
+it.sineo.android.changelog.R$array: int prefs_themes
+it.sineo.android.changelog.R$array: int prefs_themes_values
+it.sineo.android.changelog.R$dimen: int buttonTextSize
 it.sineo.android.changelog.R$drawable: int donate
+it.sineo.android.changelog.R$drawable: int ic_action_refresh
+it.sineo.android.changelog.R$drawable: int ic_action_refresh_inverted
 it.sineo.android.changelog.R$drawable: int ic_launcher
+it.sineo.android.changelog.R$drawable: int ic_menu_refresh
 it.sineo.android.changelog.R$drawable: int ic_notification
-it.sineo.android.changelog.R$drawable: int ic_refresh
 it.sineo.android.changelog.R$drawable: int ic_sort_asc
 it.sineo.android.changelog.R$drawable: int ic_sort_desc
+it.sineo.android.changelog.R$drawable: int ic_stat_cpu
 it.sineo.android.changelog.R$drawable: int icon
 it.sineo.android.changelog.R$id: int about_faq_governors
 it.sineo.android.changelog.R$id: int about_faq_profiles
@@ -12,6 +18,7 @@ it.sineo.android.changelog.R$id: int about_info_extra
 it.sineo.android.changelog.R$id: int about_info_homepage
 it.sineo.android.changelog.R$id: int about_info_questions
 it.sineo.android.changelog.R$id: int about_info_thanks
+it.sineo.android.changelog.R$id: int about_info_translation
 it.sineo.android.changelog.R$id: int about_info_version
 it.sineo.android.changelog.R$id: int about_license
 it.sineo.android.changelog.R$id: int btn_apply
@@ -22,6 +29,7 @@ it.sineo.android.changelog.R$id: int changelog_container
 it.sineo.android.changelog.R$id: int changelog_scrollview
 it.sineo.android.changelog.R$id: int ckb_apply_on_boot
 it.sineo.android.changelog.R$id: int donate_button
+it.sineo.android.changelog.R$id: int frm_title
 it.sineo.android.changelog.R$id: int grp_stats_header
 it.sineo.android.changelog.R$id: int menu_details
 it.sineo.android.changelog.R$id: int menu_prefs
@@ -32,6 +40,7 @@ it.sineo.android.changelog.R$id: int sp_governor
 it.sineo.android.changelog.R$id: int sp_ioscheduler
 it.sineo.android.changelog.R$id: int sp_max_freq
 it.sineo.android.changelog.R$id: int sp_min_freq
+it.sineo.android.changelog.R$id: int tbl_config
 it.sineo.android.changelog.R$id: int tv_cur_governor
 it.sineo.android.changelog.R$id: int tv_cur_ioscheduler
 it.sineo.android.changelog.R$id: int tv_cur_max_freq
@@ -54,6 +63,12 @@ it.sineo.android.changelog.R$layout: int changelog_change
 it.sineo.android.changelog.R$layout: int changelog_release
 it.sineo.android.changelog.R$layout: int changelog_view
 it.sineo.android.changelog.R$layout: int main
+it.sineo.android.changelog.R$layout: int main_f_buttons
+it.sineo.android.changelog.R$layout: int main_f_header
+it.sineo.android.changelog.R$layout: int main_f_row_gov
+it.sineo.android.changelog.R$layout: int main_f_row_iosched
+it.sineo.android.changelog.R$layout: int main_f_row_max
+it.sineo.android.changelog.R$layout: int main_f_row_min
 it.sineo.android.changelog.R$layout: int stats
 it.sineo.android.changelog.R$layout: int stats_row
 it.sineo.android.changelog.R$layout: int widget
@@ -70,13 +85,17 @@ it.sineo.android.changelog.R$string: int about_info_extra
 it.sineo.android.changelog.R$string: int about_info_homepage
 it.sineo.android.changelog.R$string: int about_info_questions
 it.sineo.android.changelog.R$string: int about_info_thanks
+it.sineo.android.changelog.R$string: int about_info_translation
 it.sineo.android.changelog.R$string: int about_info_version
 it.sineo.android.changelog.R$string: int app_name
 it.sineo.android.changelog.R$string: int app_name_classic
 it.sineo.android.changelog.R$string: int apply
 it.sineo.android.changelog.R$string: int apply_on_boot
+it.sineo.android.changelog.R$string: int author_email
+it.sineo.android.changelog.R$string: int author_name
 it.sineo.android.changelog.R$string: int close
 it.sineo.android.changelog.R$string: int current
+it.sineo.android.changelog.R$string: int dash
 it.sineo.android.changelog.R$string: int dlg_nofs_body
 it.sineo.android.changelog.R$string: int dlg_nofs_title
 it.sineo.android.changelog.R$string: int dlg_noroot_body
@@ -87,6 +106,7 @@ it.sineo.android.changelog.R$string: int err_no_email_client
 it.sineo.android.changelog.R$string: int err_update_failed
 it.sineo.android.changelog.R$string: int exit
 it.sineo.android.changelog.R$string: int governor
+it.sineo.android.changelog.R$string: int homepage_url
 it.sineo.android.changelog.R$string: int ioscheduler
 it.sineo.android.changelog.R$string: int max_freq
 it.sineo.android.changelog.R$string: int menu_details
@@ -104,6 +124,10 @@ it.sineo.android.changelog.R$string: int ok_updated_freqs
 it.sineo.android.changelog.R$string: int paypal_donate_url
 it.sineo.android.changelog.R$string: int prefs_cat_notification
 it.sineo.android.changelog.R$string: int prefs_cat_stats
+it.sineo.android.changelog.R$string: int prefs_change_permissions
+it.sineo.android.changelog.R$string: int prefs_change_permissions_dialog_message
+it.sineo.android.changelog.R$string: int prefs_change_permissions_summary_off
+it.sineo.android.changelog.R$string: int prefs_change_permissions_summary_on
 it.sineo.android.changelog.R$string: int prefs_disable_safety_valve
 it.sineo.android.changelog.R$string: int prefs_disable_safety_valve_dialog_message
 it.sineo.android.changelog.R$string: int prefs_disable_safety_valve_summary_off
@@ -115,6 +139,11 @@ it.sineo.android.changelog.R$string: int prefs_ringtone
 it.sineo.android.changelog.R$string: int prefs_show_notification
 it.sineo.android.changelog.R$string: int prefs_show_notification_summary_off
 it.sineo.android.changelog.R$string: int prefs_show_notification_summary_on
+it.sineo.android.changelog.R$string: int prefs_theme
+it.sineo.android.changelog.R$string: int prefs_theme_restart_needed
+it.sineo.android.changelog.R$string: int prefs_update_curfreq
+it.sineo.android.changelog.R$string: int prefs_update_curfreq_summary_off
+it.sineo.android.changelog.R$string: int prefs_update_curfreq_summary_on
 it.sineo.android.changelog.R$string: int prefs_vibrate
 it.sineo.android.changelog.R$string: int prefs_vibrate_pattern
 it.sineo.android.changelog.R$string: int prefs_vibrate_pattern_message
@@ -134,6 +163,7 @@ it.sineo.android.changelog.R$string: int tab_faq
 it.sineo.android.changelog.R$string: int tab_info
 it.sineo.android.changelog.R$string: int tab_license
 it.sineo.android.changelog.R$string: int title
+it.sineo.android.changelog.R$string: int translation_url
 it.sineo.android.changelog.R$string: int unavailable
 it.sineo.android.changelog.R$string: int wdg_updating
 it.sineo.android.changelog.R$style: int BaseSpinner
@@ -146,12 +176,19 @@ it.sineo.android.changelog.R$xml: int changelog
 it.sineo.android.changelog.R$xml: int preferences
 it.sineo.android.changelog.R$xml: int wdg_stats_provider
 it.sineo.android.noFrillsCPUClassic.BootReceiver
+it.sineo.android.noFrillsCPUClassic.BootReceiver: BootReceiver()
+it.sineo.android.noFrillsCPUClassic.R$array: int prefs_themes
+it.sineo.android.noFrillsCPUClassic.R$array: int prefs_themes_values
+it.sineo.android.noFrillsCPUClassic.R$dimen: int buttonTextSize
 it.sineo.android.noFrillsCPUClassic.R$drawable: int donate
+it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_action_refresh
+it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_action_refresh_inverted
 it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_launcher
+it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_menu_refresh
 it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_notification
-it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_refresh
 it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_sort_asc
 it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_sort_desc
+it.sineo.android.noFrillsCPUClassic.R$drawable: int ic_stat_cpu
 it.sineo.android.noFrillsCPUClassic.R$drawable: int icon
 it.sineo.android.noFrillsCPUClassic.R$id: int about_faq_governors
 it.sineo.android.noFrillsCPUClassic.R$id: int about_faq_profiles
@@ -160,6 +197,7 @@ it.sineo.android.noFrillsCPUClassic.R$id: int about_info_extra
 it.sineo.android.noFrillsCPUClassic.R$id: int about_info_homepage
 it.sineo.android.noFrillsCPUClassic.R$id: int about_info_questions
 it.sineo.android.noFrillsCPUClassic.R$id: int about_info_thanks
+it.sineo.android.noFrillsCPUClassic.R$id: int about_info_translation
 it.sineo.android.noFrillsCPUClassic.R$id: int about_info_version
 it.sineo.android.noFrillsCPUClassic.R$id: int about_license
 it.sineo.android.noFrillsCPUClassic.R$id: int btn_apply
@@ -170,6 +208,7 @@ it.sineo.android.noFrillsCPUClassic.R$id: int changelog_container
 it.sineo.android.noFrillsCPUClassic.R$id: int changelog_scrollview
 it.sineo.android.noFrillsCPUClassic.R$id: int ckb_apply_on_boot
 it.sineo.android.noFrillsCPUClassic.R$id: int donate_button
+it.sineo.android.noFrillsCPUClassic.R$id: int frm_title
 it.sineo.android.noFrillsCPUClassic.R$id: int grp_stats_header
 it.sineo.android.noFrillsCPUClassic.R$id: int menu_details
 it.sineo.android.noFrillsCPUClassic.R$id: int menu_prefs
@@ -180,6 +219,7 @@ it.sineo.android.noFrillsCPUClassic.R$id: int sp_governor
 it.sineo.android.noFrillsCPUClassic.R$id: int sp_ioscheduler
 it.sineo.android.noFrillsCPUClassic.R$id: int sp_max_freq
 it.sineo.android.noFrillsCPUClassic.R$id: int sp_min_freq
+it.sineo.android.noFrillsCPUClassic.R$id: int tbl_config
 it.sineo.android.noFrillsCPUClassic.R$id: int tv_cur_governor
 it.sineo.android.noFrillsCPUClassic.R$id: int tv_cur_ioscheduler
 it.sineo.android.noFrillsCPUClassic.R$id: int tv_cur_max_freq
@@ -202,6 +242,12 @@ it.sineo.android.noFrillsCPUClassic.R$layout: int changelog_change
 it.sineo.android.noFrillsCPUClassic.R$layout: int changelog_release
 it.sineo.android.noFrillsCPUClassic.R$layout: int changelog_view
 it.sineo.android.noFrillsCPUClassic.R$layout: int main
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_buttons
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_header
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_row_gov
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_row_iosched
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_row_max
+it.sineo.android.noFrillsCPUClassic.R$layout: int main_f_row_min
 it.sineo.android.noFrillsCPUClassic.R$layout: int stats
 it.sineo.android.noFrillsCPUClassic.R$layout: int stats_row
 it.sineo.android.noFrillsCPUClassic.R$layout: int widget
@@ -218,13 +264,17 @@ it.sineo.android.noFrillsCPUClassic.R$string: int about_info_extra
 it.sineo.android.noFrillsCPUClassic.R$string: int about_info_homepage
 it.sineo.android.noFrillsCPUClassic.R$string: int about_info_questions
 it.sineo.android.noFrillsCPUClassic.R$string: int about_info_thanks
+it.sineo.android.noFrillsCPUClassic.R$string: int about_info_translation
 it.sineo.android.noFrillsCPUClassic.R$string: int about_info_version
 it.sineo.android.noFrillsCPUClassic.R$string: int app_name
 it.sineo.android.noFrillsCPUClassic.R$string: int app_name_classic
 it.sineo.android.noFrillsCPUClassic.R$string: int apply
 it.sineo.android.noFrillsCPUClassic.R$string: int apply_on_boot
+it.sineo.android.noFrillsCPUClassic.R$string: int author_email
+it.sineo.android.noFrillsCPUClassic.R$string: int author_name
 it.sineo.android.noFrillsCPUClassic.R$string: int close
 it.sineo.android.noFrillsCPUClassic.R$string: int current
+it.sineo.android.noFrillsCPUClassic.R$string: int dash
 it.sineo.android.noFrillsCPUClassic.R$string: int dlg_nofs_body
 it.sineo.android.noFrillsCPUClassic.R$string: int dlg_nofs_title
 it.sineo.android.noFrillsCPUClassic.R$string: int dlg_noroot_body
@@ -235,6 +285,7 @@ it.sineo.android.noFrillsCPUClassic.R$string: int err_no_email_client
 it.sineo.android.noFrillsCPUClassic.R$string: int err_update_failed
 it.sineo.android.noFrillsCPUClassic.R$string: int exit
 it.sineo.android.noFrillsCPUClassic.R$string: int governor
+it.sineo.android.noFrillsCPUClassic.R$string: int homepage_url
 it.sineo.android.noFrillsCPUClassic.R$string: int ioscheduler
 it.sineo.android.noFrillsCPUClassic.R$string: int max_freq
 it.sineo.android.noFrillsCPUClassic.R$string: int menu_details
@@ -252,6 +303,10 @@ it.sineo.android.noFrillsCPUClassic.R$string: int ok_updated_freqs
 it.sineo.android.noFrillsCPUClassic.R$string: int paypal_donate_url
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_cat_notification
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_cat_stats
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_change_permissions
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_change_permissions_dialog_message
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_change_permissions_summary_off
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_change_permissions_summary_on
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_disable_safety_valve
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_disable_safety_valve_dialog_message
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_disable_safety_valve_summary_off
@@ -263,6 +318,11 @@ it.sineo.android.noFrillsCPUClassic.R$string: int prefs_ringtone
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_show_notification
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_show_notification_summary_off
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_show_notification_summary_on
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_theme
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_theme_restart_needed
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_update_curfreq
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_update_curfreq_summary_off
+it.sineo.android.noFrillsCPUClassic.R$string: int prefs_update_curfreq_summary_on
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_vibrate
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_vibrate_pattern
 it.sineo.android.noFrillsCPUClassic.R$string: int prefs_vibrate_pattern_message
@@ -282,6 +342,7 @@ it.sineo.android.noFrillsCPUClassic.R$string: int tab_faq
 it.sineo.android.noFrillsCPUClassic.R$string: int tab_info
 it.sineo.android.noFrillsCPUClassic.R$string: int tab_license
 it.sineo.android.noFrillsCPUClassic.R$string: int title
+it.sineo.android.noFrillsCPUClassic.R$string: int translation_url
 it.sineo.android.noFrillsCPUClassic.R$string: int unavailable
 it.sineo.android.noFrillsCPUClassic.R$string: int wdg_updating
 it.sineo.android.noFrillsCPUClassic.R$style: int BaseSpinner
@@ -294,11 +355,20 @@ it.sineo.android.noFrillsCPUClassic.R$xml: int changelog
 it.sineo.android.noFrillsCPUClassic.R$xml: int preferences
 it.sineo.android.noFrillsCPUClassic.R$xml: int wdg_stats_provider
 it.sineo.android.noFrillsCPUClassic.activity.AboutActivity
+it.sineo.android.noFrillsCPUClassic.activity.AboutActivity: AboutActivity()
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity
+it.sineo.android.noFrillsCPUClassic.activity.MainActivity: MainActivity()
 it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity
+it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity: PreferencesActivity()
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity: StatsActivity()
 it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod: it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values()
 it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod: it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String)
+it.sineo.android.noFrillsCPUClassic.extra.Theme: it.sineo.android.noFrillsCPUClassic.extra.Theme[] values()
+it.sineo.android.noFrillsCPUClassic.extra.Theme: it.sineo.android.noFrillsCPUClassic.extra.Theme valueOf(java.lang.String)
 it.sineo.android.noFrillsCPUClassic.service.BootService
+it.sineo.android.noFrillsCPUClassic.service.BootService: BootService()
 it.sineo.android.noFrillsCPUClassic.service.ShutdownService
+it.sineo.android.noFrillsCPUClassic.service.ShutdownService: ShutdownService()
 it.sineo.android.noFrillsCPUClassic.widget.StatsWidget
+it.sineo.android.noFrillsCPUClassic.widget.StatsWidget: StatsWidget()

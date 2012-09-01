@@ -18,6 +18,7 @@ it.sineo.android.changelog.R$id -> it.sineo.android.a.e:
     int about_info_homepage -> about_info_homepage
     int about_info_questions -> about_info_questions
     int about_info_thanks -> about_info_thanks
+    int about_info_translation -> about_info_translation
     int about_info_version -> about_info_version
     int about_license -> about_license
     int btn_apply -> btn_apply
@@ -28,6 +29,7 @@ it.sineo.android.changelog.R$id -> it.sineo.android.a.e:
     int changelog_scrollview -> changelog_scrollview
     int ckb_apply_on_boot -> ckb_apply_on_boot
     int donate_button -> donate_button
+    int frm_title -> frm_title
     int grp_stats_header -> grp_stats_header
     int menu_details -> menu_details
     int menu_prefs -> menu_prefs
@@ -38,6 +40,7 @@ it.sineo.android.changelog.R$id -> it.sineo.android.a.e:
     int sp_ioscheduler -> sp_ioscheduler
     int sp_max_freq -> sp_max_freq
     int sp_min_freq -> sp_min_freq
+    int tbl_config -> tbl_config
     int tv_cur_governor -> tv_cur_governor
     int tv_cur_ioscheduler -> tv_cur_ioscheduler
     int tv_cur_max_freq -> tv_cur_max_freq
@@ -61,6 +64,12 @@ it.sineo.android.changelog.R$layout -> it.sineo.android.a.f:
     int changelog_release -> changelog_release
     int changelog_view -> changelog_view
     int main -> main
+    int main_f_buttons -> main_f_buttons
+    int main_f_header -> main_f_header
+    int main_f_row_gov -> main_f_row_gov
+    int main_f_row_iosched -> main_f_row_iosched
+    int main_f_row_max -> main_f_row_max
+    int main_f_row_min -> main_f_row_min
     int stats -> stats
     int stats_row -> stats_row
     int widget -> widget
@@ -81,10 +90,10 @@ it.sineo.android.noFrillsCPUClassic.activity.AboutActivity -> it.sineo.android.n
     android.view.View tabChangelog -> c
     android.view.View tabFaq -> d
     android.view.View tabLicense -> e
-    40:42:void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
-    46:48:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
-    52:77:void onCreate(android.os.Bundle) -> onCreate
-    82:161:android.view.View createTabContent(java.lang.String) -> createTabContent
+    42:44:void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    48:50:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    54:80:void onCreate(android.os.Bundle) -> onCreate
+    85:162:android.view.View createTabContent(java.lang.String) -> createTabContent
 it.sineo.android.noFrillsCPUClassic.activity.AboutActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.a:
     it.sineo.android.noFrillsCPUClassic.activity.AboutActivity this$0 -> a
     118:120:void onClick(android.view.View) -> onClick
@@ -100,94 +109,108 @@ it.sineo.android.noFrillsCPUClassic.activity.MainActivity -> it.sineo.android.no
     android.widget.TextView mTvCurGovernor -> i
     android.widget.TextView mTvCurIOScheduler -> j
     android.widget.CheckBox mCkbApplyOnBoot -> k
-    50:276:void onCreate(android.os.Bundle) -> onCreate
-    280:285:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    290:310:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    315:345:void prepareAndSendEmail() -> a
-    371:372:void displayAboutDialog() -> b
-    38:38:android.widget.Spinner access$0(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> a
-    39:39:android.widget.Spinner access$1(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> b
-    40:40:android.widget.Spinner access$2(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> c
-    41:41:android.widget.Spinner access$3(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> d
+    51:279:void onCreate(android.os.Bundle) -> onCreate
+    283:288:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    293:313:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    318:348:void prepareAndSendEmail() -> a
+    374:375:void displayAboutDialog() -> b
+    35:35:android.widget.Spinner access$000(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> a
+    35:35:android.widget.Spinner access$100(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> b
+    35:35:android.widget.Spinner access$200(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> c
+    35:35:android.widget.Spinner access$300(it.sineo.android.noFrillsCPUClassic.activity.MainActivity) -> d
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.b:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    60:61:void onClick(android.content.DialogInterface,int) -> onClick
+    62:63:void onClick(android.content.DialogInterface,int) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$2 -> it.sineo.android.noFrillsCPUClassic.activity.c:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    72:73:void onClick(android.content.DialogInterface,int) -> onClick
+    74:75:void onClick(android.content.DialogInterface,int) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$3 -> it.sineo.android.noFrillsCPUClassic.activity.d:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    77:79:void onClick(android.content.DialogInterface,int) -> onClick
+    79:81:void onClick(android.content.DialogInterface,int) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$4 -> it.sineo.android.noFrillsCPUClassic.activity.e:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    104:105:void onClick(android.view.View) -> onClick
+    106:107:void onClick(android.view.View) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$5 -> it.sineo.android.noFrillsCPUClassic.activity.f:
-    it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    android.content.SharedPreferences val$prefs -> b
-    113:116:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+    android.content.SharedPreferences val$prefs -> a
+    it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> b
+    115:118:void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$6 -> it.sineo.android.noFrillsCPUClassic.activity.g:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity this$0 -> a
-    201:273:void onClick(android.view.View) -> onClick
-    199:199:it.sineo.android.noFrillsCPUClassic.activity.MainActivity access$0(it.sineo.android.noFrillsCPUClassic.activity.MainActivity$6) -> a
+    203:276:void onClick(android.view.View) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.MainActivity$6$1 -> it.sineo.android.noFrillsCPUClassic.activity.h:
     it.sineo.android.noFrillsCPUClassic.activity.MainActivity$6 this$1 -> a
-    203:271:void run() -> run
+    205:274:void run() -> run
 it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity -> it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity:
     android.preference.EditTextPreference prefPattern -> a
     android.preference.CheckBoxPreference prefSafetyValve -> b
-    android.content.SharedPreferences prefs -> c
-    27:41:void onCreate(android.os.Bundle) -> onCreate
-    45:74:boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
-    23:23:android.content.SharedPreferences access$0(it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity) -> a
-    22:22:android.preference.CheckBoxPreference access$1(it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity) -> b
+    android.preference.CheckBoxPreference prefChangePermissions -> c
+    android.preference.ListPreference prefTheme -> d
+    android.content.SharedPreferences prefs -> e
+    34:67:void onCreate(android.os.Bundle) -> onCreate
+    71:114:boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+    23:23:android.content.SharedPreferences access$000(it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity) -> a
 it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.i:
-    it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity this$0 -> a
-    62:64:void onClick(android.content.DialogInterface,int) -> onClick
+    android.preference.Preference val$preference -> a
+    it.sineo.android.noFrillsCPUClassic.activity.PreferencesActivity this$0 -> b
+    102:104:void onClick(android.content.DialogInterface,int) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity -> it.sineo.android.noFrillsCPUClassic.activity.StatsActivity:
-    java.text.NumberFormat nf -> a
-    android.app.ProgressDialog progressDialog -> b
-    it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter adapter -> c
-    android.content.SharedPreferences preferences -> d
-    android.widget.ImageView refreshButton -> e
-    android.widget.TextView tvCurrentFrequency -> f
-    android.widget.TextView tvHeaderFrequency -> g
-    android.widget.TextView tvHeaderPerc -> h
-    android.widget.TextView tvHeaderPerc5 -> i
-    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod sortMethod -> j
-    android.view.View$OnTouchListener sortListener -> k
-    java.lang.Runnable statsRunnable -> l
-    android.os.Handler handler -> m
-    int[] $SWITCH_TABLE$it$sineo$android$noFrillsCPUClassic$extra$Stats$SortMethod -> n
-    113:153:void onCreate(android.os.Bundle) -> onCreate
-    157:180:void updateSortingHeader() -> b
-    277:289:void onDestroy() -> onDestroy
-    293:295:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    300:307:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    155:155:void access$0(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity) -> a
-    182:182:android.os.Handler access$1(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity) -> b
-    37:37:int[] $SWITCH_TABLE$it$sineo$android$noFrillsCPUClassic$extra$Stats$SortMethod() -> a
+    it.sineo.android.noFrillsCPUClassic.extra.Theme theme -> a
+    java.text.NumberFormat nf -> b
+    android.app.ProgressDialog progressDialog -> c
+    it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter adapter -> d
+    android.content.SharedPreferences preferences -> e
+    android.widget.ImageView refreshButton -> f
+    android.widget.TextView tvCurrentFrequency -> g
+    android.widget.TextView tvHeaderFrequency -> h
+    android.widget.TextView tvHeaderPerc -> i
+    android.widget.TextView tvHeaderPerc5 -> j
+    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod sortMethod -> k
+    java.util.concurrent.ScheduledExecutorService scheduleTaskExecutor -> l
+    android.view.View$OnTouchListener sortListener -> m
+    java.lang.Runnable statsRunnable -> n
+    java.lang.Runnable updateCurrentFrequencyRunnable -> o
+    160:215:void onCreate(android.os.Bundle) -> onCreate
+    219:242:void updateSortingHeader() -> a
+    339:344:void __wraper_setBackground(android.view.View,android.graphics.drawable.Drawable) -> a
+    348:365:void onDestroy() -> onDestroy
+    369:377:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    382:389:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    43:43:void access$100(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity) -> a
+    43:43:void access$300(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity,android.view.View,android.graphics.drawable.Drawable) -> a
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.j:
+    long lastEvent -> b
+    long MIN_DELAY -> c
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    55:85:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    68:102:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2 -> it.sineo.android.noFrillsCPUClassic.activity.k:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    91:109:void run() -> run
-it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3 -> it.sineo.android.noFrillsCPUClassic.activity.l:
+    108:140:void run() -> run
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2$1 -> it.sineo.android.noFrillsCPUClassic.activity.l:
+    java.lang.String val$text -> a
+    it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2 this$1 -> b
+    132:138:void run() -> run
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3 -> it.sineo.android.noFrillsCPUClassic.activity.m:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    184:193:void handleMessage(android.os.Message) -> handleMessage
-it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$4 -> it.sineo.android.noFrillsCPUClassic.activity.m:
+    146:156:void run() -> run
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3$1 -> it.sineo.android.noFrillsCPUClassic.activity.n:
+    java.lang.String val$text -> a
+    it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3 this$1 -> b
+    153:154:void run() -> run
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$4 -> it.sineo.android.noFrillsCPUClassic.activity.o:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    128:130:void onClick(android.view.View) -> onClick
-it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter -> it.sineo.android.noFrillsCPUClassic.activity.n:
+    183:185:void onClick(android.view.View) -> onClick
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$5 -> it.sineo.android.noFrillsCPUClassic.activity.p:
+    int[] $SwitchMap$it$sineo$android$noFrillsCPUClassic$extra$Stats$SortMethod -> a
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter -> it.sineo.android.noFrillsCPUClassic.activity.q:
     android.view.LayoutInflater li -> a
     android.graphics.Paint p -> b
     it.sineo.android.noFrillsCPUClassic.extra.Stats stats -> c
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> d
-    209:212:int getCount() -> getCount
-    216:216:java.lang.Object getItem(int) -> getItem
-    220:220:long getItemId(int) -> getItemId
-    224:271:android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter$ViewHolder -> it.sineo.android.noFrillsCPUClassic.activity.o:
+    272:275:int getCount() -> getCount
+    279:279:java.lang.Object getItem(int) -> getItem
+    283:283:long getItemId(int) -> getItemId
+    287:332:android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter$ViewHolder -> it.sineo.android.noFrillsCPUClassic.activity.r:
     android.widget.TextView tvFrequency -> a
     android.widget.TextView tvPerc -> b
     android.widget.TextView tvPerc5 -> c
@@ -224,7 +247,7 @@ it.sineo.android.noFrillsCPUClassic.extra.Stats -> it.sineo.android.noFrillsCPUC
     87:101:int compare(it.sineo.android.noFrillsCPUClassic.extra.Frequency,it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> a
     106:108:void sort(it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod) -> a
     111:117:int colorFromPercentage(float) -> a
-    1:1:int compare(java.lang.Object,java.lang.Object) -> compare
+    12:12:int compare(java.lang.Object,java.lang.Object) -> compare
 it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod -> it.sineo.android.noFrillsCPUClassic.a.e:
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod Frequency -> a
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod FrequencyDesc -> b
@@ -232,9 +255,9 @@ it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod -> it.sineo.android.n
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod PercentageDesc -> d
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod PartialPercentage -> e
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod PartialPercentageDesc -> f
-    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] ENUM$VALUES -> g
-    1:1:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values() -> values
-    1:1:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String) -> valueOf
+    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] $VALUES -> g
+    79:79:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values() -> values
+    79:79:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String) -> valueOf
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils -> it.sineo.android.noFrillsCPUClassic.a.f:
     53:115:java.lang.String catContents(java.io.File) -> a
     120:132:java.lang.String readOutput(java.lang.String) -> a
@@ -251,17 +274,26 @@ it.sineo.android.noFrillsCPUClassic.extra.SysUtils -> it.sineo.android.noFrillsC
     294:304:java.lang.String getIOScheduler() -> i
     309:351:java.lang.String readString(java.lang.String) -> c
     356:366:java.lang.String getSUbinaryPath() -> j
-    372:442:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.content.Context,int,int) -> a
-    447:512:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
-    518:518:boolean isRooted() -> k
-    522:530:boolean hasSysfs() -> l
-    534:566:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    372:459:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context,int,int) -> a
+    464:529:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
+    535:535:boolean isRooted() -> k
+    539:547:boolean hasSysfs() -> l
+    551:585:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils$1 -> it.sineo.android.noFrillsCPUClassic.a.g:
     220:222:int compare(java.lang.String,java.lang.String) -> a
-    1:1:int compare(java.lang.Object,java.lang.Object) -> compare
+    217:217:int compare(java.lang.Object,java.lang.Object) -> compare
+it.sineo.android.noFrillsCPUClassic.extra.Theme -> it.sineo.android.noFrillsCPUClassic.a.h:
+    it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_DARK -> a
+    it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_LIGHT -> b
+    it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_LIGHT_DARK -> c
+    int themeId -> d
+    it.sineo.android.noFrillsCPUClassic.extra.Theme[] $VALUES -> e
+    8:8:it.sineo.android.noFrillsCPUClassic.extra.Theme[] values() -> values
+    8:8:it.sineo.android.noFrillsCPUClassic.extra.Theme valueOf(java.lang.String) -> valueOf
+    28:32:it.sineo.android.noFrillsCPUClassic.extra.Theme applyTo(android.content.Context) -> a
 it.sineo.android.noFrillsCPUClassic.service.BootService -> it.sineo.android.noFrillsCPUClassic.service.BootService:
     24:24:android.os.IBinder onBind(android.content.Intent) -> onBind
-    29:115:void onStart(android.content.Intent,int) -> onStart
+    29:118:void onStart(android.content.Intent,int) -> onStart
 it.sineo.android.noFrillsCPUClassic.service.ShutdownService -> it.sineo.android.noFrillsCPUClassic.service.ShutdownService:
     18:18:android.os.IBinder onBind(android.content.Intent) -> onBind
     23:35:void onStart(android.content.Intent,int) -> onStart
