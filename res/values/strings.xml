@@ -89,13 +89,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Theme</string>
 	<string name="prefs_theme_restart_needed">The theme will be applied next time the app is started.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Dark</string>
+	<string name="prefs_theme_light">Light</string>
+	<string name="prefs_theme_light_and_dark">Light &amp; dark</string>
 	<string name="prefs_disable_safety_valve">Disable safety valve</string>
 	<string name="prefs_disable_safety_valve_summary_on">No check for unclean shutdown will be performed.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Values won\'t be applied in case of an unclean shutdown.</string>

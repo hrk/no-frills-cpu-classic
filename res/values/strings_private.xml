@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+	<string-array name="prefs_themes">
+		<item>@string/prefs_theme_dark</item>
+		<item>@string/prefs_theme_light</item>
+		<item>@string/prefs_theme_light_and_dark</item>
+	</string-array>
 	<string-array name="prefs_themes_values">
-		<item name="prefs_theme_dark">THEME_DARK</item>
-		<item name="prefs_theme_light">THEME_LIGHT</item>
-		<item name="prefs_theme_light_dark">THEME_LIGHT_DARK</item>
+		<item>THEME_DARK</item>
+		<item>THEME_LIGHT</item>
+		<item>THEME_LIGHT_DARK</item>
 	</string-array>
 
 	<string name="dash">-</string>
