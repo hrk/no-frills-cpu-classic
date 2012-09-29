@@ -4,8 +4,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Hashtable;
 import java.util.List;
+import java.util.Map;
 
 import android.graphics.Color;
 
@@ -14,7 +14,7 @@ public class Stats implements Serializable, Comparator<Frequency> {
 	private final static long serialVersionUID = 1L;
 
 	private List<Frequency> frequencies;
-	private Hashtable<String, Long> times;
+	private Map<String, Long> times;
 	private Long totalTime;
 	/**
 	 * Could be null throughout the life-cycle of this object.
@@ -25,7 +25,7 @@ public class Stats implements Serializable, Comparator<Frequency> {
 	 */
 	private List<Frequency> sortedByFrequency;
 
-	public Stats(List<Frequency> frequencies, Hashtable<String, Long> times, Long totalTime) {
+	public Stats(List<Frequency> frequencies, Map<String, Long> times, Long totalTime) {
 		this.frequencies = frequencies;
 		this.sortedByFrequency = new ArrayList<Frequency>(frequencies);
 		Collections.copy(sortedByFrequency, frequencies);

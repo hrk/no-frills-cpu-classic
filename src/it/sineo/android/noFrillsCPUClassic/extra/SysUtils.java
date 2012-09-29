@@ -15,8 +15,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Hashtable;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -461,7 +462,7 @@ public class SysUtils {
 	}
 
 	public static Stats getFrequencyStats(boolean withDeepSleep) {
-		Hashtable<String, Long> times = new Hashtable<String, Long>();
+		Map<String, Long> times = new HashMap<String, Long>();
 		List<Frequency> frequencies = new ArrayList<Frequency>();
 		Long totalTime = 0L;
 		File f = new File(scaling_stats_time_in_state);
