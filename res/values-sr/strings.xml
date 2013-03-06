@@ -1,76 +1,77 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	
-	
+	<string name="app_name">No-frills CPU Kontrola</string>
+	<string name="app_name_classic">KLASIČNI No-frills Control</string>
 	<!-- MainActivity -->
 	<string name="unavailable">Nedostupno</string>
-	<string name="requested">Zatrazeno</string>
+	<string name="requested">Zatraženo</string>
 	<string name="current">Trenutno</string>
-	<string name="max_freq">Max. frekvencija procesora</string>
+	<string name="max_freq">Maks. frekvencija procesora</string>
 	<string name="min_freq">Min. frekvencija procesora</string>
-	
-	
-	<string name="apply_on_boot">Primeni na ponovno podizanju</string>
-	<string name="show_notification">Prikazi notifikaciju na ponovnom podizanju</string>
+	<string name="governor">Upravitelj</string>
+	<string name="ioscheduler">U/I planer</string>
+	<string name="apply_on_boot">Primeni na ponovnom paljenju</string>
+	<string name="show_notification">Prikaži obaveštenje na ponovnom paljenju</string>
 	<string name="apply">Primeni</string>
 	<string name="exit">Izlaz</string>
 	<string name="send">Pošalji</string>
-	
-	
-	
-	<string name="dlg_nofs_body">Ako koristis drugaciji ROM ili mislis da tvoj telefon podrzava promenu brzine procesora , posalji podatke tvog procesora da bi smo ga dodali u listu</string>
+	<string name="dlg_noroot_title">Nedostaju root dozvole</string>
+	<string name="dlg_noroot_body">Uređaj mora biti rootovan da biste koristili ovu aplikaciju</string>
+	<string name="dlg_nofs_title">Vaš uređaj izgleda ne podržava skaliranje frekvencije</string>
+	<string name="dlg_nofs_body">Ako koristiš drugi ROM ili misliš da tvoj uređaj podržava skaliranje frekvencije, pošaljite podatke o Vašem procesoru da bismo dodali podršku za Vaš uređaj.</string>
 	<!-- MainActivity - Menu -->
-	<string name="menu_send">Posalji podatke procesora</string>
-	
+	<string name="menu_send">Pošalji podatke o procesoru</string>
+	<string name="dlg_send_title">Pošalji podatke o procesoru sa...</string>
 	<string name="menu_prefs">Podešavanja</string>
-	<string name="menu_view_stats">Pogledaj status</string>
-	<string name="menu_details">O Autoru</string>
+	<string name="menu_view_stats">Pogledaj statistike</string>
+	<string name="menu_details">O programu</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Osveži</string>
-	<string name="spinner_stats_text">Citanje statusa za proslih 5 sekundi…</string>
-	<string name="stats_title">Status o frekvenciji</string>
+	<string name="spinner_stats_text">Čitanje statistika za prošlih 5 sekundi...</string>
+	<string name="stats_title">Statistike o frekvenciji</string>
 	<string name="stats_current">Trenutna frekvencija: %1$s</string>
-	<string name="stats_current_unavailable">Nedostupno</string>
+	<string name="stats_current_unavailable">nedostupno</string>
 	<string name="stats_frequency">Frekvencija</string>
 	<string name="stats_perc">Ukupno</string>
 	<string name="stats_perc5">Poslednjih 5 sekundi</string>
-	
+	<string name="stats_deep_sleep">Duboki san</string>
 	<!-- Errors -->
-	
-	
-	
+	<string name="err_need_root">Da bi radila ova aplikacija traži root privilegije.</string>
+	<string name="err_update_failed">Greška: Da li ste dozvolili SuperUser ovlašćenja?</string>
+	<string name="err_no_email_client">Nemate email klient. Podaci o procesoru neće biti poslani.</string>
 	<!-- Success -->
-	
+	<string name="ok_updated_freqs">Uspjeh!\nMin: %1$s\nMax: %2$s\nUpravitelj: %3$s\nU/I Planer: %4$s</string>
 	<!-- BootService safety valves -->
-	
-	
+	<string name="notify_nlj_safety_found">%1$s pronadjeno, vrednosti nisu primenjeme</string>
+	<string name="notify_safety_shutdown">Nepravilno gašenje, vrednosti nisu primenjeme</string>
 	<string name="notify_title_safety">Vrednosti nisu primenjene</string>
-	<string name="notify_title_success">Vrednosti su primenjene</string>
-	
+	<string name="notify_title_success">Vrednosti su uspešno primenjene</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nUpravitelj: %3$s\nU/I Planer: %4$s</string>
 	<!-- About dialog/activity -->
-	<string name="tab_info">O Autoru</string>
+	<string name="tab_info">O programu</string>
 	<string name="tab_changelog">Istorija izmena</string>
 	<string name="tab_faq">Najčešće postavljena pitanja</string>
 	<string name="tab_license">Licenca</string>
 	<string name="about_info_donate">Donirajte</string>
-	
-	
-	
-	<string name="about_info_extra">Ikonice od Anil K Solanki\nDesign
+	<string name="about_info_version">Verzija: %1$s</string>
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Početna strana: %1$s</string>
+	<string name="about_info_extra">Ikonu uradio Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
-	<string name="about_info_questions">Ako imate pitanje , kontaktirajte autora na email ili na njegovoj stranici</string>
-	<string name="about_info_thanks">Hvala svim prevodiocima (glupim ko kurac) i ljudima koji su pomogli u stvaranju ove aplikacije!</string>
-	
-	
-	
-	
-	
+	<string name="about_info_questions">Ako imate pitanje , molimo Vas kontaktirajte autora na email ili na njegovoj stranici.</string>
+	<string name="about_info_thanks">Hvala svim prevodiocima i korisnicima koji su pomogli u oblikovanju ove aplikacije!</string>
+	<string name="about_info_translation">Ako ste našli netačan ili nedostajući prevod, možete sami postaviti ispravku na http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_faq_governors_Q">Pitanje: Šta je upravitelj? Možete li objasniti razliku među njima?</string>
+	<string name="about_faq_governors_A">Skaliranje frekvencije procesora Vam omogućava da promenite brzinu procesora u letu. Ovo može sačuvati bateriju, jer što je manja brzina procesora, manje struje procesor potroši. Upravitelji su različiti načini skaliranja frekvancije.\nObjašnjavati razlike je dugačak odgovor, molimo Vas pročitaje ih na našoj stranici
+(http://forum.xda-developers.com/showthread.php?t=911917)</string>
+	<string name="about_faq_profiles_Q">Pitanje: Planirate li daodavati profile? Volio bih odabrati drugi profil kada mi je ekran ugašen!</string>
+	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je  \"Ne\" Mislim da su profili baspotrebni, zato jer su upravitelji već tu: profili koje Vaš procesor prati dok menja frekvancije. \nDodavanje profila bi značilo potrebu za više memorije, potrebu za češćim korišćenjem, provjeru da li se nešto dešava (ekran upaljen, ekran ugašen i tako dalje)... sve ovo bi bilo prava korist.</string>
 	<!-- Widget -->
-	
+	<string name="wdg_updating">Nadogradnja widget-a...</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">Tema će biti primenjema sledeći put kada pokrenete aplikaciju.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -78,28 +79,28 @@ www.thisiswhatwedo.com</string>
 		<item name="prefs_theme_light">Light &amp; dark</item>
 	</string-array>
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<string name="prefs_show_notification">Prikazi notifikaciju.</string>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<string name="prefs_disable_safety_valve">Onemogući sigurnosni ventil</string>
+	<string name="prefs_disable_safety_valve_summary_on">Provera nepravilnog gašenja neće biti izvršena.</string>
+	<string name="prefs_disable_safety_valve_summary_off">U slučaju nepravilnog gašenja vrednosti neće biti primenjene.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Da li ste sigurni da želite onemogućiti sigurnosni ventil? Nastavite samo AKO znate šta radite.</string>
+	<string name="prefs_change_permissions">Onemogući izmjene od strane drugih aplikacija</string>
+	<string name="prefs_change_permissions_summary_on">Druge aplikacije (ili sistem) će biti onemogućene menjati frekvencije.</string>
+	<string name="prefs_change_permissions_summary_off">Druge aplikacije (ili sistem) moći će menjati frekvencije.</string>
+	<string name="prefs_change_permissions_dialog_message">Ova opcija je potrebna samo na Android-u 4.1 (Jelly Bean), skorijem HTC One ili sličnim uređajima. Da li ste sigurni da želite nastaviti?</string>
+	<string name="prefs_cat_notification">Obaveštenje pri pokretanju</string>
+	<string name="prefs_show_notification">Prikazi notifikaciju</string>
+	<string name="prefs_show_notification_summary_on">Obaveštenja će biti prikazana.</string>
+	<string name="prefs_show_notification_summary_off">Obaveštenja neće biti prikazana.</string>
+	<string name="prefs_vibrate">Vibriranje</string>
+	<string name="prefs_vibrate_pattern">Obrazac za vibracije</string>
+	<string name="prefs_vibrate_pattern_message">Unesite obrazac za vibracije izraženo u milisekundama (npr.: 0,50,100,50,100) ili ostavite prazno polje za korišćenje standardnog obrazca za vibriranje.</string>
+	<string name="prefs_ringtone">Zvuk za obaveštenje</string>
+	<string name="prefs_cat_stats">Statistike</string>
+	<string name="prefs_include_deep_sleep">Uvrstaj duboki san</string>
+	<string name="prefs_include_deep_sleep_summary_on">Duboki san će biti uvršćen.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Duboki san će biti ignorisan.</string>
+	<string name="prefs_update_curfreq">Osveži trenutnu frekvanciju</string>
+	<string name="prefs_update_curfreq_summary_on">Trenutna frekvencija će biti ažurirana periodično.</string>
+	<string name="prefs_update_curfreq_summary_off">Trenutna frekvencija će biti ažurirana kada osvežite statistike.</string>
 
 </resources>

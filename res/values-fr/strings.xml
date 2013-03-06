@@ -2,7 +2,7 @@
 <resources>
 
 	
-	
+	<string name="app_name_classic">No-frills CPU Control CLASSIQUE</string>
 	<!-- MainActivity -->
 	<string name="unavailable">Indisponible</string>
 	<string name="requested">Demandé</string>
@@ -58,8 +58,8 @@
 	
 	<string name="about_info_donate">Donnation</string>
 	
-	
-	
+	<string name="about_info_author">Auteur: %1$s</string>
+	<string name="about_info_homepage">Page d\'accueil: %1$s</string>
 	<string name="about_info_extra">Icône par Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si vous avez des questions, merci de contacter
@@ -87,8 +87,8 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Mise à jour du widget…</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Thème</string>
+	<string name="prefs_theme_restart_needed">Ce thème sera appliqué au prochain démarrage de l’application.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -98,26 +98,26 @@
 
 	<string name="prefs_disable_safety_valve">Désactiver la valve de sécurité</string>
 	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
-	
-	
-	
-	
-	
+	<string name="prefs_disable_safety_valve_summary_off">Les valeurs ne seront pas appliquées dans le cas d\'un arrêt anormal.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Etes-vous sur de vouloir désactiver la valve sécurité ? Procédez UNIQUEMENT si vous savez ce que vous faites.</string>
+	<string name="prefs_change_permissions">Empêche les modifications provenant d\'autres application</string>
+	<string name="prefs_change_permissions_summary_on">Les autres applications (ou le système) seront prévenues d\'un changement de fréquence.</string>
+	<string name="prefs_change_permissions_summary_off">D\'autres applications (ou le système) pourront changer la fréquence.</string>
 	<string name="prefs_change_permissions_dialog_message">Cette fonction n\'est requise que pour Android 4.1 (Jelly Bean) et les récents appareils comme le HTC One. Êtes-vous sûr de vouloir l\'utiliser ?</string>
 	<string name="prefs_cat_notification">Notification au démarrage </string>
 	<string name="prefs_show_notification">Afficher notification</string>
 	<string name="prefs_show_notification_summary_on">Les notifications seront affichées. </string>
 	<string name="prefs_show_notification_summary_off">Les notifications ne seront PAS affichées</string>
 	<string name="prefs_vibrate">Vibrer</string>
-	
-	
+	<string name="prefs_vibrate_pattern">Mode de vibration</string>
+	<string name="prefs_vibrate_pattern_message">Entrez un mode de vibration en millisecondes (ex.: 0,50,100,50,100) ou laissez ce champ libre pour utiliser le mode de vibration par défaut.</string>
 	<string name="prefs_ringtone">Son de notification</string>
 	<string name="prefs_cat_stats">Statistiques</string>
 	<string name="prefs_include_deep_sleep">Inclure veille prolongée</string>
-	
+	<string name="prefs_include_deep_sleep_summary_on">La veille prolongée sera comprise.</string>
 	<string name="prefs_include_deep_sleep_summary_off">La veille prolongée sera ignorée</string>
 	<string name="prefs_update_curfreq">Rafraîchir la fréquence actuelle.</string>
-	
-	
+	<string name="prefs_update_curfreq_summary_on">La fréquence actuelle sera mise à jour périodiquement.</string>
+	<string name="prefs_update_curfreq_summary_off">La fréquence actuelle sera mise à jour lors de l\'actualisation des stats.</string>
 
 </resources>

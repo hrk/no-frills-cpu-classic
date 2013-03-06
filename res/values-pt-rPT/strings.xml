@@ -30,7 +30,7 @@
 	<string name="menu_refresh">Actualizar</string>
 	<string name="spinner_stats_text">A ler as estatísticas dos últimos 5 segundos…</string>
 	<string name="stats_title">Estatísticas de frequência</string>
-	<string name="stats_current">Frequência actual: %s</string>
+	<string name="stats_current">Frequência actual: %1$s</string>
 	<string name="stats_current_unavailable">Indisponível</string>
 	<string name="stats_frequency">Frequência</string>
 	
@@ -43,7 +43,7 @@
 	<!-- Success -->
 	<string name="ok_updated_freqs">Successo!\nMin: %1$s\nMáx: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s encontrados, valores não aplicados</string>
+	<string name="notify_nlj_safety_found">%1$s encontrados, valores não aplicados</string>
 	<string name="notify_safety_shutdown">Boot irregular, valores não aplicados</string>
 	<string name="notify_title_safety">Valores não aplicados</string>
 	<string name="notify_title_success">Valores aplicados com sucesso</string>
@@ -54,7 +54,7 @@
 	
 	<string name="tab_license">Licença</string>
 	<string name="about_info_donate">Doar</string>
-	<string name="about_info_version">Versão: %s</string>
+	<string name="about_info_version">Versão: %1$s</string>
 	
 	
 	<string name="about_info_extra">Ícone por Anil K Solanki\nDesign   www.thisiswhatwedo.com</string>

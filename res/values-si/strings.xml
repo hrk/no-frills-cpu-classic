@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">No-frills CPU පාලනය</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">ලබාගත නොහැකි</string>
+	<string name="requested">ආරාධිත</string>
+	<string name="current">වත්මන්</string>
+	<string name="max_freq">උපරිම. ඝටිකා සංඛ්‍යාතය.</string>
+	<string name="min_freq">අවම. ඝටිකා සංඛ්‍යාතය.</string>
+	
+	
+	
+	
+	<string name="apply">යොදන්න</string>
+	<string name="exit">පිටවෙන්න</string>
+	<string name="send">යවන්න</string>
+	
+	
+	
+	
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">ප්‍රොසෙසරයෙ දත්ත යවන්න</string>
+	<string name="dlg_send_title">ප්‍රොසෙසරයෙ දත්ත සමග යවන්න</string>
+	<string name="menu_prefs">පාලන පුවරුව</string>
+	<string name="menu_view_stats">දත්ත පෙන්වන්න</string>
+	<string name="menu_details">පිළිබඳ</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">නැවත අලුත් කරන්න</string>
+	<string name="spinner_stats_text">ගතවු තත් 5 දත්ත කියවිම…</string>
+	<string name="stats_title">සංඛ්‍යාත දත්ත</string>
+	<string name="stats_current">වර්තමාන සංඛ්‍යාතය: %1$s</string>
+	<string name="stats_current_unavailable">ලබාගත නොහැකි</string>
+	<string name="stats_frequency">සංඛ්‍යාතය</string>
+	<string name="stats_perc">එකතුව</string>
+	<string name="stats_perc5">ගතවු තත් 5</string>
+	<string name="stats_deep_sleep">මර නින්ද :P</string>
+	<!-- Errors -->
+	
+	
+	
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	
+	
+	
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">පිළිබඳ</string>
+	
+	
+	<string name="tab_license">බලපත්‍රය</string>
+	<string name="about_info_donate">පරිත්‍යාග කරන්න</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	<string name="prefs_theme">තේමාව</string>
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<string name="app_name">التحكم فى عمر البطارية عن طريق سرعة المعالج</string>
+	
+	<!-- MainActivity -->
+	<string name="unavailable">غير متوفر</string>
+	<string name="requested">طلب</string>
+	<string name="current">حالى</string>
+	<string name="max_freq">اقصى سرعة للمعالج</string>
+	<string name="min_freq">اقل سرعة للمعالج</string>
+	
+	
+	<string name="apply_on_boot">تشغيل تلقائى</string>
+	<string name="show_notification">اظهار اشعارات مع التشغيل التلقائى</string>
+	<string name="apply">تنفيذ</string>
+	<string name="exit">خروج</string>
+	<string name="send">ارسال</string>
+	<string name="dlg_noroot_title">لم يتم كسر حماية الهاتف</string>
+	<string name="dlg_noroot_body">يجب كسر حماية الهاتف اولا</string>
+	<string name="dlg_nofs_title">يعتقد ان جهازك لا يدعم تغيير تردد المعالج</string>
+	<string name="dlg_nofs_body">فى حالة استخدام روم معدل او لم يكن يكن هاتفك مدعوم
+يرجى ارسال بيانات المعالج 
+لكى نتمكن من دعم هاتفك</string>
+	<!-- MainActivity - Menu -->
+	<string name="menu_send">ارسال معلومات المعالج</string>
+	<string name="dlg_send_title">ارسال معلومات المعالج مع</string>
+	<string name="menu_prefs">الاعدادات</string>
+	<string name="menu_view_stats">الحالة</string>
+	<string name="menu_details">عن البرنامج</string>
+	<!-- Stats activity -->
+	<string name="menu_refresh">تحديث</string>
+	<string name="spinner_stats_text">قراءة الحالة فى اخر 5 ثوانى</string>
+	<string name="stats_title">حالة التردد</string>
+	
+	<string name="stats_current_unavailable">غير متوفر</string>
+	<string name="stats_frequency">التردد</string>
+	<string name="stats_perc">الاجمالى</string>
+	<string name="stats_perc5">اخر 5 ثوانى</string>
+	<string name="stats_deep_sleep">نوم عميق</string>
+	<!-- Errors -->
+	<string name="err_need_root">هذا التطبيق يتطلب ان يكون هاتفك مكسور الحماية</string>
+	<string name="err_update_failed">خطا : هل سمحت بصلاحيات عن طريق superuser</string>
+	<string name="err_no_email_client">ليس لديك حساب بريد الكترونى ,
+ معلومات المعالج لن يتم ارسالها</string>
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	<string name="notify_safety_shutdown">خطا فى الاغلاق, لن تطبق القيم المختارة</string>
+	<string name="notify_title_safety">القيم غير فعالة</string>
+	<string name="notify_title_success">تم تفعيل القيم</string>
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">عن البرنامج</string>
+	<string name="tab_changelog">تغيير السجل</string>
+	<string name="tab_faq">الاسئلة</string>
+	<string name="tab_license">الترخيص</string>
+	<string name="about_info_donate">التبرع للبرنامج</string>
+	
+	<string name="about_info_author">كاتب البرنامج: %1$s</string>
+	<string name="about_info_homepage">الصفحة الرئيسية: %1$s</string>
+	<string name="about_info_extra">تم الترجمة عن طريق جلال صلاح
+www.thisiswhatwedo.com</string>
+	<string name="about_info_questions">فى حالة الاستفسار 
+يرجى مراسلة كتب البرنامج عن طريق الايميل او من الصفحة الرئيسية</string>
+	<string name="about_info_thanks">شكرا لكل شخص ساهم فى الترجمة و
+ شكرا لكل من ساهم فى تشكيل هذا البرنامج</string>
+	<string name="about_info_translation">فى حالة وجود نقص فى الترجمة يمكنك تعديل الترجمة من http://www.getlocalization.com/noFrillsCPU/</string>
+	
+	
+	
+	
+	<!-- Widget -->
+	<string name="wdg_updating">تحديث الشريط</string>
+	<!-- Preferences -->
+	<string name="prefs_theme">المظهر</string>
+	<string name="prefs_theme_restart_needed">سيتم تشغيل المظهر الجديد مع اعادة تشغيل البرنامج</string>
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	<string name="prefs_disable_safety_valve">اغلاق قيم الامان</string>
+	<string name="prefs_disable_safety_valve_summary_on">لن يتم فحص الاغلاق بحثا عن اعطال</string>
+	<string name="prefs_disable_safety_valve_summary_off">لن تتطبق القيم فى حالة الاغلاق مع اخطاء</string>
+	<string name="prefs_disable_safety_valve_dialog_message">هل تريد بالفعل ايقاف القيم الامنة ؟ اكمل فى حالة ادراكك لخطورة هذه العملية</string>
+	<string name="prefs_change_permissions">منع التغييرات عن التطبيقات الاخرى</string>
+	
+	
+	<string name="prefs_change_permissions_dialog_message">هذه الخاصية تتطلب اندرويد 4.1 او اتش تى سى حديثة او اجهزة مشابهة . هل انت متأكد من انك تريد التنفيذ</string>
+	<string name="prefs_cat_notification">اشعارات عند فتح الهاتف</string>
+	<string name="prefs_show_notification">اظهار الاشعارات</string>
+	<string name="prefs_show_notification_summary_on">سيتم ايقاف الاشعارات</string>
+	<string name="prefs_show_notification_summary_off">لن يتم ظهور اشعارات</string>
+	<string name="prefs_vibrate">الاهتزاز</string>
+	
+	
+	<string name="prefs_ringtone">الاشعار عن طريق الصوت</string>
+	<string name="prefs_cat_stats">الحالة</string>
+	<string name="prefs_include_deep_sleep">يتضمن النوم العميق</string>
+	<string name="prefs_include_deep_sleep_summary_on">سوف يتضمن النوم العميق</string>
+	<string name="prefs_include_deep_sleep_summary_off">سيتم تجاهل النوم العميق</string>
+	<string name="prefs_update_curfreq">تحديث التردد الحالى</string>
+	<string name="prefs_update_curfreq_summary_on">سيتم تحديث التردد الحالى تلقائيا</string>
+	<string name="prefs_update_curfreq_summary_off">سيتم تحديث التردد مع تحديث الحالة</string>
+
+</resources>

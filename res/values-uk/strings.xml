@@ -9,7 +9,7 @@
 	<string name="current">Поточні</string>
 	<string name="max_freq">Макс. частота</string>
 	<string name="min_freq">Мін. частота</string>
-	<string name="governor">Керівник</string>
+	<string name="governor">Регулятор</string>
 	<string name="ioscheduler">Диспетчер I/O</string>
 	<string name="apply_on_boot">При старті</string>
 	<string name="show_notification">Сповістити при завантаженні системи</string>
@@ -44,13 +44,13 @@
 	<string name="err_no_email_client">Клієнта електронної не знайдено. 
 Неможливо надіслати дані процесора.</string>
 	<!-- Success -->
-	<string name="ok_updated_freqs">Чудово!\nМін: %1$s\nМакс: %2$s\nКерівник: %3$s\nДиспетчер I/O: %4$s</string>
+	<string name="ok_updated_freqs">Чудово!\nМін: %1$s\nМакс: %2$s\nРегулятор: %3$s\nДиспетчер I/O: %4$s</string>
 	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">Знайдено %1$s, параметри не застосовано</string>
 	<string name="notify_safety_shutdown">Аварійне завершення, параметри не застосовано</string>
 	<string name="notify_title_safety">Параметри не застосовано</string>
 	<string name="notify_title_success">Параметри вдало застосовано</string>
-	<string name="notify_success">Мін: %1$s\nМакс: %2$s\nКерівник: %3$s\nДиспетчер I/O: %4$s</string>
+	<string name="notify_success">Мін: %1$s\nМакс: %2$s\nРегулятор: %3$s\nДиспетчер I/O: %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">Програма</string>
 	<string name="tab_changelog">Список змін</string>
@@ -58,15 +58,15 @@
 	<string name="tab_license">Ліцензія</string>
 	<string name="about_info_donate">Підтримати</string>
 	<string name="about_info_version">Версія: %1$s</string>
-	
-	
+	<string name="about_info_author">Автор: %1$s</string>
+	<string name="about_info_homepage">Домашня сторінка: %1$s</string>
 	<string name="about_info_extra">Піктограма - Anil K Solanki\nДизайн
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Є питання? Напишіть авторові електронною 
 поштою, або з веб-сторінки.</string>
 	<string name="about_info_thanks">Дякуємо кожному перекладачу та користувачу,
 хто допоміг надати форму цій програмі!</string>
-	
+	<string name="about_info_translation">Якщо ви знайшли помилку або пропущений переклад, то ви можете запропонувати своє виправлення на http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Що таке керівник? Поясніть, будь ласка,
 чим вони відрізняються.</string>
 	<string name="about_faq_governors_A">A: Змінна частота ЦП дозволяє перемикати тактові частоти
@@ -87,8 +87,8 @@ www.thisiswhatwedo.com</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Оновлення віджету…</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Тема</string>
+	<string name="prefs_theme_restart_needed">Ця тема застосується наступного разу при запуску програми.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -100,10 +100,10 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_disable_safety_valve_summary_on">Перевірку на аварійне завершення увімкнуто.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Параметри не буде застосовано у разі аварійного завершення.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Ви певні, що хочете вимкнути аварійний клапан? Робіть це лише тоді, коли ТОЧНО ЗНАЄТЕ, що до чого.</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Заборонити зміни з інших програм</string>
+	<string name="prefs_change_permissions_summary_on">Іншим програмам (або системі) буде заборонено змінювати частоти.</string>
+	<string name="prefs_change_permissions_summary_off">Інші програми (або система) будуть застосовні змінювати частоти.</string>
+	<string name="prefs_change_permissions_dialog_message">Ця функція працює лише на Android 4.1 (Jelly Bean) на кшталт HTC One або подібних пристроях. Ви дійсно хочете продовжити?</string>
 	<string name="prefs_cat_notification">Сповіщення при старті системи</string>
 	<string name="prefs_show_notification">Показати сповіщення</string>
 	<string name="prefs_show_notification_summary_on">Сповіщення буде показано</string>
@@ -116,8 +116,8 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_include_deep_sleep">Враховуючи міцний сон</string>
 	<string name="prefs_include_deep_sleep_summary_on">Міцний сон буде враховано</string>
 	<string name="prefs_include_deep_sleep_summary_off">Міцний сон буде ігноровано</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Оновити поточну частоту</string>
+	<string name="prefs_update_curfreq_summary_on">Поточна частота буде оновлюватися періодично.</string>
+	<string name="prefs_update_curfreq_summary_off">Поточна частота оновлюватиметься при оновленні статистики.</string>
 
 </resources>

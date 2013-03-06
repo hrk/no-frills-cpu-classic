@@ -55,7 +55,7 @@
 	<string name="tab_license">Lizenz</string>
 	<string name="about_info_donate">Spenden</string>
 	<string name="about_info_version">Version: %s</string>
-	
+	<string name="about_info_author">Autor: %1$s</string>
 	
 	<string name="about_info_extra">Icon von Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
@@ -73,7 +73,7 @@
 	<string name="wdg_updating">Widget aktualisieren…</string>
 	<!-- Preferences -->
 	
-	
+	<string name="prefs_theme_restart_needed">Das Thema wird beim nächsten Start der App angewendet.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>

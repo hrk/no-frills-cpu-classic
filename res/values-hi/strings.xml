@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	
+	
+	<!-- MainActivity -->
+	<string name="unavailable">अनुपलब्ध</string>
+	<string name="requested">अनुरोधित</string>
+	<string name="current">वर्तमान</string>
+	<string name="max_freq">अधिकतम घड़ी की आवृत्ति</string>
+	<string name="min_freq">न्यूनतम घड़ी की आवृत्ति</string>
+	<string name="governor">नियंत्रक</string>
+	<string name="ioscheduler">I/O अनुसूचक</string>
+	<string name="apply_on_boot">सुरु से लागू</string>
+	<string name="show_notification">सुरु पर अधिसूचना दिखाएं</string>
+	<string name="apply">लागू</string>
+	<string name="exit">निकास</string>
+	<string name="send">भेजें</string>
+	<string name="dlg_noroot_title">Root अनुमति नहीं है</string>
+	<string name="dlg_noroot_body">Rooted होने पर इस application का उपयोग करना चाहिए</string>
+	
+	
+	<!-- MainActivity - Menu -->
+	
+	
+	
+	
+	
+	<!-- Stats activity -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Errors -->
+	
+	
+	
+	<!-- Success -->
+	
+	<!-- BootService safety valves -->
+	
+	
+	
+	
+	
+	<!-- About dialog/activity -->
+	<string name="tab_info">इसके बारे में</string>
+	<string name="tab_changelog">परिवर्तन लॉग इन</string>
+	
+	<string name="tab_license">अधिकार</string>
+	<string name="about_info_donate">दान</string>
+	<string name="about_info_version">संस्करण: %1$s</string>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Widget -->
+	
+	<!-- Preferences -->
+	
+	
+
+	<string-array name="prefs_themes">
+		<item name="prefs_theme_dark">Dark</item>
+		<item name="prefs_theme_light">Light</item>
+		<item name="prefs_theme_light">Light &amp; dark</item>
+	</string-array>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</resources>

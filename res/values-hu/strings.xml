@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	
-	
+	<string name="app_name">No-frills CPU vezérlés</string>
+	<string name="app_name_classic">No-frills CPU vezérlő CLASSIC</string>
 	<!-- MainActivity -->
 	<string name="unavailable">Nem érhető el</string>
 	<string name="requested">Választott</string>
@@ -12,26 +12,26 @@
 	<string name="governor">Viselkedés</string>
 	<string name="ioscheduler">I/O ütemező</string>
 	<string name="apply_on_boot">Indítás a rendszerrel</string>
-	<string name="show_notification">értesítés rendszerindításnál</string>
+	<string name="show_notification">Értesítés rendszerindításnál</string>
 	<string name="apply">Alkalmazás</string>
 	<string name="exit">Kilépés</string>
 	<string name="send">Küldés</string>
-	<string name="dlg_noroot_title">Hiányzó Root jogosultság</string>
+	<string name="dlg_noroot_title">Hiányzó root jogosultság</string>
 	<string name="dlg_noroot_body">Root jog szükséges a program használatához.</string>
 	<string name="dlg_nofs_title">Az Ön eszköze nem képes az órajel skálázására.</string>
 	<string name="dlg_nofs_body">Ha főzött ROM-ot futtat vagy ha úgygondolja, hogy a készüléke képes az órajel skálázására, kérem küldje el CPU-ja adatait, hogy készüléke is támogatást nyerhessen.</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">CPU adatok küldése</string>
-	<string name="dlg_send_title">CPU adatok küldése …</string>
+	<string name="dlg_send_title">CPU adatok küldése…</string>
 	<string name="menu_prefs">Beállítások</string>
 	<string name="menu_view_stats">Statisztika</string>
-	<string name="menu_details">Rólam</string>
+	<string name="menu_details">Névjegy</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Frissítés</string>
 	<string name="spinner_stats_text">Az elmúlt 5 másodperc statisztikája…</string>
 	<string name="stats_title">Órajel statisztika</string>
 	<string name="stats_current">Jelenlegi órajel: %1$s</string>
-	<string name="stats_current_unavailable">nem elérhető</string>
+	<string name="stats_current_unavailable">elérhetetlen</string>
 	<string name="stats_frequency">Órajel</string>
 	<string name="stats_perc">Teljes</string>
 	<string name="stats_perc5">Utolsó 5 mp.</string>
@@ -44,23 +44,24 @@
 	<!-- Success -->
 	<string name="ok_updated_freqs">Sikerült!\nMin: %1$s\nMax: %2$s\nViselkedés: %3$s\nI/O Ütemező: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%1$s Találat, értékek nem lettek alkalmazva</string>
-	<string name="notify_safety_shutdown">Szabálytalan leállás, értékek nem lettek alkalmazva</string>
-	<string name="notify_title_safety">Értékek nem lettek alkalmazva</string>
-	<string name="notify_title_success">Értékek sikeresen alkalmazva</string>
+	<string name="notify_nlj_safety_found">%1$s találat, az értékek nem lettek alkalmazva</string>
+	<string name="notify_safety_shutdown">Szabálytalan leállás, az értékek nem lettek alkalmazva</string>
+	<string name="notify_title_safety">Az értékek nem lettek alkalmazva</string>
+	<string name="notify_title_success">Az értékek sikeresen alkalmazva</string>
 	<string name="notify_success">Min: %1$s\nMax: %2$s\nViselkedés: %3$s\nI/O Ütemező: %4$s</string>
 	<!-- About dialog/activity -->
-	<string name="tab_info">Rólam</string>
+	<string name="tab_info">Névjegy</string>
 	<string name="tab_changelog">Napló</string>
 	<string name="tab_faq">GYIK</string>
-	
+	<string name="tab_license">Licenc</string>
 	<string name="about_info_donate">Támogatás</string>
 	<string name="about_info_version">Verzió: %1$s</string>
-	<string name="about_info_author">Készítő: %1$s</string>
+	<string name="about_info_author">Szerző: %1$s</string>
 	<string name="about_info_homepage">Honlap: %1$s</string>
-	
+	<string name="about_info_extra">Icon Anil K Solanki\nFelület
+www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Ha bármi kérdése van, kérem lépjen kapcsolatba
-		az íróval email-en vagy a honlapon keresztül.</string>
+a program szerzőjével email-en vagy a honlapon keresztül.</string>
 	<string name="about_info_thanks">Köszönet az összes fordítónak és az összes
 		felhasználónak akik segítettek alakítani ezt a programot!</string>
 	<string name="about_info_translation">Ha hibás vagy hiányzó fordítást találsz, itt tudsz korrigálni: http://www.getlocalization.com/noFrillsCPU/</string>
@@ -81,8 +82,8 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Widget frissítése…</string>
 	<!-- Preferences -->
-	<string name="prefs_theme">Téma</string>
-	<string name="prefs_theme_restart_needed">A téma az applikáció következő indításánál lesz elfogadva.</string>
+	<string name="prefs_theme">Felszín</string>
+	<string name="prefs_theme_restart_needed">A felszín az applikáció következő indításánál lesz elfogadva.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -94,12 +95,12 @@
 	<string name="prefs_disable_safety_valve_summary_on">A szabálytalan leállások nem lesznek ellenőrizve.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Szabálytalan leálláskor, értékek nem lesznek alkalmazva.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Biztos benne hogy letiltja a biztonsági szelepet? CSAK AKKOR alkalmazza, ha tudja mit tesz.</string>
-	<string name="prefs_change_permissions">Más applikációk általi változtatások megakadályozása</string>
-	<string name="prefs_change_permissions_summary_on">Más applikáció (vagy maga a rendszer) frekvencia változtatása megakadályozva.</string>
-	<string name="prefs_change_permissions_summary_off">Más applikáció (vagy maga a rendszer) frekvencia változtatása engedélyezve.</string>
+	<string name="prefs_change_permissions">Más alkalmazások kizárása a vezérlésből</string>
+	<string name="prefs_change_permissions_summary_on">Más alkalmazás (a rendszer is) kizárva a frekvencia szabályozásból.</string>
+	<string name="prefs_change_permissions_summary_off">Más alkalmazás (a rendszernek is) engedélyezve a frekvencia vezérlés.</string>
 	<string name="prefs_change_permissions_dialog_message">Ez a funkció csak Android 4.1 (Jelly Bean) esetén szükséges, főleg HTC One vagy hasonló készülékeknél. Biztos elfogadja?</string>
-	<string name="prefs_cat_notification">értesítés rendszerindításnál</string>
-	<string name="prefs_show_notification">értesítés rendszerindításnál</string>
+	<string name="prefs_cat_notification">Értesítés rendszerindításnál</string>
+	<string name="prefs_show_notification">Értesítés mutatása</string>
 	<string name="prefs_show_notification_summary_on">Értesítések megjelenítése</string>
 	<string name="prefs_show_notification_summary_off">Értesítések NEM lesznek megjelenítve</string>
 	<string name="prefs_vibrate">Rezgés</string>

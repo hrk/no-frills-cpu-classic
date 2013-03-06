@@ -2,7 +2,7 @@
 <resources>
 
 	<string name="app_name">无修饰CPU控制</string>
-	<string name="app_name_classic">无修饰CPU控制(经典)</string>
+	<string name="app_name_classic">简易CPU控制（经典）</string>
 	<!-- MainActivity -->
 	<string name="unavailable">不可用</string>
 	<string name="requested">已请求</string>
@@ -18,8 +18,8 @@
 	<string name="send">发送</string>
 	<string name="dlg_noroot_title">丢失ROOT权限</string>
 	<string name="dlg_noroot_body">必须ROOT才能使用该软件.</string>
-	<string name="dlg_nofs_title">的设备暂时无法获取CPU频率</string>
-	<string name="dlg_nofs_body">如果你正在使用一个第三方ROM或者你的ROM能够获取CPU频率 请点击菜单中的“发送CPU数据”以便添加支持你的手机型号.</string>
+	<string name="dlg_nofs_title">您的设备缺少调频功能</string>
+	<string name="dlg_nofs_body">如果你正在使用的是第三方ROM或者你的ROM可以CPU调频，请点击 菜单—发送CPU数据，以便添加对你的手机型号的支持。</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">发送CPU数据</string>
 	<string name="dlg_send_title">发送CPU数据通过…</string>
@@ -37,7 +37,7 @@
 	<string name="stats_perc5">最近5秒</string>
 	<string name="stats_deep_sleep">深度休眠</string>
 	<!-- Errors -->
-	<string name="err_need_root">该软件需要ROOT权限来运行.</string>
+	<string name="err_need_root">本软件需要ROOT权限才能正常工作</string>
 	<string name="err_update_failed">误: 你是否允许了SuperUser的权限?</string>
 	<string name="err_no_email_client">您没有电子邮件客户端.
 无法发送CPU数据.</string>
@@ -62,19 +62,16 @@
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">有任何疑问，请通过电子邮件或者访问主页联系作者.</string>
 	<string name="about_info_thanks">感谢每个翻译者和每位用户帮忙塑造了这个软件！</string>
-	<string name="about_info_translation">如果您有更好的翻译意见,欢迎向我们提出. 网址http://www.getlocalization.com/noFrillsCPU/</string>
-	<string name="about_faq_governors_Q">问题:调速器是什么? 
-你能介绍他们不同之处吗?</string>
-	<string name="about_faq_governors_A">答:CPU 频率调节可以快速的改变CPU的时钟频率. 这样能够省电, 因为CPU的频率越低，所消耗的电也就越少. Governors 使用不同的策略来调节频率.\n具体工作原理请访问我的主页：
-		(http://forum.xda-developers.com/showthread.php?t=911917)
-		.</string>
-	<string name="about_faq_profiles_Q">问: 你是否准备添加配置文件的功能？ 当我的屏幕关闭的时候我喜欢选择一个不同的配置</string>
-	<string name="about_faq_profiles_A">答: 一个字 \"不\". 我认为配置文件是没有用的，因为Governor就相当于是一个用来调节你的CPU频率的一个配置文件.\n添加配置文件就意味着需要更多的内存占用，需要更频繁的启动，检测事件比如开屏幕，关屏幕等等。。所有这些都没有好处.</string>
+	<string name="about_info_translation">如果发现翻译不当或者缺失之处，您可以访问 http://www.getlocalization.com/noFrillsCPU 提交正确翻译。</string>
+	<string name="about_faq_governors_Q">问题：调速器是什么？你能解释下各个调速器有什么不同么？</string>
+	<string name="about_faq_governors_A">答：CPU调频 可以快速的改变CPU的时钟频率。CPU的频率越低，所消耗的电量越少，因此可以省电。而 调速器 使用不同的策略来调节频率.\n具体的工作原理请访问我的主页：http://forum.xda-developers.com/showthread.php?t=911917</string>
+	<string name="about_faq_profiles_Q">问：你有增加 情景模式 功能的计划么？我想在屏幕关闭时使用不同配置。</string>
+	<string name="about_faq_profiles_A">答：简单说\"不会\"。我认为 情景模式 没必要，因为 调速器 本身就相当于一个情景模式。\n增加 情景模式 意味着需要消耗更多的内存，需要更频繁的检测事件，比如屏幕开，屏幕关等等……所有这些都没有什么好处。</string>
 	<!-- Widget -->
-	<string name="wdg_updating">正在更新插件信息…</string>
+	<string name="wdg_updating">更新小工具…</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">主题</string>
-	<string name="prefs_theme_restart_needed">主题将会在下次启动时生效.</string>
+	<string name="prefs_theme_restart_needed">主题将会在下次启动软件时生效。</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -82,28 +79,28 @@ www.thisiswhatwedo.com</string>
 		<item name="prefs_theme_light">Light &amp; dark</item>
 	</string-array>
 
-	<string name="prefs_disable_safety_valve">撤销安全值</string>
-	<string name="prefs_disable_safety_valve_summary_on">关机不正常无法进行设置.</string>
-	<string name="prefs_disable_safety_valve_summary_off">关机不正常. 所设定的值不被支持</string>
-	<string name="prefs_disable_safety_valve_dialog_message">你确定要撤销安全值吗?如果你清楚此操作的后果请继续.</string>
+	<string name="prefs_disable_safety_valve">禁用安全值</string>
+	<string name="prefs_disable_safety_valve_summary_on">将不检查 不正常关机 情况。</string>
+	<string name="prefs_disable_safety_valve_summary_off">如果关机不正常，所设定的值将不会生效。</string>
+	<string name="prefs_disable_safety_valve_dialog_message">确定要 禁用安全值 吗？如果你清楚后果，可以禁用。</string>
 	<string name="prefs_change_permissions">阻止其他程序修改数据</string>
-	<string name="prefs_change_permissions_summary_on">其他软件(或系统)将不能够变更频率.</string>
-	<string name="prefs_change_permissions_summary_off">其他软件(或系统)将允许变更频率.</string>
+	<string name="prefs_change_permissions_summary_on">将阻止其他软件或者系统变更频率。</string>
+	<string name="prefs_change_permissions_summary_off">将允许其他软件或者系统变更频率。</string>
 	<string name="prefs_change_permissions_dialog_message">此功能仅限用于Android 4.1(果冻豆),如HTC One或类似设备.您确定继续吗?</string>
 	<string name="prefs_cat_notification">开机显示通知</string>
-	<string name="prefs_show_notification">显示设定通知</string>
-	<string name="prefs_show_notification_summary_on">将会显示通知信息.</string>
-	<string name="prefs_show_notification_summary_off">通知信息将不再显示</string>
+	<string name="prefs_show_notification">显示通知</string>
+	<string name="prefs_show_notification_summary_on">将显示通知</string>
+	<string name="prefs_show_notification_summary_off">将不显示通知</string>
 	<string name="prefs_vibrate">震动</string>
 	<string name="prefs_vibrate_pattern">震动模式</string>
-	<string name="prefs_vibrate_pattern_message">输入振动频率,以毫秒为单位表示(如:0,50,100,50,100)或留空以使用默认的振动模式.</string>
+	<string name="prefs_vibrate_pattern_message">输入振动频率，单位为毫秒（如：0,50,100,50,100）。不填将使用默认值。</string>
 	<string name="prefs_ringtone">通知声音</string>
-	<string name="prefs_cat_stats">状态</string>
-	<string name="prefs_include_deep_sleep">包括深度休眠</string>
+	<string name="prefs_cat_stats">统计信息</string>
+	<string name="prefs_include_deep_sleep">包含深度休眠</string>
 	<string name="prefs_include_deep_sleep_summary_on">将包含深度休眠</string>
-	<string name="prefs_include_deep_sleep_summary_off">将忽略深度休眠</string>
+	<string name="prefs_include_deep_sleep_summary_off">统计数据将不包含深度休眠</string>
 	<string name="prefs_update_curfreq">刷新当前频率</string>
-	<string name="prefs_update_curfreq_summary_on">当前频率将会定期更新</string>
-	<string name="prefs_update_curfreq_summary_off">当刷新统计数据后当前频率将进行更新</string>
+	<string name="prefs_update_curfreq_summary_on">当前频率将会定时刷新</string>
+	<string name="prefs_update_curfreq_summary_off">刷新统计信息时更新当前频率</string>
 
 </resources>

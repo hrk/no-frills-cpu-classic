@@ -10,7 +10,7 @@
 	<string name="max_freq">Maks. częst. zegara.</string>
 	<string name="min_freq">Min. częst. zegara.</string>
 	<string name="governor">Zarządca</string>
-	
+	<string name="ioscheduler">Tryb I/O</string>
 	<string name="apply_on_boot">Zastosuj przy starcie</string>
 	<string name="show_notification">Pokazuj powiadomienie przy uruch. telefonu</string>
 	<string name="apply">Zastosuj</string>
@@ -58,15 +58,15 @@
 	<string name="tab_license">Licencja</string>
 	<string name="about_info_donate">Dotacja</string>
 	<string name="about_info_version">Wersja: %1$s</string>
-	
-	
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Strona domowa: %1$s</string>
 	<string name="about_info_extra">Ikona: Anil K Solanki\nProjekt
              www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Jeżeli masz jakiekolwiek pytania, proszę skontaktować się z
                 autorem poprzez e-mail lub stronę domową.</string>
 	<string name="about_info_thanks">Dziękujemy każdemu tłumaczowi i użytkownikowi który 
                    pomógł w tworzeniu tej aplikacji!</string>
-	<string name="about_info_translation">Jeśli znajdziesz jakiś błąd lub brak w tłumaczeniu, sam możesz je poprawić lub dodać na stronie http://www.getlocalization.com/noFrillsCPU/</string>
+	<string name="about_info_translation">Jeśli znajdziesz jakiś błąd lub braki w tłumaczeniu, sam możesz je poprawić lub dodać na stronie http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">P: Co to jest zarządca? Czy mógłbyś wytłumaczyć 
                     jaka jest między nimi różnica?</string>
 	<string name="about_faq_governors_A">Skalowanie częstotliwości CPU pozwala na zmianę 
@@ -87,8 +87,8 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizacja widżetu…</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Skórka</string>
+	<string name="prefs_theme_restart_needed">Skórka zostanie zastosowana przy kolejnym uruchomieniu aplikacji.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>

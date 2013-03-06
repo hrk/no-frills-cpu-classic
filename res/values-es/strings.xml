@@ -18,7 +18,7 @@
 	<string name="send">Enviar</string>
 	<string name="dlg_noroot_title">Faltan permisos de root</string>
 	<string name="dlg_noroot_body">Debes tener root para usar esta aplicación.</string>
-	<string name="dlg_nofs_title">u dispositivo parece no soportar escalado de frecuencia
+	<string name="dlg_nofs_title">Su dispositivo parece no soportar escalado de frecuencia
 </string>
 	<string name="dlg_nofs_body">Si estas usando un ROM customizado o crees que tu teléfono soporta escalado de frecuencia, envía la información de tu CPU para agregar soporte a tu teléfono.</string>
 	<!-- MainActivity - Menu -->
@@ -86,10 +86,10 @@
 	<string name="prefs_disable_safety_valve_summary_on">No se ejecutará prueba de apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_summary_off">Los valores elegidos no se aplicarán en caso de un apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Está seguro de querer desactivar la válvula de seguridad? Proceda sólo si sabe lo que está haciendo.</string>
-	<string name="prefs_change_permissions">Previene cambios de otras aplicaciones</string>
+	<string name="prefs_change_permissions">No permitir cambios por parte de otras aplicaciones</string>
 	<string name="prefs_change_permissions_summary_on">Se evitará que otras aplicaciones (o el sistema), cambien las frecuencias.</string>
 	<string name="prefs_change_permissions_summary_off">Otras aplicaciones (o el sistema) podran cambiar frecuencias</string>
-	<string name="prefs_change_permissions_dialog_message">Esta caracteristia es necesaria solo para Android 4.1 (Jelly Bean), el reciente HTC Uno o dispositivos similares. Estas seguro de que quieres aeguir?</string>
+	<string name="prefs_change_permissions_dialog_message">Esta característica es necesaria sólo para Android 4.1 (Jelly Bean), el reciente HTC One o dispositivos similares. ¿Está seguro que desea continuar?</string>
 	<string name="prefs_cat_notification">Notificación durante arranque</string>
 	<string name="prefs_show_notification">Mostrar notificación</string>
 	<string name="prefs_show_notification_summary_on">Se mostrarán notificaciones.</string>

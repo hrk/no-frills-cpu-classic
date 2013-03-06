@@ -55,8 +55,8 @@
 	<string name="tab_license">Lisans</string>
 	<string name="about_info_donate">Bağış yap</string>
 	<string name="about_info_version">Versiyon: %1$s</string>
-	
-	
+	<string name="about_info_author">Yazar: %1$s</string>
+	<string name="about_info_homepage">Ana Sayfa: %1$s</string>
 	<string name="about_info_extra">İkon tasarımcısı Anil K Solanki\nTasarım
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Soru ve yorumlarınız için, lütfen e-posta ya da ana sayfayı
@@ -83,8 +83,8 @@ etmek için daha fazla çalışması, gerçek yararını azaltması demek.</stri
 	<!-- Widget -->
 	<string name="wdg_updating">Widget güncelleniyor…</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">Tema, program yeniden başlatıldığında etkinleştirilecektir.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>

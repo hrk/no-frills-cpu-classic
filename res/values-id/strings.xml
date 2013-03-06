@@ -7,8 +7,8 @@
 	<string name="unavailable">Tidak tersedia</string>
 	<string name="requested">Diminta</string>
 	<string name="current">Sekarang</string>
-	<string name="max_freq">Clock freq maksimal</string>
-	<string name="min_freq">Clock freq minimal</string>
+	<string name="max_freq">Clock frek maks.</string>
+	<string name="min_freq">Clock frek min.</string>
 	
 	<string name="ioscheduler">Penjadwal I/O</string>
 	<string name="apply_on_boot">Digunakan ketika boot</string>
@@ -18,7 +18,7 @@
 	<string name="send">Kirim</string>
 	<string name="dlg_noroot_title">Izin root tidak ada</string>
 	<string name="dlg_noroot_body">Alat anda sudah harus di-root untuk menggunakan aplikasi ini.</string>
-	<string name="dlg_nofs_title">Peralatan anda tampaknya kurang mampu dalam penskalaan frekuensi</string>
+	<string name="dlg_nofs_title">Sepertinya perangkat anda kurang mampu dalam penskalaan frekuensi</string>
 	<string name="dlg_nofs_body">Jika anda menggunakan ROM Custom atau mungkin ponsel anda mendukung penskalaan frekuensi, kirimkan data CPU anda agar didukung</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Kirim data CPU</string>
@@ -28,7 +28,7 @@
 	<string name="menu_details">Tentang</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Segarkan</string>
-	<string name="spinner_stats_text">Membaca stats untuk 5 detik sebelum..</string>
+	<string name="spinner_stats_text">Membaca statistik untuk periode 5 detik lalu…</string>
 	<string name="stats_title">Stats frekuensi</string>
 	<string name="stats_current">Frekuensi sekarang : %1$s</string>
 	<string name="stats_current_unavailable">tidak tersedia</string>
@@ -38,16 +38,16 @@
 	
 	<!-- Errors -->
 	<string name="err_need_root">Aplikasi ini membutukan hak akses root untuk dapat bekerja</string>
-	<string name="err_update_failed">Kesalahan: apakah anda sudah memperbolehkan hak akses Super User?</string>
-	<string name="err_no_email_client">Andak tidak punya klien email. Data CPU tidak dikirmkan</string>
+	<string name="err_update_failed">Kesalahan: apakah anda sudah memperbolehkan hak akses SuperUser?</string>
+	<string name="err_no_email_client">Anda tidak punya email. Data CPU tidak bisa dikirim.</string>
 	<!-- Success -->
 	<string name="ok_updated_freqs">Berhasil!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nPenjadwal I/O: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%1$s ditemukan, nilai tidak digunakan</string>
-	<string name="notify_safety_shutdown">Shutdown tidak bersih, nilai tidak digunakan</string>
+	<string name="notify_nlj_safety_found">ditemukan %1$s, nilai tidak digunakan</string>
+	<string name="notify_safety_shutdown">Shutdown tidak bersih, nilai tidak dapat digunakan</string>
 	<string name="notify_title_safety">Nilai tidak digunakan</string>
 	<string name="notify_title_success">Nilai berhasi digunakan</string>
-	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nPenjadwak I/O: %4$s</string>
+	<string name="notify_success">Min: %1$s\nMax: %2$s\nGovernor: %3$s\nPenjadwal I/O: %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">Tentang</string>
 	<string name="tab_changelog">Log perubahan</string>
@@ -55,13 +55,13 @@
 	<string name="tab_license">Lisensi</string>
 	<string name="about_info_donate">Donasi</string>
 	<string name="about_info_version">Versi: %1$s</string>
-	
-	
+	<string name="about_info_author">Pembuat: %1$s</string>
+	<string name="about_info_homepage">Situs: %1$s</string>
 	<string name="about_info_extra">Ikon oleh: Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Jika ada pertanyaan, silahkan hubungi pemilik melalui email atau situs</string>
 	<string name="about_info_thanks">Terimakasih kepada para penerjemah dan pengguna yang membantu pengembangan aplikasi ini</string>
-	
+	<string name="about_info_translation">Jika Anda menemukan terjemahan yang salah atau hilang, Anda dapat mengirimkan koreksinya ke http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Apa itu governor? Dapatkan anda menjelaskan perbedaannya?</string>
 	<string name="about_faq_governors_A">Penskalaan frekuensi membolehkan anda untuk merubah clock speed dari CPU secara langsung. Ini dapat menghemat tenaga, karena pada clock speed rendah CPU membutuhkan sedikit tenaga. Governor merupakan cara lain untuk men-skala frekuensi.\nPenjelasan lengkap di: (http://forum.xda-developers.com/showthread.php?t=911917)</string>
 	<string name="about_faq_profiles_Q">Q: Apakah akan ditambahkan profil? Saya senang merubah profil ketika layar mati!</string>
@@ -69,8 +69,8 @@ www.thisiswhatwedo.com</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Pembaharuan widget…</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">Tema akan diterapkan saat aplikasi dijalankan berikutnya.</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>
@@ -82,10 +82,10 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_disable_safety_valve_summary_on">Pengecekan karena shutdown tidak bersih tidak dilakukan</string>
 	<string name="prefs_disable_safety_valve_summary_off">Nilai tidak akan digunakan pada kasus shutdown tidak bersih</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Anda yakin akan menonaktifkan pengaman? Lanjutkan jika anda tahu yang anda lakukan</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Mencegah perubahan dari aplikasi lain</string>
+	<string name="prefs_change_permissions_summary_on">Aplikasi lain (atau sistem) akan dicegah dari mengubah frekuensi.</string>
+	<string name="prefs_change_permissions_summary_off">Aplikasi lain (atau sistem) dapat  mengubah frekuensi.</string>
+	<string name="prefs_change_permissions_dialog_message">Fitur ini diperlukan hanya pada Android 4.1 (Jelly Bean), HTC One terbaru atau perangkat sejenis. Apakah Anda yakin ingin melanjutkan?</string>
 	<string name="prefs_cat_notification">Notifikasi ketika boot</string>
 	<string name="prefs_show_notification">Tampilkan notifikasi</string>
 	<string name="prefs_show_notification_summary_on">Notifikasi akan ditampilkan</string>
@@ -98,8 +98,8 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_include_deep_sleep">Ikutkan Deep Sleep</string>
 	<string name="prefs_include_deep_sleep_summary_on">Deep sleep diikutkan</string>
 	<string name="prefs_include_deep_sleep_summary_off">Deep sleep diabaikan</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Perbarukan frekuensi saat ini</string>
+	<string name="prefs_update_curfreq_summary_on">Frekuensi ini akan diperbaharui secara berkala.</string>
+	<string name="prefs_update_curfreq_summary_off">Statistik frekuensi</string>
 
 </resources>
