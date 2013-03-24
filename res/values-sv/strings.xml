@@ -33,7 +33,7 @@
 	<string name="menu_refresh">Uppdatera</string>
 	<string name="spinner_stats_text">Läser statistik för de senaste 5 sekunderna…</string>
 	<string name="stats_title">Frekvensstatistik</string>
-	<string name="stats_current">Aktuell frekvens: %s</string>
+	<string name="stats_current">Aktuell frekvens: %1$s</string>
 	<string name="stats_current_unavailable">otillgänglig</string>
 	<string name="stats_frequency">Frekvens</string>
 	<string name="stats_perc">Totalt</string>
@@ -48,7 +48,7 @@
 	<string name="ok_updated_freqs">Lyckades!\nMin: %1$s\nMax: %2$s\nGuvernör: %3$s\nI/O Scheduler: %4$s
 	</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s hittad, ändringarna genomfördes ej</string>
+	<string name="notify_nlj_safety_found">%1$s hittad, ändringarna genomfördes ej</string>
 	<string name="notify_safety_shutdown">Unclean shutdown, ändringarna genomfördes ej</string>
 	<string name="notify_title_safety">Ändringarna genomfördes ej</string>
 	<string name="notify_title_success">Ändringarna genomfördes OK</string>

@@ -98,8 +98,8 @@
 
 	<string name="prefs_disable_safety_valve">Désactiver la valve de sécurité</string>
 	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
-	<string name="prefs_disable_safety_valve_summary_off">Les valeurs ne seront pas appliquées dans le cas d\'un arrêt anormal.</string>
-	<string name="prefs_disable_safety_valve_dialog_message">Etes-vous sur de vouloir désactiver la valve sécurité ? Procédez UNIQUEMENT si vous savez ce que vous faites.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Si le téléphone s\'arrête anormalement, les valeurs ne seront pas appliquées.</string>
+	<string name="prefs_disable_safety_valve_dialog_message">Etes-vous sur de vouloir désactiver la valve de sécurité ? Procédez UNIQUEMENT si vous savez ce que vous faites.</string>
 	<string name="prefs_change_permissions">Empêche les modifications provenant d\'autres application</string>
 	<string name="prefs_change_permissions_summary_on">Les autres applications (ou le système) seront prévenues d\'un changement de fréquence.</string>
 	<string name="prefs_change_permissions_summary_off">D\'autres applications (ou le système) pourront changer la fréquence.</string>

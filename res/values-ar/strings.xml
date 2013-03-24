@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string name="app_name">التحكم فى عمر البطارية عن طريق سرعة المعالج</string>
-	
+	<string name="app_name_classic">التحكم فى عمر البطارية عن طريق سرعة المعالج الكلاسيكي</string>
 	<!-- MainActivity -->
 	<string name="unavailable">غير متوفر</string>
 	<string name="requested">طلب</string>
 	<string name="current">حالى</string>
 	<string name="max_freq">اقصى سرعة للمعالج</string>
 	<string name="min_freq">اقل سرعة للمعالج</string>
-	
-	
+	<string name="governor">المحافظ</string>
+	<string name="ioscheduler">I/O جدولة</string>
 	<string name="apply_on_boot">تشغيل تلقائى</string>
 	<string name="show_notification">اظهار اشعارات مع التشغيل التلقائى</string>
 	<string name="apply">تنفيذ</string>
@@ -32,7 +32,7 @@
 	<string name="menu_refresh">تحديث</string>
 	<string name="spinner_stats_text">قراءة الحالة فى اخر 5 ثوانى</string>
 	<string name="stats_title">حالة التردد</string>
-	
+	<string name="stats_current">التردد الحالي: %1$s</string>
 	<string name="stats_current_unavailable">غير متوفر</string>
 	<string name="stats_frequency">التردد</string>
 	<string name="stats_perc">الاجمالى</string>
@@ -44,20 +44,20 @@
 	<string name="err_no_email_client">ليس لديك حساب بريد الكترونى ,
  معلومات المعالج لن يتم ارسالها</string>
 	<!-- Success -->
-	
+	<string name="ok_updated_freqs">بنجاح!\nدنيا: %1$s\nقصوى: %2$s\nالمحافظ: %3$s\nI/O جدولة: %4$s</string>
 	<!-- BootService safety valves -->
-	
+	<string name="notify_nlj_safety_found"> %1$s وجدت, القيم غير فعالة</string>
 	<string name="notify_safety_shutdown">خطا فى الاغلاق, لن تطبق القيم المختارة</string>
 	<string name="notify_title_safety">القيم غير فعالة</string>
 	<string name="notify_title_success">تم تفعيل القيم</string>
-	
+	<string name="notify_success">دنيا: %1$s\nقصوى: %2$s\nمحافظ: %3$s\nI/O جدولة: %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">عن البرنامج</string>
 	<string name="tab_changelog">تغيير السجل</string>
 	<string name="tab_faq">الاسئلة</string>
 	<string name="tab_license">الترخيص</string>
 	<string name="about_info_donate">التبرع للبرنامج</string>
-	
+	<string name="about_info_version">نسحة: %1$s</string>
 	<string name="about_info_author">كاتب البرنامج: %1$s</string>
 	<string name="about_info_homepage">الصفحة الرئيسية: %1$s</string>
 	<string name="about_info_extra">تم الترجمة عن طريق جلال صلاح
@@ -67,12 +67,24 @@ www.thisiswhatwedo.com</string>
 	<string name="about_info_thanks">شكرا لكل شخص ساهم فى الترجمة و
  شكرا لكل من ساهم فى تشكيل هذا البرنامج</string>
 	<string name="about_info_translation">فى حالة وجود نقص فى الترجمة يمكنك تعديل الترجمة من http://www.getlocalization.com/noFrillsCPU/</string>
-	
-	
-	
-	
+	<string name="about_faq_governors_Q">س: ما هو المحافظ؟ هل يمكنك شرح
+الاختلافات فيما بينها؟</string>
+	<string name="about_faq_governors_A">CPU التحجيم تردد يسمح لك بتغيير
+السرعة من وحدات المعالجة المركزية على الطاير. هذا يمكن توفير الطاقة، وذلك لأن أقل
+سرعة الساعة CPU، وأقل قوة وحدة المعالجة المركزية يستهلك. حكام هي
+سياسات مختلفة للتردد النطاق. \ nExplaining في differencies هو
+إجابة طويلة، الرجاء قراءتها في موقع
+(http://forum.xda-developers.com/showthread.php؟t=911917)</string>
+	<string name="about_faq_profiles_Q">س: هل كنت تخطط لإضافة ملامح؟ I \ \'د الحب ل
+حدد ملف تعريف مختلف عن الشاشة عندما بلدي قبالة!</string>
+	<string name="about_faq_profiles_A">جـ: الجواب القصير هو \ "لا \". أعتقد أن ملامح
+هي عديمة الفائدة، لأن ذلك \ \'ق ما حكام بالفعل: لمحة عن
+CPU الخاص لمتابعة أثناء تغيير الترددات. \ محات من شأنه nAdding
+مضيفا يعني الحاجة إلى المزيد من الذاكرة، والحاجة إلى تشغيل أكثر في كثير من الأحيان،
+تحقق إذا كان هناك شيء يحدث (على الشاشة، شاشة الملعب على ذلك و) ...
+كل هذا دون فائدة حقيقية.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">تحديث الشريط</string>
+	<string name="wdg_updating">تحديث الويدجت</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">المظهر</string>
 	<string name="prefs_theme_restart_needed">سيتم تشغيل المظهر الجديد مع اعادة تشغيل البرنامج</string>
@@ -88,16 +100,16 @@ www.thisiswhatwedo.com</string>
 	<string name="prefs_disable_safety_valve_summary_off">لن تتطبق القيم فى حالة الاغلاق مع اخطاء</string>
 	<string name="prefs_disable_safety_valve_dialog_message">هل تريد بالفعل ايقاف القيم الامنة ؟ اكمل فى حالة ادراكك لخطورة هذه العملية</string>
 	<string name="prefs_change_permissions">منع التغييرات عن التطبيقات الاخرى</string>
-	
-	
+	<string name="prefs_change_permissions_summary_on">سيتم منع التطبيقات الأخرى (أو النظام) من تغيير الترددات.</string>
+	<string name="prefs_change_permissions_summary_off">سيتم السماح للتطبيقات الأخرى (أو النظام) من تغيير الترددات.</string>
 	<string name="prefs_change_permissions_dialog_message">هذه الخاصية تتطلب اندرويد 4.1 او اتش تى سى حديثة او اجهزة مشابهة . هل انت متأكد من انك تريد التنفيذ</string>
 	<string name="prefs_cat_notification">اشعارات عند فتح الهاتف</string>
 	<string name="prefs_show_notification">اظهار الاشعارات</string>
 	<string name="prefs_show_notification_summary_on">سيتم ايقاف الاشعارات</string>
 	<string name="prefs_show_notification_summary_off">لن يتم ظهور اشعارات</string>
 	<string name="prefs_vibrate">الاهتزاز</string>
-	
-	
+	<string name="prefs_vibrate_pattern">نمط الإهتزاز</string>
+	<string name="prefs_vibrate_pattern_message">أو اترك هذا الحقل فارغا لاستخدام نمط الاهتزاز الافتراضي. (e.g.: 0,50,100,50,100) اكتب نمط الاهتزاز  في ميلي ثانية</string>
 	<string name="prefs_ringtone">الاشعار عن طريق الصوت</string>
 	<string name="prefs_cat_stats">الحالة</string>
 	<string name="prefs_include_deep_sleep">يتضمن النوم العميق</string>

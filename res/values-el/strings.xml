@@ -32,7 +32,7 @@
 	<string name="menu_refresh">Ανανέωση</string>
 	<string name="spinner_stats_text">Ανάγνωση στατιστικών για τα τελευταία 5 δευτερόλεπτα…</string>
 	<string name="stats_title">Στατιστικά συχνότητας</string>
-	<string name="stats_current">Τρέχουσα συχνότητα: %s</string>
+	<string name="stats_current">Τρέχουσα συχνότητα: %1$s</string>
 	<string name="stats_current_unavailable">μη διαθέσιμο</string>
 	<string name="stats_frequency">Συχνότητα</string>
 	<string name="stats_perc">Σύνολο</string>
@@ -46,7 +46,7 @@
 	<!-- Success -->
 	<string name="ok_updated_freqs">πιτυχία!\nΕλαχ: %1$s\nΜεγ: %2$s\nΔιαχειριστής: %3$s\nI/O Προγραμματιστής: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s βρέθηκε, οι τιμές δε θα εφαρμοστούν</string>
+	<string name="notify_nlj_safety_found">%1$s βρέθηκε, οι τιμές δε θα εφαρμοστούν</string>
 	<string name="notify_safety_shutdown">Ημιτελής τερματισμός, οι τιμές δε θα εφαρμοστούν</string>
 	<string name="notify_title_safety">Οι τιμές δεν εφαρμόστηκαν</string>
 	<string name="notify_title_success">Οι τιμές εφαρμόστηκαν επιτυχώς</string>
@@ -57,7 +57,7 @@
 	
 	<string name="tab_license">Άδεια</string>
 	<string name="about_info_donate">Δωρεά</string>
-	<string name="about_info_version">έκδοση: %s</string>
+	<string name="about_info_version">Έκδοση: %1$s</string>
 	
 	
 	<string name="about_info_extra">Εικονίδιο από τον Anil K Solanki\nΣχεδιασμός

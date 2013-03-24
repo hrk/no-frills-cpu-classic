@@ -58,7 +58,7 @@ CPU 데이터를 보낼 수 없습니다.</string>
 	<string name="tab_license">라이센스</string>
 	<string name="about_info_donate">기부하기</string>
 	<string name="about_info_version">버전: %1$s</string>
-	<string name="about_info_author">제작자:1%$s</string>
+	<string name="about_info_author">제작자:%1$s</string>
 	
 	<string name="about_info_extra">아이콘 by Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>

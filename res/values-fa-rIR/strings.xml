@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
 	<string name="app_name"> No-frills مدیریت پردازنده</string>
@@ -28,7 +28,7 @@
 	<string name="menu_details">درباره</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">بروزکردن</string>
-	<string name="spinner_stats_text">خواندن آمار های  5 ثانیه قبلی…</string>
+	<string name="spinner_stats_text">خواندن آمار های  5 ثانیه قبلی...</string>
 	<string name="stats_title">آمار فرکنس های مختلف</string>
 	<string name="stats_current">%1$s : فرکانس فعلی</string>
 	<string name="stats_current_unavailable">غیر قابل دسترس</string>
@@ -55,8 +55,8 @@
 	<string name="tab_license">پروانه</string>
 	<string name="about_info_donate">هدیه دادن</string>
 	<string name="about_info_version">نسخه : %1$s</string>
-	
-	
+	<string name="about_info_author">نویسنده: %1$s</string>
+	<string name="about_info_homepage">صفحه وب: %1$s</string>
 	<string name="about_info_extra">شکل ها از Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">اگر سوالی دارید می توانید از طریق صفحه وب برنامه یا رایانامه با نویسنده صحبت کنید.</string>
@@ -77,10 +77,10 @@ http://www.getlocalization.com/noFrillsCPU/</string>
 در حال اتفاق است (خاموش شدن ، روشن شدن صفحه )و .. 
 این ها همه بی فایده هستند.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">بروزرسانی ویجت…</string>
+	<string name="wdg_updating">بروزرسانی ویجت...</string>
 	<!-- Preferences -->
-	
-	
+	<string name="prefs_theme">پوسته</string>
+	<string name="prefs_theme_restart_needed">پوسته پس از راه اندازی مجدد برنامه اعمال می شود</string>
 
 	<string-array name="prefs_themes">
 		<item name="prefs_theme_dark">Dark</item>

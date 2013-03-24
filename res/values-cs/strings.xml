@@ -33,7 +33,7 @@
 	<string name="menu_refresh">Obnovit</string>
 	<string name="spinner_stats_text">Načítání statistiky za posledních 5 vteřin…</string>
 	<string name="stats_title">Statistika frekvence</string>
-	<string name="stats_current">Aktuální frekvence: %s</string>
+	<string name="stats_current">Aktuální frekvence: %1$s</string>
 	<string name="stats_current_unavailable">nedostupné</string>
 	<string name="stats_frequency">Frekvence</string>
 	<string name="stats_perc">Celkem</string>
@@ -49,7 +49,7 @@ odeslané.</string>
 	<string name="ok_updated_freqs">Úspěch!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Scheduler: %4$s
 	</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s nalezeno, hodnoty nenastaveny</string>
+	<string name="notify_nlj_safety_found">%1$s nalezeno, hodnoty nenastaveny</string>
 	<string name="notify_safety_shutdown">Nestandartní vypnutí, hodnoty nenastaveny</string>
 	<string name="notify_title_safety">Hodnoty nenastaveny</string>
 	<string name="notify_title_success">Hodnoty úspěšně nastaveny</string>

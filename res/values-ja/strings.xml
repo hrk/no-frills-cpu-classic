@@ -30,7 +30,7 @@
 	<string name="menu_refresh">更新</string>
 	<string name="spinner_stats_text">過去5秒間の統計情報を読み込んでいます…</string>
 	<string name="stats_title">周波数統計</string>
-	<string name="stats_current">現在クロック値: %s</string>
+	<string name="stats_current">現在クロック値: %1$s</string>
 	<string name="stats_current_unavailable">無効</string>
 	<string name="stats_frequency">動作クロック値</string>
 	<string name="stats_perc">総計</string>
@@ -43,7 +43,7 @@
 	<!-- Success -->
 	<string name="ok_updated_freqs">成功!\n最低値: %1$s\n最高値: %2$s\n調整リスト: %3$s\nI/O スケジューラ: %4$s</string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s が見つかり,クロック値は適用されませんでした。</string>
+	<string name="notify_nlj_safety_found">%1$s が見つかり,クロック値は適用されませんでした。</string>
 	<string name="notify_safety_shutdown">予期せぬシャットダウンにより、クロック値は適用されませんでした。</string>
 	<string name="notify_title_safety">クロック値は適用されませんでした。</string>
 	<string name="notify_title_success">クロック値が正常に適用されました。</string>
@@ -54,7 +54,7 @@
 	
 	<string name="tab_license">ライセンス</string>
 	<string name="about_info_donate">寄付</string>
-	<string name="about_info_version">バージョン: %s</string>
+	<string name="about_info_version">バージョン: %1$s</string>
 	<string name="about_info_author">作者: %1$s</string>
 	<string name="about_info_homepage">ホームページ: %1$s</string>
 	<string name="about_info_extra">アイコン by Anil K Solanki

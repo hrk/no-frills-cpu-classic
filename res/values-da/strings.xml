@@ -34,7 +34,7 @@
 	
 	<string name="spinner_stats_text">Læser statistik for de sidste 5 sekunder…</string>
 	<string name="stats_title">Frekvens statistik</string>
-	<string name="stats_current">Nuværende frekvens: %s</string>
+	<string name="stats_current">Nuværende frekvens: %1$s</string>
 	<string name="stats_current_unavailable">ikke tilgængelig</string>
 	<string name="stats_frequency">Frekvens</string>
 	<string name="stats_perc">Totalt</string>
@@ -50,7 +50,7 @@
 	<string name="ok_updated_freqs">ucces!\nMin: %1$s\nMax: %2$s\nGovernor: %3$s\nI/O Planlægger: %4$s
 </string>
 	<!-- BootService safety valves -->
-	<string name="notify_nlj_safety_found">%s found, values not applied</string>
+	
 	<string name="notify_safety_shutdown">Forkert afslutning, værdier ikke tilføjet</string>
 	<string name="notify_title_safety">Værdier ikke tilføjet</string>
 	<string name="notify_title_success">Værdier succesfuldt tilføjet</string>
@@ -61,7 +61,7 @@
 	
 	<string name="tab_license">Licens</string>
 	
-	<string name="about_info_version">Version: %s</string>
+	
 	
 	
 	<string name="about_info_extra">Ikoner af Anil K Solanki\nDesign
