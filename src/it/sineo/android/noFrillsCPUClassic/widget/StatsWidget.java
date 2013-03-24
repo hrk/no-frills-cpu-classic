@@ -51,9 +51,15 @@ public class StatsWidget extends AppWidgetProvider {
 				if (governor == null) {
 					governor = "?";
 				}
-				String text = cur + "\r\n" + governor;
+				// Frequency minFreq = SysUtils.getMinFreq();
+				// String min = minFreq != null ? minFreq.toString() : "?";
 
-				rv.setFloat(R.id.wdg_stats_governor, "setTextSize", 10.2f);
+				// Frequency maxFreq = SysUtils.getMaxFreq();
+				// String max = maxFreq != null ? maxFreq.toString() : "?";
+
+				String text = /* min + " - " + max + "\r\n" + */cur + "\r\n" + governor;
+
+				rv.setFloat(R.id.wdg_stats_governor, "setTextSize", context.getResources().getDimension(R.dimen.widget_text));
 				rv.setTextViewText(R.id.wdg_stats_governor, text);
 
 				Stats stats = SysUtils.getFrequencyStats(PreferenceManager.getDefaultSharedPreferences(
@@ -80,7 +86,8 @@ public class StatsWidget extends AppWidgetProvider {
 						canvas.drawRect(new Rect((width * i), 95 - height, (width * i) + width, 95), p);
 						canvas.drawRect(new Rect((width * i), 95, (width * i) + width, 100), p);
 					}
-					Bitmap bb = Bitmap.createScaledBitmap(b, 72, 72, false);
+					float chartHeight = context.getResources().getDimension(R.dimen.widget_chart_height);
+					Bitmap bb = Bitmap.createScaledBitmap(b, (int) chartHeight, (int) chartHeight, false);
 					rv.setImageViewBitmap(R.id.canvas, bb);
 					b.recycle();
 				}

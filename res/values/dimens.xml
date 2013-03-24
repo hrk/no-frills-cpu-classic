@@ -2,5 +2,10 @@
 <resources>
 
 	<dimen name="buttonTextSize">14sp</dimen>
+	<!-- widget_margin is fixed, as per Android guidelines -->
+	<dimen name="widget_margin">8dp</dimen>
+	<dimen name="widget_padding">2dp</dimen>
+	<dimen name="widget_text">12sp</dimen>
+	<dimen name="widget_chart_height">72dp</dimen>
 
 </resources>
