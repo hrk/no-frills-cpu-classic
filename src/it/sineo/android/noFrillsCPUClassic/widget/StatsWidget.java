@@ -4,6 +4,7 @@ import it.sineo.android.noFrillsCPUClassic.R;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
 import it.sineo.android.noFrillsCPUClassic.extra.Frequency;
 import it.sineo.android.noFrillsCPUClassic.extra.Stats;
+import it.sineo.android.noFrillsCPUClassic.extra.Stats.SortMethod;
 import it.sineo.android.noFrillsCPUClassic.extra.SysUtils;
 
 import java.util.ArrayList;
@@ -59,6 +60,7 @@ public class StatsWidget extends AppWidgetProvider {
 						context.getApplicationContext()).getBoolean(Constants.PREF_INCLUDE_DEEP_SLEEP,
 						Constants.PREF_DEFAULT_INCLUDE_DEEP_SLEEP));
 				if (stats != null) {
+					stats.sort(SortMethod.Frequency);
 
 					Paint p = new Paint();
 					p.setAntiAlias(true);

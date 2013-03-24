@@ -56,6 +56,10 @@ public class StatsActivity extends ListActivity {
 	protected TextView tvHeaderPerc;
 	protected TextView tvHeaderPerc5;
 	protected SortMethod sortMethod = SortMethod.Frequency;
+	/**
+	 * Set through interface, kept as a reference for totals.
+	 */
+	protected Stats zero;
 
 	protected ScheduledExecutorService scheduleTaskExecutor;
 
@@ -119,6 +123,9 @@ public class StatsActivity extends ListActivity {
 			}
 			adapter.stats = SysUtils.getFrequencyStats(withDeepSleep);
 			if (adapter.stats != null) {
+				if (zero != null) {
+					adapter.stats.setZero(zero);
+				}
 				adapter.stats.setPreviousStats(previousStats);
 				adapter.stats.sort(sortMethod);
 			}
@@ -158,11 +165,11 @@ public class StatsActivity extends ListActivity {
 
 	protected void onCreate(Bundle savedInstanceState) {
 		theme = Theme.applyTo(this);
+		preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.stats);
 		setListAdapter(adapter);
-
-		preferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 
 		tvCurrentFrequency = (TextView) findViewById(R.id.tv_stats_current);
 		Frequency curFreq = SysUtils.getCurFreq();
@@ -371,8 +378,10 @@ public class StatsActivity extends ListActivity {
 
 		if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
 			menu.findItem(R.id.menu_refresh).setIcon(R.drawable.ic_menu_refresh);
+			menu.findItem(R.id.menu_reset).setIcon(R.drawable.ic_menu_reset);
 		} else if (theme.equals(Theme.THEME_LIGHT)) {
 			menu.findItem(R.id.menu_refresh).setIcon(R.drawable.ic_action_refresh_inverted);
+			menu.findItem(R.id.menu_reset).setIcon(R.drawable.ic_action_reset_inverted);
 		}
 		return true;
 	}
@@ -382,6 +391,14 @@ public class StatsActivity extends ListActivity {
 		switch (item.getItemId()) {
 			case R.id.menu_refresh: {
 				progressDialog.show();
+				(new Thread(statsRunnable)).start();
+				return true;
+			}
+			case R.id.menu_reset: {
+				progressDialog.show();
+				boolean withDeepSleep = preferences.getBoolean(Constants.PREF_INCLUDE_DEEP_SLEEP,
+						Constants.PREF_DEFAULT_INCLUDE_DEEP_SLEEP);
+				zero = SysUtils.getFrequencyStats(withDeepSleep);
 				(new Thread(statsRunnable)).start();
 				return true;
 			}

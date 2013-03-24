@@ -30,6 +30,7 @@
 	<string name="menu_details">About</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Refresh</string>
+	<string name="menu_reset">Reset</string>
 	<string name="spinner_stats_text">Reading stats for the past 5 seconds…</string>
 	<string name="stats_title">Frequency stats</string>
 	<string name="stats_current">Current frequency: %1$s</string>
