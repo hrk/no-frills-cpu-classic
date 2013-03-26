@@ -30,6 +30,7 @@ aturan boleh ditambah untuk gadget anda.</string>
 	<string name="menu_details">Tentang Aplikasi ini</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Muat Semula</string>
+	
 	<string name="spinner_stats_text">Membaca stats untuk 5 saat terakhir…</string>
 	<string name="stats_title">Stats frekuensi</string>
 	<string name="stats_current">Frekuensi semasa: %1$s</string>
@@ -87,13 +88,9 @@ berlaku (skrin on, skrin off dsb)… semuanya ini tidak memberi kelebihan tambah
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Menutup valve keselamatan</string>
 	<string name="prefs_disable_safety_valve_summary_on">Tiada rujukan jika gadget tidak shutdown dengan bersih</string>
 	<string name="prefs_disable_safety_valve_summary_off">Aturan tidak dipakai jika shutdown tidak bersih</string>

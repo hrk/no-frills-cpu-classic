@@ -28,6 +28,7 @@
 	<string name="menu_details">Over</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Vernieuwen</string>
+	
 	<string name="spinner_stats_text">Waardes van de afgelopen 5 secondes uitlezen…</string>
 	<string name="stats_title">Kloksnelheid gegevens</string>
 	<string name="stats_current">Huidige kloksnelheid: %1$s</string>
@@ -72,13 +73,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Thema</string>
 	<string name="prefs_theme_restart_needed">Het thema wordt de volgende keer dat je de app start toegepast.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Veiligheidsvoorziening uitschakelen</string>
 	<string name="prefs_disable_safety_valve_summary_on">Er zal niet worden gecontroleerd of het afsluiten goed verlopen is.</string>
 	<string name="prefs_disable_safety_valve_summary_off">De waardes worden niet toegepast indien het afsluiten niet goed verlopen is.</string>

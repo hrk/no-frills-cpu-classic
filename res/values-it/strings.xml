@@ -31,6 +31,7 @@
 	<string name="menu_details">Informazioni</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Aggiorna</string>
+	<string name="menu_reset">Azzera</string>
 	<string name="spinner_stats_text">Leggo le statistiche degli ultimi 5 secondi…</string>
 	<string name="stats_title">Statistiche d\'uso delle frequenze</string>
 	<string name="stats_current">Frequenza attuale: %1$s</string>
@@ -89,13 +90,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">Il tema sarà applicato al prossimo avvio dell\'app.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Scuro</string>
+	<string name="prefs_theme_light">Chiaro</string>
+	<string name="prefs_theme_light_and_dark">Chiaro &amp; scuro</string>
 	<string name="prefs_disable_safety_valve">Disabilita controllo all\'avvio</string>
 	<string name="prefs_disable_safety_valve_summary_on">La verifica di spegnimento ok non sarà svolta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">I valori non saranno applicati in caso di spegnimento improvviso.</string>

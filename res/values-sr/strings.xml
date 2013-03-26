@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
 	<string name="app_name">No-frills CPU Kontrola</string>
@@ -22,13 +22,14 @@
 	<string name="dlg_nofs_body">Ako koristiš drugi ROM ili misliš da tvoj uređaj podržava skaliranje frekvencije, pošaljite podatke o Vašem procesoru da bismo dodali podršku za Vaš uređaj.</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Pošalji podatke o procesoru</string>
-	<string name="dlg_send_title">Pošalji podatke o procesoru sa...</string>
+	<string name="dlg_send_title">Pošalji podatke o procesoru sa…</string>
 	<string name="menu_prefs">Podešavanja</string>
 	<string name="menu_view_stats">Pogledaj statistike</string>
 	<string name="menu_details">O programu</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Osveži</string>
-	<string name="spinner_stats_text">Čitanje statistika za prošlih 5 sekundi...</string>
+	
+	<string name="spinner_stats_text">Čitanje statistika za prošlih 5 sekundi…</string>
 	<string name="stats_title">Statistike o frekvenciji</string>
 	<string name="stats_current">Trenutna frekvencija: %1$s</string>
 	<string name="stats_current_unavailable">nedostupno</string>
@@ -66,19 +67,15 @@ www.thisiswhatwedo.com</string>
 	<string name="about_faq_governors_A">Skaliranje frekvencije procesora Vam omogućava da promenite brzinu procesora u letu. Ovo može sačuvati bateriju, jer što je manja brzina procesora, manje struje procesor potroši. Upravitelji su različiti načini skaliranja frekvancije.\nObjašnjavati razlike je dugačak odgovor, molimo Vas pročitaje ih na našoj stranici
 (http://forum.xda-developers.com/showthread.php?t=911917)</string>
 	<string name="about_faq_profiles_Q">Pitanje: Planirate li daodavati profile? Volio bih odabrati drugi profil kada mi je ekran ugašen!</string>
-	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je  \"Ne\" Mislim da su profili baspotrebni, zato jer su upravitelji već tu: profili koje Vaš procesor prati dok menja frekvancije. \nDodavanje profila bi značilo potrebu za više memorije, potrebu za češćim korišćenjem, provjeru da li se nešto dešava (ekran upaljen, ekran ugašen i tako dalje)... sve ovo bi bilo prava korist.</string>
+	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je  \"Ne\" Mislim da su profili baspotrebni, zato jer su upravitelji već tu: profili koje Vaš procesor prati dok menja frekvancije. \nDodavanje profila bi značilo potrebu za više memorije, potrebu za češćim korišćenjem, provjeru da li se nešto dešava (ekran upaljen, ekran ugašen i tako dalje)… sve ovo bi bilo prava korist.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">Nadogradnja widget-a...</string>
+	<string name="wdg_updating">Nadogradnja widget-a…</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">Tema će biti primenjema sledeći put kada pokrenete aplikaciju.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Onemogući sigurnosni ventil</string>
 	<string name="prefs_disable_safety_valve_summary_on">Provera nepravilnog gašenja neće biti izvršena.</string>
 	<string name="prefs_disable_safety_valve_summary_off">U slučaju nepravilnog gašenja vrednosti neće biti primenjene.</string>

@@ -28,6 +28,7 @@
 	<string name="menu_details">Apie</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Atnaujinti</string>
+	
 	<string name="spinner_stats_text">Nuskaitomi 5 paskutinių sekundžių duomenys</string>
 	<string name="stats_title">Dažnio reikšmė</string>
 	
@@ -70,13 +71,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

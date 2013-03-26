@@ -28,6 +28,7 @@
 	<string name="menu_details">Tentang</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Segarkan</string>
+	
 	<string name="spinner_stats_text">Membaca statistik untuk periode 5 detik lalu…</string>
 	<string name="stats_title">Stats frekuensi</string>
 	<string name="stats_current">Frekuensi sekarang : %1$s</string>
@@ -71,13 +72,9 @@ www.thisiswhatwedo.com</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">Tema akan diterapkan saat aplikasi dijalankan berikutnya.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Pengaman dinonaktifkan</string>
 	<string name="prefs_disable_safety_valve_summary_on">Pengecekan karena shutdown tidak bersih tidak dilakukan</string>
 	<string name="prefs_disable_safety_valve_summary_off">Nilai tidak akan digunakan pada kasus shutdown tidak bersih</string>

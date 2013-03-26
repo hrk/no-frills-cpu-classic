@@ -29,6 +29,7 @@ Sūtīt</string>
 	<string name="menu_details">Par</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Atjaunināt</string>
+	
 	<string name="spinner_stats_text">Lasot statistiku pēdējās 5 sekundes…</string>
 	<string name="stats_title">Frekvences statistika</string>
 	<string name="stats_current">Pašreizējā frekvence: %1$s</string>
@@ -71,13 +72,9 @@ Sūtīt</string>
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

@@ -30,6 +30,7 @@
 	<string name="menu_details">عن البرنامج</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">تحديث</string>
+	<string name="menu_reset">إعادة تعيين</string>
 	<string name="spinner_stats_text">قراءة الحالة فى اخر 5 ثوانى</string>
 	<string name="stats_title">حالة التردد</string>
 	<string name="stats_current">التردد الحالي: %1$s</string>
@@ -88,13 +89,9 @@ CPU الخاص لمتابعة أثناء تغيير الترددات. \ محات
 	<!-- Preferences -->
 	<string name="prefs_theme">المظهر</string>
 	<string name="prefs_theme_restart_needed">سيتم تشغيل المظهر الجديد مع اعادة تشغيل البرنامج</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">مظلم</string>
+	<string name="prefs_theme_light">مضيء</string>
+	<string name="prefs_theme_light_and_dark">مضيء &amp; مظلم</string>
 	<string name="prefs_disable_safety_valve">اغلاق قيم الامان</string>
 	<string name="prefs_disable_safety_valve_summary_on">لن يتم فحص الاغلاق بحثا عن اعطال</string>
 	<string name="prefs_disable_safety_valve_summary_off">لن تتطبق القيم فى حالة الاغلاق مع اخطاء</string>

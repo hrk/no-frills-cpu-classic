@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
 	<string name="app_name">CPU kontrola bez muke</string>
@@ -24,13 +24,14 @@
 </string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Pošaljite CPU podatke</string>
-	<string name="dlg_send_title">Pošaljite CPU podatke sa...</string>
+	<string name="dlg_send_title">Pošaljite CPU podatke sa…</string>
 	<string name="menu_prefs">Postavke</string>
 	<string name="menu_view_stats">Pogledati statistike</string>
 	<string name="menu_details">O nama</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Osvježi</string>
-	<string name="spinner_stats_text">Učitavanje statistike posljednjih 5 sekundi...</string>
+	
+	<string name="spinner_stats_text">Učitavanje statistike posljednjih 5 sekundi…</string>
 	<string name="stats_title">Statistika frekvencija</string>
 	<string name="stats_current">Trenutna frekvencija: %1$s</string>
 	<string name="stats_current_unavailable">nedostupno</string>
@@ -78,24 +79,15 @@
 </string>
 	<string name="about_faq_profiles_Q">Pitanje: Da li planirate dodavati profile? Volio bi izabrati drugi profil kada mi je ekran ugašen!
 </string>
-	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome služe guverneri: profili za vaš CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi značilo dodavanje potrebe za jos memorije, potrebe za češćim izvršenjem, provjeravati da li se nešto dešava (ekran upaljen, ekran ugašen itd.)... sve ovo bez stvarne dobiti.
-
-
-
-
-</string>
+	<string name="about_faq_profiles_A">Odgovor: Kratak odgovor je \"Ne\". Ja mislim da su profili beskorisni, jer tome služe guverneri: profili za vaš CPU koji se pratite u mijenjanju frekvencija.\nDodavanje profila bi značilo dodavanje potrebe za jos memorije, potrebe za češćim izvršenjem, provjeravati da li se nešto dešava (ekran upaljen, ekran ugašen itd.)… sve ovo bez stvarne dobiti.</string>
 	<!-- Widget -->
-	<string name="wdg_updating">Osvježavam dodatak...</string>
+	<string name="wdg_updating">Osvježavam dodatak…</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">Tema će biti primenjena sledeći puta kada pokrenete aplikaciju.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Onesposobiti sigurnosni ventil</string>
 	<string name="prefs_disable_safety_valve_summary_on">Neće biti provjere za prljavim gašenjem.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Vrijednosti neće biti primjenjene u slučaju prljavog gašenja.</string>

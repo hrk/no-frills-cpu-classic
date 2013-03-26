@@ -30,6 +30,7 @@ CPU per afegir-ne la compatibilitat</string>
 	<string name="menu_details">Quant a</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Refresca</string>
+	
 	<string name="spinner_stats_text">S\'està llegint les estadístiques dels darrers 5 segons…</string>
 	<string name="stats_title">Freqüència de les estadístiques</string>
 	<string name="stats_current">Freqüència actual: %1$s</string>
@@ -89,13 +90,9 @@ amb més freqüència, comprovar si quelcom està passant
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Inhabilita la vàlvula de seguretat</string>
 	<string name="prefs_disable_safety_valve_summary_on">No es comprovarà si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">No s\'aplicarà els valors si l\'aturada no ha estat neta.</string>

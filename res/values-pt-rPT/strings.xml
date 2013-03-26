@@ -28,6 +28,7 @@
 	<string name="menu_details">Sobre…</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Actualizar</string>
+	
 	<string name="spinner_stats_text">A ler as estatísticas dos últimos 5 segundos…</string>
 	<string name="stats_title">Estatísticas de frequência</string>
 	<string name="stats_current">Frequência actual: %1$s</string>
@@ -70,13 +71,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Desativar válvula de segurança</string>
 	<string name="prefs_disable_safety_valve_summary_on">Não será verificado se foi encerrado incorretamente.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Os valores não serão aplicados no caso de um encerramento incorreto.</string>

@@ -28,6 +28,7 @@
 	<string name="menu_details">Névjegy</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Frissítés</string>
+	<string name="menu_reset">Alaphelyzet</string>
 	<string name="spinner_stats_text">Az elmúlt 5 másodperc statisztikája…</string>
 	<string name="stats_title">Órajel statisztika</string>
 	<string name="stats_current">Jelenlegi órajel: %1$s</string>
@@ -84,13 +85,9 @@ a program szerzőjével email-en vagy a honlapon keresztül.</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Felszín</string>
 	<string name="prefs_theme_restart_needed">A felszín az applikáció következő indításánál lesz elfogadva.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Sötét</string>
+	<string name="prefs_theme_light">Világos</string>
+	<string name="prefs_theme_light_and_dark">Világos &amp; sötét</string>
 	<string name="prefs_disable_safety_valve">Biztonsági szelep letiltása</string>
 	<string name="prefs_disable_safety_valve_summary_on">A szabálytalan leállások nem lesznek ellenőrizve.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Szabálytalan leálláskor, értékek nem lesznek alkalmazva.</string>

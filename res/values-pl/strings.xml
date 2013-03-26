@@ -30,6 +30,7 @@
 	<string name="menu_details">O programie</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Odśwież</string>
+	
 	<string name="spinner_stats_text">Odczytywanie statystyk z ostatnich 5 sekund…</string>
 	<string name="stats_title">Statystyki częstotliwości</string>
 	<string name="stats_current">Bieżąca częstotliwość: %1$s</string>
@@ -89,13 +90,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Skórka</string>
 	<string name="prefs_theme_restart_needed">Skórka zostanie zastosowana przy kolejnym uruchomieniu aplikacji.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Wyłącz wartość bezpieczną</string>
 	<string name="prefs_disable_safety_valve_summary_on">Sprawdzanie nieczystego zamknięcia nie będzie wykonywane.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Wartości nie będą zapisane w przypadku nieczystego zamknięcia.</string>

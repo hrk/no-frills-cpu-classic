@@ -28,6 +28,7 @@
 	<string name="menu_details">درباره</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">بروزکردن</string>
+	<string name="menu_reset">ریست</string>
 	<string name="spinner_stats_text">خواندن آمار های  5 ثانیه قبلی...</string>
 	<string name="stats_title">آمار فرکنس های مختلف</string>
 	<string name="stats_current">%1$s : فرکانس فعلی</string>
@@ -81,13 +82,9 @@ http://www.getlocalization.com/noFrillsCPU/</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">پوسته</string>
 	<string name="prefs_theme_restart_needed">پوسته پس از راه اندازی مجدد برنامه اعمال می شود</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">تاریک</string>
+	<string name="prefs_theme_light">روشن</string>
+	<string name="prefs_theme_light_and_dark">تاریک و روشن</string>
 	<string name="prefs_disable_safety_valve">غیرفعال کردن مقدار های مطمئن</string>
 	<string name="prefs_disable_safety_valve_summary_on">خاموش شدن همراه با مشکل بررسی نخواهد شد.</string>
 	<string name="prefs_disable_safety_valve_summary_off">مقدار ها به خاطر مشکلی در خاموش شدن اجرا نخواهند شد.</string>

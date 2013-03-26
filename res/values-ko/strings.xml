@@ -30,6 +30,7 @@
 	<string name="menu_details">정보</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">새로고침</string>
+	
 	<string name="spinner_stats_text">마지막 5초 간의 통계 읽는 중…</string>
 	<string name="stats_title">진동 통계</string>
 	<string name="stats_current">현재 진동: %1$s</string>
@@ -89,13 +90,9 @@ www.thisiswhatwedo.com</string>
 	<!-- Preferences -->
 	
 	<string name="prefs_theme_restart_needed">테마는 어플리케이션 재시작 후에 적용됩니다</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">안전 밸브 기능 끄기</string>
 	<string name="prefs_disable_safety_valve_summary_on">불안전한 종료 검사를 실행하지 않습니다.</string>
 	<string name="prefs_disable_safety_valve_summary_off">불안전한 종료에 대비하여 값이 적용되지 않습니다.</string>

@@ -30,6 +30,7 @@ enheten din støtter frekvens styring, send CPU data slik at vi
 	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Oppdater</string>
+	
 	<string name="spinner_stats_text">Leser status for siste 5 sekund…</string>
 	<string name="stats_title">Frekvenns status</string>
 	<string name="stats_current">Nåværende frekvens: %1$s</string>
@@ -88,13 +89,9 @@ Alt dette uten og virkelig tjene noe på det.</string>
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Slå av sikkerthets ventilen</string>
 	<string name="prefs_disable_safety_valve_summary_on">Ingen sjekk av uren avslutning vil bli kjørt.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Verdier vil ikke bli satt dersom uren avsluttning oppstår.</string>

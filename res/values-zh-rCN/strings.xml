@@ -28,6 +28,7 @@
 	<string name="menu_details">关于</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">刷新</string>
+	<string name="menu_reset">重置</string>
 	<string name="spinner_stats_text">正在统计5秒内的数据…</string>
 	<string name="stats_title">频率统计</string>
 	<string name="stats_current">当前频率: %1$s</string>
@@ -72,13 +73,9 @@ www.thisiswhatwedo.com</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">主题</string>
 	<string name="prefs_theme_restart_needed">主题将会在下次启动软件时生效。</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">暗色主题</string>
+	<string name="prefs_theme_light">亮色主题</string>
+	<string name="prefs_theme_light_and_dark">高对比主题</string>
 	<string name="prefs_disable_safety_valve">禁用安全值</string>
 	<string name="prefs_disable_safety_valve_summary_on">将不检查 不正常关机 情况。</string>
 	<string name="prefs_disable_safety_valve_summary_off">如果关机不正常，所设定的值将不会生效。</string>

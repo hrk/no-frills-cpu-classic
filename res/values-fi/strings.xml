@@ -30,6 +30,7 @@ jotta puhelimellesi saadaan tuki.</string>
 	<string name="menu_details">Tietoja</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Päivitä</string>
+	
 	<string name="spinner_stats_text">Luetaan tilastot viimeiseltä 5 sekunnilta</string>
 	<string name="stats_title">Taajuustilastot</string>
 	<string name="stats_current">Hetkellinen taajuus: %1$s</string>
@@ -82,13 +83,9 @@ Kaikki tämä ilman merkittävää hyötyä.</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Teema</string>
 	<string name="prefs_theme_restart_needed">Teema otetaan käyttöön kun sovelma käynnistetään uudelleen.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Poista käytöstä varoventtiili</string>
 	<string name="prefs_disable_safety_valve_summary_on">Tarkistusta ei suoriteta järjestelmän virheelisen sammuttamisen varalta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Arvoja ei käytetä jos järjestelmä sammutetaan virheellisesti.</string>

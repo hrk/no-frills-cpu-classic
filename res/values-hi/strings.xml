@@ -36,6 +36,7 @@
 	
 	
 	
+	
 	<!-- Errors -->
 	
 	
@@ -70,13 +71,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

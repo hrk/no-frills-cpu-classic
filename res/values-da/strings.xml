@@ -32,6 +32,7 @@
 	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
 	
+	
 	<string name="spinner_stats_text">Læser statistik for de sidste 5 sekunder…</string>
 	<string name="stats_title">Frekvens statistik</string>
 	<string name="stats_current">Nuværende frekvens: %1$s</string>
@@ -93,13 +94,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

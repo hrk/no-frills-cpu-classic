@@ -28,6 +28,7 @@
 	<string name="menu_details">පිළිබඳ</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">නැවත අලුත් කරන්න</string>
+	
 	<string name="spinner_stats_text">ගතවු තත් 5 දත්ත කියවිම…</string>
 	<string name="stats_title">සංඛ්‍යාත දත්ත</string>
 	<string name="stats_current">වර්තමාන සංඛ්‍යාතය: %1$s</string>
@@ -54,7 +55,7 @@
 	
 	<string name="tab_license">බලපත්‍රය</string>
 	<string name="about_info_donate">පරිත්‍යාග කරන්න</string>
-	
+	<string name="about_info_version">අනුවාදය: %1$s</string>
 	
 	
 	
@@ -70,13 +71,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">තේමාව</string>
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

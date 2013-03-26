@@ -30,6 +30,7 @@ lisada teie telefoni toetavate nimekirja.</string>
 	<string name="menu_details">Teave</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Värskenda</string>
+	
 	<string name="spinner_stats_text">Loetakse andmeid viimase 5 sekundi jooksul…</string>
 	<string name="stats_title">Sageduste andmed</string>
 	<string name="stats_current">Praegune sagedus: %1$s</string>
@@ -84,13 +85,9 @@ Ma tahaksin valida erinevate profiilide vahel ,kui mu ekraan on väljas!</string
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

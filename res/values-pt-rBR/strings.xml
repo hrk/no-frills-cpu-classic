@@ -28,6 +28,7 @@
 	<string name="menu_details">Sobre…</string>
 	<!-- Stats activity -->
 	
+	
 	<string name="spinner_stats_text">Lend estatísticas por 5 segundos…</string>
 	<string name="stats_title">Estatísticas de frequência</string>
 	<string name="stats_current">Frequência atual: %1$s</string>
@@ -70,13 +71,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

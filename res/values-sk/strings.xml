@@ -30,6 +30,7 @@
 	<string name="menu_details">O programe</string>
 	<!-- Stats activity -->
 	
+	
 	<string name="spinner_stats_text">Načítava sa štatistika za posledných 5 sekúnd…</string>
 	<string name="stats_title">Štatistika frekvencií</string>
 	<string name="stats_current">Aktuálna frekvencia: %1$s</string>
@@ -89,13 +90,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	
 	
 	

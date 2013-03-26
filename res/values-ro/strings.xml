@@ -28,6 +28,7 @@
 	<string name="menu_details">Despre</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Reîmprospătează</string>
+	<string name="menu_reset">Resetează</string>
 	<string name="spinner_stats_text">Se citesc statisticile din ultimele 5 secunde…</string>
 	<string name="stats_title">Statistici legate de frecvenţă</string>
 	<string name="stats_current">Frecvenţa actuală: %1$s</string>
@@ -73,13 +74,9 @@ pe adresa de e-mail sau pe sait.</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Temă grafică</string>
 	<string name="prefs_theme_restart_needed">Tema va fi aplicată data viitoare când aplicaţia este pornită.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Întunecat</string>
+	<string name="prefs_theme_light">Luminat</string>
+	<string name="prefs_theme_light_and_dark">Luminat şi întunecat</string>
 	<string name="prefs_disable_safety_valve">Dezactivează supapa de siguranţă</string>
 	<string name="prefs_disable_safety_valve_summary_on">Nu se va realiza nicio verificare pentru închiderea forţată.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Valorile nu vor fi aplicate în cazul unei închideri forţate.</string>

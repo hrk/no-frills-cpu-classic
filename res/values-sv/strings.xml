@@ -31,6 +31,7 @@
 	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Uppdatera</string>
+	
 	<string name="spinner_stats_text">Läser statistik för de senaste 5 sekunderna…</string>
 	<string name="stats_title">Frekvensstatistik</string>
 	<string name="stats_current">Aktuell frekvens: %1$s</string>
@@ -80,13 +81,9 @@ Att lägga till profiler skulle betyda att mer minne krävs, att appen skulle be
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Stäng av säkerhetsventil</string>
 	<string name="prefs_disable_safety_valve_summary_on">Kommer inte att undersöka om avstängningen gick rätt till</string>
 	<string name="prefs_disable_safety_valve_summary_off">Inställda värden kommer inte att verkställas om avstängningen gick fel.</string>

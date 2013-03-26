@@ -30,6 +30,7 @@
 	<string name="menu_details">Σχετικά</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Ανανέωση</string>
+	
 	<string name="spinner_stats_text">Ανάγνωση στατιστικών για τα τελευταία 5 δευτερόλεπτα…</string>
 	<string name="stats_title">Στατιστικά συχνότητας</string>
 	<string name="stats_current">Τρέχουσα συχνότητα: %1$s</string>
@@ -89,13 +90,9 @@
 	<!-- Preferences -->
 	
 	
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Απενεργοποίηση αλαγών σε ημιτελή τερματισμό</string>
 	<string name="prefs_disable_safety_valve_summary_on">Δεν θα γίνει έλεγχος ημιτελή τερματισμού.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Οι αλαγές δεν θα αποθηκευτούν σε ημιτελή τερματισμό.</string>

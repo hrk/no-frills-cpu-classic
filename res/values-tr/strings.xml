@@ -28,6 +28,7 @@
 	<string name="menu_details">Hakkında</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Yenile</string>
+	<string name="menu_reset">Sıfırla</string>
 	<string name="spinner_stats_text">Son 5 saniyenin istatistikleri okunuyor…</string>
 	<string name="stats_title">Frekans istatistikleri</string>
 	<string name="stats_current">Şu anki frekans: %1$s</string>
@@ -85,13 +86,9 @@ etmek için daha fazla çalışması, gerçek yararını azaltması demek.</stri
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">Tema, program yeniden başlatıldığında etkinleştirilecektir.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Koyu Tema</string>
+	<string name="prefs_theme_light">Açık Tema</string>
+	<string name="prefs_theme_light_and_dark">Açık &amp; koyu</string>
 	<string name="prefs_disable_safety_valve">Güvenlik korumasını devre dışı bırakma</string>
 	<string name="prefs_disable_safety_valve_summary_on">Uygun olmayan kapatma için kontrol gerçekleştirilmeyecektir.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Uygun olmayan kapatma durumunda değerler uygulanamayacaktır.</string>

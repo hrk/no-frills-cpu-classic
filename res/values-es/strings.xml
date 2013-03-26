@@ -29,6 +29,7 @@
 	<string name="menu_details">Acerca de</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Actualizar</string>
+	
 	<string name="spinner_stats_text">Leyendo estadísticas de los últimos 5 segundos…</string>
 	<string name="stats_title">Estadísticas de frecuencia</string>
 	<string name="stats_current">Frecuencia Actual: %1$s</string>
@@ -75,13 +76,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Tema</string>
 	<string name="prefs_theme_restart_needed">El tema será aplicado la próxima vez que inicie la aplicación</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Desactivar válvula de seguridad</string>
 	<string name="prefs_disable_safety_valve_summary_on">No se ejecutará prueba de apagado "sucio"</string>
 	<string name="prefs_disable_safety_valve_summary_off">Los valores elegidos no se aplicarán en caso de un apagado "sucio"</string>

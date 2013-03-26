@@ -30,6 +30,7 @@
 	<string name="menu_details">A propos</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Actualiser</string>
+	
 	<string name="spinner_stats_text">Lecture des stats pour les 5 dernières secondes…</string>
 	<string name="stats_title">Stats fréquences</string>
 	<string name="stats_current">Fréquence actuelle: %1$s</string>
@@ -89,13 +90,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">Thème</string>
 	<string name="prefs_theme_restart_needed">Ce thème sera appliqué au prochain démarrage de l’application.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">Désactiver la valve de sécurité</string>
 	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Si le téléphone s\'arrête anormalement, les valeurs ne seront pas appliquées.</string>

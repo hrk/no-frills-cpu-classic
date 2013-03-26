@@ -30,6 +30,7 @@
 	<string name="menu_details">Програма</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Поновити</string>
+	<string name="menu_reset">Обнулити</string>
 	<string name="spinner_stats_text">Читання статистики за 5 останніх секунд…</string>
 	<string name="stats_title">Статистика частот</string>
 	<string name="stats_current">Поточна частота: %1$s</string>
@@ -89,13 +90,9 @@ www.thisiswhatwedo.com</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">Тема</string>
 	<string name="prefs_theme_restart_needed">Ця тема застосується наступного разу при запуску програми.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	<string name="prefs_theme_dark">Темний</string>
+	<string name="prefs_theme_light">Світлий</string>
+	<string name="prefs_theme_light_and_dark">Світлий і темний</string>
 	<string name="prefs_disable_safety_valve">Вимкнути аварійний клапан</string>
 	<string name="prefs_disable_safety_valve_summary_on">Перевірку на аварійне завершення увімкнуто.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Параметри не буде застосовано у разі аварійного завершення.</string>

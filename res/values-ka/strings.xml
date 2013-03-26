@@ -31,6 +31,7 @@
 	<string name="menu_details">შესახებ</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">განახლება</string>
+	
 	<string name="spinner_stats_text">უკანასკნელი 5 წამის სტატისტიკის კითხვა…</string>
 	<string name="stats_title">სიხშირის სტატისტიკა</string>
 	<string name="stats_current">მიმდინარე სიხშირე: %1$s</string>
@@ -87,13 +88,9 @@ http://forum.xda-developers.com/showthread.php?t=911917</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">თემა</string>
 	<string name="prefs_theme_restart_needed">თემა გამოყენებულ იქნება აპლიკაციის რესტარტის შემდეგ.</string>
-
-	<string-array name="prefs_themes">
-		<item name="prefs_theme_dark">Dark</item>
-		<item name="prefs_theme_light">Light</item>
-		<item name="prefs_theme_light">Light &amp; dark</item>
-	</string-array>
-
+	
+	
+	
 	<string name="prefs_disable_safety_valve">უსაფრთხოების შემოწმების გათიშვა</string>
 	<string name="prefs_disable_safety_valve_summary_on">მოწყობილობის სწორად გადატვირთვის შემოწმების გამორთვა.</string>
 	<string name="prefs_disable_safety_valve_summary_off">მნიშვნელობები არ გამოყენებულა მოწყობილობის არასწორად გამორთვის გამო.</string>
