@@ -142,7 +142,7 @@ public class Stats implements Serializable, Comparator<Frequency> {
 		this.partialPercentages = new HashMap<String, Double>(size, 1.0f);
 
 		for (Frequency freq : frequencies) {
-			if (zeroPoint == null) {
+			if (zeroPoint == null || zeroPoint.totalTime >= totalTime) {
 				percentages.put(freq.getValue(), times.get(freq.getValue()) / (double) totalTime);
 			} else {
 				long time = times.get(freq.getValue()) - zeroPoint.times.get(freq.getValue());
