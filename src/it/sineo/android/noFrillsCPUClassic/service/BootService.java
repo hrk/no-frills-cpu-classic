@@ -9,6 +9,7 @@ import java.io.File;
 import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
@@ -111,6 +112,12 @@ public class BootService extends Service {
 						}
 					}
 				}
+			}
+			/* Reset previous zero points, if found. */
+			if (prefs.contains(Constants.STATS_ZERO_POINT)) {
+				Editor editor = prefs.edit();
+				editor.remove(Constants.STATS_ZERO_POINT);
+				editor.commit();
 			}
 		}
 		stopSelf();

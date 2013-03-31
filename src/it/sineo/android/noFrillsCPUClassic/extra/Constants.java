@@ -20,6 +20,12 @@ public class Constants {
 	public final static String NLJ_SAFETY_CHECK_DATA = "/data/.nocpu";
 	public final static String NLJ_SAFETY_CHECK_EXT = "/sd-ext/.nocpu";
 
+	/**
+	 * Persisted string-representation of reset point for stats. Will be cleared
+	 * at boot and shutdown.
+	 */
+	public final static String STATS_ZERO_POINT = "stats_zero_point";
+
 	public final static String DEVELOPER_MAIL = "sineo.dev+NofrillsCPUData@gmail.com";
 
 	public final static String APPWIDGET_UPDATE = "it.sineo.android.noFrillsCPU.APPWIDGET_UPDATE";

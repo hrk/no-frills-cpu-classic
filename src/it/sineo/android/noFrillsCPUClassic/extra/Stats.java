@@ -8,9 +8,17 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+import org.json.JSONTokener;
+
 import android.graphics.Color;
 
 public class Stats implements Serializable, Comparator<Frequency> {
+	protected final static String KEY_TOTALTIME = "totalTime";
+	protected final static String KEY_FREQUENCIES = "frequencies";
+	protected final static String KEY_TIMES = "times";
 
 	private final static long serialVersionUID = 2L;
 
@@ -142,7 +150,13 @@ public class Stats implements Serializable, Comparator<Frequency> {
 		this.partialPercentages = new HashMap<String, Double>(size, 1.0f);
 
 		for (Frequency freq : frequencies) {
-			if (zeroPoint == null || zeroPoint.totalTime >= totalTime) {
+			if (zeroPoint == null || zeroPoint.totalTime >= totalTime || zeroPoint.frequencies.size() != frequencies.size()) {
+				/*
+				 * Use reset point only if it's valid (belongs to the past) and if the
+				 * number of frequencies is the same. The latter is a cheap trick to
+				 * avoid corruption when useDeepSleep gets changed in the preferences. I
+				 * may decide to polish it later, should need arise.
+				 */
 				percentages.put(freq.getValue(), times.get(freq.getValue()) / (double) totalTime);
 			} else {
 				long time = times.get(freq.getValue()) - zeroPoint.times.get(freq.getValue());
@@ -157,6 +171,52 @@ public class Stats implements Serializable, Comparator<Frequency> {
 		}
 
 		Collections.sort(frequencies, this);
+	}
+
+	public String toPersistableString() {
+		try {
+			JSONObject json = new JSONObject();
+			json.put(KEY_TOTALTIME, totalTime);
+			JSONArray jsonFrequencies = new JSONArray();
+			JSONObject jsonTimes = new JSONObject();
+			for (Frequency freq : frequencies) {
+				jsonFrequencies.put(freq.getMHz());
+				jsonTimes.put(freq.getValue(), times.get(freq.getValue()));
+			}
+			json.put(KEY_FREQUENCIES, jsonFrequencies);
+			json.put(KEY_TIMES, jsonTimes);
+			return json.toString();
+		} catch (JSONException jsonex) {
+			jsonex.printStackTrace();
+			return null;
+		}
+	}
+
+	public static Stats fromPersistedString(String s) {
+		Stats stats = null;
+		if (s != null && s.length() > 0) {
+			try {
+				JSONTokener t = new JSONTokener(s);
+				List<Frequency> frequencies = new ArrayList<Frequency>();
+				HashMap<String, Long> times = new HashMap<String, Long>();
+				long totalTime = -1;
+				JSONObject json = (JSONObject) t.nextValue();
+				if (!json.equals(JSONObject.NULL)) {
+					totalTime = json.getLong(KEY_TOTALTIME);
+					JSONArray jsonFrequencies = json.getJSONArray(KEY_FREQUENCIES);
+					JSONObject jsonTimes = json.getJSONObject(KEY_TIMES);
+					for (int i = 0; i < jsonFrequencies.length(); i++) {
+						String fValue = jsonFrequencies.getString(i);
+						frequencies.add(new Frequency(fValue));
+						times.put(fValue, jsonTimes.getLong(fValue));
+					}
+					stats = new Stats(frequencies, times, totalTime);
+				}
+			} catch (JSONException jsonex) {
+				jsonex.printStackTrace();
+			}
+		} // end-if: empty input
+		return stats;
 	}
 
 	public static int colorFromPercentage(float percentage) {

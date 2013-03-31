@@ -27,8 +27,12 @@ public class ShutdownService extends Service {
 		editor.putBoolean(Constants.CHECK_SHUTDOWN_OK, true);
 		/*
 		 * No need to touch LAST_UPDATE, since it'll be checked only if
-		 * CHECK_SHUTDOWN_OK is false
+		 * CHECK_SHUTDOWN_OK is false, but we remove the reset point for stats, if
+		 * it exists.
 		 */
+		if (prefs.contains(Constants.STATS_ZERO_POINT)) {
+			editor.remove(Constants.STATS_ZERO_POINT);
+		}
 		editor.commit();
 		stopSelf();
 		Log.d(Constants.APP_TAG, "shutdown service stopped");

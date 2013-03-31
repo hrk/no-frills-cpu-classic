@@ -221,6 +221,14 @@ public class StatsActivity extends ListActivity {
 		(new Thread(statsRunnable)).start();
 	};
 
+	@Override
+	protected void onResume() {
+		super.onResume();
+		if (preferences.contains(Constants.STATS_ZERO_POINT)) {
+			zero = Stats.fromPersistedString(preferences.getString(Constants.STATS_ZERO_POINT, null));
+		}
+	}
+
 	private void updateSortingHeader() {
 		/* Clear compound drawables for every view */
 		tvHeaderFrequency.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, 0);
@@ -399,6 +407,9 @@ public class StatsActivity extends ListActivity {
 				boolean withDeepSleep = preferences.getBoolean(Constants.PREF_INCLUDE_DEEP_SLEEP,
 						Constants.PREF_DEFAULT_INCLUDE_DEEP_SLEEP);
 				zero = SysUtils.getFrequencyStats(withDeepSleep);
+				SharedPreferences.Editor editor = preferences.edit();
+				editor.putString(Constants.STATS_ZERO_POINT, zero.toPersistableString());
+				editor.commit();
 				(new Thread(statsRunnable)).start();
 				return true;
 			}
