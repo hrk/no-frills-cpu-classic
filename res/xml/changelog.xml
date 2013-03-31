@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+	<release date="2013-03-31" version="1.27">
+		<change>Ability to reset frequency stats.</change>
+		<change>Nicer widget layout, especially for low density devices.</change>
+		<change>Updated current translations and added Arabic, partial Hindi and Sinhala translation. If you spot an error, you can fix it at http://getLocalization.com/noFrillsCPU</change>
+	</release>
 	<release date="2012-09-01" version="1.26">
 		<change>Added Themes! Dark, Light, Light &amp; Dark.</change>
 		<change>UI improvements.</change>

@@ -11,68 +11,12 @@ it.sineo.android.changelog.ChangelogFactory -> it.sineo.android.a.c:
     71:89:android.view.View inflate(android.content.Context,it.sineo.android.changelog.Changelog) -> a
 it.sineo.android.changelog.R -> it.sineo.android.a.d:
 it.sineo.android.changelog.R$id -> it.sineo.android.a.e:
-    int about_faq_governors -> about_faq_governors
-    int about_faq_profiles -> about_faq_profiles
-    int about_info_author -> about_info_author
-    int about_info_extra -> about_info_extra
-    int about_info_homepage -> about_info_homepage
-    int about_info_questions -> about_info_questions
-    int about_info_thanks -> about_info_thanks
-    int about_info_translation -> about_info_translation
-    int about_info_version -> about_info_version
-    int about_license -> about_license
-    int btn_apply -> btn_apply
-    int btn_exit -> btn_exit
-    int btn_refresh_stats -> btn_refresh_stats
-    int canvas -> canvas
     int changelog_container -> changelog_container
     int changelog_scrollview -> changelog_scrollview
-    int ckb_apply_on_boot -> ckb_apply_on_boot
-    int donate_button -> donate_button
-    int frm_title -> frm_title
-    int grp_stats_header -> grp_stats_header
-    int menu_details -> menu_details
-    int menu_prefs -> menu_prefs
-    int menu_refresh -> menu_refresh
-    int menu_send_info -> menu_send_info
-    int menu_view_stats -> menu_view_stats
-    int sp_governor -> sp_governor
-    int sp_ioscheduler -> sp_ioscheduler
-    int sp_max_freq -> sp_max_freq
-    int sp_min_freq -> sp_min_freq
-    int tbl_config -> tbl_config
-    int tv_cur_governor -> tv_cur_governor
-    int tv_cur_ioscheduler -> tv_cur_ioscheduler
-    int tv_cur_max_freq -> tv_cur_max_freq
-    int tv_cur_min_freq -> tv_cur_min_freq
-    int tv_governor -> tv_governor
-    int tv_ioscheduler -> tv_ioscheduler
-    int tv_max_freq -> tv_max_freq
-    int tv_min_freq -> tv_min_freq
-    int tv_stats_current -> tv_stats_current
-    int tv_stats_row_frequency -> tv_stats_row_frequency
-    int tv_stats_row_perc -> tv_stats_row_perc
-    int tv_stats_row_perc5 -> tv_stats_row_perc5
-    int wdg_container -> wdg_container
-    int wdg_stats_governor -> wdg_stats_governor
 it.sineo.android.changelog.R$layout -> it.sineo.android.a.f:
-    int about -> about
-    int about_faq -> about_faq
-    int about_info -> about_info
-    int about_license -> about_license
     int changelog_change -> changelog_change
     int changelog_release -> changelog_release
     int changelog_view -> changelog_view
-    int main -> main
-    int main_f_buttons -> main_f_buttons
-    int main_f_header -> main_f_header
-    int main_f_row_gov -> main_f_row_gov
-    int main_f_row_iosched -> main_f_row_iosched
-    int main_f_row_max -> main_f_row_max
-    int main_f_row_min -> main_f_row_min
-    int stats -> stats
-    int stats_row -> stats_row
-    int widget -> widget
 it.sineo.android.changelog.Release -> it.sineo.android.a.g:
     java.lang.String version -> a
     java.util.Date date -> b
@@ -165,40 +109,42 @@ it.sineo.android.noFrillsCPUClassic.activity.StatsActivity -> it.sineo.android.n
     android.widget.TextView tvHeaderPerc -> i
     android.widget.TextView tvHeaderPerc5 -> j
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod sortMethod -> k
-    java.util.concurrent.ScheduledExecutorService scheduleTaskExecutor -> l
-    android.view.View$OnTouchListener sortListener -> m
-    java.lang.Runnable statsRunnable -> n
-    java.lang.Runnable updateCurrentFrequencyRunnable -> o
-    160:215:void onCreate(android.os.Bundle) -> onCreate
-    219:242:void updateSortingHeader() -> a
-    339:344:void __wraper_setBackground(android.view.View,android.graphics.drawable.Drawable) -> a
-    348:365:void onDestroy() -> onDestroy
-    369:377:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    382:389:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    it.sineo.android.noFrillsCPUClassic.extra.Stats zero -> l
+    java.util.concurrent.ScheduledExecutorService scheduleTaskExecutor -> m
+    android.view.View$OnTouchListener sortListener -> n
+    java.lang.Runnable statsRunnable -> o
+    java.lang.Runnable updateCurrentFrequencyRunnable -> p
+    167:222:void onCreate(android.os.Bundle) -> onCreate
+    226:230:void onResume() -> onResume
+    234:257:void updateSortingHeader() -> a
+    354:359:void __wraper_setBackground(android.view.View,android.graphics.drawable.Drawable) -> a
+    363:380:void onDestroy() -> onDestroy
+    384:394:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    399:417:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
     43:43:void access$100(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity) -> a
     43:43:void access$300(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity,android.view.View,android.graphics.drawable.Drawable) -> a
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.j:
     long lastEvent -> b
     long MIN_DELAY -> c
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    68:102:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    72:106:boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2 -> it.sineo.android.noFrillsCPUClassic.activity.k:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    108:140:void run() -> run
+    112:147:void run() -> run
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2$1 -> it.sineo.android.noFrillsCPUClassic.activity.l:
     java.lang.String val$text -> a
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$2 this$1 -> b
-    132:138:void run() -> run
+    139:145:void run() -> run
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3 -> it.sineo.android.noFrillsCPUClassic.activity.m:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    146:156:void run() -> run
+    153:163:void run() -> run
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3$1 -> it.sineo.android.noFrillsCPUClassic.activity.n:
     java.lang.String val$text -> a
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$3 this$1 -> b
-    153:154:void run() -> run
+    160:161:void run() -> run
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$4 -> it.sineo.android.noFrillsCPUClassic.activity.o:
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> a
-    183:185:void onClick(android.view.View) -> onClick
+    190:192:void onClick(android.view.View) -> onClick
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$5 -> it.sineo.android.noFrillsCPUClassic.activity.p:
     int[] $SwitchMap$it$sineo$android$noFrillsCPUClassic$extra$Stats$SortMethod -> a
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter -> it.sineo.android.noFrillsCPUClassic.activity.q:
@@ -206,10 +152,10 @@ it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter -> it.si
     android.graphics.Paint p -> b
     it.sineo.android.noFrillsCPUClassic.extra.Stats stats -> c
     it.sineo.android.noFrillsCPUClassic.activity.StatsActivity this$0 -> d
-    272:275:int getCount() -> getCount
-    279:279:java.lang.Object getItem(int) -> getItem
-    283:283:long getItemId(int) -> getItemId
-    287:332:android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    287:290:int getCount() -> getCount
+    294:294:java.lang.Object getItem(int) -> getItem
+    298:298:long getItemId(int) -> getItemId
+    302:347:android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$StatsAdapter$ViewHolder -> it.sineo.android.noFrillsCPUClassic.activity.r:
     android.widget.TextView tvFrequency -> a
     android.widget.TextView tvPerc -> b
@@ -233,21 +179,27 @@ it.sineo.android.noFrillsCPUClassic.extra.PatternReplacerInputFilter -> it.sineo
     23:23:java.lang.CharSequence filter(java.lang.CharSequence,int,int,android.text.Spanned,int,int) -> filter
 it.sineo.android.noFrillsCPUClassic.extra.Stats -> it.sineo.android.noFrillsCPUClassic.a.d:
     java.util.List frequencies -> a
-    java.util.Hashtable times -> b
+    java.util.Map times -> b
     java.lang.Long totalTime -> c
     it.sineo.android.noFrillsCPUClassic.extra.Stats previousStats -> d
-    java.util.List sortedByFrequency -> e
-    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod sortMethod -> f
-    39:39:java.util.List getFrequencies() -> a
-    43:43:java.lang.Double getPercentage(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> a
-    47:48:void setPreviousStats(it.sineo.android.noFrillsCPUClassic.extra.Stats) -> a
-    51:56:java.lang.Double getPartialPercentage(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> b
-    60:60:int getFrequencyIndex(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> c
-    67:77:void clear() -> b
-    87:101:int compare(it.sineo.android.noFrillsCPUClassic.extra.Frequency,it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> a
-    106:108:void sort(it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod) -> a
-    111:117:int colorFromPercentage(float) -> a
-    12:12:int compare(java.lang.Object,java.lang.Object) -> compare
+    it.sineo.android.noFrillsCPUClassic.extra.Stats zeroPoint -> e
+    java.util.List sortedByFrequency -> f
+    java.util.Map percentages -> g
+    java.util.Map partialPercentages -> h
+    it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod sortMethod -> i
+    57:57:java.util.List getFrequencies() -> a
+    61:64:java.lang.Double getPercentage(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> a
+    68:69:void setPreviousStats(it.sineo.android.noFrillsCPUClassic.extra.Stats) -> a
+    72:73:void setZero(it.sineo.android.noFrillsCPUClassic.extra.Stats) -> b
+    76:82:java.lang.Double getPartialPercentage(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> b
+    86:86:int getFrequencyIndex(it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> c
+    93:117:void clear() -> b
+    127:141:int compare(it.sineo.android.noFrillsCPUClassic.extra.Frequency,it.sineo.android.noFrillsCPUClassic.extra.Frequency) -> a
+    146:174:void sort(it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod) -> a
+    178:191:java.lang.String toPersistableString() -> c
+    196:219:it.sineo.android.noFrillsCPUClassic.extra.Stats fromPersistedString(java.lang.String) -> a
+    223:229:int colorFromPercentage(float) -> a
+    18:18:int compare(java.lang.Object,java.lang.Object) -> compare
 it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod -> it.sineo.android.noFrillsCPUClassic.a.e:
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod Frequency -> a
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod FrequencyDesc -> b
@@ -256,32 +208,32 @@ it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod -> it.sineo.android.n
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod PartialPercentage -> e
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod PartialPercentageDesc -> f
     it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] $VALUES -> g
-    79:79:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values() -> values
-    79:79:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String) -> valueOf
+    119:119:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values() -> values
+    119:119:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String) -> valueOf
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils -> it.sineo.android.noFrillsCPUClassic.a.f:
-    53:115:java.lang.String catContents(java.io.File) -> a
-    120:132:java.lang.String readOutput(java.lang.String) -> a
-    173:188:java.lang.String discoverCPUData() -> a
-    192:227:java.lang.String[] getAvailableFrequencies() -> b
-    231:231:java.lang.String[] getAvailableGovernors() -> c
-    235:247:java.lang.String[] getAvailableIOSchedulers() -> d
-    251:255:java.lang.String[] readStringArray(java.lang.String) -> b
-    259:262:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMinFreq() -> e
-    266:269:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMaxFreq() -> f
-    273:276:it.sineo.android.noFrillsCPUClassic.extra.Frequency getCurFreq() -> g
-    280:286:it.sineo.android.noFrillsCPUClassic.extra.Frequency getXXXFreq(java.lang.String[]) -> a
-    290:290:java.lang.String getGovernor() -> h
-    294:304:java.lang.String getIOScheduler() -> i
-    309:351:java.lang.String readString(java.lang.String) -> c
-    356:366:java.lang.String getSUbinaryPath() -> j
-    372:459:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context,int,int) -> a
-    464:529:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
-    535:535:boolean isRooted() -> k
-    539:547:boolean hasSysfs() -> l
-    551:585:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    54:116:java.lang.String catContents(java.io.File) -> a
+    121:133:java.lang.String readOutput(java.lang.String) -> a
+    174:189:java.lang.String discoverCPUData() -> a
+    193:228:java.lang.String[] getAvailableFrequencies() -> b
+    232:232:java.lang.String[] getAvailableGovernors() -> c
+    236:248:java.lang.String[] getAvailableIOSchedulers() -> d
+    252:256:java.lang.String[] readStringArray(java.lang.String) -> b
+    260:263:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMinFreq() -> e
+    267:270:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMaxFreq() -> f
+    274:277:it.sineo.android.noFrillsCPUClassic.extra.Frequency getCurFreq() -> g
+    281:287:it.sineo.android.noFrillsCPUClassic.extra.Frequency getXXXFreq(java.lang.String[]) -> a
+    291:291:java.lang.String getGovernor() -> h
+    295:305:java.lang.String getIOScheduler() -> i
+    310:352:java.lang.String readString(java.lang.String) -> c
+    357:367:java.lang.String getSUbinaryPath() -> j
+    373:460:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context,int,int) -> a
+    465:530:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
+    536:536:boolean isRooted() -> k
+    540:548:boolean hasSysfs() -> l
+    552:586:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils$1 -> it.sineo.android.noFrillsCPUClassic.a.g:
-    220:222:int compare(java.lang.String,java.lang.String) -> a
-    217:217:int compare(java.lang.Object,java.lang.Object) -> compare
+    221:223:int compare(java.lang.String,java.lang.String) -> a
+    218:218:int compare(java.lang.Object,java.lang.Object) -> compare
 it.sineo.android.noFrillsCPUClassic.extra.Theme -> it.sineo.android.noFrillsCPUClassic.a.h:
     it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_DARK -> a
     it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_LIGHT -> b
@@ -292,13 +244,13 @@ it.sineo.android.noFrillsCPUClassic.extra.Theme -> it.sineo.android.noFrillsCPUC
     8:8:it.sineo.android.noFrillsCPUClassic.extra.Theme valueOf(java.lang.String) -> valueOf
     28:32:it.sineo.android.noFrillsCPUClassic.extra.Theme applyTo(android.content.Context) -> a
 it.sineo.android.noFrillsCPUClassic.service.BootService -> it.sineo.android.noFrillsCPUClassic.service.BootService:
-    24:24:android.os.IBinder onBind(android.content.Intent) -> onBind
-    29:118:void onStart(android.content.Intent,int) -> onStart
+    25:25:android.os.IBinder onBind(android.content.Intent) -> onBind
+    30:125:void onStart(android.content.Intent,int) -> onStart
 it.sineo.android.noFrillsCPUClassic.service.ShutdownService -> it.sineo.android.noFrillsCPUClassic.service.ShutdownService:
     18:18:android.os.IBinder onBind(android.content.Intent) -> onBind
-    23:35:void onStart(android.content.Intent,int) -> onStart
+    23:39:void onStart(android.content.Intent,int) -> onStart
 it.sineo.android.noFrillsCPUClassic.widget.StatsWidget -> it.sineo.android.noFrillsCPUClassic.widget.StatsWidget:
     java.util.List deletedAppWidgetIds -> a
-    34:90:void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
-    94:102:void onDeleted(android.content.Context,int[]) -> onDeleted
-    106:125:void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    35:99:void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+    103:111:void onDeleted(android.content.Context,int[]) -> onDeleted
+    115:134:void onReceive(android.content.Context,android.content.Intent) -> onReceive
