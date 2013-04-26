@@ -28,7 +28,7 @@
 	<string name="menu_details">情報</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">更新</string>
-	
+	<string name="menu_reset">リセット</string>
 	<string name="spinner_stats_text">過去5秒間の統計情報を読み込んでいます…</string>
 	<string name="stats_title">周波数統計</string>
 	<string name="stats_current">現在クロック値: %1$s</string>

@@ -30,7 +30,7 @@ CPU per afegir-ne la compatibilitat</string>
 	<string name="menu_details">Quant a</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Refresca</string>
-	
+	<string name="menu_reset">Restableix</string>
 	<string name="spinner_stats_text">S\'està llegint les estadístiques dels darrers 5 segons…</string>
 	<string name="stats_title">Freqüència de les estadístiques</string>
 	<string name="stats_current">Freqüència actual: %1$s</string>
@@ -59,15 +59,15 @@ dades de la CPU.</string>
 	<string name="tab_license">Llicència</string>
 	<string name="about_info_donate">Donacions</string>
 	<string name="about_info_version">Versió: %1$s</string>
-	
-	
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Pàgina inicial: %1$s</string>
 	<string name="about_info_extra">Icones d\'Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si teniu alguna pregunta contacteu l\'autor
 per correu electrònic o a la pàgina web.</string>
 	<string name="about_info_thanks">Gràcies a tots els traductors i tothom que
 ha ajudat a millorar aquesta aplicació.</string>
-	
+	<string name="about_info_translation">Si trobeu una traducció equivocada o que falta, podeu proposar una correcció a http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Què és un gestor? Podeu explicar
 les diferències entre ells?</string>
 	<string name="about_faq_governors_A">L\'escalat de freqüència de la CPU us permet canviar la velocitat
@@ -88,19 +88,19 @@ amb més freqüència, comprovar si quelcom està passant
 	<!-- Widget -->
 	<string name="wdg_updating">S\'està actualitzant l\'estri…</string>
 	<!-- Preferences -->
-	
-	
-	
-	
-	
+	<string name="prefs_theme">Tema</string>
+	<string name="prefs_theme_restart_needed">S\'aplicarà el tema el proper cop que s\'executi l\'app.</string>
+	<string name="prefs_theme_dark">Fosc</string>
+	<string name="prefs_theme_light">Clar</string>
+	<string name="prefs_theme_light_and_dark">Clar i fosc</string>
 	<string name="prefs_disable_safety_valve">Inhabilita la vàlvula de seguretat</string>
 	<string name="prefs_disable_safety_valve_summary_on">No es comprovarà si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_summary_off">No s\'aplicarà els valors si l\'aturada no ha estat neta.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Segur que voleu inhabilitar la vàlvula de seguretat? Feu-ho NOMÉS si sabeu què esteu fent.</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Evita canvis d\'altres apps</string>
+	<string name="prefs_change_permissions_summary_on">S\'evitarà que altres apps (o el sistema) canviïn les freqüències.</string>
+	<string name="prefs_change_permissions_summary_off">Altres apps (o el sistema) podran canviar les freqüències.</string>
+	<string name="prefs_change_permissions_dialog_message">Aquesta característica només es necessita a l\'Android 4.1 (Jelly Bean), HTC One recents o dispositius simitars. Segur que voleu continuar?</string>
 	<string name="prefs_cat_notification">Avís en arrencar</string>
 	<string name="prefs_show_notification">Mostra un avís</string>
 	<string name="prefs_show_notification_summary_on">Es mostran els avisos.</string>
@@ -113,8 +113,8 @@ amb més freqüència, comprovar si quelcom està passant
 	<string name="prefs_include_deep_sleep">Inclou el repòs profund</string>
 	<string name="prefs_include_deep_sleep_summary_on">S\'inclourà el repòs profund</string>
 	<string name="prefs_include_deep_sleep_summary_off">S\'ignorarà el repòs profund</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Refresca la freqüència actual</string>
+	<string name="prefs_update_curfreq_summary_on">La freqüència actual s\'actualitzarà periòdicament</string>
+	<string name="prefs_update_curfreq_summary_off">La freqüència actual s\'actualitzarà en refrescar les estadístiques.</string>
 
 </resources>

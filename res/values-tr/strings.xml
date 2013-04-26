@@ -17,7 +17,7 @@
 	<string name="exit">Çıkış</string>
 	<string name="send">Gönder</string>
 	<string name="dlg_noroot_title">Eksik root izinleri</string>
-	<string name="dlg_noroot_body">Uygulamanın kullanılması için cihazınızın root yapılmış olması gerekmektedir</string>
+	<string name="dlg_noroot_body">Uygulamanın kullanılabilmesi için cihazınızda root işleminin yapılmış olması gerekmektedir</string>
 	<string name="dlg_nofs_title">Cihazınızda frekans ölçekleme eksikliği varmış gibi görünüyor</string>
 	<string name="dlg_nofs_body">Telefonunuzda cihazınızla gelmeyen özel bir ROM varsa ya da telefonunuzun frekans ölçeklemeyi desteklediğini düşünüyorsanız, telefonunuz için destek sağlanması adına CPU bilgilerinizi gönderin</string>
 	<!-- MainActivity - Menu -->

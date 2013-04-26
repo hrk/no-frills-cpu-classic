@@ -30,7 +30,7 @@
 	<string name="menu_details">Σχετικά</string>
 	<!-- Stats activity -->
 	<string name="menu_refresh">Ανανέωση</string>
-	
+	<string name="menu_reset">Επαναφορά</string>
 	<string name="spinner_stats_text">Ανάγνωση στατιστικών για τα τελευταία 5 δευτερόλεπτα…</string>
 	<string name="stats_title">Στατιστικά συχνότητας</string>
 	<string name="stats_current">Τρέχουσα συχνότητα: %1$s</string>
@@ -59,15 +59,15 @@
 	<string name="tab_license">Άδεια</string>
 	<string name="about_info_donate">Δωρεά</string>
 	<string name="about_info_version">Έκδοση: %1$s</string>
-	
-	
+	<string name="about_info_author">作者: %1$s</string>
+	<string name="about_info_homepage">Αρχική σελίδα: %1$s</string>
 	<string name="about_info_extra">Εικονίδιο από τον Anil K Solanki\nΣχεδιασμός
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Αν έχετε ερωτήσεις, παρακαλώ επικοινωνήστε με το
 		συγγραφέα μέσω email ή της ιστοσελίδας.</string>
 	<string name="about_info_thanks">Ευχαριστώ όλους τους μεταφραστές και τους χρήστες
 		που με βοήθησαν να μοιραστώ μαζί σας αυτή την εφαρμογή!</string>
-	
+	<string name="about_info_translation">Εάν εντόπισες κάποια λανθασμένη ή ελλιπή μετάφραση, μπορείς να καταχωρίσεις την διόρθωσή σου στην διεύθυνση http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Τι είναι ένας Διαχειριστής? Μπορείτε να εξηγήσετε
 		τις διαφορές μεταξύ τους?</string>
 	<string name="about_faq_governors_A">Η κλιμάκωση συχνότητας CPU σας επιτρέπει να αλλάξετε την ταχύτητα χρονισμού
@@ -88,19 +88,19 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Ενημέρωση του widget..</string>
 	<!-- Preferences -->
-	
-	
-	
-	
-	
+	<string name="prefs_theme">Θέμα</string>
+	<string name="prefs_theme_restart_needed">Το θέμα θα εφαρμοσθεί με επανεκκίνηση της εφαρμογής.</string>
+	<string name="prefs_theme_dark">Σκοτεινό</string>
+	<string name="prefs_theme_light">Φωτεινό</string>
+	<string name="prefs_theme_light_and_dark">Φωτεινό &amp; σκοτεινή</string>
 	<string name="prefs_disable_safety_valve">Απενεργοποίηση αλαγών σε ημιτελή τερματισμό</string>
 	<string name="prefs_disable_safety_valve_summary_on">Δεν θα γίνει έλεγχος ημιτελή τερματισμού.</string>
-	<string name="prefs_disable_safety_valve_summary_off">Οι αλαγές δεν θα αποθηκευτούν σε ημιτελή τερματισμό.</string>
+	<string name="prefs_disable_safety_valve_summary_off">Οι αλλαγές δεν θα αποθηκευθούν σε ημιτελή τερματισμό.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Είστε σίγουρος ότι θέλετε να απενεργοποιήσετε την αγνόηση αλαγών σε περίπτωση ημιτελή τερματισμού? Συνεχίστε ΜΟΝΟ αν γνωρίζετε τι κάνετε.</string>
-	
-	
-	
-	
+	<string name="prefs_change_permissions">Αποτροπή αλλαγών από τρίτες εφαρμογές</string>
+	<string name="prefs_change_permissions_summary_on">Άλλες εφαρμογές (ή του συστήματος) θα αποτρέπονται από το να αλλάζουν τις συχνότητες.</string>
+	<string name="prefs_change_permissions_summary_off">Άλλες εφαρμογές (ή του συστήματος) θα επιτρέπεται να αλλάζουν τις συχνότητες.</string>
+	<string name="prefs_change_permissions_dialog_message">この機能は、Android 4.1 (Jelly Bean)や最近のHTC Oneのようなデバイスでのみ必要となります。続行してもよろしいですか？</string>
 	<string name="prefs_cat_notification">Ειδοποίηση κατά την εκκίνηση</string>
 	<string name="prefs_show_notification">Εμφάνιση ειδοποιήσεων</string>
 	<string name="prefs_show_notification_summary_on">Οι ειδοποιήσεις θα εμφανίζονται.</string>
@@ -113,8 +113,8 @@
 	<string name="prefs_include_deep_sleep">Συμπερίληψη αναμονής</string>
 	<string name="prefs_include_deep_sleep_summary_on">Η αναμονή θα συμπεριληφθεί.</string>
 	<string name="prefs_include_deep_sleep_summary_off">Η αναμονή θα αγνοηθεί.</string>
-	
-	
-	
+	<string name="prefs_update_curfreq">Ανανέωση τρέχουσας συχνότητας</string>
+	<string name="prefs_update_curfreq_summary_on">Η τρέχουσα συχνότητα θα ανανεώνεται περιοδικά.</string>
+	<string name="prefs_update_curfreq_summary_off">Η τρέχουσα συχνότητα θα ανανεώνεται κατά την ανανέωση στατιστικών.</string>
 
 </resources>
