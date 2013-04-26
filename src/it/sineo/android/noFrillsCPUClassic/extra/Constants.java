@@ -21,6 +21,17 @@ public class Constants {
 	public final static String NLJ_SAFETY_CHECK_EXT = "/sd-ext/.nocpu";
 
 	/**
+	 * Special file (aimed to ROM developers) which determines if the launcher
+	 * icon has to be hidden.
+	 */
+	public final static String LAUNCHER_ICON_STATUS_HIDE = "/system/etc/no-frills-cpu.hide";
+	/**
+	 * Special file (aimed to ROM developers) which determines if the launcher
+	 * icon has to be shown (this overrides the LAUNCHER_ICON_STATUS_HIDE file).
+	 */
+	public final static String LAUNCHER_ICON_STATUS_SHOW = "/system/etc/no-frills-cpu.show";
+
+	/**
 	 * Persisted string-representation of reset point for stats. Will be cleared
 	 * at boot and shutdown.
 	 */

@@ -1,15 +1,18 @@
 package it.sineo.android.noFrillsCPUClassic.service;
 
 import it.sineo.android.noFrillsCPUClassic.R;
+import it.sineo.android.noFrillsCPUClassic.activity.MainActivity;
 import it.sineo.android.noFrillsCPUClassic.extra.Constants;
 import it.sineo.android.noFrillsCPUClassic.extra.SysUtils;
 
 import java.io.File;
 
 import android.app.Service;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.content.pm.PackageManager;
 import android.os.IBinder;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
@@ -120,6 +123,31 @@ public class BootService extends Service {
 				editor.commit();
 			}
 		}
+		/* Hide application from Launcher based on special file existence. */
+		File mustHide = new File(Constants.LAUNCHER_ICON_STATUS_HIDE);
+		File mustShow = new File(Constants.LAUNCHER_ICON_STATUS_SHOW);
+		if (mustShow.exists() || mustHide.exists()) {
+			Log.d(Constants.APP_TAG, "special files detected: show=" + mustShow.exists() + ", hide=" + mustHide.exists());
+			ComponentName componentName = new ComponentName(getApplicationContext(), MainActivity.class);
+			PackageManager pm = getApplicationContext().getPackageManager();
+			if (mustShow.exists()) {
+				/*
+				 * Special "show" file exists, it takes precedence. Think of it as a
+				 * sort of safety valve, should people "mistakenly" forget they hide the
+				 * app.
+				 */
+				Log.d(Constants.APP_TAG, "special 'show' file exists, it has precedence over hiding.");
+				if (pm.getComponentEnabledSetting(componentName) != PackageManager.COMPONENT_ENABLED_STATE_DEFAULT) {
+					pm.setComponentEnabledSetting(componentName, PackageManager.COMPONENT_ENABLED_STATE_DEFAULT, 0);
+				}
+			} else if (mustHide.exists()) {
+				Log.d(Constants.APP_TAG, "special 'hide' file exists, hiding app from launcher");
+				if (pm.getComponentEnabledSetting(componentName) != PackageManager.COMPONENT_ENABLED_STATE_DISABLED) {
+					pm.setComponentEnabledSetting(componentName, PackageManager.COMPONENT_ENABLED_STATE_DISABLED,
+							PackageManager.DONT_KILL_APP);
+				}
+			}
+		} // end-if: special files exist
 		stopSelf();
 		Log.d(Constants.APP_TAG, "boot service stopped");
 	}
