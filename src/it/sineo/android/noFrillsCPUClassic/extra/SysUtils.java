@@ -381,12 +381,13 @@ public class SysUtils {
 				 */
 				int cpus = 0;
 				while (true) {
-					File f = new File(SysUtils.scaling_min_freq.replace("cpu0", "cpu" + cpus++));
+					File f = new File(SysUtils.scaling_min_freq.replace("cpu0", "cpu" + cpus));
 					if (!f.exists()) {
 						break;
 					}
+					cpus++;
 				}
-				for (int i = 0; i <= cpus; i++) {
+				for (int i = 0; i < cpus; i++) {
 					/*
 					 * Prepare permissions so that we can write; governor and frequencies
 					 * have different values (root:root vs root:system)
