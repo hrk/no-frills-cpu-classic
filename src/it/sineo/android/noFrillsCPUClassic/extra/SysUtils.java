@@ -46,6 +46,14 @@ public class SysUtils {
 	private final static String scaling_stats_time_in_state = cpufreq_sys_dir + "stats/time_in_state";
 
 	private final static String ioscheduler = "/sys/block/mmcblk0/queue/scheduler";
+	/**
+	 * Certain devices (i.e.: Minix X5) don't have the mmcblk0 device, and use a
+	 * different name for MTD devices. Note that we only use this file to read the
+	 * available schedulers (and the currently set one), since while writing we
+	 * iterate on every avalaible file matching /sys/block/xxx/queue/scheduler
+	 * which isn't a fake device.
+	 */
+	private final static String ioscheduler_mtd = "/sys/block/mtdblock0/queue/scheduler";
 	private final static String RE_FAKE_BLKDEV = "(loop|zram|dm-)[0-9]+";
 
 	private final static int BUFFER_SIZE = 2048;
@@ -234,7 +242,11 @@ public class SysUtils {
 
 	public static String[] getAvailableIOSchedulers() {
 		String[] schedulers = null;
-		String[] aux = readStringArray(ioscheduler);
+		String file = ioscheduler;
+		if (!(new File(file)).exists()) {
+			file = ioscheduler_mtd;
+		}
+		String[] aux = readStringArray(file);
 		if (aux != null) {
 			schedulers = new String[aux.length];
 			for (int i = 0; i < aux.length; i++) {
@@ -293,7 +305,11 @@ public class SysUtils {
 
 	public static String getIOScheduler() {
 		String scheduler = null;
-		String[] schedulers = readStringArray(ioscheduler);
+		String file = ioscheduler;
+		if (!(new File(file)).exists()) {
+			file = ioscheduler_mtd;
+		}
+		String[] schedulers = readStringArray(file);
 		if (schedulers != null) {
 			for (String s : schedulers) {
 				if (s.charAt(0) == '[') {
