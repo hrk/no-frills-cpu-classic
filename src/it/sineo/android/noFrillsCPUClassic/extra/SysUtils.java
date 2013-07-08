@@ -377,7 +377,7 @@ public class SysUtils {
 				 * Discover the number of cpus and prepare commands for each one. This
 				 * applies the same values for every CPU. It could change in the future.
 				 * I'm not even sure this is compliant to the specs, but kernel modders
-				 * seem to knw better than Linus. :|
+				 * seem to konw better than Linus. :|
 				 */
 				int cpus = 0;
 				while (true) {
