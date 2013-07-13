@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="it.sineo.android.noFrillsCPUClassic"
 	android:installLocation="internalOnly"
-	android:versionCode="56"
-	android:versionName="1.28" >
+	android:versionCode="57"
+	android:versionName="1.28.1" >
 
 	<uses-sdk
 		android:minSdkVersion="4"
@@ -11,6 +11,7 @@
 
 	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
 
 	<application
 		android:allowBackup="false"
