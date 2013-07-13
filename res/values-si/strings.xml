@@ -9,7 +9,7 @@
 	<string name="current">වත්මන්</string>
 	<string name="max_freq">උපරිම. ඝටිකා සංඛ්‍යාතය.</string>
 	<string name="min_freq">අවම. ඝටිකා සංඛ්‍යාතය.</string>
-	
+	<string name="governor">යාමකය</string>
 	
 	
 	
@@ -46,8 +46,8 @@
 	<!-- BootService safety valves -->
 	
 	
-	
-	
+	<string name="notify_title_safety">අගයන් යෙදවූයේ නැත</string>
+	<string name="notify_title_success">අගයන් යෙදවීම සාර්ථකයි</string>
 	
 	<!-- About dialog/activity -->
 	<string name="tab_info">පිළිබඳ</string>
@@ -67,7 +67,7 @@
 	
 	
 	<!-- Widget -->
-	
+	<string name="wdg_updating">විජට්ටුව යාවත්කාලීන වෙමින් පවතී…</string>
 	<!-- Preferences -->
 	<string name="prefs_theme">තේමාව</string>
 	
@@ -89,7 +89,7 @@
 	
 	
 	
-	
+	<string name="prefs_ringtone">දැනුම්දීම් නාදය</string>
 	
 	
 	

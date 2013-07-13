@@ -10,7 +10,7 @@
 	<string name="max_freq">Fréq. horloge max.</string>
 	<string name="min_freq">Fréq. horloge min.</string>
 	<string name="governor">Gouverneur</string>
-	<string name="ioscheduler">Ordonnanceur E/S</string>
+	<string name="ioscheduler">Gestionnaire E/S</string>
 	<string name="apply_on_boot">Appliquer au démarrage</string>
 	<string name="show_notification">Afficher notif. au démarrage</string>
 	<string name="apply">Appliquer</string>
@@ -18,7 +18,7 @@
 	<string name="send">Envoyer</string>
 	<string name="dlg_noroot_title">Permissions root manquantes</string>
 	<string name="dlg_noroot_body">Vous devez être rooté pour utiliser cette app</string>
-	<string name="dlg_nofs_title">otre appareil semble ne pas supporter le changement de fréquence</string>
+	<string name="dlg_nofs_title">Votre appareil semble ne pas supporter le changement de fréquence</string>
 	<string name="dlg_nofs_body">Si vous utiliser une ROM modifié ou si vous pensez
 		que votre appareil supporte les changements de fréquence, envoyez vos données CPU
 		pour pouvoir supporter votre téléphone.</string>
@@ -45,13 +45,13 @@
 	<string name="err_no_email_client">Vous n\'avez pas de client mail. Les données CPU ne seront pas
 		envoyés.</string>
 	<!-- Success -->
-	<string name="ok_updated_freqs">éussi!\nMin: %1$s\nMax: %2$s\nGouverneur: %3$s\nOrdonnateur E/S: %4$s</string>
+	<string name="ok_updated_freqs">Réussi !\nMin : %1$s\nMax : %2$s\nGouverneur : %3$s\nPlanificateur E/S : %4$s</string>
 	<!-- BootService safety valves -->
 	<string name="notify_nlj_safety_found">%1$s trouvé, valeurs non appliquées</string>
 	<string name="notify_safety_shutdown">Extinction anormale, valeurs non appliquées</string>
 	<string name="notify_title_safety">Valeurs non appliquées</string>
 	<string name="notify_title_success">Valeurs appliquées avec succès</string>
-	<string name="notify_success">Min: %1$s\nMax: %2$s\nGouverneur: %3$s\nOrdonnateur E/S: %4$s</string>
+	<string name="notify_success">Min : %1$s\nMax : %2$s\nGouverneur : %3$s\nPlanificateur E/S : %4$s</string>
 	<!-- About dialog/activity -->
 	<string name="tab_info">A propos</string>
 	<string name="tab_changelog">Mises à jour</string>
@@ -59,26 +59,26 @@
 	
 	<string name="about_info_donate">Donnation</string>
 	
-	<string name="about_info_author">Auteur: %1$s</string>
-	<string name="about_info_homepage">Page d\'accueil: %1$s</string>
+	<string name="about_info_author">Auteur : %1$s</string>
+	<string name="about_info_homepage">Page d\'accueil : %1$s</string>
 	<string name="about_info_extra">Icône par Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Si vous avez des questions, merci de contacter
 		l\'auteur par email ou en utilisant le site web.‪</string>
-	<string name="about_info_thanks">Merci à chaque traducteur et à tout les utilisateurs qui
-		ont aidés à construire cette app!</string>
+	<string name="about_info_thanks">Merci à chaque traducteur et aux utilisateurs qui
+		ont aidé à la réalisation de cette app !</string>
 	<string name="about_info_translation">Si une traduction est fausse ou manque, vous pouvez soumettre des corrections vous-même à l\'adresse http://www.getlocalization.com/noFrillsCPU/</string>
-	<string name="about_faq_governors_Q">Q: Qu\'est ce qu\'un gouverneur? Pouvez-vous expliquer les
+	<string name="about_faq_governors_Q">Q: Qu\'est ce qu\'un gouverneur ? Pouvez-vous expliquer les
 		différences entre eux?</string>
 	<string name="about_faq_governors_A">Les changements de fréquence CPU vous permettent de changer la
 		vitesse d\'horloge des CPUs en temps réel. Cela peut économiser de la batterie, car plus la vitesse
 		d\'horloge du CPU est basse, moins le CPU consomme de courant. Les gouverneurs sont
-		différentes polices pour adapter la fréquence.\n Expliquer les différences serait
+		différentes règles pour adapter la fréquence.\n Expliquer les différences serait
 		trop long, merci de les lire sur le site web
 		(http://forum.xda-developers.com/showthread.php?t=911917)
 		.</string>
 	<string name="about_faq_profiles_Q">Q: Avez-vous prévu d\'ajouter des profils ? J\'aimerais
-sélectionner un profil différent quand mon écran est éteint!</string>
+sélectionner un profil différent quand mon écran est éteint !</string>
 	<string name="about_faq_profiles_A">A: La réponse courte est \"Non\". Je pense que les profils
 		sont inutiles, car c\'est ce que sont déjà les gouverneurs, un profil que
 		votre CPU suit quand il change de fréquence.\nAjouter des profils veut dire
@@ -97,7 +97,7 @@ sélectionner un profil différent quand mon écran est éteint!</string>
 	<string name="prefs_disable_safety_valve_summary_on">Aucune vérification ne sera faite dans le cas d\'un arrêt anormal.</string>
 	<string name="prefs_disable_safety_valve_summary_off">Si le téléphone s\'arrête anormalement, les valeurs ne seront pas appliquées.</string>
 	<string name="prefs_disable_safety_valve_dialog_message">Etes-vous sur de vouloir désactiver la valve de sécurité ? Procédez UNIQUEMENT si vous savez ce que vous faites.</string>
-	<string name="prefs_change_permissions">Empêche les modifications provenant d\'autres application</string>
+	<string name="prefs_change_permissions">Empêche les modifications provenant d\'autres applications</string>
 	<string name="prefs_change_permissions_summary_on">Les autres applications (ou le système) seront prévenues d\'un changement de fréquence.</string>
 	<string name="prefs_change_permissions_summary_off">D\'autres applications (ou le système) pourront changer la fréquence.</string>
 	<string name="prefs_change_permissions_dialog_message">Cette fonction n\'est requise que pour Android 4.1 (Jelly Bean) et les récents appareils comme le HTC One. Êtes-vous sûr de vouloir l\'utiliser ?</string>
@@ -108,11 +108,11 @@ sélectionner un profil différent quand mon écran est éteint!</string>
 	<string name="prefs_vibrate">Vibrer</string>
 	<string name="prefs_vibrate_pattern">Mode de vibration</string>
 	<string name="prefs_vibrate_pattern_message">Entrez un mode de vibration en millisecondes (ex.: 0,50,100,50,100) ou laissez ce champ libre pour utiliser le mode de vibration par défaut.</string>
-	<string name="prefs_ringtone">Son de notification</string>
+	<string name="prefs_ringtone">Notification sonore</string>
 	<string name="prefs_cat_stats">Statistiques</string>
-	<string name="prefs_include_deep_sleep">Inclure veille profonde</string>
+	<string name="prefs_include_deep_sleep">Inclure veille prolongée</string>
 	<string name="prefs_include_deep_sleep_summary_on">La veille prolongée sera comprise.</string>
-	<string name="prefs_include_deep_sleep_summary_off">La veille profonde sera ignorée.</string>
+	<string name="prefs_include_deep_sleep_summary_off">La veille prolongée sera ignorée</string>
 	<string name="prefs_update_curfreq">Rafraîchir la fréquence actuelle.</string>
 	<string name="prefs_update_curfreq_summary_on">La fréquence actuelle sera mise à jour périodiquement.</string>
 	<string name="prefs_update_curfreq_summary_off">La fréquence actuelle sera mise à jour lors de l\'actualisation des stats.</string>

@@ -18,18 +18,18 @@
 	<string name="send">Odoslať</string>
 	<string name="dlg_noroot_title">Chýbajú správcovské(root) oprávnenia</string>
 	<string name="dlg_noroot_body">re použitie tejto aplikácie musíte byť rootnutý.</string>
-	<string name="dlg_nofs_title">dá sa, že Vaše zariadenie nepodporuje upravovanie frekvencie</string>
+	<string name="dlg_nofs_title">Zdá sa, že Vaše zariadenie nepodporuje upravovanie frekvencie</string>
 	<string name="dlg_nofs_body">Ak používate upravenú ROM, alebo si myslíte,
 		že Váš telefón podporuje upravovanie frekvencie, odošlite Vaše
 		údaje o procesore a pridajte tak podporu pre Váš telefón.</string>
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Odoslať údaje o procesore</string>
 	<string name="dlg_send_title">Odoslať údaje o procesore cez…</string>
-	
+	<string name="menu_prefs">Nastavenia</string>
 	<string name="menu_view_stats">Zobraziť štatistiku</string>
 	<string name="menu_details">O programe</string>
 	<!-- Stats activity -->
-	
+	<string name="menu_refresh">Obnoviť</string>
 	
 	<string name="spinner_stats_text">Načítava sa štatistika za posledných 5 sekúnd…</string>
 	<string name="stats_title">Štatistika frekvencií</string>
@@ -41,7 +41,7 @@
 	<string name="stats_deep_sleep">Režim spánku</string>
 	<!-- Errors -->
 	<string name="err_need_root">K fungovaniu tejto aplikácia sú potrebné správcovské(root) privilégie.</string>
-	<string name="err_update_failed">hyba: povolili ste SuperUser oprávnenia?</string>
+	<string name="err_update_failed">Chyba: povolili ste SuperUser oprávnenia? </string>
 	<string name="err_no_email_client">Nemáte poštového klienta. Údaje o procesore nebudú
 		odoslané.</string>
 	<!-- Success -->
@@ -57,17 +57,17 @@
 	<string name="tab_changelog">Zoznam zmien</string>
 	
 	<string name="tab_license">Licencia</string>
-	
+	<string name="about_info_donate">Darovať</string>
 	<string name="about_info_version">Verzia: %1$s</string>
-	
-	
+	<string name="about_info_author">Autor: %1$s</string>
+	<string name="about_info_homepage">Domovská stránka: %1$s</string>
 	<string name="about_info_extra">Ikona od Anil K Solanki\nDesign
 		www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Ak máte akékoľvek otázky, prosím, kontaktujte
 		autora cez email alebo použitím domovskej stránky.</string>
 	<string name="about_info_thanks">Ďakujeme všetkým prekladateľom a všetkým, ktorí
 		pomohli pomohli vývoju tejto aplikácie!</string>
-	
+	<string name="about_info_translation">Ak ste našli nesprávny alebo chýbajúci preklad, môžete preložiť opravu sami na http://www.getlocalization.com/noFrillsCPU/</string>
 	<string name="about_faq_governors_Q">Q: Čo je Ovládanie? Môžete vysvetliť
 		rozdiely medzi nimi?</string>
 	<string name="about_faq_governors_A">Upravovanie frekvencie procesora Vám umožňuje
@@ -88,33 +88,33 @@
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizuje sa miniaplikácia…</string>
 	<!-- Preferences -->
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<string name="prefs_vibrate_pattern">Nastavení vibrací</string>
-	
-	<string name="prefs_ringtone">Zvuk pro notifikace</string>
-	
-	
-	
-	
-	
-	
-	
+	<string name="prefs_theme">Téma</string>
+	<string name="prefs_theme_restart_needed">Téma sa použije pri ďalšom spustení aplikácie. </string>
+	<string name="prefs_theme_dark">Tmavá</string>
+	<string name="prefs_theme_light">Svetlá</string>
+	<string name="prefs_theme_light_and_dark">Svetlá &amp; tmavá</string>
+	<string name="prefs_disable_safety_valve">Vypnúť bezpečnostný ventil </string>
+	<string name="prefs_disable_safety_valve_summary_on">Nevykoná sa žiadna kontrola nečisté vypnutia </string>
+	<string name="prefs_disable_safety_valve_summary_off">Hodnoty nebudú použité v prípade nečistého vypnutia. </string>
+	<string name="prefs_disable_safety_valve_dialog_message">Naozaj chcete vypnúť bezpečnostný ventil? Pokračujte iba vtedy, ak viete, čo robíte. </string>
+	<string name="prefs_change_permissions">Zabrániť zmenám z iných aplikácií </string>
+	<string name="prefs_change_permissions_summary_on">Zabrániť zmene frekvencie systému alebo aplikáciám</string>
+	<string name="prefs_change_permissions_summary_off">Povoliť zmeny frekvencie systému alebo aplikáciám</string>
+	<string name="prefs_change_permissions_dialog_message">Táto funkcia je podporovaná len na Android 4.1 (Jelly Bean), alebo vyžšie (HTC One, …). Naozaj chcete pokračovať?</string>
+	<string name="prefs_cat_notification">Oznámenie na štarte </string>
+	<string name="prefs_show_notification">Zobraziť oznámenia </string>
+	<string name="prefs_show_notification_summary_on">Zobraziť oznámenia.</string>
+	<string name="prefs_show_notification_summary_off">Nezobrazovať oznámenia.</string>
+	<string name="prefs_vibrate">Vibrovať </string>
+	<string name="prefs_vibrate_pattern">Nastavenie vybrácií</string>
+	<string name="prefs_vibrate_pattern_message">Typ vibrácie vzor vyjadrené v milisekundách (napr: 0,50,100,50,100) alebo nechajte toto pole prázdne používať predvolené vibrácie vzor. </string>
+	<string name="prefs_ringtone">Zvuk oznámení</string>
+	<string name="prefs_cat_stats">Štatistiky </string>
+	<string name="prefs_include_deep_sleep">Režim spánku</string>
+	<string name="prefs_include_deep_sleep_summary_on">Režim spánku zapnutý.</string>
+	<string name="prefs_include_deep_sleep_summary_off">Režim spánku vypnutý.</string>
+	<string name="prefs_update_curfreq">Obnoviť aktuálnu frekvenciu </string>
+	<string name="prefs_update_curfreq_summary_on">Aktuálna frekvencia sa bude pravidelne aktualizovať. </string>
+	<string name="prefs_update_curfreq_summary_off">Aktuálna frekvencia bude aktualizovaná pri obnovení štatistiky. </string>
 
 </resources>

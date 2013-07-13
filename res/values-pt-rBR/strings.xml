@@ -23,7 +23,7 @@
 	<!-- MainActivity - Menu -->
 	<string name="menu_send">Enviar dados da CPU</string>
 	<string name="dlg_send_title">Enviar dados da CPU com…</string>
-	
+	<string name="menu_prefs">Configurações</string>
 	<string name="menu_view_stats">Ver estatísticas</string>
 	<string name="menu_details">Sobre…</string>
 	<!-- Stats activity -->

@@ -74,9 +74,9 @@
 	<!-- Preferences -->
 	<string name="prefs_theme">テーマ</string>
 	<string name="prefs_theme_restart_needed">テーマはアプリの次回起動時に適用されます。</string>
-	
-	
-	
+	<string name="prefs_theme_dark">黒を基調</string>
+	<string name="prefs_theme_light">白を基調</string>
+	<string name="prefs_theme_light_and_dark">白を基調＆黒のアクションバー</string>
 	<string name="prefs_disable_safety_valve">保護を無効にする</string>
 	<string name="prefs_disable_safety_valve_summary_on">予期せぬシャットダウンのチェックを行いません。</string>
 	<string name="prefs_disable_safety_valve_summary_off">予期せぬシャットダウンが発生した場合保護が適用されます。</string>
