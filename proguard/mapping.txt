@@ -120,7 +120,7 @@ it.sineo.android.noFrillsCPUClassic.activity.StatsActivity -> it.sineo.android.n
     354:359:void __wraper_setBackground(android.view.View,android.graphics.drawable.Drawable) -> a
     363:380:void onDestroy() -> onDestroy
     384:394:boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-    399:417:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    399:422:boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
     43:43:void access$100(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity) -> a
     43:43:void access$300(it.sineo.android.noFrillsCPUClassic.activity.StatsActivity,android.view.View,android.graphics.drawable.Drawable) -> a
 it.sineo.android.noFrillsCPUClassic.activity.StatsActivity$1 -> it.sineo.android.noFrillsCPUClassic.activity.j:
@@ -211,29 +211,29 @@ it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod -> it.sineo.android.n
     119:119:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod[] values() -> values
     119:119:it.sineo.android.noFrillsCPUClassic.extra.Stats$SortMethod valueOf(java.lang.String) -> valueOf
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils -> it.sineo.android.noFrillsCPUClassic.a.f:
-    54:116:java.lang.String catContents(java.io.File) -> a
-    121:133:java.lang.String readOutput(java.lang.String) -> a
-    174:189:java.lang.String discoverCPUData() -> a
-    193:228:java.lang.String[] getAvailableFrequencies() -> b
-    232:232:java.lang.String[] getAvailableGovernors() -> c
-    236:248:java.lang.String[] getAvailableIOSchedulers() -> d
-    252:256:java.lang.String[] readStringArray(java.lang.String) -> b
-    260:263:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMinFreq() -> e
-    267:270:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMaxFreq() -> f
-    274:277:it.sineo.android.noFrillsCPUClassic.extra.Frequency getCurFreq() -> g
-    281:287:it.sineo.android.noFrillsCPUClassic.extra.Frequency getXXXFreq(java.lang.String[]) -> a
-    291:291:java.lang.String getGovernor() -> h
-    295:305:java.lang.String getIOScheduler() -> i
-    310:352:java.lang.String readString(java.lang.String) -> c
-    357:367:java.lang.String getSUbinaryPath() -> j
-    373:460:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context,int,int) -> a
-    465:530:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
-    536:536:boolean isRooted() -> k
-    540:548:boolean hasSysfs() -> l
-    552:586:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
+    62:124:java.lang.String catContents(java.io.File) -> a
+    129:141:java.lang.String readOutput(java.lang.String) -> a
+    182:197:java.lang.String discoverCPUData() -> a
+    201:236:java.lang.String[] getAvailableFrequencies() -> b
+    240:240:java.lang.String[] getAvailableGovernors() -> c
+    244:260:java.lang.String[] getAvailableIOSchedulers() -> d
+    264:268:java.lang.String[] readStringArray(java.lang.String) -> b
+    272:275:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMinFreq() -> e
+    279:282:it.sineo.android.noFrillsCPUClassic.extra.Frequency getMaxFreq() -> f
+    286:289:it.sineo.android.noFrillsCPUClassic.extra.Frequency getCurFreq() -> g
+    293:299:it.sineo.android.noFrillsCPUClassic.extra.Frequency getXXXFreq(java.lang.String[]) -> a
+    303:303:java.lang.String getGovernor() -> h
+    307:321:java.lang.String getIOScheduler() -> i
+    326:368:java.lang.String readString(java.lang.String) -> c
+    373:383:java.lang.String getSUbinaryPath() -> j
+    389:477:boolean setFrequenciesAndGovernor(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context,int,int) -> a
+    482:547:it.sineo.android.noFrillsCPUClassic.extra.Stats getFrequencyStats(boolean) -> a
+    553:553:boolean isRooted() -> k
+    557:565:boolean hasSysfs() -> l
+    569:603:void showNotification(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> a
 it.sineo.android.noFrillsCPUClassic.extra.SysUtils$1 -> it.sineo.android.noFrillsCPUClassic.a.g:
-    221:223:int compare(java.lang.String,java.lang.String) -> a
-    218:218:int compare(java.lang.Object,java.lang.Object) -> compare
+    229:231:int compare(java.lang.String,java.lang.String) -> a
+    226:226:int compare(java.lang.Object,java.lang.Object) -> compare
 it.sineo.android.noFrillsCPUClassic.extra.Theme -> it.sineo.android.noFrillsCPUClassic.a.h:
     it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_DARK -> a
     it.sineo.android.noFrillsCPUClassic.extra.Theme THEME_LIGHT -> b
@@ -244,8 +244,8 @@ it.sineo.android.noFrillsCPUClassic.extra.Theme -> it.sineo.android.noFrillsCPUC
     8:8:it.sineo.android.noFrillsCPUClassic.extra.Theme valueOf(java.lang.String) -> valueOf
     28:32:it.sineo.android.noFrillsCPUClassic.extra.Theme applyTo(android.content.Context) -> a
 it.sineo.android.noFrillsCPUClassic.service.BootService -> it.sineo.android.noFrillsCPUClassic.service.BootService:
-    25:25:android.os.IBinder onBind(android.content.Intent) -> onBind
-    30:125:void onStart(android.content.Intent,int) -> onStart
+    28:28:android.os.IBinder onBind(android.content.Intent) -> onBind
+    33:153:void onStart(android.content.Intent,int) -> onStart
 it.sineo.android.noFrillsCPUClassic.service.ShutdownService -> it.sineo.android.noFrillsCPUClassic.service.ShutdownService:
     18:18:android.os.IBinder onBind(android.content.Intent) -> onBind
     23:39:void onStart(android.content.Intent,int) -> onStart

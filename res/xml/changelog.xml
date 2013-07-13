@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
+	<release date="2013-07-13" version="1.28">
+		<change>Fixed I/O scheduler setting for special devices (e.g.: Minix X5, thanks to DaPa)</change>
+		<change>Fixed wrong count of CPUs (thanks to DaPa).</change>
+		<change>Updated current translations. If you spot an error, you can fix it at http://getLocalization.com/noFrillsCPU</change>
+	</release>
 	<release date="2013-03-31" version="1.27">
 		<change>Ability to reset frequency stats.</change>
 		<change>Nicer widget layout, especially for low density devices.</change>
