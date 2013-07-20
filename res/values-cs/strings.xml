@@ -62,8 +62,8 @@ odeslané.</string>
 	<string name="tab_license">Licence</string>
 	<string name="about_info_donate">Přispět na vývoj</string>
 	<string name="about_info_version">Verze: %1$s</string>
-	
-	
+	<string name="about_info_author">Autor %1$s</string>
+	<string name="about_info_homepage">Hlavní stránka %1$s</string>
 	<string name="about_info_extra">Ikonu vytvořil Anil K Solanki\nDesign
 www.thisiswhatwedo.com</string>
 	<string name="about_info_questions">Pokud máte nějaké otázky, kontaktujte autora pomocí emailu
@@ -78,11 +78,11 @@ nebo kontaktu domovské stránky aplikace.</string>
 	<!-- Widget -->
 	<string name="wdg_updating">Aktualizace widgetu…</string>
 	<!-- Preferences -->
-	
-	
-	
-	
-	
+	<string name="prefs_theme">Vzhled</string>
+	<string name="prefs_theme_restart_needed">Vzhled bude použit při příštím spuštění aplikace.</string>
+	<string name="prefs_theme_dark">Tmavé</string>
+	<string name="prefs_theme_light">Světlé</string>
+	<string name="prefs_theme_light_and_dark">Světlé &amp; tmavé</string>
 	<string name="prefs_disable_safety_valve">Deativovat bezpečnostní ochranu</string>
 	<string name="prefs_disable_safety_valve_summary_on">Nebude prováděna kontrola nestandartního vypnutí.</string>
 	<string name="prefs_disable_safety_valve_summary_off">V případě nestandartního vypnutí nebudou hodnoty nastaveny.</string>

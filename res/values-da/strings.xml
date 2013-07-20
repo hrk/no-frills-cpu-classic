@@ -27,11 +27,11 @@
 	<!-- MainActivity - Menu -->
 	
 	<string name="dlg_send_title">Send CPU data med…</string>
-	
+	<string name="menu_prefs">Indstillinger</string>
 	<string name="menu_view_stats">Se statistik</string>
 	<string name="menu_details">Om</string>
 	<!-- Stats activity -->
-	
+	<string name="menu_refresh">Opdater</string>
 	
 	<string name="spinner_stats_text">Læser statistik for de sidste 5 sekunder…</string>
 	<string name="stats_title">Frekvens statistik</string>
@@ -90,7 +90,7 @@
 		af om der sker noget (skærm tændt, skærm slukket og så videre)…
 		alt dette uden egentlig fordel.</string>
 	<!-- Widget -->
-	
+	<string name="wdg_updating">Opdater widget..</string>
 	<!-- Preferences -->
 	
 	

@@ -31,7 +31,7 @@
 	<!-- Stats activity -->
 	<string name="menu_refresh">Actualiser</string>
 	<string name="menu_reset">Réinitialiser</string>
-	<string name="spinner_stats_text">Lecture des stats pour les 5 dernières secondes…</string>
+	<string name="spinner_stats_text">Lecture des statistiques pour les 5 dernières secondes…</string>
 	<string name="stats_title">Stats fréquences</string>
 	<string name="stats_current">Fréquence actuelle: %1$s</string>
 	<string name="stats_current_unavailable">indisponible</string>
@@ -111,9 +111,9 @@ sélectionner un profil différent quand mon écran est éteint !</string>
 	<string name="prefs_ringtone">Notification sonore</string>
 	<string name="prefs_cat_stats">Statistiques</string>
 	<string name="prefs_include_deep_sleep">Inclure veille prolongée</string>
-	<string name="prefs_include_deep_sleep_summary_on">La veille prolongée sera comprise.</string>
+	<string name="prefs_include_deep_sleep_summary_on">La veille profonde sera incluse.</string>
 	<string name="prefs_include_deep_sleep_summary_off">La veille prolongée sera ignorée</string>
-	<string name="prefs_update_curfreq">Rafraîchir la fréquence actuelle.</string>
+	<string name="prefs_update_curfreq">Rafraîchir la fréquence actuelle</string>
 	<string name="prefs_update_curfreq_summary_on">La fréquence actuelle sera mise à jour périodiquement.</string>
 	<string name="prefs_update_curfreq_summary_off">La fréquence actuelle sera mise à jour lors de l\'actualisation des stats.</string>
 
