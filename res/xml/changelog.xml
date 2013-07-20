@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
-	<release date="2013-07-13" version="1.28.1">
-		<change>Added explicit ACCESS_SUPERUSER permission for transparency.</change>
+	<release date="2013-07-20" version="1.28.2">
+		<change>r2: Fixed crash when opening About screen.</change>
+		<change>r1: Added explicit ACCESS_SUPERUSER permission for transparency.</change>
 		<change>Fixed I/O scheduler setting for special devices (e.g.: Minix X5, thanks to DaPa)</change>
 		<change>Fixed wrong count of CPUs (thanks to DaPa).</change>
 		<change>Updated current translations. If you spot an error, you can fix it at http://getLocalization.com/noFrillsCPU</change>
